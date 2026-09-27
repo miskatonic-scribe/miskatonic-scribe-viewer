@@ -528,18 +528,18 @@ def main() -> None:
     with st.container(border=True):
         col_thumb, col_info = st.columns([1, 2.5], gap="large", vertical_alignment="center")
         with col_thumb:
-            thumb_file = Path(thumb_path) if thumb_path else paths.get_thumbnail_path(session["id"])
+            thumb_file = paths.get_thumbnail_path(session["id"])
+            if not thumb_file.exists() and thumb_path:
+                alt = Path(thumb_path)
+                if alt.exists():
+                    thumb_file = alt
+
             if thumb_file.exists():
                 st.image(str(thumb_file), width="stretch")
             else:
-                st.markdown(
-                    """
-                    <div style="background-color: #161b22; border: 1px dashed #30363d; border-radius: 8px; height: 130px; display: flex; align-items: center; justify-content: center; color: #8b949e;">
-                        🎬 <i>Sin miniatura local</i>
-                    </div>
-                    """,
-                    unsafe_allow_html=True,
-                )
+                # Fallback resiliente a la miniatura oficial de YouTube en CDN
+                yt_fallback = f"https://img.youtube.com/vi/{session['id']}/hqdefault.jpg"
+                st.image(yt_fallback, width="stretch")
         with col_info:
             st.markdown(f"<h3 style='margin-top: 0; margin-bottom: 0.25rem; color: #e0e6ed;'>🎬 {title}</h3>", unsafe_allow_html=True)
 
