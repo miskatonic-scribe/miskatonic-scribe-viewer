@@ -1,0 +1,3326 @@
+[
+  {
+    "speaker": "SPEAKER_00",
+    "start": 0.51,
+    "end": 22.02,
+    "text": "Muy buenas, bienvenidas, bienvenidos a la mazmorra de Cthulhu. Aquí estamos con nuestro amigo Chulhu. Bueno, no ha salido, pero han salido otros seres, otros seres del averno, otros seres horribles, deformes. Y hablando de eso, tenemos aquí a Piru, ¿qué tal? Que cuéntanos, Piru, ¿quién eres tú en esta historia, la Mansión de la Locura? Estamos buscando a este hombre, señor Kitlin, ¿quién eres tú? Yo soy"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 22.32,
+    "end": 27.72,
+    "text": "Ted Nugent, no inventé los famosos Nugent, pero bueno, ahí estoy en ello."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 28.96,
+    "end": 33.04,
+    "text": "Y a ver, también repetirá el chiste nuestro querido Héctor. Yo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 33.14,
+    "end": 40.01,
+    "text": "soy Leo Valentine, el detective privado que está investigando este nuestro caso."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 40.91,
+    "end": 41.03,
+    "text": "Muy"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 41.05,
+    "end": 47.15,
+    "text": "bien. Tenemos un detective junto a... Yo soy..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 47.23,
+    "end": 49.25,
+    "text": "Ay, no vemos. ¿Cuál es mi cámara? Por"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 49.27,
+    "end": 50.31,
+    "text": "favor. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 50.47,
+    "end": 50.83,
+    "text": "igual."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 51.87,
+    "end": 75.58,
+    "text": "Pues nada, yo soy... No sé ni cómo me voy a... Aubrey Pike. Y nada, soy un pintor. Pinto. Yo aquí no pinto mucho. Y nada, soy amigo de la familia. ¿Familia? ¿Qué familia? La familia Kittling. Y Sara es la que me ha pedido, por favor, que mire unos cuadros que su hermano ha comprado. Como un plan... y como me parece un poco raro he llamado a mi amiga la buena"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 76.29,
+    "end": 87.98,
+    "text": "profesora Alex Coxen. Yo soy profesora de astronomía y también alterno un poco con jovencitas."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 88.2,
+    "end": 94.94,
+    "text": "Mientras su marido, contamos hablando de su marido, que está de papilla la hija."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 95.72,
+    "end": 98.02,
+    "text": "La libertad de la mujer, un poquito. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 99.12,
+    "end": 108.41,
+    "text": "pues nuestro grupo de investigadores, después de haber coqueteado con señoritas He bebido más de la cuenta, etcétera, etcétera."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 108.43,
+    "end": 110.95,
+    "text": "Todo muy normal. Nada, en un"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 111.03,
+    "end": 115.88,
+    "text": "speakeasy llamado el Club del Marinero. Claro, llegando a un sitio así, pues qué te puedes esperar."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 116.06,
+    "end": 116.24,
+    "text": "Habían"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 116.28,
+    "end": 153.59,
+    "text": "salido y habían tenido otro encuentro. Otro encuentro con ese ser, ese ser mitad cánido, mitad hombre, ese ser sobrenatural, que de nuevo se había, después de haber tenido una conversación muy extraña, se había desvanecido en frente de ellos. Y... A pesar de que habían estado afectados, y de hecho a él le veis, él no se da cuenta, pero le está temblando una mano, le tiene un tique en un ojo, le tiembla un poco un ojo, ¿vale? Y habían decidido, si no recuerdo mal, ir a la mansión de Crater, que os habían dado las indicaciones. Está a unas manzanas, vais en coche o andando. ¿Se"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 153.67,
+    "end": 154.35,
+    "text": "puede ir en coche?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 154.61,
+    "end": 156.81,
+    "text": "Sí, claro. ¿No"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 157.33,
+    "end": 159.65,
+    "text": "era una isla? No, no, está al lado"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 159.67,
+    "end": 216.72,
+    "text": "del puerto. Vale, dejáis los coches a una distancia prudencial, digamos, que significa encenderlo, moverlo 20 metros y pararlo. Y bueno, pues... La mansión está en la costa. No, está un poquito más lejos. Son manzanas, pero manzanas de esta zona industrial. Y es una destartalada construcción de dos plantas sobre una colina que viene al mar. Os esperabais algo cuando la gente hablaba de la mansión Crater. Estabais esperando otra cosa. Los terrenos llevan un tiempo descuidados. Los setos y jardines han crecido sin control. El exterior de la casa está cubierto de tupidas enredaderas. Y bueno, pues veis que una de las ventanas de las habitaciones de abajo está tapiada con maderos, ¿vale? Así que parece un poco"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 216.78,
+    "end": 221.22,
+    "text": "raro. Hay"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 221.24,
+    "end": 232.54,
+    "text": "una puerta y en principio está todo apagado, no hay ninguna luz encendida. Y eso sí, cuando llegáis allí, la casa os recuerda poderosamente al cuadro que habíais visto."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 234.72,
+    "end": 237.58,
+    "text": "Igual sí que es la mejor hora para entrar. Yo opino que no."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 240.32,
+    "end": 243.58,
+    "text": "Por la mañana habrá más gente alrededor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 243.76,
+    "end": 266.65,
+    "text": "Igual ahora no hay nadie. Es una morada. Es una zona muy tranquila, es una zona un poco apartada. Realmente, pensad que está más allá del puerto. Esto es un poco abandonado. Entonces, aquí, ahora mismo, no hay nadie. No hay nadie por las inmediaciones. Y la verdad es que pensáis que por la mañana será igual. Pero ahora no hay nadie y está un poco apartado esto. Me voy a ir a observar."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 266.79,
+    "end": 267.89,
+    "text": "¿Qué? Me voy a ir a observar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 267.93,
+    "end": 293.25,
+    "text": "Observa, observa. Estáis ya observando. Si quieres dar una vuelta a la casa, pues pensad que para dar una vuelta a la casa tendrías que subir por la colina. Y bajar, ¿no? Porque os he dicho que está en la falda de la colina. De todas maneras, pues tiene un patio trasero, tiene una puerta que da al patio trasero. Las puertas son bastante sólidas. Las ventanas de la parte de abajo se podrían fortalecer, salvo los tablones. las ventanas se podrían forzar, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 293.27,
+    "end": 296.51,
+    "text": "¿Quién fue el que miró el cuadro de la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 296.57,
+    "end": 305.2,
+    "text": "casa? Él fue el que tuvo la experiencia con el cuadro. Otra cosa es que todos lo mirasteis, ¿vale? Y todos la reconocéis. No"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 305.22,
+    "end": 306.14,
+    "text": "sientes nada..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 307.48,
+    "end": 307.89,
+    "text": "Por eso no"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 307.92,
+    "end": 308.63,
+    "text": "quiero volver a la casa,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 308.86,
+    "end": 309.15,
+    "text": "cobarde."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 309.18,
+    "end": 311.06,
+    "text": "¿Sientes algo especial?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 312.68,
+    "end": 324.8,
+    "text": "Creo que no me pasa nada. Son gases. Pensé que te estaba declarando. Bueno, nada. ¿Sientes algo especial? ¿Sientes algo especial? ¿Por mí? Bueno, no."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 325.96,
+    "end": 340.09,
+    "text": "En principio, a ver, sí que tengo un poco de repelús al ver que es como el sitio ese. Y por un momento parece que ves como un punto rojo ahí en una son imaginaciones tuyas voy a"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 340.15,
+    "end": 342.19,
+    "text": "voy a hacer una foto de la casa"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 342.21,
+    "end": 347.11,
+    "text": "vale tú cuando"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 347.13,
+    "end": 349.31,
+    "text": "¿cuántos kilos de dedos te voy a tirar?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 355.58,
+    "end": 378.8,
+    "text": "cuando estás dando la vuelta ¿vale? porque estoy saliendo a dar la vuelta cuando llegas a la parte de atrás ves que la puerta se abre vale Y oyes una voz que dice, entra Leo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 380.12,
+    "end": 387.86,
+    "text": "Vale, vosotros estáis al otro lado, estáis esperando que doy la vuelta. Yo sí doy la vuelta, ¿verdad? En 180 y me vuelvo a donde he venido."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 388.57,
+    "end": 404.74,
+    "text": "Vale, pues cuando vuelves para allá ves que no están estos. Hay otras tres personas ahí de raza negra, tres hombres, no sabes dónde están."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 405.1,
+    "end": 405.56,
+    "text": "Tiene un"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 406.22,
+    "end": 421.86,
+    "text": "dato de 10, por favor. 6. 6 moneditas. Vosotros veis a este que vuelve ahí, os mira como muy extrañado, está ahí con una cara... muy rara, no se acerca. ¿Hay algún árbol"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 421.9,
+    "end": 433.04,
+    "text": "cerca? Sí, está a primera medida como los vemos. No, me voy al otro lado del árbol y me voy a sentar en el suelo apoyado contra él. Pues le veis que hace eso."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 433.67,
+    "end": 433.75,
+    "text": "Leo,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 434.93,
+    "end": 442.53,
+    "text": "Leo, Leo. Lee, lee, no te preocupes. Lo digo, ya te dije que este investigador es muy raro."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 443.11,
+    "end": 449.13,
+    "text": "Yo creo que me estoy dando cuenta de que le está pasando lo mismo que a mí y voy a tirar psicología para intentar..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 450.49,
+    "end": 455.08,
+    "text": "Estoy mal en tejidos. me voy a la esquina te"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 456.52,
+    "end": 459.24,
+    "text": "acompaño porque si acaso"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 459.9,
+    "end": 464.42,
+    "text": "hablo con ellos, se lo explico y le digo, oye, creo que este le está dando un flush"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 464.88,
+    "end": 468.39,
+    "text": "pero tú también fuiste capaz de atacarme te lo recuerdo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 468.93,
+    "end": 469.75,
+    "text": "es verdad, iba armado"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 470.84,
+    "end": 472.22,
+    "text": "Ten cuidado."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 472.24,
+    "end": 478.55,
+    "text": "Yo tendría cuidado. Es verdad que no es muy bueno con la pistola, pero yo tendría cuidado."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 478.67,
+    "end": 497.89,
+    "text": "Estás ahí, miras para atrás y les ves otra vez que están hablando. Y ahora son ellos. Paso, yo me apoyo sobre mí. Ah, y ahora somos nosotros. Sí, no ves a esos hombres que viste un momento. Quizá con las luces y tal no los reconociste bien, está muy oscuro. El caso es que ya son ellos que están hablando, te están señalando. ¿Qué haces? Sigo ahí un momento, debajo del árbol. Sigue debajo del árbol."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 499.35,
+    "end": 502.11,
+    "text": "Nos acercamos a hablar con él, ¿no? Sí, con cuidado."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 502.41,
+    "end": 503.99,
+    "text": "Intentamos, con cuidadito."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 504.01,
+    "end": 515.64,
+    "text": "Acercaros, también os acercáis a la casa, ¿vale? Porque luego está al lado de la casa. Y, eh... Tienen que escuchar todos. Listen. Listen"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 515.78,
+    "end": 516.12,
+    "text": "and repeat."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 516.14,
+    "end": 516.4,
+    "text": "Fallo."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 517.16,
+    "end": 523.69,
+    "text": "Fallo. Yo seguro que no. Esta es la L, pero no lo encuentro, ¿eh? Ah, bien, genial. 07, un sitio"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 523.85,
+    "end": 541.44,
+    "text": "mega guay. Vale, pues todos sois como unos especie de gemidos apagados que vienen de la casa. Tú has sacado un crítico, pues tú oyes como... Es una voz de mujer que viene de dentro."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 542.87,
+    "end": 550.85,
+    "text": "Le digo, estoy escuchando una voz de mujer que parece una voz de mujer que dice socorro. Pero a mí esto me da muy malo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 553.41,
+    "end": 555.85,
+    "text": "¿Cómo se encuentra? ¿Y si...?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 556.21,
+    "end": 558.49,
+    "text": "Vivo. ¿Y si llamamos a"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 558.53,
+    "end": 558.91,
+    "text": "la policía?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 559.27,
+    "end": 574.97,
+    "text": "Está más tranquilo ahora, ¿vale? Cuando he ido a entrar a la casa, sé que me vais a llamar loco. ¿Loco? Como habitualmente. Una voz me dijo que entrara. Una"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 574.99,
+    "end": 575.25,
+    "text": "voz bien"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 575.99,
+    "end": 580.05,
+    "text": "clara. Y no había nadie en el patio. ¿Era una voz de mujer también? No sabías decirlo. Es que es una cosa"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 580.07,
+    "end": 580.65,
+    "text": "como un sueño."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 580.89,
+    "end": 584.13,
+    "text": "No sé. Era una voz en general."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 585.59,
+    "end": 594.52,
+    "text": "Random. No sabe reconocer a los hombres de las mujeres por la voz. Tiene muchos problemas en su vida por eso. Aunque a veces se lo ha pasado muy bien también."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 599.48,
+    "end": 606.49,
+    "text": "que si llamamos a la policía yo he escuchado a una mujer pidiendo ayuda"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 607.47,
+    "end": 607.75,
+    "text": "vale"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 609.17,
+    "end": 609.77,
+    "text": "yo no entraría"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 611.79,
+    "end": 612.65,
+    "text": "no estáis haciendo ruido, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 613.65,
+    "end": 615.21,
+    "text": "vale, vale, entonces ha durado un poco"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 615.59,
+    "end": 622.45,
+    "text": "eso y luego ya parece que ha subido como un como que señal de cansancio en la voz y ya ha parado"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 624.37,
+    "end": 625.59,
+    "text": "si hay alguien ahí lo tendríamos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 625.61,
+    "end": 625.87,
+    "text": "que ayudar"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 627.64,
+    "end": 630.97,
+    "text": "Pero ya se escuchan también voces. Y creo que estás un poco loco."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 632.71,
+    "end": 634.19,
+    "text": "Así, hablando tranquilamente."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 634.25,
+    "end": 651.97,
+    "text": "Con cariño. ¿Por qué me metería yo en esto? Eso quiero pintar. Bueno, ¿qué haces? Pintar a mi amigo. ¿Podemos llamar a la policía? No sé, ¿cómo lo veis? Si aquí hay alguien que está pidiendo ayuda... Podríamos"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 652.03,
+    "end": 667.17,
+    "text": "llamar a la policía, sí. Porque además ellos están detrás del caso de la secta. Si no es muy tarde y tu compañero sigue de guardia, seguro que viene hasta aquí."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 669.07,
+    "end": 682.69,
+    "text": "Bueno, tú sabes que esta es la casa de un conocido mafioso, Crater, que era el dueño del Speakeasy de antes. Y tu amigo, el Devlin este, lo que te dio un poquito a entender es que ellos no se metían con el Speakeasy este. Entonces, son datos que yo te doy para que lo recordemos. Es verdad, es verdad."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 682.91,
+    "end": 685.84,
+    "text": "Ellos no van a venir."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 685.86,
+    "end": 707.33,
+    "text": "Evidentemente que sí, ha salido muy fragrante que se está cometiendo un delito, tendrían que venir. O sea, no quiero decir que South Boston no es Chicago tampoco, pero bueno, que tengáis en cuenta eso. Ellos no van a vender. Imaginaos que estáis en una ciudad con una administración muy corrupta. Así que estamos en Madrid y es difícil, pero... Esa risilla, oigo una risilla. Bueno, ¿qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 707.72,
+    "end": 711.56,
+    "text": "Yo voy a tirar un descubrir. A ver si veo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 711.64,
+    "end": 711.9,
+    "text": "algo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 712.0,
+    "end": 712.56,
+    "text": "alrededor. A"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 713.68,
+    "end": 715.52,
+    "text": "ver, ya habéis tirado"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 715.68,
+    "end": 716.38,
+    "text": "el descubrir."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 716.4,
+    "end": 721.72,
+    "text": "Pues va a haber que entrar, porque entre que llegamos al teléfono y no, se nos ha muerto la muchacha."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 722.64,
+    "end": 729.29,
+    "text": "Vale, saco la pistola. Muy bien. sacan la pistola, os acercáis a la puerta y ¿qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 730.97,
+    "end": 736.8,
+    "text": "Si la liamos y nos quedamos encerrados, si Dibus no se queda afuera, no estará más en"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 736.84,
+    "end": 745.02,
+    "text": "peligro. Me acerco sigilosamente hasta las ventanas más cercanas. ¿Por dónde"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 745.64,
+    "end": 759.63,
+    "text": "se escuchó la voz? ¿Podrías identificarlo? Eso no sabía, porque tú crees que venía como las cañas, ¿sabes? Tenías una cañonía de desagüe y tal, y no sabría decir de dentro de la casa, pero ya más. Digamos que este, vosotros no lo oísteis, lo oísteis en los ruidos, tampoco... A"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 759.65,
+    "end": 760.01,
+    "text": "ver,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 761.31,
+    "end": 766.98,
+    "text": "mira la ventana más cercana, yo si quieres. Ya hemos pasado el punto donde yo me di la"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 767.0,
+    "end": 767.46,
+    "text": "vuelta, ¿verdad?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 769.32,
+    "end": 786.93,
+    "text": "Vale, un momento. Bueno, pues parece que tú miras, está oscuras, lo que ves de una farola que hay de carretera al lado parece ser una habitación, ¿vale? Una cama, una cómoda y una puerta y ya está."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 790.78,
+    "end": 803.81,
+    "text": "Insiste, hemos pasado el punto donde yo antes me di la vuelta. ¿Qué? ¿Perdona? Ya hemos pasado el punto donde yo antes me di la vuelta. No entiendo la pregunta. ¿Qué quiere decir? Pero antes llegaste a un sitio. No, es que si hemos llegado a un sitio... A donde yo he escuchado la voz. No,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 803.91,
+    "end": 806.47,
+    "text": "no, no. ¿Qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 808.83,
+    "end": 809.49,
+    "text": "Yo vendría"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 809.67,
+    "end": 817.84,
+    "text": "por la mañana. Ahora es de mañana. Muy bonito. Digo, habrá eres de mañana."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 818.12,
+    "end": 824.53,
+    "text": "Muy bonito. Del turno de mañana. Es que ves del turno de mañana. Yo nunca he dicho de verdad. Vale, no, si aquí nadie lo ha dicho. Bueno, os vais entonces."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 826.4,
+    "end": 838.06,
+    "text": "Estamos hablando. Si entramos todos, entramos todos. Eso está claro. Pero vacío, ¿sabes? Me gustaría ver si las fotos que puedas revelar hay algo raro en el cuadro o ha cambiado algo o vemos algo diferente."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 838.3,
+    "end": 838.88,
+    "text": "No se revelan de"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 838.9,
+    "end": 838.98,
+    "text": "hoy"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 839.0,
+    "end": 839.48,
+    "text": "para mañana."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 839.88,
+    "end": 844.2,
+    "text": "Por eso dice de ir a revelarlas y venir mañana. Más tuerzo."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 844.78,
+    "end": 846.18,
+    "text": "Encontrar información. Y si no va a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 846.22,
+    "end": 847.6,
+    "text": "cargarse a alguien."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 848.1,
+    "end": 856.17,
+    "text": "Si podemos analizar mejor el cuadro de la mansión y vemos algo que nos pueda dar alguna pista. o algo que nos alerte de algo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 857.55,
+    "end": 859.28,
+    "text": "levantéis un poquito la voz y de nuevo otra vez"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 868.98,
+    "end": 876.91,
+    "text": "Habrá que entrar, ¿no? Me cuesta irme dejando a alguien ahí. Si no has puesto una gime una vez, no vamos y gime dos veces. No lo pensamos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 877.07,
+    "end": 889.6,
+    "text": "¡Qué demonios! Vamos para adentro. ¡Qué demonios! Eso es. Bueno, pues vais a la puerta. Sí. ¿Vamos todos? esto"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 889.64,
+    "end": 890.0,
+    "text": "es un déjà"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 890.06,
+    "end": 893.7,
+    "text": "vu ¿Puedo acercarme y mirar por una ventana? Insisto,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 893.78,
+    "end": 905.57,
+    "text": "yo no puedo quedarme en la puerta, pero igual conviene que dos entre míos se queden en la puerta Vale, tú te quedas en la puerta O puedo entrar yo contigo, no es porque quiera tener miedo Vale Me da igual No es porque tenga miedo, ¿vale? Que lo tengo Por favor, que"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 905.61,
+    "end": 907.15,
+    "text": "levanten la mano los que van a entrar"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 910.01,
+    "end": 917.41,
+    "text": "Yo voy antes. Muy bien. La pareja de investigadores y los otros, los civiles, se quedan en la puerta. Muy bien. Si llegáis a la puerta, ¿qué hacéis? ¿La abrís?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 918.82,
+    "end": 918.96,
+    "text": "Mano"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 919.0,
+    "end": 934.5,
+    "text": "al pomo. Mano al pomo. Muy bien. Busca trapas. Está abierta. Las luces están apagadas. La poca luz de la farola que ilumina es un recibidor. Hay un perchero. Está vacío."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 935.09,
+    "end": 939.01,
+    "text": "Mira a ver si en la pared de al lado hay luces. O sea, hay llaves. No."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 939.05,
+    "end": 942.33,
+    "text": "No. No parece que haya luz eléctrica en la casa."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 943.22,
+    "end": 943.9,
+    "text": "No es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 947.4,
+    "end": 972.6,
+    "text": "de esas. Es un recibidor grande y ves que hay una mesilla tirada por el suelo, una silla rota. Es como un hall. Hay unas escaleras que suben para arriba. En el hueco de las escaleras está la típica habitación, escobero, despensa, lo que sea que está en el hueco de la escalera. Y ves que hay una puerta a la derecha y una puerta a la izquierda. La puerta a la izquierda da a la sala que tuviste en una habitación de invitados normal y corriente. Esa"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 973.02,
+    "end": 976.64,
+    "text": "puerta da a la sala que está vacía en principio."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 980.95,
+    "end": 998.86,
+    "text": "Ambas. Te dice esa puerta de la habitación que está vacía. Vale, pues la abres y encuentras una habitación vacía. Está vacía. Vale, encuentras una habitación vacía. Igual, tiene dos ventanas y por eso está iluminada por la farola de fuera y tiene otra puerta que se adentra más en la casa, ¿no? O sea, según entras, a la derecha hay otra puerta que debe dar a otra de las habitaciones exteriores."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1000.14,
+    "end": 1007.55,
+    "text": "Me acerco a la que está en el hueco de la escalera. Vale. Que es chiquitita y la intento abrir."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1008.21,
+    "end": 1018.11,
+    "text": "Vale, es un armario... A ver, es un armario y está cerrada con un candado."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1020.35,
+    "end": 1027.25,
+    "text": "Golpeo ligeramente la madera. A ver si oigo a alguien dentro."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1027.59,
+    "end": 1027.71,
+    "text": "No."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1031.77,
+    "end": 1036.68,
+    "text": "Le pego una patada, hay muchas para patadas. Corta cerraduras, como era aquí. ¿Qué hacemos nosotros"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1036.7,
+    "end": 1038.62,
+    "text": "mientras? estamos mirando las"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1038.86,
+    "end": 1044.56,
+    "text": "estrellas es que ¿qué hacemos? si necesitan ayuda podemos pedir ayuda a la policía o algo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1044.76,
+    "end": 1046.68,
+    "text": "que no les vamos a oír si gritan"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1046.74,
+    "end": 1049.34,
+    "text": "yo no sé ¿qué hacemos?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1049.38,
+    "end": 1052.14,
+    "text": "podemos investigar los terrenos o algo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1054.69,
+    "end": 1062.09,
+    "text": "podemos ir por fuera si le pongo un tiro a la cerradura pero acuérdate lo que ha comentado el señor hay que intentar"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1062.17,
+    "end": 1062.59,
+    "text": "no hacer"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1062.95,
+    "end": 1065.39,
+    "text": "ruido que hay voces por ahí bueno ¿qué"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1065.43,
+    "end": 1085.74,
+    "text": "hacéis? Por cierto, si ya avance dentro de la casa, ya no os va a ver una mierda. Está oscura todo. Hombre, a ver, hay velas y hay quinqués. Podéis encender algunos si queréis. Bueno, intento forzar la cerradura. Vale, intentas forzar la cerradura, pues tira el locksmith, tira cerrajería."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1085.77,
+    "end": 1091.55,
+    "text": "Podemos esperar un ratito y si no entramos o miramos algo,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1091.99,
+    "end": 1094.47,
+    "text": "pues sacas una ayuda. Imposible, es un buen candado."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1096.51,
+    "end": 1100.07,
+    "text": "¿Nosotros le escuchamos mientras tanto por dentro? O sea,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1100.11,
+    "end": 1117.5,
+    "text": "ya... No sé, si estáis en la puerta, todavía está, le veis a este, porfejeándose. Vamos a ir, pues acaso. El otro se ha metido en la sala, le podéis ver desde la ventana. Yo cojo un kinkai y lo enciendo. Vale. Aluminas ahí, muy bonito. Escena típica de la llamada y... ¿Hasta que"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1117.52,
+    "end": 1117.98,
+    "text": "ves un...?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1118.36,
+    "end": 1124.04,
+    "text": "No, no ves nada, es una habitación. Te he dicho que tiene otra puerta que sigue hacia delante y luego puedes volver a la entrada. Yo me vuelvo en él y vamos a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1124.12,
+    "end": 1125.18,
+    "text": "ver la puerta del otro lado, ¿eh?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1125.99,
+    "end": 1141.0,
+    "text": "La otra puerta. Pues la abres y es un comedor. Una mesa larga de madera. Uno de sus extremos está roto. De las paredes, torcidos, cuelgan varios marcos sin cuadro."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1143.23,
+    "end": 1147.87,
+    "text": "La abre él porque lleva una pistola en una mano y aquí queda otra. Con falta de mano."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1149.25,
+    "end": 1157.0,
+    "text": "Y perdón, y esta... Tiene también otra puerta que da más adentro de la casa. Da a donde tuviste otra puerta que se abría."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1159.07,
+    "end": 1162.75,
+    "text": "Yo me asomo a la puerta y le digo, vamos, no os quedéis. Abre"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1162.77,
+    "end": 1163.07,
+    "text": "la siguiente"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1163.13,
+    "end": 1168.56,
+    "text": "puerta. No, no, me vuelvo a la puerta y les digo a ellos que vamos, que no os quedéis."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1168.62,
+    "end": 1169.3,
+    "text": "Yo digo, ¿por qué?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1170.8,
+    "end": 1176.64,
+    "text": "porque vamos a internarnos dentro de la casa y cuanto más seamos mejor porque me estoy"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1176.68,
+    "end": 1180.73,
+    "text": "haciendo caca, traducción venid que me hago caca"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1180.81,
+    "end": 1185.43,
+    "text": "a ti te pegan por esto, yo te lo recuerdo has muerto pocas veces en chulo venga, vamos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1187.13,
+    "end": 1191.56,
+    "text": "bien entráis en el residuo vosotros dos entráis o no, le hacéis caso o no"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1192.2,
+    "end": 1196.48,
+    "text": "¿Qué hacemos, Alex? Porque a estos les han pagado para estar. Y yo creo que esto es un poco... Yo creo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1196.52,
+    "end": 1200.95,
+    "text": "dentro de la casa no se ve un carajo. Nosotros no pintamos nada ahí. Lo que pasa es"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1200.97,
+    "end": 1204.13,
+    "text": "que... ¿Escuchábamos otra vez a la señora? ¿O algo?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1206.23,
+    "end": 1212.64,
+    "text": "Si te digo que sí, transición o te vas, o sea... Pues dímelo tú, no sé. No sé, tiro. Pues tira, tira a escuchar."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1215.42,
+    "end": 1217.02,
+    "text": "005. Eso que es."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1217.86,
+    "end": 1224.93,
+    "text": "Ahí sigue. Sí, lo oyes ahí. Y como un forcejeo ahí. Te parece..."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1226.31,
+    "end": 1226.79,
+    "text": "Sí que es que te he"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1226.83,
+    "end": 1227.69,
+    "text": "escuchado."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1227.97,
+    "end": 1230.61,
+    "text": "Ya sabes que tengo confianza ciega en ti, o sea que..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1231.06,
+    "end": 1237.71,
+    "text": "qué miedo es el hijo de último memoria sí veis que tengo un quinque en la mano que tenemos luz tengo un quinque"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1237.73,
+    "end": 1238.93,
+    "text": "en la mano y se ha acabado de utilizarlo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1239.57,
+    "end": 1248.89,
+    "text": "vale yo digo que sigo escuchando la voz de o sea que no creo que sea algo temporal que yo pensaba que igual podía ser una ilusión sino que ¿te parece ya"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1248.93,
+    "end": 1257.5,
+    "text": "que se escucha? o sea es la ¿te acuerdas que habéis entrado por el comedor y que había una puerta que llegaba donde te dijeron entra, entra pues es ahí donde se escucha ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1258.88,
+    "end": 1259.44,
+    "text": "entonces entramos"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1261.19,
+    "end": 1262.69,
+    "text": "Estamos todos, ¿no? Yo digo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1263.41,
+    "end": 1269.8,
+    "text": "Yo escucho por ahí. Yo me estoy volviendo para adentro. Vale. Dice que escucha. Vamos hacia donde... Eso. Hacia"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1269.82,
+    "end": 1270.9,
+    "text": "donde"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1270.96,
+    "end": 1278.05,
+    "text": "escucha. Eso. Me pongo más nervioso aún cuando estamos ahí. ¿Vais ahí? ¿Otravesáis el comedor para llegar ahí? Sí. Vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1278.31,
+    "end": 1280.37,
+    "text": "Pues... Ataca. Tiene la teoría de destreza."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1284.86,
+    "end": 1284.94,
+    "text": "47"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1284.96,
+    "end": 1288.7,
+    "text": "fallas?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1289.14,
+    "end": 1290.36,
+    "text": "si dex? yo tambien no lo supero cuantos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1291.2,
+    "end": 1292.26,
+    "text": "habéis"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1292.28,
+    "end": 1292.9,
+    "text": "sacado vosotros"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1293.34,
+    "end": 1311.02,
+    "text": "dos? 47 yo 92 vale pues tu estas ahi mientras vais unos por un lado de la mesa otros tu de repente te apoyas un momento en la mesa que dije que tenia unas patas rotas y de repente la otra hace suena"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1311.1,
+    "end": 1317.65,
+    "text": "y se oye Voy y le pego un tiro a la cerradura del escobero porque ya me ha ruido."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1319.05,
+    "end": 1324.6,
+    "text": "Y a que eso, otra vez los gorditos frenéticos, otra vez se calla y se queda todo en un absoluto silencio."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1326.04,
+    "end": 1329.8,
+    "text": "¿Qué hacéis? Seguir avanzando. Seguir buscando por ahí. Coger otro King K y encenderlo también."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1330.08,
+    "end": 1332.6,
+    "text": "Pero, ¿cómo se ha caído eso? Porque"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1332.94,
+    "end": 1340.2,
+    "text": "la puerta, o sea, la mesa del comedor estaba casi rota. Os dije que estaba rota. Estaba como en tres patas. Se ha apoyado, se ha partido la otra pata y ha vencido."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1341.42,
+    "end": 1341.56,
+    "text": "Nada"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1341.58,
+    "end": 1346.94,
+    "text": "sobrenatural. ¿Cuántos marcos hay sin...? Seis. Vale, o sea, que"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1347.04,
+    "end": 1347.82,
+    "text": "no se levanten. Uno, dos, tres,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1347.84,
+    "end": 1351.4,
+    "text": "cuatro... Muy bien. Vale, vamos a... ¿Se ve"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1351.44,
+    "end": 1352.88,
+    "text": "algo por la ventana, por afuera?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1353.48,
+    "end": 1353.8,
+    "text": "La calle."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1354.26,
+    "end": 1358.56,
+    "text": "A ver si por el ruido... Vamos,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1358.62,
+    "end": 1365.38,
+    "text": "abre. ¿Abre qué? La siguiente puerta. Vale. ¿Abre la siguiente puerta? Dame el quinqué. Cuando"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1365.44,
+    "end": 1367.41,
+    "text": "llegas con el quinqué, la siguiente puerta..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1369.63,
+    "end": 1371.89,
+    "text": "Llevamos dos quinqués. Ellos llevan uno y nosotros llevamos"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1371.95,
+    "end": 1374.27,
+    "text": "otro. Vale, lo llevo yo. Tú dispara."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1375.63,
+    "end": 1463.57,
+    "text": "Pues abres, la puerta se abre tranquilamente. y lo que veis es una escena dantesca. Es un dormitorio bien amueblado pero totalmente lúgubre donde hay manchas de sangre por un lado y en la cama atada y amordazada Hay una mujer, una joven mujer, está como saltada como en X, ¿vale? Y no tiene manos ni tiene pies, ¿vale? Se los han amputado y además se los han cauterizado, ¿vale? Una mancha de quemadura, ahí están los muñones con sangre, hay sangre y todo tipo de manchas en la cama. Eh... Cuando está amordazada, tiene una mordaza en la boca, está demacradísima, hecha... Seguramente es una chica que apenas tiene 20 años, que debió de ser atractiva en algún momento, pero ahora está horrible con el pelo pegado ahí, lleno de grasa y costras. Tiene heridas por todo el cuerpo. En cuanto se empieza a moverse frenéticamente... a forcejear, la cama golpea contra la pared cae un poquito de escayola y veis además que está embarazada vale y pues tira cordura, sí tira cordura"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1465.19,
+    "end": 1467.79,
+    "text": "ah, la supero, qué bueno el que la supera"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1467.99,
+    "end": 1471.41,
+    "text": "pierde un punto y el que la falla pierde dos vale y no"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1475.79,
+    "end": 1486.79,
+    "text": "hay más Pase poco. Tengo que decir que... Porque yo me acercaría a quitarle la... Ya, llévanmela al hospital, vamos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1489.05,
+    "end": 1543.8,
+    "text": "Pues tú te acercas, ¿vale? Lo miras... Tiene un dado de 10%, por cierto. Le quitas la mordaza, ¿vale? Le quitas la mordaza y... pues en cuanto le quita la mordaza empieza y te escupe en la cara empieza a gritar de una manera totalmente histérica tú en ese momento miras a todos lados y te preguntas ¿por qué? ¿por qué estás en un descampado al lado de tu coche? vale Está envidiando a la mujer, todos estáis, claro, absortos con esa idea, ¿vale? Y oís a la mujer gritar, forcejear, ¿qué haces? O sea, se ha puesto muy nerviosa."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1543.96,
+    "end": 1547.82,
+    "text": "Intento cogerla para llevármela afuera, yo me la quiero llevar de ahí. Intenta desatarla. Sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1548.12,
+    "end": 1549.42,
+    "text": "Pero habrá que tranquilizarla primero un"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1549.46,
+    "end": 1550.5,
+    "text": "poco. Vale,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1550.54,
+    "end": 1552.1,
+    "text": "intenta desatarla y ves que la mujer te golpea"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1552.14,
+    "end": 1553.7,
+    "text": "y..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1553.8,
+    "end": 1554.86,
+    "text": "No tiene apenas fuerza, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1554.9,
+    "end": 1573.25,
+    "text": "Intento tranquilizarla, quiero ayudarte. Estamos aquí para ayudarte. ¿Tiene psicología o algo? Eh... pues... ¿Rating? ¿La pueda...? No sé. Por mis datos. Tengo ropa cara. Ha visto esta pajarita. Tiene psicología, así que venga. Pues sí,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1573.27,
+    "end": 1591.28,
+    "text": "23. Pues ves que, bueno, tú estás haciendo eso, ves que la tipa deja de agredirte, pero ves que está totalmente enloquecida. Esta mujer ha perdido la cultura hace tiempo. En ese momento, oís el motor de un coche fuera de la casa que se va rápidamente. Cuando giráis además, veis que este no está."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1591.3,
+    "end": 1594.98,
+    "text": "¿Veis?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1595.0,
+    "end": 1598.19,
+    "text": "Sales corriendo y ves que sale pitando con el coche. Y"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1598.21,
+    "end": 1598.63,
+    "text": "con la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1598.65,
+    "end": 1599.95,
+    "text": "pipistola. Y con el"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1600.09,
+    "end": 1600.45,
+    "text": "quinquenqué."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1602.71,
+    "end": 1604.35,
+    "text": "No,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1604.37,
+    "end": 1606.11,
+    "text": "no, lo tenía yo. Si os parece, yo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1606.17,
+    "end": 1609.53,
+    "text": "incluyo. Llevamos al hospital a ver si podemos hacer"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1609.75,
+    "end": 1671.07,
+    "text": "algo. Te la coges, tú la ayudas, la coges y en ese momento ves que la mujer empieza a darle un espasmo, se cae al suelo. Empieza a retorcerse de modo, se pone en posición fetal. Empieza a estremecerse, parece que se asfixia. ¿Qué está pasando? Ves que su vientre empieza como a crecer, tensarse, temblar, ¿vale? Y ella pega un grito. Se transforma en grito cuando una docena de crías rompen el vientre y empiezan a esparcirse por todos los lados. Unos seres como insectoides que empiezan a esconderse como cucarachas cuando encienden la luz. Se empiezan a esconder debajo de los sitios de las cosas. Os pasan a vuestros lados. Tienes cordura, por supuesto. No la paso. Yo tampoco. Ni yo. Ya no te lo he tirado. La casa de los... Pues tiráis cordura... O sea, perdón. Tiráis un dado de 8. Si sale 5 más, ya sabéis que estáis locos."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1671.41,
+    "end": 1672.01,
+    "text": "Eh... De 8."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1672.03,
+    "end": 1682.14,
+    "text": "Loco. No, ese es de 10. Este es de 10. Lo coloca. Ah, este es de 8. Bueno, da igual. 5. 4. Mira. Bueno. 8. Uuuh. Vale. Tenemos"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1682.16,
+    "end": 1685.14,
+    "text": "dos nuevos locos en el juego."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1685.18,
+    "end": 1690.75,
+    "text": "Muy bien. No, no que pierdas 8. No, no que pierdas 8. No, ocho son los que pierden, ¿no? Sí, sí, ocho son los que pierden. Ah,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1690.79,
+    "end": 1697.69,
+    "text": "vale, pues yo pierdo... ¿Cuántos? ¿Dos habéis? No, cuatro. Había sacado cuatro. Pues yo ya estoy debajo del... Todos."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1698.79,
+    "end": 1700.37,
+    "text": "Todos. Dijo el loco número uno. Estoy"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1700.57,
+    "end": 1708.63,
+    "text": "hecho. Vale. Muy bien."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1710.65,
+    "end": 1715.41,
+    "text": "Pues... Aquí acaba la aventura, chicos. ¡Cucu!"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1718.16,
+    "end": 1752.02,
+    "text": "Amanece, ¿vale? Amanece. Estás al volante de tu coche, está empotrado en un árbol. Ellos dos están contigo, ¿vale? Estáis todos, se están como levantando, recuperando. Tú estás sangrando por una brecha, ¿vale? Tienes trozos de cristal aquí en la cara. Tú estás en la parte de atrás, con la cabeza abajo y los pies arriba, ¿vale? Y tenéis golpes, magulladuras. Vamos a quitaros dos puntos de daño a cada uno."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1752.04,
+    "end": 1758.89,
+    "text": "¿De daño? ¿De fuerza? Sí, health"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1759.19,
+    "end": 1766.83,
+    "text": "points. Enfrente de vosotros está este mirando al infinito sentado en el capó de su coche en el descampado que está al lado de la carretera."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1771.86,
+    "end": 1773.08,
+    "text": "Yo quería haberme"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1773.1,
+    "end": 1780.0,
+    "text": "ido a dormir. Yo no quería entrar. ¿Estáis bien? Bueno, no podemos hablar. Sí, sí,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1780.04,
+    "end": 1790.96,
+    "text": "podéis hablar ahora ya. No sabéis lo que ha pasado. O sea, cuando estabais allí eran como las 12 de la noche y ahora ya está amaneciendo, ha amanecido. No sabéis lo que ha pasado en ese tiempo."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1793.7,
+    "end": 1798.48,
+    "text": "Mira a ver si allí tengo todos los dedos, tengo todo normal, no he entrado en nada, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1798.54,
+    "end": 1803.62,
+    "text": "Tienes un mordisco en la mano de algo que no sabes muy bien qué es. ¿Y cómo está?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1803.64,
+    "end": 1804.92,
+    "text": "¿La mano"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1804.96,
+    "end": 1806.54,
+    "text": "normal? Sí, normal, un mordisco. ¿Lo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1806.66,
+    "end": 1807.3,
+    "text": "vemos nosotros?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1807.62,
+    "end": 1809.48,
+    "text": "Sí, sí, sí, un mordisco. Han"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1809.62,
+    "end": 1812.94,
+    "text": "mordido. ¿El resto tenemos algo más allá de...? Tú"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1812.96,
+    "end": 1820.32,
+    "text": "tienes otro mordisco ahí también. ¿También? En el antebrazo. Yo nada. Vaya."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1820.34,
+    "end": 1820.58,
+    "text": "¿Estáis"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1820.6,
+    "end": 1821.94,
+    "text": "bien? ¿Son"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1821.96,
+    "end": 1824.72,
+    "text": "mordiscos humanos? ¿Humanones? Es que ella tiene"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1825.46,
+    "end": 1832.69,
+    "text": "un ojo morado. Te han pegado un piñazo. Aquí en el espejo del coche. ¿Están"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1832.71,
+    "end": 1843.01,
+    "text": "bien, chicos? ¿Son mordiscos como humanos? ¿Qué ha pasado? No recuerdo nada. Tampoco recuerdo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1844.92,
+    "end": 1846.32,
+    "text": "Por cierto, tirad todos idea, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1850.78,
+    "end": 1852.12,
+    "text": "Sí, es verdad."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1852.22,
+    "end": 1852.3,
+    "text": "Es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1852.32,
+    "end": 1857.71,
+    "text": "feo también. Toda la pasáis. Vale, entonces todos recordáis la escena horrible que habéis visto. Lo que no recordáis es desde la escena hasta ahora,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1857.73,
+    "end": 1867.29,
+    "text": "¿vale? Vale. Yo recuerdo hasta este momento, Dios mío, ¿qué era eso? Lo que salió del vientre, que es asqueroso. Y luego, ¿alguien recuerda algo más?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1868.29,
+    "end": 1872.94,
+    "text": "Yo lo del viento no lo he visto. No, tú no lo has visto. Mejor. Tú te quedaste ahí. ¿Por qué te fuiste? ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1873.1,
+    "end": 1877.39,
+    "text": "pasó? No lo sé. ¿Tú"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1877.43,
+    "end": 1881.71,
+    "text": "eres el que quieres entrar y te pase primero? ¿Dónde estamos lo primero? ¿Dónde estamos?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1882.87,
+    "end": 1889.9,
+    "text": "Estáis en Boston, en la carretera que sale de la ciudad. En algún lugar entre Mediard de Boston y el siguiente pueblo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1890.04,
+    "end": 1895.88,
+    "text": "O sea, tomar por saco de la casa. ¿Tú tienes mordeduras?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1896.74,
+    "end": 1903.35,
+    "text": "No, tú estás bien. Tú tienes un dolor como de haber estado sentado toda la noche y un frío de haber estado sentado toda la noche en el capó de tu coche ahí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1905.17,
+    "end": 1907.1,
+    "text": "Yo no tengo mordeduras, ¿puede ser que se haya mordido yo?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1908.48,
+    "end": 1911.66,
+    "text": "Bueno, pues ahora que lo ves, pues te parece que sí. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1911.94,
+    "end": 1912.2,
+    "text": "¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1913.64,
+    "end": 1916.77,
+    "text": "Lo siento, tío. ¿Los nervios rotos o algo? Sí."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1916.79,
+    "end": 1918.23,
+    "text": "¿La"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1918.29,
+    "end": 1922.83,
+    "text": "marca de mi ojo se corresponde con tu puño? ¿Tengo aquí la marca de tu anillo o algo? Sí. ¿Sí, no? Sí."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1924.94,
+    "end": 1926.57,
+    "text": "Del cariño, del cariño."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1926.83,
+    "end": 1929.05,
+    "text": "¿Qué ha pasado? Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1929.07,
+    "end": 1934.35,
+    "text": "yo pensaba que podía ser a tener bichos estos que me hubieran mordido, por lo menos. ¿Mi tripa está bien? Sí,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1934.37,
+    "end": 1935.27,
+    "text": "sí. ¿Mi tripa está bien? Mi"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1935.29,
+    "end": 1940.65,
+    "text": "tripa está bien. De momento. Yo me encantaría levantarme, pero"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1941.23,
+    "end": 1946.71,
+    "text": "he comido demasiado. ¿Qué ha sido? Yo deberíamos ir a..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1949.73,
+    "end": 1950.05,
+    "text": "Nada,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1950.07,
+    "end": 1959.67,
+    "text": "no sé. Mirad que os dije que teníamos que venir por la mañana a ver el sitio este. Yo estoy puñetazo. Se coge encima."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1959.71,
+    "end": 1965.2,
+    "text": "Exactamente, están peleándose los dos ahí encima del coche. Solo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1965.3,
+    "end": 1967.28,
+    "text": "tenemos un coche que funciona, ¿no? El tuyo está destrozado, sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1968.4,
+    "end": 1968.92,
+    "text": "siempre somos"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1968.96,
+    "end": 1970.98,
+    "text": "cuatro"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1971.0,
+    "end": 1971.46,
+    "text": "cabezas"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1971.78,
+    "end": 1974.08,
+    "text": "vamos a casa, revelo las"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1974.16,
+    "end": 1980.49,
+    "text": "fotos y nos cambiamos yo quiero que envíen los cuadros por si acaso nos da una pista sobre todo de la mansión"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1980.55,
+    "end": 1985.66,
+    "text": "yo no puedo ir a mi casa así No me van a dejar volver, básicamente. ¿Cómo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1985.72,
+    "end": 1986.88,
+    "text": "es así?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1986.92,
+    "end": 1990.14,
+    "text": "Con el ojo morado, con estos pelos, las ropas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1990.18,
+    "end": 1994.09,
+    "text": "Pues mira, le explicas que a una tía le ha explotado el diente. Ah, sí,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1994.11,
+    "end": 1995.29,
+    "text": "sí, muy increíble, muy increíble."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1995.31,
+    "end": 1995.65,
+    "text": "No,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1996.35,
+    "end": 2003.47,
+    "text": "mejor no tocar ese tema, ¿vale? Pues eso, vamos a mi apartamento, por ejemplo. Vale, sí."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2003.73,
+    "end": 2009.36,
+    "text": "Volvéis a Boston. Y vais al apartamento, subís allí, la vecina dice, a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2009.38,
+    "end": 2010.26,
+    "text": "ver cuánto paga,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2010.34,
+    "end": 2023.15,
+    "text": "y tú sigues ahí para arriba. Déjame enseñarte otra cosa. Entráis, un cuchitril, de una sola habitación y luego, pues eso, baño y su cuarto. Os sentáis en un sillón cochambroso. ¿Y qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2023.63,
+    "end": 2027.67,
+    "text": "Yo... Yo revelo las... Ah, vale. Yo intento curarme lo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2027.69,
+    "end": 2035.1,
+    "text": "pueda. Yo quiero concentrarme a ver si recuerdo algo. Va a ser un"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2035.12,
+    "end": 2035.72,
+    "text": "mindfulness, agresión,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2035.74,
+    "end": 2060.22,
+    "text": "hipnotismo. ¿Te recuerdas yendo por ahí? ¿Te recuerdas que te decía que fueras al coche? ¿Tú pensabas que ellos te querían llevar a algún lugar extraño? ¿Empezaste a forcejear con ellos, a morderles? El te agarró, estabas como loca y él te pegó un puñetazo, te dejó inconsciente, te metieron en el coche, fueron para allá. Mientras se metieron en el coche, este que estaba detrás empezó a"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2060.32,
+    "end": 2062.12,
+    "text": "gritar"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2062.16,
+    "end": 2065.97,
+    "text": "y dar vueltas y en un momento dado le dio una patada a este que empotró al coche."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2065.99,
+    "end": 2068.79,
+    "text": "Vale, pues me"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2069.17,
+    "end": 2071.25,
+    "text": "he acordado de todo. Es lo que ha pasado. Me he acordado de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2071.29,
+    "end": 2071.63,
+    "text": "que"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2071.65,
+    "end": 2077.25,
+    "text": "la factura del coche es para ti, ¿no? Está todo a riesgo, tiene brotes de locura por estos dos mitos."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2077.47,
+    "end": 2078.73,
+    "text": "Perdóname que insista."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2079.07,
+    "end": 2094.72,
+    "text": "Por cierto... Se me ha olvidado, la verdad, se me ha olvidado que cada vez que uno se vuelve, la primera vez que uno se vuelve loco, pues tiene 5 puntos de los mitos, así que todos tienen 5 puntos y vosotros os volviste, o sea, tú te volviste loco otra vez y tú otra, ¿no? Para mí"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2094.74,
+    "end": 2095.48,
+    "text": "porque me"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2095.5,
+    "end": 2100.16,
+    "text": "volvieron. Vale, pero vosotros creo que tenéis que tener 6 porque luego cada segunda vez uno más."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2100.34,
+    "end": 2100.82,
+    "text": "Es esto que"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2100.84,
+    "end": 2118.69,
+    "text": "dices. Sí, mitos de chula habilidad, mitos de chulu, chulu mitos, una de las habilidades. Pues cinco y cinco vosotros y ellos creo que seis porque se volvieron locos otra vez. Sí, yo he sido mi primera. Vale. Entonces tenemos seis. Yo tenía seis."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2118.71,
+    "end": 2119.01,
+    "text": "¿Eh?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2119.19,
+    "end": 2124.21,
+    "text": "Ah, pues si ya tienes algo en mi tema de chulo entonces no te ponen nada. Bueno, sí, uno más. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2124.49,
+    "end": 2128.87,
+    "text": "dos porque te has vuelto loco dos veces, ¿no? No, no, es solo una. Pues yo sé"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2128.95,
+    "end": 2129.15,
+    "text": "5."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2129.43,
+    "end": 2130.75,
+    "text": "Vale. Muy bien."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2130.77,
+    "end": 2133.05,
+    "text": "Vale, yo no me he enterado. 5 o 6 al final. Tú 6. 6."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2133.33,
+    "end": 2136.82,
+    "text": "Entonces hemos pasado dos veces por la misma tortura. Vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2136.84,
+    "end": 2140.76,
+    "text": "Bien. Pues él se mete a revelar las fotos y los demás hacéis algo o simplemente esperáis."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2140.78,
+    "end": 2141.8,
+    "text": "Debo curarme y esperar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2142.54,
+    "end": 2152.79,
+    "text": "Vale. Pues nada, revela las fotos y tenéis las fotos de todo lo que habéis visto. En ninguna de ellas se ve nada más especial que lo que visteis ahora. Me"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2152.83,
+    "end": 2156.31,
+    "text": "gustaría analizar la foto de la mansión para ver si hay algo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2156.75,
+    "end": 2167.3,
+    "text": "Hay fotos del cuarto, una foto de los cuadros, otra de la alcantarilla cuando encontramos al ser extraño cuando se fue y otra foto de la casa de Crater."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2169.84,
+    "end": 2172.42,
+    "text": "Viendo las fotos de los cuadros vemos todos lo mismo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2173.36,
+    "end": 2193.66,
+    "text": "Sí. En principio, todo lo que estoy viendo es lo que visteis antes. Tenéis muy malos recuerdos, pero... Se corresponde con lo que vimos. Sí, no hay nada especial. O sea, tú por más que miras, no vuelves a ver tu cara en la otra foto. De luego, claro, una foto de la época tal cual, no. Pero no, no veis nada extraño. Es todo lo que visteis antes. Eso sí que es bastante perturbador y no os gusta nada."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2193.9,
+    "end": 2197.06,
+    "text": "¿Ha revelado alguna foto de más que no hubiera hecho él?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2202.99,
+    "end": 2206.61,
+    "text": "Bueno, esto ya sería un giro dramático. Bueno, hay una"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2206.67,
+    "end": 2212.97,
+    "text": "foto que está él con una chica, pero bueno. ¿Qué cosa más rara? Una cosa paranormal en chulo. Uy, sería una foto de más."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2213.25,
+    "end": 2218.13,
+    "text": "Madre mía. Sí, lo raro es que el jugador lo proponga a él, ¿no? Pero bien, está bueno. Pues, ¿qué hacemos,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2218.17,
+    "end": 2222.93,
+    "text": "chicos?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2223.17,
+    "end": 2234.2,
+    "text": "¿Qué hacemos con la casa esta? Es una locura. Bueno, ya volvemos a la casa. A ver si está el... Aquelite, hay que buscar al Aquelite. Podríamos volver a buscar a Keiter."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2235.02,
+    "end": 2240.34,
+    "text": "Igual está en algún hospital, si está malito, si no está en la casa, en algún sitio tendrá que estar este hombre."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2240.56,
+    "end": 2246.12,
+    "text": "O como en Ciudadanos Kane, está arriba en el del BAN tirando una bola de niebla. Esperando la seguridad social de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2246.15,
+    "end": 2247.43,
+    "text": "hoy. Claro, por ahí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2247.61,
+    "end": 2253.61,
+    "text": "Bueno, volvemos entonces a la casa. De perdido... Pero espera,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2254.83,
+    "end": 2257.71,
+    "text": "así tal cual, claro, o sea, algo tendremos que..."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2257.73,
+    "end": 2276.74,
+    "text": "Tendremos que... si volvemos a lo que nos dijo la sombra extraña esta o la figura esta que parecía Andrew que no sé si lo será o no nos comentó eso que le ayudáramos y que ella está en su antiguo hogar"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2277.3,
+    "end": 2281.59,
+    "text": "podemos ir entonces a Pensilvania"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2281.85,
+    "end": 2282.85,
+    "text": "o la casa de sus padres"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2284.51,
+    "end": 2293.12,
+    "text": "Pensilvania está un poco lejos dudo que haya que viajar Dudo que vean este videojuego,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2293.24,
+    "end": 2296.74,
+    "text": "porque yo lo he visto en las pantallas de viaje. A lo mejor no"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2296.76,
+    "end": 2305.95,
+    "text": "tenemos provisiones para viajes largos. A lo mejor la casa de Crater era su antigua casa. Pues entonces volvemos a la casa de Crater. Vale, reitero,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2306.01,
+    "end": 2307.87,
+    "text": "¿volvemos así"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2307.91,
+    "end": 2312.47,
+    "text": "tal cual? Sí, claro. ¿No tienes más armas?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2312.49,
+    "end": 2313.51,
+    "text": "Pero yo soy"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2313.53,
+    "end": 2317.36,
+    "text": "un detective de poca... Ya te vas a ir cuando entremos nosotros. A ver,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2318.01,
+    "end": 2330.0,
+    "text": "si quieres, en tu casa puedes tener una escopeta. Pues pasamos por mi casa con la escopeta. Bueno, o tú, ¿vale? Tú si quieres. Si pasamos en su casa,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2330.02,
+    "end": 2330.38,
+    "text": "¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2330.64,
+    "end": 2331.76,
+    "text": "Vale. Pues no pasamos por mi casa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2331.78,
+    "end": 2333.7,
+    "text": "En la pistola hay una escopeta. ¿Tú cómo vas a escopetas?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2335.8,
+    "end": 2336.56,
+    "text": "No tengo nada."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2336.8,
+    "end": 2337.84,
+    "text": "Yo tengo un 20."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2338.2,
+    "end": 2339.17,
+    "text": "Lo mismo que yo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2339.21,
+    "end": 2341.39,
+    "text": "Ah, no, un 25. Lo mismo que yo. Sí, es verdad."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2341.95,
+    "end": 2344.53,
+    "text": "Yo creo que todos tenemos un 25. Sí, es el básico."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2344.55,
+    "end": 2346.31,
+    "text": "Vale, pues lo llevas tú, que es tuyo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2347.53,
+    "end": 2354.64,
+    "text": "Nada. La escopeta recortada, ¿vale? La carta de escopeta. La carta de escopeta."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2354.74,
+    "end": 2360.76,
+    "text": "No sé si está enfocando. No, no enfoca, pero bueno. Claro, da"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2361.18,
+    "end": 2372.03,
+    "text": "igual. Estamos usando alguna de las cartitas de séptima de objetos, personajes, como las que os he enseñado antes, etcétera, los mazor de locura y cosas así."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2372.05,
+    "end": 2379.9,
+    "text": "La cosa es que debemos buscar a Crater, o sea que si esa es la mansión de él, igual hay información de dónde puede estar él. Os digo de ir."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2379.92,
+    "end": 2397.85,
+    "text": "¿Queréis tomar una maldita decisión? Vamos a la mansión. Muy bien. Volvéis a la mansión del Creighton en el coche este. Es de día, ¿no? Es de día. Sí. Es por la mañana. Vale. Y bueno, pues la puerta está entreabierta y pues no parece que haya nadie tampoco."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2400.07,
+    "end": 2401.11,
+    "text": "Llego a la puerta."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2401.51,
+    "end": 2406.93,
+    "text": "Llamo. Llamas a la puerta entreabierta. Y no se escucha"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2406.95,
+    "end": 2409.33,
+    "text": "nada. Hola, señor Crater."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2411.39,
+    "end": 2412.07,
+    "text": "No se escucha nada."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2412.17,
+    "end": 2414.09,
+    "text": "Que pasemos, gracias. Lo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2414.16,
+    "end": 2422.64,
+    "text": "que sí que ves es una capa, una capa colgada en el perchero que os dije que había en la entrada. Alguien ha"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2422.72,
+    "end": 2427.4,
+    "text": "estado aquí, quizás sea Batman. La examino. Es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2427.42,
+    "end": 2435.07,
+    "text": "una capa con capucha, a ver, en la época no hubiera tan rara. Muy gorda y de buen material, cara."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2436.38,
+    "end": 2437.06,
+    "text": "Muy larga,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2437.22,
+    "end": 2438.24,
+    "text": "corta."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2438.26,
+    "end": 2442.0,
+    "text": "Pues de una persona como de un metro ochenta, vamos a decir."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2442.36,
+    "end": 2450.3,
+    "text": "Vale. Vale. Sé que hay alguien en la casa. En una cama. Evidentemente. Bien."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2451.17,
+    "end": 2467.11,
+    "text": "Pues entramos. Vale, pues ahí estáis, en el recibidor que os dije. Está la puerta que da al comedor, queda a la puerta donde estaba la cama. Está el candado este debajo de la... De la escalera, la escalera que sube y la habitación vacía que te daba otra puerta que nunca"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2467.13,
+    "end": 2476.25,
+    "text": "abristeis. Descarado, le pego un tiro al candado de la escobeta. Vale. Me da igual ya... ¡Ah! ¿Tú llevas la... Ah, no. No, no. La pistola. El"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2476.33,
+    "end": 2482.34,
+    "text": "resto nos miramos como... Ese tío está loco."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2482.36,
+    "end": 2483.99,
+    "text": "Gracias por la discreción."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2484.5,
+    "end": 2518.37,
+    "text": "Vale, pues... Lo abres y bueno, pues ves que es una despensa. Eh... Las ventanas están tapeadas con madera, con tablones, hay muchos huecos entre ellos. Y veis que, bueno, pues los rayos del sol entran entre ellos haciendo haces de luz que delatan el polvo que hay en suspensión. Y ves que en la esquina sudeste hay como... O sea, eso es un gato, un perro, una rata, así como en posición ahí fetal, ahí como enroscado durmiendo. ¿Hace ese ruido? Hace ese ruido, sí, cuando oye el este. No te acerques, que es"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2518.39,
+    "end": 2521.65,
+    "text": "un cucaracho de estos."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2523.67,
+    "end": 2544.23,
+    "text": "Cucaracha marciana. ¿Qué haces? Cerrar la puerta con mucho cuidadito. Vale. ¿Qué había? ¿Te acuerdas lo que salió de esa mojita? Pues no creo que sea eso, pero... Si no te lleva un susto, mejor no lo hagas. Un bichejo. ¿Qué hacéis? Una despensa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2544.25,
+    "end": 2549.76,
+    "text": "También es verdad que quizás es mejor eliminarlo ahora que duerme y no vaya a ser..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2549.8,
+    "end": 2550.72,
+    "text": "¿Es que había"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2550.96,
+    "end": 2552.32,
+    "text": "un gato, un perro u otra"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2552.38,
+    "end": 2552.74,
+    "text": "cosa? No"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2552.76,
+    "end": 2553.1,
+    "text": "lo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2553.12,
+    "end": 2556.26,
+    "text": "sé. Era un ser que hacía un ruido como el cacho."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2557.2,
+    "end": 2559.6,
+    "text": "O igual es algo inofensivo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2559.78,
+    "end": 2560.94,
+    "text": "La escopeta"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2560.96,
+    "end": 2561.04,
+    "text": "hay"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2561.06,
+    "end": 2561.14,
+    "text": "que"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2561.2,
+    "end": 2562.08,
+    "text": "disparar."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2562.1,
+    "end": 2562.98,
+    "text": "Dale, cariño mío."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2565.55,
+    "end": 2568.1,
+    "text": "¿Qué hacéis? Esto es un poco..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2568.16,
+    "end": 2575.58,
+    "text": "Abro la... La apunto y la disparo. Espera, espera, espera. ¿Abres la puerta? Espera, me voy a contar. Bueno, vas a abrir la puerta, te agarras y... Quiero"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2575.6,
+    "end": 2577.96,
+    "text": "decir, yo tengo conocimientos de mundo natural. Puede ser"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2578.0,
+    "end": 2578.94,
+    "text": "que... No lo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2578.98,
+    "end": 2579.24,
+    "text": "has visto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2579.32,
+    "end": 2580.5,
+    "text": "Pueda..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2580.52,
+    "end": 2583.05,
+    "text": "Yo tengo conocimiento de biología. Vale, pues tira."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2584.14,
+    "end": 2590.38,
+    "text": "Una mierda de conocimiento de biología, pero bueno. Bueno, pues entonces no presumas. Pues mira lo que viene. 002, un éxito"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2590.52,
+    "end": 2590.9,
+    "text": "crítico."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2591.04,
+    "end": 2608.75,
+    "text": "Eso es, de hecho, una de las cosas que como... Ah, no, tú no lo viste. Bueno, como te describieron las cosas del vientre, pues eso debe ser pero más grande y eso no es humano, eso es un ser, eso no es un animal, eso no es un gato, eso es un perro. Eso te parece como una especie de insecto en un estado larvario ahí..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2608.77,
+    "end": 2615.64,
+    "text": "Dejemos la puerta como está. Ahí dentro hay una de las cosas... Pues... Que"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2615.7,
+    "end": 2618.21,
+    "text": "salieron de... Matémoslo, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2618.95,
+    "end": 2619.05,
+    "text": "No"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2619.11,
+    "end": 2626.8,
+    "text": "sé. Si lo matamos igual aparecen más y entonces... Eso no es de este mundo. Yo esto no sé lo que es, pero..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2626.82,
+    "end": 2634.69,
+    "text": "Bueno, pero dejar eso vivo... No sé, ¿no? Vale, yo abro y tú disparas con la escopeta. Yo no disparo bien. ¿Quién"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2634.71,
+    "end": 2642.63,
+    "text": "lleva la escopeta? Yo, pero no disparo. Si queréis matarlo, igual no es mejor un cuchillo para que no haga más ruido. Vale, el ruido ya está hecho."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2643.19,
+    "end": 2644.93,
+    "text": "Me estáis cargando el"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2644.97,
+    "end": 2648.51,
+    "text": "muerto. Yo también tengo un cuchillo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2648.91,
+    "end": 2651.22,
+    "text": "Pero no sabemos si quieras. De repente se hace un poco con la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2651.24,
+    "end": 2652.7,
+    "text": "oscuridad de la luz que entraba por la puerta."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2654.59,
+    "end": 2657.07,
+    "text": "Claro, no sabemos si es mortal o no. Yo lo dejaría."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2658.32,
+    "end": 2658.39,
+    "text": "No"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2658.43,
+    "end": 2660.24,
+    "text": "vayamos a molestarlo y la liemos. Si alguien se"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2660.3,
+    "end": 2694.86,
+    "text": "gira, puede ver que recortado contra la puerta hay un ser enorme. Mitad hombre, mitad insecto. Una cosa así como tal que esta, ¿vale? No creo que se pueda apreciar, pero bueno. Ah, sí, perfecto. Genial. Una especie de ser con humanoide, insectoide, caparazón quitinoso, varios pedúnculos con garras que le salen. Tiene como unas alas de insecto, pero cerradas en la espalda. Tiene unas mandíbulas que se mueven de manera que tiene como una boca humana, unos ojos humanos, pero por aquí también vuelve a tener ojos, la cabeza aplastada. Y"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2694.92,
+    "end": 2702.98,
+    "text": "dice... ¿Qué queréis hacer con mis hijos? Nada Decíamos de dejarlo tranquilo Que durmiera"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2708.03,
+    "end": 2712.99,
+    "text": "Tío Se queda al ser La cosa Completamente callada Y por cierto Vais a tirar cordura, claro Estaba yo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2713.05,
+    "end": 2715.33,
+    "text": "esperando A ver si fallo otra vez Fallo 62"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2715.35,
+    "end": 2718.75,
+    "text": "Fallo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2718.77,
+    "end": 2719.03,
+    "text": "también"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2719.23,
+    "end": 2719.47,
+    "text": "A ver si lo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2719.49,
+    "end": 2723.61,
+    "text": "encuentro Si"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2723.68,
+    "end": 2727.66,
+    "text": "es que una vez te cae la cordura Ya Es muy difícil"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2730.08,
+    "end": 2733.94,
+    "text": "¿Nadie cogió insecticidas? ¿A nadie se le ocurrió? ¿Un cucal o algo?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2733.98,
+    "end": 2734.32,
+    "text": "Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2734.34,
+    "end": 2734.6,
+    "text": "pues, a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2734.62,
+    "end": 2755.6,
+    "text": "ver. A ver, que no encuentro. No, pero tenemos un quinque con fuego. Ya no. Sí, para ver por ahí dentro habrá que haberlo encendido. Pero no llegará a todos los sitios la luz por dentro. Habrá que traerlo encendido. Y más si vas a abrir un escobero que no va a entrar la luz por ningún sitio."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2756.86,
+    "end": 2795.23,
+    "text": "Bueno, pues a ver, la tirada... de cordura vale, pues un dado de 6 puntos de cordura que perdéis porque la he fallado si son 5, manco es o vosotros estáis locatis bueno, pues ¿nos sumamos uno de mitos? sí los que han fallado los que han fallado, sois unos listos vale, pues ellos dos ves que se miran y salen corriendo entran por el comedor y echan a correr"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2795.25,
+    "end": 2796.37,
+    "text": "¿quiénes son ellos dos que han"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2796.41,
+    "end": 2828.76,
+    "text": "perdido? los que han fallado pues vale, pues los tres te dejan a ti solo en ese momento y el ser este te mira de una manera bastante extraña y tienes que hacer una tirada de una tirada de poder pues"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2829.56,
+    "end": 2830.46,
+    "text": "éxito extremo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2831.5,
+    "end": 2881.89,
+    "text": "pues ves que empieza a murmurar sientes como una presencia una especie de manos fantasma las que empiezan como a agarrarte el alma No entiendo lo que dices. Pero consigues salir de allí. Sales corriendo también detrás de esto, estáis los dos en el... entráis en el salón y cuando estáis ahí se rompen los cristales de una ventana y ves como el ser que estaba detrás parece como que pega unos increíbles saltos, ha saltado fuera y de repente salta adentro cortando totalmente. Podéis volver atrás pero se mete otra vez entre vosotros. Vamos a ir en orden de destreza, ¿vale? Entonces, este ser tiene destreza 16... Perdón, 16... 80. Exactamente, 80. Porque"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2881.91,
+    "end": 2883.91,
+    "text": "tengo yo lo mismo, 80, 40, 16. Vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2885.35,
+    "end": 2887.39,
+    "text": "Pues 80 tiene. ¿Alguien tiene más?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2888.15,
+    "end": 2888.53,
+    "text": "No."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2889.01,
+    "end": 2890.93,
+    "text": "Vale. Pues podrías actuar tú primero."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2891.55,
+    "end": 2901.57,
+    "text": "Vale, pues... Levanto la escopeta y disparo, aunque es muy complicado porque solo tengo un 25, pero oye. Pues venga, inténtalo. Cosas más raras han visto."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2904.35,
+    "end": 2975.53,
+    "text": "¡Fallo! Casi sale el cero. Vale, hay que decirme siempre eso, ¿eh? Si total fallo, total fallado. Pues nada, tú te levantas y cuando levantas el arma hace... Y se lanza a por ti. Te da con sus garras estas de látigo que tiene y te hace... 11 puntos de daño. Te clava... Estoy muerto. Vale, no estás muerto todavía. Estás moribundo. Vale, le veis que le clava estos pedúnculos que tenía con un pincho. Le entra por el costado. Exactamente. Le sale por el otro lado. Sale sangre. El mercadeo... Temblando. Y pues está... Y está bastante fastidiado. Parece ser que es una... Y ha limpiado todo lo que cabe. No le ha debido tocar ningún órgano vital. Pero está bien. Vale, entonces... El bicho hace eso, después se gira para ti, que eres el otro que tiene un arma, y va a atacar. En este juego se puede esquivar o contraatacar. Esquivar siempre es más fácil que contraatacar, lo que pasa es que contraatacar te permite hacer daño si aciertas. Entonces, ¿qué vas a hacer?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2975.55,
+    "end": 2979.64,
+    "text": "¿Cuál es la dificultad de cada cosa? O sea, yo tiro, ¿quién tira?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2979.66,
+    "end": 2988.48,
+    "text": "Tú tiras, si tiras esquivar, tiras esquivar, dodge, y si tiras atacar, tiras tu habilidad de armas, el porcentaje que tengas en gun o como ponga ahí pistola, lo que sea."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2989.26,
+    "end": 2990.44,
+    "text": "50 en"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2990.54,
+    "end": 3008.11,
+    "text": "handgun y 65 en dodge lo que pasa es que para esquivar con sacar lo mismo te vale el mismo tipo de éxito pero para contratatar tienes que sacar un éxito superior al que yo saque siempre es más difícil dar lo único que se irá a escalar es dar entonces vas a esquivar o vas a contraatacar"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3008.29,
+    "end": 3008.67,
+    "text": "voy a esquivar"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3009.47,
+    "end": 3028.59,
+    "text": "muy bien 39 que es un éxito vale bueno, perdón éxito medio vale, pues lo esquivas, se lanza por ti con sus"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3028.61,
+    "end": 3030.57,
+    "text": "mandíbulas"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3030.63,
+    "end": 3043.69,
+    "text": "es difícil vale, pues se lanza y él pone los restos de la mesa entre medias se estampa contra la mesa que se mueve hacia un lado, tienes que saltar para esquivarla y ahora le toca el siguiente en destreza, vosotros tres"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3044.41,
+    "end": 3045.01,
+    "text": "tengo 30, 70, 45"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3045.33,
+    "end": 3046.75,
+    "text": "pues te toca a ti"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3048.28,
+    "end": 3055.37,
+    "text": "Ah, que haga algo. Intento curarle algo, si tiene la herida o algo. Vale, tú"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3055.39,
+    "end": 3068.65,
+    "text": "te acercas y puedes hacer primeros auxilios, first aid. Ves que a pesar de todo, si consigues taponarle la herida, no se va a morir. Pues tira primeros auxilios,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3068.69,
+    "end": 3073.89,
+    "text": "first aid. Pongo ya 0-0-8."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3073.93,
+    "end": 3096.62,
+    "text": "Bueno, pues te estabilizas, ¿vale? y ganas un punto de vida te quedas con un punto de vida y estás estabilizado estás consciente incluso porque ha sido pues eso le vendas y tú reaccionas ahí cuando este se está manipulando y bueno pues ves al bicho este lanzándose sobre el otro y te tocaría a ti de disparo vale"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3098.16,
+    "end": 3104.41,
+    "text": "tengo un 50 que es un 30 que es un éxito nada normal"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3105.9,
+    "end": 3114.66,
+    "text": "Un éxito normal, vale, pues le das, él se acercaba hacia ti, otra vez con intención de morderte, pero le pegas en el pecho, pues tira el daño. Un de"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3114.72,
+    "end": 3120.73,
+    "text": "10, que son 2 puntos de daño. Vale. Ataques"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3122.57,
+    "end": 3136.43,
+    "text": "pone 3. Ah, bueno, tenéis que haber atacado antes, pero bueno, digamos que os ha pillado un poco por sorpresa. Vale, pues ves que las postas le rebotan completamente en el caparazón. Vale, voy a dejarte que hagas el otro que debería haber hecho antes."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3138.61,
+    "end": 3144.59,
+    "text": "Que es un 12, que esto sí que es un éxito... Es un éxito difícil."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3144.91,
+    "end": 3147.93,
+    "text": "Muy bien, pues le das de nuevo, se va acercando y este..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3148.31,
+    "end": 3149.69,
+    "text": "Y son otros dos puntos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3150.27,
+    "end": 3158.91,
+    "text": "Vale, y ves que las balas las puestas le rebotan completamente en el caparazón guitinoso. Te toca."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3159.8,
+    "end": 3164.59,
+    "text": "pues dado que con las balas no hacemos nada voy a ver si le puedo clavar un cuchillo en el ojo porque"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3167.13,
+    "end": 3182.5,
+    "text": "tengo más posibilidades de dar con el cuchillo que de activar 34 y voy nada fallo fallas es un fallo ¿cuántos tienes en cuchillo? 25"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3185.45,
+    "end": 3195.71,
+    "text": "Pues cuando tú te acercas, lo que sientes es como que te clava uno de los pedúnculos que tiene el ser y te hace nueve puntos de daño. Pues me ha"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3196.53,
+    "end": 3197.73,
+    "text": "matado."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3197.75,
+    "end": 3198.91,
+    "text": "¿Estás a cero igual? No,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3199.15,
+    "end": 3200.31,
+    "text": "estoy a menos uno."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3200.33,
+    "end": 3201.95,
+    "text": "Teníamos herida de antes."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3202.33,
+    "end": 3203.49,
+    "text": "Vale, pero ninguno tenía la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3203.51,
+    "end": 3214.97,
+    "text": "herida marcada, ¿verdad? No. Vale, pues nada, se clava, te atraviesa el muslo, le das un grito ahí... Te caes al suelo. Hace una tirada de constitución."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3220.51,
+    "end": 3221.99,
+    "text": "Ustedes son 65. Uy, fallo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3222.01,
+    "end": 3241.08,
+    "text": "Fallas y ves que, perdida ahí, que esa sangre le ha perforado la arteria, se desmaya. Pega un grito. Oís como pajitos ahí, por la casa. Se mueven. Te queda otro tiro, si quieres. se hacen como diferentes iniciativas no"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3241.1,
+    "end": 3243.9,
+    "text": "puede hacer nada que no sea un tiro"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3244.74,
+    "end": 3246.62,
+    "text": "si claro, no puede hacer nada que no sea un tiro pues tiro"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3248.94,
+    "end": 3253.42,
+    "text": "que es un 10 eso si que es un éxito extremo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3253.72,
+    "end": 3259.88,
+    "text": "muy bien, pues vamos a decir que tiras el doble de daño, vale? dos dobles de 10"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3262.0,
+    "end": 3263.64,
+    "text": "que son 11 puntos de daño"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3263.66,
+    "end": 3290.8,
+    "text": "vale, pues ves que por primera vez le revientas un poquito parte del caparazón del hombro y sale una especie de líquido ahí, purulento. Os voy a tocar y si vas a disparar te toca a ti, porque tendrías un más de 50 de iniciativa. ¿Cuál es tu primer tiro? Me quedan dos balas. Se acerca, el bicho se va acercando a ti, ¿vale? Es un 26, que le doy... Es un éxito normal."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3291.0,
+    "end": 3291.78,
+    "text": "Es un éxito normal."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3291.96,
+    "end": 3313.6,
+    "text": "Vale, pues no le das. Uno. Cuando le vas a ir, el tipo ya se acerca con uno de sus brazos, te coge la escopeta, la sube para arriba y te muerde. Y te muerde. Perdón, la pistola. Y te muerde. ¿Vale? Y te hace... 9 puntos de daño. Es que te muerde y en el cuello es de..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3316.63,
+    "end": 3319.19,
+    "text": "En"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3319.21,
+    "end": 3319.33,
+    "text": "fin."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3321.3,
+    "end": 3347.26,
+    "text": "Te toca. Saco el flashazo e intento darle un flashazo a los ojos, a ver si así le dejo atontado y podemos aprovechar para irnos corriendo. Te tendrías que acercar y ponerte delante. Y desde lejos si le digo, eh, tú, aquí, para que se gire."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3347.28,
+    "end": 3354.92,
+    "text": "Pues, no sé, es si es un extremo en encanto o que... En principio, no, parece que te esté haciendo caso. Pues,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3355.82,
+    "end": 3359.17,
+    "text": "digo, bueno, me voy. Sale subiendo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3360.27,
+    "end": 3361.47,
+    "text": "Vale, pues sales ahí rankeando. Pero"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3361.51,
+    "end": 3361.71,
+    "text": "hay que"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3361.73,
+    "end": 3370.72,
+    "text": "ayudar. Gracias. Si ella está inconsciente en el suelo. Por donde sales, por la puerta, por la vez, etcétera, ¿no? Que está abierta y está... Y la ventana"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3370.78,
+    "end": 3374.54,
+    "text": "está rota. También está rota. Por la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3374.58,
+    "end": 3406.81,
+    "text": "puerta. Por la puerta. Muy bien. Vale, pues le toca al ser, que está encima de ti. Adiós. Y, pues, intenta seguir. Puedes esquivar, ¿eh? Sí, sí, dos, dos. ¿Qué es lo paso? ¿Es un éxito normal? Normal y corriente. Vale, perfecto. Pues lo esquivas, ¿vale? Te alejas, te iba a pegar otro mordisco, pero consigues alejarte de ahí, dar unos pasos para atrás. Y te toca."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3407.79,
+    "end": 3408.24,
+    "text": "Voy a intentar"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3408.34,
+    "end": 3409.14,
+    "text": "estabilizar la"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3409.53,
+    "end": 3410.44,
+    "text": "taquenadilla. Vas ahí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3410.48,
+    "end": 3410.66,
+    "text": "Ay, Dios"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3410.68,
+    "end": 3422.95,
+    "text": "mío. A ver si le puedes vendar el micro. Me cura mejor que yo. Ah, no. Vale, pues le haces un vendaje, le paras la hemorragia, sabes que no va a morir, pero no consigues que... Se puede empezar a tirar"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3423.73,
+    "end": 3424.29,
+    "text": "de ella."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3424.31,
+    "end": 3436.56,
+    "text": "Eso sí, la puedes coger y te puedes ir con ella. ¿Tú has pegado? ¿Cuántos tiros? Solo uno, vale. Pues ahora va el segundo y el tercero que puedes hacer."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3440.17,
+    "end": 3446.74,
+    "text": "Es 0-0-2, que es un éxito crítico. Pues lo mismo, todos los dados. Muy bien. Que son 7 puntos de daño."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3447.22,
+    "end": 3448.08,
+    "text": "Rebota en su caparazón."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3453.36,
+    "end": 3456.16,
+    "text": "Y estos son 51, que fallo por 1."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3456.78,
+    "end": 3474.32,
+    "text": "Vale. Ay, por cierto, se me ha olvidado. Y me quedo sin munición. Fallas por 1. Vale, pues nada. Pues fallas por 1. Pues te da. Cuando le pegas el tiro rebota y ya se acerca, se lanza y te clava otro de sus anijones y te hace 6 puntos de daño."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3474.72,
+    "end": 3475.46,
+    "text": "No hay 2 aquí, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3476.62,
+    "end": 3481.2,
+    "text": "No, porque él estaba contraatacando. Vale, pues caes al suelo también. Este"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3482.08,
+    "end": 3483.16,
+    "text": "menos 1. Vale,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3483.28,
+    "end": 3491.19,
+    "text": "nos hayan cero. Tú te estabas yendo con ella, pero ves que él ha caído. ¿Qué haces? Ella está inconsciente."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3491.37,
+    "end": 3492.37,
+    "text": "Voy con ella."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3492.41,
+    "end": 3498.23,
+    "text": "Vale. Salís para afuera. Vale. Pues ves que este está en el coche. Ahí..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3498.27,
+    "end": 3502.97,
+    "text": "La idea es encenderlo y llevarlo hasta la casa y con las luces hacia la ventana."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3503.47,
+    "end": 3517.7,
+    "text": "Vale. Muy bien. Pues vas para allá, salís, ves que está en el coche y ves que gira, se va para la ventana, lo pones ahí, enfocas las luces y bueno, pues ves con la luz, ves como el bicho se dispone a comérselo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3518.37,
+    "end": 3523.07,
+    "text": "Pi, pi, pi. Empiezo a hacer ruido, a ver si me presto atención."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3523.09,
+    "end": 3527.09,
+    "text": "Muy bien, pues sí, el bicho va hacia ti. También"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3527.19,
+    "end": 3530.16,
+    "text": "ha saltado antes al exterior, entonces le ha dado la luz del sol. Exactamente."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3530.64,
+    "end": 3541.72,
+    "text": "Pues el bicho, de hecho, salta a atacarte. ¿Qué vas a hacer? ¿Vas a intentar esquivar? O si quieres que tomes el motor en marcha, puedes hacer conducir para intentar hacer una maniobra. En conducir te daría el doble. Es decir, el doble de lo que tengas en conducir."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3541.96,
+    "end": 3546.43,
+    "text": "Vale, tengo 30, sería 60, pues intento conducir. Muy bien. Venga, intento atropellarle."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3547.46,
+    "end": 3547.56,
+    "text": "Ah,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3547.58,
+    "end": 3554.97,
+    "text": "espera, ¿atropellarle o esquivarle? Ah, vale. ¿Es contraatacar o esquivar? No, pues esquivar, esquivar, esquivar. Este bicho no se puede uno..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3554.99,
+    "end": 3556.67,
+    "text": "¿Qué éxito sacas? ¿Qué tipo de éxito"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3556.69,
+    "end": 3557.53,
+    "text": "sacas? Pues normal."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3558.25,
+    "end": 3587.33,
+    "text": "Vale, pues el bicho atraviesa el cristal y te agarra. ¿Vale? Te pega y te atraviesa con... Te atraviesa con... Te atraviesa con el pecho. ¿Ves cómo sale por detrás de ti? Te hace... Bueno, da igual porque tenías uno, ¿no? Entonces da un poco igual. Vale, pues... ¿Qué hacéis? Le veis a este que le ha atravesado. Con ella."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3587.37,
+    "end": 3588.27,
+    "text": "Vale,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3588.85,
+    "end": 3589.21,
+    "text": "entonces, ¿qué"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3589.23,
+    "end": 3592.8,
+    "text": "haces? Bueno, te toca a ti,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3592.86,
+    "end": 3598.04,
+    "text": "¿no? Ah, bueno, tú estás ahí. Bueno, ella está con ella, él está tomado en el suelo, sangrándose, él está ahí."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3599.02,
+    "end": 3602.94,
+    "text": "Intento dejarla lo más apartado posible para que no le vea."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3603.73,
+    "end": 3617.77,
+    "text": "O sea, te vas ahí como a los arbustos y le dejas detrás de unos arbustos, ¿cómo va a ser? La escondo, sí. Vale, la escondes detrás de unos arbustos, muy bien. El bicho, pues le ves que sale, pues está ahí, está detrás de los arbustos. Tú estás también detrás de los arbustos, ¿qué haces?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3619.13,
+    "end": 3620.85,
+    "text": "Hombre, estoy quieto a ver qué hace"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3622.71,
+    "end": 3624.11,
+    "text": "él. Quieto a ver qué hace él, pues... Sí,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3624.13,
+    "end": 3626.75,
+    "text": "porque él me ha dicho que está mirando, que él no... Sí,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3626.79,
+    "end": 3635.89,
+    "text": "sí, en principio está solo, pues solisqueando. Se acercan los arbustos donde tú estás. ¿Qué haces?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3638.44,
+    "end": 3642.5,
+    "text": "Tengo... No tengo nada de... Bueno, ahora no te ha"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3642.54,
+    "end": 3654.89,
+    "text": "visto, ¿no? Se está acercando. Yo en principio estoy totalmente quieto. Vale, está totalmente quieto. El tipo se acerca más, está justo al lado. Empieza ahí a dar gritos con sus tentáculos por ahí. ¿Haces algo?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3655.39,
+    "end": 3659.51,
+    "text": "No tengo nada de... ¿Algún mechel o algo? Si quieres."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3660.22,
+    "end": 3661.42,
+    "text": "¿Y el team que se"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3661.46,
+    "end": 3674.06,
+    "text": "ha caído dentro cuando no se ha caído alguno de los hermanos? Se ha apagado. Tiro el mechero lejos para la otra punta. Ni para ellos. Pues tira"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3674.26,
+    "end": 3699.14,
+    "text": "throw y lanzar. A ver cómo te sale esto. 0-0-8. Lo lanzas y ves que el bicho hace y se lanza a donde ha caído el mechero. No puede haber caído muy lejos, pero detrás de otros matorrales y... ¿Qué haces?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3699.16,
+    "end": 3704.24,
+    "text": "¿Cómo sé de...? O sea, el coche no hay, porque el coche... ¿Llegaría el coche yo?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3704.76,
+    "end": 3705.86,
+    "text": "Eh, sí, ahora mismo está. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3705.88,
+    "end": 3708.34,
+    "text": "pues intento llegar al coche y se puede llevármelo a ella y nos vamos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3708.76,
+    "end": 3711.25,
+    "text": "Muy bien, pues tira discreción, a ver si él no se da cuenta."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3711.27,
+    "end": 3712.81,
+    "text": "¿Discreción, no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3712.89,
+    "end": 3713.45,
+    "text": "Esto es..."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3716.02,
+    "end": 3718.33,
+    "text": "Pues yo creo que sí se"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3718.35,
+    "end": 3738.28,
+    "text": "da cuenta. Soy de sobra. Vale. Tú vas para allá, llegas al coche, lo abres, está este muerto, o que está muerto, ahí, en el este, ves a este en el suelo, sigue vivo, pero está bastante fastidiado, y ves que el bicho, pues, sale y pega uno de esos saltos y se queda al lado del coche. ¿Qué haces?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3739.19,
+    "end": 3741.13,
+    "text": "Intentar conducir, arrancar el"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3741.19,
+    "end": 3746.95,
+    "text": "coche e irme. Has tirado a esta encima, te sube del coche, tira, pues él se lanza por ti, pues tú tira a conducir."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3747.35,
+    "end": 3747.57,
+    "text": "Vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3748.88,
+    "end": 3753.12,
+    "text": "Igual, te doy conducir por dos, porque evidentemente es más fácil. ¿Le vas en vestido o te vas a intentar? No, me"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3753.14,
+    "end": 3760.32,
+    "text": "voy, me voy. 16. ¿Éxito o qué? Éxito, yo creo que es difícil, porque tengo 40 y 16. Éxito"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3760.38,
+    "end": 3762.27,
+    "text": "difícil, vale, pues él se lanza. ¿40 de normal"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3762.29,
+    "end": 3762.77,
+    "text": "o 40 con el"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3762.79,
+    "end": 3764.87,
+    "text": "doble? 40 con el doble."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3765.17,
+    "end": 3821.02,
+    "text": "Vale, acepto. se lanza, consigues esquivarlo, se estrella contra la casa, en ese momento ya pillas carretera, te vas para atrás y chupas con otro salto, pero el coche, a pesar de ser un coche de los años 20, es más rápido, ¿vale? En el asiento de al lado está el cadáver de este y ya está tirada encima, Alex tirada encima del cadáver del otro, que la empapa de sangre y nada, pues nada, miras para el espejo de otro visor, lo último que ves es como pega otro de esos saltos, vuelve a aparecer Evidentemente llega muy lejos En este caso no cobra vueltas Y te pierdes en la distancia ¿Qué ocurrirá después de este evento? ¿Podrán los investigadores volver? ¿Habrá nuevos personajes? ¿O aquí se termina la mansión de la locura? Solo lo podremos saber en el siguiente vídeo ¡Adiós!"
+  }
+]
