@@ -12,7 +12,13 @@ from typing import Any
 import pandas as pd
 import plotly.graph_objects as go
 
-from dashboard.visualizations.timeline_stream import parse_timestamp_seconds
+try:
+    from dashboard.visualizations.timeline_stream import parse_timestamp_seconds
+except ImportError:
+    try:
+        from visualizations.timeline_stream import parse_timestamp_seconds
+    except ImportError:
+        from .timeline_stream import parse_timestamp_seconds
 
 
 def wrap_text(text: str, width: int = 55) -> str:
