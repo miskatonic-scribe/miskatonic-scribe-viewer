@@ -40,6 +40,12 @@ try:
     from dashboard.visualizations.tension import render_tension_chart
     from dashboard.visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
     from dashboard.visualizations.offtopic import render_immersion_tab, render_offtopic_chart
+    from dashboard.visualizations.investigator_stats import (
+        build_session_investigator_stats,
+        build_campaign_investigator_stats,
+        render_session_investigator_table,
+        render_campaign_investigator_scoreboard,
+    )
     from dashboard import navigation
 except ImportError:
     from visualizations.swimlane import (
@@ -56,6 +62,12 @@ except ImportError:
     from visualizations.tension import render_tension_chart
     from visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
     from visualizations.offtopic import render_immersion_tab, render_offtopic_chart
+    from visualizations.investigator_stats import (
+        build_session_investigator_stats,
+        build_campaign_investigator_stats,
+        render_session_investigator_table,
+        render_campaign_investigator_scoreboard,
+    )
     import navigation
 
 from core import paths
@@ -528,6 +540,30 @@ def load_campaign_milestones(campaign_id: str) -> list[dict[str, Any]]:
     return [dict(r) for r in cursor.fetchall()]
 
 
+@st.cache_data
+def load_campaign_investigator_stats(campaign_id: str) -> dict[str, Any]:
+    """Carga y agrega las métricas numéricas por investigador de toda la campaña (Spec 19)."""
+    episodes = load_campaign_sessions(campaign_id)
+    if not episodes:
+        return {"investigators": {}, "awards": {}}
+
+    session_stats_list: list[dict[str, Any]] = []
+    for ep in episodes:
+        sid = ep["id"]
+        details = load_session_details(sid)
+        if not details:
+            continue
+        chars = details.get("characters", [])
+        se = load_sanity_events(sid)
+        cl = load_clues(sid)
+        cr = load_critical_rolls(sid)
+        ce = load_combat_events(sid)
+        s_stats = build_session_investigator_stats(chars, se, cl, cr, ce)
+        session_stats_list.append(s_stats)
+
+    return build_campaign_investigator_stats(session_stats_list)
+
+
 import textwrap
 
 def wrap_text(text: str, width: int = 55) -> str:
@@ -667,10 +703,11 @@ def render_campaign_global_view(campaign_id: str) -> None:
     st.divider()
 
     # 3. Pestañas Analíticas Multi-Episodio
-    tab_tension, tab_immersion, tab_airtime, tab_sanity, tab_clues, tab_episodes = st.tabs([
+    tab_tension, tab_immersion, tab_airtime, tab_scoreboard, tab_sanity, tab_clues, tab_episodes = st.tabs([
         "📈 La Gran Curva de Tensión",
         "🎭 Atmósfera & Inmersión",
         "⚖️ Balance de Mesa y Protagonismo",
+        "🏆 Cuadro de Honor y Desgracia",
         "🧠 Desgaste Psicológico (Traumas)",
         "🗺️ Crónica de Pistas e Hitos",
         "🎬 Índice de Capítulos",
@@ -706,6 +743,10 @@ def render_campaign_global_view(campaign_id: str) -> None:
             st.plotly_chart(donut_fig, width="stretch")
         with col_bar:
             st.plotly_chart(bar_fig, width="stretch")
+
+    with tab_scoreboard:
+        scoreboard_data = load_campaign_investigator_stats(campaign_id)
+        render_campaign_investigator_scoreboard(st, scoreboard_data, camp_name)
 
     with tab_sanity:
         st.markdown("#### 🧠 Historial de Pérdidas de Cordura y Secuelas Mentales")
@@ -955,6 +996,13 @@ def render_session_view(
 
     st.divider()
 
+    # Cargar eventos narrativos y mecánicos comunes (Spec 17 & 19)
+    sanity_events = load_sanity_events(selected_id)
+    clues = load_clues(selected_id)
+    milestones = load_milestones(selected_id)
+    critical_rolls = load_critical_rolls(selected_id)
+    combat_events = load_combat_events(selected_id)
+
     # Pestañas analíticas principales
     tab_tension, tab_dynamics, tab_offtopic, tab_chronicle = st.tabs([
         "📈 Curva de Tensión Dramática",
@@ -965,12 +1013,6 @@ def render_session_view(
 
     # PESTAÑA 1: Tensión Dramática
     with tab_tension:
-        sanity_events = load_sanity_events(selected_id)
-        clues = load_clues(selected_id)
-        milestones = load_milestones(selected_id)
-        critical_rolls = load_critical_rolls(selected_id)
-        combat_events = load_combat_events(selected_id)
-
         fig_tension = render_tension_chart(
             metrics,
             sanity_events=sanity_events,
@@ -1071,6 +1113,16 @@ def render_session_view(
         df_display.columns = ["Jugador", "Personaje", "Rol", "Segundos Habla", "Airtime %"]
         df_display["Minutos Habla"] = (df_display["Segundos Habla"] / 60).round(1)
         st.dataframe(df_display[["Jugador", "Personaje", "Rol", "Minutos Habla", "Airtime %"]], hide_index=True, width="stretch")
+
+        # Nivel 4: Métricas Numéricas por Investigador (Stats Puros - Spec 19)
+        session_investigator_stats = build_session_investigator_stats(
+            characters=characters,
+            sanity_events=sanity_events,
+            clues=clues,
+            critical_rolls=critical_rolls,
+            combat_events=combat_events,
+        )
+        render_session_investigator_table(st, session_investigator_stats)
 
     # PESTAÑA 3: Inmersión & Atmósfera de Mesa (Spec 17 / US4)
     with tab_offtopic:
