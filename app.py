@@ -129,8 +129,16 @@ def get_db_connection() -> sqlite3.Connection:
     return conn
 
 
-@st.cache_data
-def load_available_sessions() -> list[dict[str, Any]]:
+def get_db_mtime() -> float:
+    """Devuelve el timestamp de modificación del fichero SQLite para auto-invalidar la caché."""
+    try:
+        return DB_PATH.stat().st_mtime if DB_PATH.exists() else 0.0
+    except Exception:
+        return 0.0
+
+
+@st.cache_data(ttl=300)
+def load_available_sessions(db_mtime: float = 0.0) -> list[dict[str, Any]]:
     """Obtiene la lista de sesiones disponibles en partidas.db con sus metadatos."""
     if not DB_PATH.exists():
         return []
@@ -313,8 +321,8 @@ def load_combat_events(session_id: str) -> list[dict[str, Any]]:
 # CARGADORES DE CAMPAÑA (Spec 15 / T001)
 # ==============================================================================
 
-@st.cache_data
-def load_campaigns() -> list[dict[str, Any]]:
+@st.cache_data(ttl=300)
+def load_campaigns(db_mtime: float = 0.0) -> list[dict[str, Any]]:
     """Obtiene todas las campañas registradas con conteo de episodios y duración."""
     if not DB_PATH.exists():
         return []
@@ -637,7 +645,7 @@ def render_airtime_charts(session: dict[str, Any], characters: list[dict[str, An
 
 def render_campaign_global_view(campaign_id: str) -> None:
     """Renderiza el tablero macro-analítico de la campaña completa (Spec 15 / US2, US3)."""
-    campaigns = load_campaigns()
+    campaigns = load_campaigns(get_db_mtime())
     camp_meta = next((c for c in campaigns if c["id"] == campaign_id), None)
     if not camp_meta:
         st.error(f"Campaña '{campaign_id}' no encontrada.")
@@ -1170,12 +1178,13 @@ def main() -> None:
     st.markdown('<div class="main-title">🐙 Miskatonic Scribe — Analíticas de Partidas</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">Plataforma empírica de ritmo dramático, inmersión y dinámicas de mesa para <i>La Llamada de Cthulhu</i>.</div>', unsafe_allow_html=True)
 
-    all_sessions = load_available_sessions()
+    db_mtime = get_db_mtime()
+    all_sessions = load_available_sessions(db_mtime)
     if not all_sessions:
         st.warning("⚠️ No se encontraron partidas en `partidas.db`. Asegúrate de ejecutar `python -m pipeline.cli run`.")
         return
 
-    campaigns = load_campaigns()
+    campaigns = load_campaigns(db_mtime)
 
     # Construcción de la jerarquía de navegación y gestión de estado (Spec 16 / US1)
     tree = navigation.build_navigation_tree(campaigns, all_sessions)
