@@ -33,6 +33,7 @@ try:
     )
     from dashboard.visualizations.campaign_tension import render_campaign_tension_chart
     from dashboard.visualizations.campaign_airtime import render_campaign_airtime_charts
+    from dashboard import navigation
 except ImportError:
     from visualizations.swimlane import (
         build_speaker_metadata,
@@ -41,6 +42,7 @@ except ImportError:
     )
     from visualizations.campaign_tension import render_campaign_tension_chart
     from visualizations.campaign_airtime import render_campaign_airtime_charts
+    import navigation
 
 from core import paths
 
@@ -961,19 +963,19 @@ def render_session_view(
                 btn_prev_disabled = curr_idx == 0
                 if st.button("⬅ Anterior", key=f"nav_prev_{selected_id}", disabled=btn_prev_disabled, width="stretch", help="Ir al episodio anterior"):
                     prev_sid = session_ids[curr_idx - 1]
-                    st.session_state["dashboard_selected_episode_id"] = prev_sid
+                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=prev_sid)
                     st.rerun()
 
             with c_home:
                 if st.button("🗺️ Ver Campaña", key=f"nav_home_{selected_id}", width="stretch", help="Volver a la macro-visión global de la campaña"):
-                    st.session_state["dashboard_mode_radio"] = "🗺️ Visión Global de la Campaña"
+                    navigation.set_nav_target(st.session_state, navigation.NAV_CAMPAIGN, campaign_id=campaign_info.get("id"))
                     st.rerun()
 
             with c_next:
                 btn_next_disabled = curr_idx == total_eps - 1
                 if st.button("Siguiente ➡", key=f"nav_next_{selected_id}", disabled=btn_next_disabled, width="stretch", help="Ir al episodio siguiente"):
                     next_sid = session_ids[curr_idx + 1]
-                    st.session_state["dashboard_selected_episode_id"] = next_sid
+                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=next_sid)
                     st.rerun()
 
         st.markdown("<div style='margin-bottom: 0.4rem;'></div>", unsafe_allow_html=True)
@@ -1346,32 +1348,17 @@ def render_session_view(
                     st.markdown("**📖 Estado de la Trama:**")
                     st.write(b["story_state"])
 
-    # 2. Navegación Secuencial al pie del episodio (Spec 15 / US4)
+    # 2. Navegación Secuencial al pie del episodio (Spec 16 / US2)
     if campaign_info and all_campaign_sessions and total_eps > 1:
-        st.divider()
-        col_f_left, col_f_mid, col_f_right = st.columns([1.5, 2, 1.5], vertical_alignment="center")
-        with col_f_left:
-            if curr_idx > 0:
-                prev_ep = all_campaign_sessions[curr_idx - 1]
-                prev_order = prev_ep.get("episode_order") or curr_idx
-                raw_prev_title = prev_ep.get("title") or prev_ep["id"]
-                short_prev = (raw_prev_title[:20] + "...") if len(raw_prev_title) > 23 else raw_prev_title
-                if st.button(f"⬅ Ep. {prev_order}: {short_prev}", key=f"foot_prev_{selected_id}", width="stretch"):
-                    st.session_state["dashboard_selected_episode_id"] = prev_ep["id"]
-                    st.rerun()
-        with col_f_mid:
-            if st.button("🗺️ Volver al Tablero de la Campaña", key=f"foot_home_{selected_id}", width="stretch"):
-                st.session_state["dashboard_mode_radio"] = "🗺️ Visión Global de la Campaña"
-                st.rerun()
-        with col_f_right:
-            if curr_idx < total_eps - 1:
-                next_ep = all_campaign_sessions[curr_idx + 1]
-                next_order = next_ep.get("episode_order") or (curr_idx + 2)
-                raw_next_title = next_ep.get("title") or next_ep["id"]
-                short_next = (raw_next_title[:20] + "...") if len(raw_next_title) > 23 else raw_next_title
-                if st.button(f"Ep. {next_order}: {short_next} ➡", key=f"foot_next_{selected_id}", width="stretch", type="primary"):
-                    st.session_state["dashboard_selected_episode_id"] = next_ep["id"]
-                    st.rerun()
+        foot_target = navigation.render_episode_pagination_footer(
+            st,
+            selected_id,
+            campaign_info.get("id"),
+            tree=navigation.build_navigation_tree([campaign_info], all_campaign_sessions),
+        )
+        if foot_target:
+            navigation.set_nav_target(st.session_state, **foot_target)
+            st.rerun()
 
 
 def main() -> None:
@@ -1384,90 +1371,68 @@ def main() -> None:
         return
 
     campaigns = load_campaigns()
-    orphan_sessions = [s for s in all_sessions if not s.get("campaign_id")]
 
-    # Opciones de selección de campaña
-    camp_options: dict[str, str] = {}
-    for c in campaigns:
-        camp_options[c["id"]] = f"🏰 {c['name']} ({c['episode_count']} eps)"
-    if orphan_sessions or not campaigns:
-        camp_options["__oneshots__"] = f"🎲 Partidas Sueltas / One-Shots ({len(orphan_sessions)})"
+    # Construcción de la jerarquía de navegación y gestión de estado (Spec 16 / US1)
+    tree = navigation.build_navigation_tree(campaigns, all_sessions)
+    default_camp = campaigns[0]["id"] if campaigns else None
+    current_target = navigation.init_navigation(st.session_state, default_campaign_id=default_camp)
+
+    # 1. Árbol de navegación interactivo en la barra lateral
+    new_selection = navigation.render_navigation_tree(st, tree, current_target)
+    if new_selection:
+        navigation.set_nav_target(st.session_state, **new_selection)
+        st.rerun()
 
     with st.sidebar:
-        st.header("🗂️ Explorador Narrativo")
-
-        camp_keys = list(camp_options.keys())
-        selected_campaign_id = st.selectbox(
-            "Campaña o Colección:",
-            options=camp_keys,
-            format_func=lambda cid: camp_options[cid],
-            key="dashboard_campaign_select",
-        )
-
-        is_oneshots = selected_campaign_id == "__oneshots__"
-
-        # 2. Selector de Modo de Visualización (si es una campaña)
-        if not is_oneshots:
-            mode_options = ["🗺️ Visión Global de la Campaña", "🎬 Ver Episodio Específico"]
-            selected_mode = st.radio(
-                "Modo de Visualización:",
-                options=mode_options,
-                key="dashboard_mode_radio",
-            )
-        else:
-            selected_mode = "🎬 Ver Episodio Específico"
-
-        # 3. Selector Secuencial de Episodio (condicional al modo)
-        selected_episode_id: str | None = None
-        current_episodes: list[dict[str, Any]] = []
-
-        if selected_mode == "🎬 Ver Episodio Específico":
-            if is_oneshots:
-                current_episodes = orphan_sessions
-            else:
-                current_episodes = load_campaign_sessions(selected_campaign_id)
-
-            if not current_episodes:
-                st.info("No hay episodios disponibles para esta selección.")
-            else:
-                def format_episode_label(video_id: str) -> str:
-                    ep_match = next((ep for ep in current_episodes if ep["id"] == video_id), None)
-                    if not ep_match:
-                        return video_id
-                    ep_num = ep_match.get("episode_order")
-                    prefix = f"[Ep. {ep_num}] " if ep_num is not None else ""
-                    raw_title = ep_match.get("title") or video_id
-                    short_title = (raw_title[:28] + "...") if len(raw_title) > 30 else raw_title
-                    return f"{prefix}{short_title}"
-
-                ep_ids = [ep["id"] for ep in current_episodes]
-                prev_id = st.session_state.get("dashboard_selected_episode_id")
-                initial_index = ep_ids.index(prev_id) if prev_id in ep_ids else 0
-
-                selected_episode_id = st.selectbox(
-                    "Selecciona el episodio:",
-                    options=ep_ids,
-                    index=initial_index,
-                    format_func=format_episode_label,
-                    key="dashboard_selected_episode_id",
-                )
-
         st.divider()
         if st.button("🔄 Recargar Base de Datos", width="stretch"):
             st.cache_data.clear()
             st.rerun()
-
         st.caption("Miskatonic Scribe v2.0 • SQLite + LLM")
 
-    # Renderizado condicional del cuerpo principal
-    if selected_mode == "🗺️ Visión Global de la Campaña" and not is_oneshots:
-        render_campaign_global_view(selected_campaign_id)
-    else:
-        if selected_episode_id:
-            camp_info = next((c for c in campaigns if c["id"] == selected_campaign_id), None) if not is_oneshots else None
-            render_session_view(selected_episode_id, camp_info, current_episodes)
+    # 2. Migas de Pan (Breadcrumbs) en la cabecera (Spec 16 / US2)
+    breadcrumbs_md = navigation.build_breadcrumbs(current_target, tree)
+    st.markdown(
+        f"<div style='background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); "
+        f"padding: 10px 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.95rem;'>"
+        f"{breadcrumbs_md}"
+        f"</div>",
+        unsafe_allow_html=True,
+    )
+
+    # 3. Enrutamiento del cuerpo principal por nivel de navegación
+    cur_level = current_target.get("level", navigation.NAV_GLOBAL)
+    cur_camp = current_target.get("campaign_id")
+    cur_sess = current_target.get("session_id")
+
+    if cur_level == navigation.NAV_GLOBAL:
+        # Portada del Archivo General (Spec 16 / US3)
+        archive_kpis = navigation.load_global_archive_kpis()
+        camp_select = navigation.render_global_archive_view(st, archive_kpis, tree["campaigns"])
+        if camp_select:
+            navigation.set_nav_target(st.session_state, **camp_select)
+            st.rerun()
+
+    elif cur_level == navigation.NAV_CAMPAIGN:
+        # Visión Global de la Campaña (Spec 15)
+        if cur_camp:
+            render_campaign_global_view(cur_camp)
         else:
-            st.info("Selecciona un episodio en la barra lateral para ver sus analíticas.")
+            st.info("Selecciona una campaña en el árbol lateral.")
+
+    elif cur_level == navigation.NAV_EPISODE:
+        # Visión Detallada del Episodio
+        if cur_sess:
+            camp_info = next((c for c in campaigns if c["id"] == cur_camp), None) if cur_camp else None
+            if cur_camp:
+                camp_match = next((c for c in tree["campaigns"] if c["id"] == cur_camp), None)
+                camp_episodes = camp_match["episodes"] if camp_match else []
+            else:
+                camp_episodes = tree["orphan_sessions"]
+
+            render_session_view(cur_sess, camp_info, camp_episodes)
+        else:
+            st.info("Selecciona un episodio en el árbol lateral para ver sus analíticas.")
 
 
 if __name__ == "__main__":
