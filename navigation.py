@@ -211,20 +211,19 @@ def render_navigation_tree(
     new_selection: dict[str, Any] | None = None
 
     with st.sidebar:
-        st.markdown("### 📜 Explorador de Aventuras")
-
-        # 1. Nodo Raíz: Registro General
+        # Nodo Raíz / Encabezado Interactivo
         is_global_active = cur_level == NAV_GLOBAL
-        global_label = "▶ 📜 Registro de Expediciones" if is_global_active else "📜 Registro de Expediciones"
+        global_label = "▶ 📜 Explorador de Aventuras" if is_global_active else "📜 Explorador de Aventuras"
         if st.button(
             global_label,
             key="nav_btn_global_archive",
             type="primary" if is_global_active else "secondary",
             width="stretch",
+            help="Volver a la portada y compendio general de aventuras",
         ):
             new_selection = {"level": NAV_GLOBAL, "campaign_id": None, "session_id": None}
 
-        st.markdown("---")
+        st.divider()
 
         # 2. Carpetas de Aventuras
         campaigns = tree.get("campaigns", [])
@@ -290,7 +289,7 @@ def build_breadcrumbs(
     cur_sess = current_target.get("session_id")
 
     if cur_level == NAV_GLOBAL:
-        return "🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 *Resumen General de Expediciones*"
+        return "🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 *Explorador de Aventuras*"
 
     # Buscar datos de campaña en el árbol
     camp_match = next((c for c in tree.get("campaigns", []) if c["id"] == cur_camp), None)
