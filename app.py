@@ -33,6 +33,10 @@ try:
     )
     from dashboard.visualizations.campaign_tension import render_campaign_tension_chart
     from dashboard.visualizations.campaign_airtime import render_campaign_airtime_charts
+    from dashboard.visualizations.campaign_immersion import (
+        build_campaign_immersion_data,
+        render_campaign_immersion_tab,
+    )
     from dashboard.visualizations.tension import render_tension_chart
     from dashboard.visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
     from dashboard.visualizations.offtopic import render_immersion_tab, render_offtopic_chart
@@ -45,6 +49,10 @@ except ImportError:
     )
     from visualizations.campaign_tension import render_campaign_tension_chart
     from visualizations.campaign_airtime import render_campaign_airtime_charts
+    from visualizations.campaign_immersion import (
+        build_campaign_immersion_data,
+        render_campaign_immersion_tab,
+    )
     from visualizations.tension import render_tension_chart
     from visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
     from visualizations.offtopic import render_immersion_tab, render_offtopic_chart
@@ -330,7 +338,7 @@ def load_campaign_sessions(campaign_id: str) -> list[dict[str, Any]]:
     cursor.execute(
         """
         SELECT id, title, channel, url, thumbnail_path, duration_seconds,
-               campaign_id, episode_order, analyzed_at, like_count
+               campaign_id, episode_order, analyzed_at, like_count, average_off_topic_pct
         FROM sessions
         WHERE campaign_id = ?
         ORDER BY COALESCE(episode_order, 9999) ASC, analyzed_at ASC, id ASC
@@ -659,8 +667,9 @@ def render_campaign_global_view(campaign_id: str) -> None:
     st.divider()
 
     # 3. Pestañas Analíticas Multi-Episodio
-    tab_tension, tab_airtime, tab_sanity, tab_clues, tab_episodes = st.tabs([
+    tab_tension, tab_immersion, tab_airtime, tab_sanity, tab_clues, tab_episodes = st.tabs([
         "📈 La Gran Curva de Tensión",
+        "🎭 Atmósfera & Inmersión",
         "⚖️ Balance de Mesa y Protagonismo",
         "🧠 Desgaste Psicológico (Traumas)",
         "🗺️ Crónica de Pistas e Hitos",
@@ -680,6 +689,14 @@ def render_campaign_global_view(campaign_id: str) -> None:
                 f"**Ritmo Narrativo:** Tensión media de la aventura: **{avg_tension:.1f}/10** • "
                 f"Clímax dramático alcanzado en el **{max_block['time_label']}** con tensión **{max_block['tension']:.0f}/10**."
             )
+
+    with tab_immersion:
+        tension_data = load_campaign_tension_continuous(campaign_id)
+        immersion_data = build_campaign_immersion_data(
+            episodes,
+            continuous_blocks=tension_data.get("blocks", []),
+        )
+        render_campaign_immersion_tab(st, immersion_data, camp_name)
 
     with tab_airtime:
         airtime_data = load_campaign_airtime(campaign_id)
