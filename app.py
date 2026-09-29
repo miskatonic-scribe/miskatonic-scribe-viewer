@@ -94,9 +94,8 @@ st.markdown(
 )
 
 
-@st.cache_resource
 def get_db_connection() -> sqlite3.Connection:
-    """Conexión a la base de datos SQLite."""
+    """Conexión a la base de datos SQLite en modo lectura."""
     conn = sqlite3.connect(f"file:{DB_PATH.resolve()}?mode=ro", uri=True, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     return conn
@@ -108,17 +107,38 @@ def load_available_sessions() -> list[dict[str, Any]]:
     if not DB_PATH.exists():
         return []
     conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute(
-        """
-        SELECT id, title, channel, url, thumbnail_path, like_count, comment_count,
-               duration_seconds, analyzed_at, model, campaign_id, episode_order
-        FROM sessions
-        ORDER BY analyzed_at DESC
-        """
-    )
-    rows = cursor.fetchall()
-    return [dict(r) for r in rows]
+    try:
+        cursor = conn.cursor()
+        cursor.execute("PRAGMA table_info(sessions)")
+        cols = {row[1] for row in cursor.fetchall()}
+        has_camp = "campaign_id" in cols and "episode_order" in cols
+
+        if has_camp:
+            query = """
+            SELECT id, title, channel, url, thumbnail_path, like_count, comment_count,
+                   duration_seconds, analyzed_at, model, campaign_id, episode_order
+            FROM sessions
+            ORDER BY analyzed_at DESC
+            """
+        else:
+            query = """
+            SELECT id, title, channel, url, thumbnail_path, like_count, comment_count,
+                   duration_seconds, analyzed_at, model
+            FROM sessions
+            ORDER BY analyzed_at DESC
+            """
+        cursor.execute(query)
+        rows = cursor.fetchall()
+        results: list[dict[str, Any]] = []
+        for r in rows:
+            d = dict(r)
+            if not has_camp:
+                d["campaign_id"] = None
+                d["episode_order"] = None
+            results.append(d)
+        return results
+    finally:
+        conn.close()
 
 
 @st.cache_data
@@ -271,19 +291,25 @@ def load_campaigns() -> list[dict[str, Any]]:
     if not DB_PATH.exists():
         return []
     conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute(
-        """
-        SELECT c.id, c.name, c.system, c.description, c.order_index, c.created_at,
-               COUNT(s.id) AS episode_count,
-               COALESCE(SUM(s.duration_seconds), 0) AS total_duration_seconds
-        FROM campaigns c
-        LEFT JOIN sessions s ON s.campaign_id = c.id
-        GROUP BY c.id
-        ORDER BY c.order_index ASC, c.created_at ASC
-        """
-    )
-    return [dict(r) for r in cursor.fetchall()]
+    try:
+        cursor = conn.cursor()
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='campaigns'")
+        if not cursor.fetchone():
+            return []
+        cursor.execute(
+            """
+            SELECT c.id, c.name, c.system, c.description, c.order_index, c.created_at,
+                   COUNT(s.id) AS episode_count,
+                   COALESCE(SUM(s.duration_seconds), 0) AS total_duration_seconds
+            FROM campaigns c
+            LEFT JOIN sessions s ON s.campaign_id = c.id
+            GROUP BY c.id
+            ORDER BY c.order_index ASC, c.created_at ASC
+            """
+        )
+        return [dict(r) for r in cursor.fetchall()]
+    finally:
+        conn.close()
 
 
 @st.cache_data
