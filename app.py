@@ -623,14 +623,14 @@ def render_campaign_global_view(campaign_id: str) -> None:
                 st.markdown(
                     """
                     <div style="background-color: #161b22; border: 1px dashed #30363d; border-radius: 8px; height: 130px; display: flex; align-items: center; justify-content: center; color: #8b949e;">
-                        🏰 <i>Campaña</i>
+                        📜 <i>Aventura</i>
                     </div>
                     """,
                     unsafe_allow_html=True,
                 )
 
         with col_banner_info:
-            st.markdown(f"<h2 style='margin-top: 0; margin-bottom: 0.25rem; color: #e0e6ed;'>🏰 {camp_name}</h2>", unsafe_allow_html=True)
+            st.markdown(f"<h2 style='margin-top: 0; margin-bottom: 0.25rem; color: #e0e6ed;'>📜 {camp_name}</h2>", unsafe_allow_html=True)
             meta_items = [
                 f"<b>Sistema:</b> {system}",
                 f"<b>Capítulos:</b> {len(episodes)} episodios",
@@ -677,7 +677,7 @@ def render_campaign_global_view(campaign_id: str) -> None:
             max_block = max(blocks, key=lambda b: b["tension"])
             avg_tension = sum(b["tension"] for b in blocks) / len(blocks)
             st.caption(
-                f"📊 **Análisis de Ritmo:** Tensión media de la campaña: **{avg_tension:.1f}/10** • "
+                f"**Ritmo Narrativo:** Tensión media de la aventura: **{avg_tension:.1f}/10** • "
                 f"Clímax dramático alcanzado en el **{max_block['time_label']}** con tensión **{max_block['tension']:.0f}/10**."
             )
 
@@ -815,7 +815,7 @@ def render_session_view(
         with col_bcrumb:
             st.markdown(
                 f"<div style='color: #8b949e; font-size: 0.95rem;'>"
-                f"🏰 <b style='color: #58a6ff;'>{camp_name}</b> &nbsp;›&nbsp; "
+                f"📜 <b style='color: #58a6ff;'>{camp_name}</b> &nbsp;›&nbsp; "
                 f"<span style='color: #e0e6ed; font-weight: 500;'>Episodio {ep_order} de {total_eps}</span>"
                 f"</div>",
                 unsafe_allow_html=True,
@@ -832,7 +832,7 @@ def render_session_view(
                     st.rerun()
 
             with c_home:
-                if st.button("🗺️ Ver Campaña", key=f"nav_home_{selected_id}", width="stretch", help="Volver a la macro-visión global de la campaña"):
+                if st.button("🗺️ Ver Aventura", key=f"nav_home_{selected_id}", width="stretch", help="Volver a la visión global de la aventura"):
                     navigation.set_nav_target(st.session_state, navigation.NAV_CAMPAIGN, campaign_id=campaign_info.get("id"))
                     st.rerun()
 
@@ -847,7 +847,7 @@ def render_session_view(
     elif campaign_info:
         st.markdown(
             f"<div style='color: #8b949e; font-size: 0.95rem; margin-bottom: 0.6rem;'>"
-            f"🏰 <b style='color: #58a6ff;'>{campaign_info.get('name')}</b> &nbsp;›&nbsp; "
+            f"📜 <b style='color: #58a6ff;'>{campaign_info.get('name')}</b> &nbsp;›&nbsp; "
             f"<span style='color: #e0e6ed;'>Partida Independiente</span>"
             f"</div>",
             unsafe_allow_html=True,
@@ -1120,11 +1120,13 @@ def main() -> None:
         st.rerun()
 
     with st.sidebar:
-        st.divider()
-        if st.button("🔄 Recargar Base de Datos", width="stretch"):
-            st.cache_data.clear()
-            st.rerun()
-        st.caption("Miskatonic Scribe v2.0 • SQLite + LLM")
+        is_local_dev = (ROOT / "pipeline").exists()
+        if is_local_dev:
+            st.divider()
+            if st.button("🔄 Recargar Base de Datos", width="stretch"):
+                st.cache_data.clear()
+                st.rerun()
+        st.caption("Miskatonic Scribe v2.0 • Archivo de Rol")
 
     # 2. Migas de Pan (Breadcrumbs) en la cabecera (Spec 16 / US2)
     breadcrumbs_md = navigation.build_breadcrumbs(current_target, tree)

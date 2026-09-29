@@ -211,11 +211,11 @@ def render_navigation_tree(
     new_selection: dict[str, Any] | None = None
 
     with st.sidebar:
-        st.markdown("### 🗂️ Explorador de Archivo")
+        st.markdown("### 📜 Explorador de Aventuras")
 
-        # 1. Nodo Raíz: Archivo General
+        # 1. Nodo Raíz: Registro General
         is_global_active = cur_level == NAV_GLOBAL
-        global_label = "▶ 🌐 Archivo General (Catálogo)" if is_global_active else "🌐 Archivo General (Catálogo)"
+        global_label = "▶ 📜 Registro de Expediciones" if is_global_active else "📜 Registro de Expediciones"
         if st.button(
             global_label,
             key="nav_btn_global_archive",
@@ -226,7 +226,7 @@ def render_navigation_tree(
 
         st.markdown("---")
 
-        # 2. Carpetas de Campañas
+        # 2. Carpetas de Aventuras
         campaigns = tree.get("campaigns", [])
         for c in campaigns:
             cid = c["id"]
@@ -234,7 +234,7 @@ def render_navigation_tree(
             ep_count = c["episode_count"]
             is_active_camp = (cur_camp == cid)
 
-            expander_title = f"🏰 {cname} ({ep_count} eps)"
+            expander_title = f"📜 {cname} ({ep_count} eps)"
             with st.expander(expander_title, expanded=is_active_camp):
                 # Botón de Visión Global de la Campaña
                 is_camp_overview_active = (cur_level == NAV_CAMPAIGN and is_active_camp)
@@ -290,14 +290,14 @@ def build_breadcrumbs(
     cur_sess = current_target.get("session_id")
 
     if cur_level == NAV_GLOBAL:
-        return "🌐 **Archivo Miskatonic** &nbsp;›&nbsp; 📊 *Resumen General del Catálogo*"
+        return "🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 *Resumen General de Expediciones*"
 
     # Buscar datos de campaña en el árbol
     camp_match = next((c for c in tree.get("campaigns", []) if c["id"] == cur_camp), None)
     camp_name = camp_match["name"] if camp_match else (cur_camp or "Partida Suelta")
 
     if cur_level == NAV_CAMPAIGN:
-        return f"🌐 **Archivo Miskatonic** &nbsp;›&nbsp; 🏰 **{camp_name}** &nbsp;›&nbsp; 🗺️ *Visión Global*"
+        return f"🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 **{camp_name}** &nbsp;›&nbsp; 🗺️ *Visión de la Aventura*"
 
     # Buscar datos de sesión
     ep_title = cur_sess
@@ -317,7 +317,7 @@ def build_breadcrumbs(
         if sess_match:
             ep_title = sess_match.get("title") or cur_sess
 
-    return f"🌐 **Archivo Miskatonic** &nbsp;›&nbsp; 🏰 **{camp_name}** &nbsp;›&nbsp; 🎬 *{ep_order_str}{ep_title}*"
+    return f"🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 **{camp_name}** &nbsp;›&nbsp; 🎬 *{ep_order_str}{ep_title}*"
 
 
 def get_adjacent_episodes(
@@ -369,7 +369,7 @@ def render_episode_pagination_footer(
 
     with c_camp:
         if campaign_id:
-            if st.button("🏰 Visión de Campaña", key=f"foot_camp_{current_session_id}", width="stretch"):
+            if st.button("📜 Visión de la Aventura", key=f"foot_camp_{current_session_id}", width="stretch"):
                 new_target = {"level": NAV_CAMPAIGN, "campaign_id": campaign_id, "session_id": None}
 
     with c_next:
@@ -450,9 +450,11 @@ def render_global_archive_view(
         """
         <div style="background: linear-gradient(135deg, #121820 0%, #1e2638 100%); 
                     border: 1px solid #2d3748; border-radius: 12px; padding: 24px; margin-bottom: 24px;">
-            <h1 style="color: #64ffda; margin-top: 0; margin-bottom: 8px;">🏛️ Archivo Miskatonic</h1>
-            <p style="color: #a0aec0; font-size: 1.1rem; margin-bottom: 0;">
-                Catálogo histórico consolidado de partidas y campañas de horror cósmico analizadas por IA.
+            <h1 style="color: #64ffda; margin-top: 0; margin-bottom: 8px;">🐙 Archivo Miskatonic</h1>
+            <p style="color: #cbd5e1; font-size: 1.05rem; line-height: 1.6; margin-bottom: 0;">
+                <i>«No está muerto lo que puede yacer eternamente, y con los eones extraños incluso la muerte puede morir.»</i><br>
+                Manuscritos, crónicas y testimonios custodiados bajo llave en la colección especial de la Biblioteca de la Universidad de Miskatonic.
+                Adéntrate en los relatos de quienes osaron asomarse a los abismos insondables del horror cósmico.
             </p>
         </div>
         """,
@@ -460,7 +462,7 @@ def render_global_archive_view(
     )
 
     # Fila de KPIs Principales
-    st.markdown("### 📊 Macro-Estadísticas del Repositorio")
+    st.markdown("### Compendio Global de Registros")
     k1, k2, k3, k4 = st.columns(4)
     with k1:
         st.metric(
@@ -488,22 +490,22 @@ def render_global_archive_view(
         )
 
     st.markdown("---")
-    st.markdown("### 🏰 Campañas Disponibles")
-    st.caption("Selecciona una campaña para explorar su cronología, curva de tensión continua y balance de protagonismo.")
+    st.markdown("### 📜 Aventuras Disponibles")
+    st.caption("Selecciona una aventura para explorar su cronología narrativa, curva de tensión continua y dinámicas de mesa.")
 
     cols = st.columns(len(campaigns) if campaigns else 1)
     for idx, c in enumerate(campaigns):
         col = cols[idx % len(cols)]
         with col:
             with st.container(border=True):
-                st.subheader(f"🏰 {c.get('name', 'Campaña')}")
+                st.subheader(f"📜 {c.get('name', 'Aventura')}")
                 st.caption(f"**Sistema:** {c.get('system', 'La Llamada de Cthulhu')}")
                 desc = c.get("description") or "Sin sinopsis registrada."
-                st.markdown(f"*{desc[:120] + '…' if len(desc) > 120 else desc}*")
+                st.markdown(f"*{desc[:160] + '…' if len(desc) > 160 else desc}*")
                 st.markdown(f"**Episodios:** {c.get('episode_count', 0)} capítulos")
 
                 if st.button(
-                    "🗺️ Explorar Campaña",
+                    "🗺️ Explorar Aventura",
                     key=f"card_camp_btn_{c['id']}",
                     type="primary",
                     width="stretch",
