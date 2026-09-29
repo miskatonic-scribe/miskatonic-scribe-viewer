@@ -31,12 +31,16 @@ try:
         get_participant_label,
         render_swimlane_chart,
     )
+    from dashboard.visualizations.campaign_tension import render_campaign_tension_chart
+    from dashboard.visualizations.campaign_airtime import render_campaign_airtime_charts
 except ImportError:
     from visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
         render_swimlane_chart,
     )
+    from visualizations.campaign_tension import render_campaign_tension_chart
+    from visualizations.campaign_airtime import render_campaign_airtime_charts
 
 from core import paths
 
@@ -108,7 +112,7 @@ def load_available_sessions() -> list[dict[str, Any]]:
     cursor.execute(
         """
         SELECT id, title, channel, url, thumbnail_path, like_count, comment_count,
-               duration_seconds, analyzed_at, model
+               duration_seconds, analyzed_at, model, campaign_id, episode_order
         FROM sessions
         ORDER BY analyzed_at DESC
         """
@@ -253,6 +257,231 @@ def load_combat_events(session_id: str) -> list[dict[str, Any]]:
         ORDER BY timestamp_seconds ASC, id ASC
         """,
         (session_id,),
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+# ==============================================================================
+# CARGADORES DE CAMPAÑA (Spec 15 / T001)
+# ==============================================================================
+
+@st.cache_data
+def load_campaigns() -> list[dict[str, Any]]:
+    """Obtiene todas las campañas registradas con conteo de episodios y duración."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT c.id, c.name, c.system, c.description, c.order_index, c.created_at,
+               COUNT(s.id) AS episode_count,
+               COALESCE(SUM(s.duration_seconds), 0) AS total_duration_seconds
+        FROM campaigns c
+        LEFT JOIN sessions s ON s.campaign_id = c.id
+        GROUP BY c.id
+        ORDER BY c.order_index ASC, c.created_at ASC
+        """
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+@st.cache_data
+def load_campaign_sessions(campaign_id: str) -> list[dict[str, Any]]:
+    """Obtiene las sesiones de una campaña ordenadas cronológicamente."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT id, title, channel, url, thumbnail_path, duration_seconds,
+               campaign_id, episode_order, analyzed_at, like_count
+        FROM sessions
+        WHERE campaign_id = ?
+        ORDER BY COALESCE(episode_order, 9999) ASC, analyzed_at ASC, id ASC
+        """,
+        (campaign_id,),
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+@st.cache_data
+def load_campaign_kpis(campaign_id: str) -> dict[str, Any]:
+    """Calcula los KPIs acumulados de toda la campaña."""
+    if not DB_PATH.exists():
+        return {}
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    row = cursor.execute(
+        """
+        SELECT
+            COUNT(DISTINCT s.id) AS total_episodes,
+            COALESCE(SUM(s.duration_seconds), 0) AS total_duration_seconds,
+            (SELECT COUNT(*) FROM sanity_events se JOIN sessions s2 ON se.session_id = s2.id WHERE s2.campaign_id = ?) AS total_sanity_events,
+            (SELECT COALESCE(SUM(se.sanity_loss), 0) FROM sanity_events se JOIN sessions s2 ON se.session_id = s2.id WHERE s2.campaign_id = ?) AS total_sanity_loss,
+            (SELECT COUNT(*) FROM clues cl JOIN sessions s2 ON cl.session_id = s2.id WHERE s2.campaign_id = ?) AS total_clues,
+            (SELECT COUNT(*) FROM narrative_milestones nm JOIN sessions s2 ON nm.session_id = s2.id WHERE s2.campaign_id = ?) AS total_milestones,
+            (SELECT COUNT(*) FROM critical_rolls cr JOIN sessions s2 ON cr.session_id = s2.id WHERE s2.campaign_id = ?) AS total_critical_rolls,
+            (SELECT COUNT(*) FROM combat_events cb JOIN sessions s2 ON cb.session_id = s2.id WHERE s2.campaign_id = ?) AS total_combat_events
+        FROM sessions s
+        WHERE s.campaign_id = ?
+        """,
+        (campaign_id, campaign_id, campaign_id, campaign_id, campaign_id, campaign_id, campaign_id),
+    ).fetchone()
+    return dict(row) if row else {}
+
+
+@st.cache_data
+def load_campaign_airtime(campaign_id: str) -> list[dict[str, Any]]:
+    """Calcula el tiempo de habla acumulado por participante en toda la campaña."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT ch.player, ch.character, ch.role,
+               SUM(ch.speaking_seconds) AS total_speaking_seconds,
+               COUNT(DISTINCT ch.session_id) AS episodes_present
+        FROM characters ch
+        JOIN sessions s ON ch.session_id = s.id
+        WHERE s.campaign_id = ?
+        GROUP BY ch.player, ch.character, ch.role
+        ORDER BY total_speaking_seconds DESC
+        """,
+        (campaign_id,),
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+@st.cache_data
+def load_campaign_tension_continuous(campaign_id: str) -> dict[str, Any]:
+    """Genera la serie temporal continua de tensión concatenando todos los episodios de la campaña."""
+    if not DB_PATH.exists():
+        return {"blocks": [], "boundaries": [], "total_duration_seconds": 0.0}
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    sessions = cursor.execute(
+        """
+        SELECT id, title, episode_order, duration_seconds
+        FROM sessions
+        WHERE campaign_id = ?
+        ORDER BY COALESCE(episode_order, 9999) ASC, analyzed_at ASC, id ASC
+        """,
+        (campaign_id,),
+    ).fetchall()
+
+    cum_time = 0.0
+    boundaries = []
+    all_blocks = []
+
+    for s in sessions:
+        ep_num = s["episode_order"] or (len(boundaries) + 1)
+        dur = float(s["duration_seconds"] or 0.0)
+        boundaries.append({
+            "episode_order": ep_num,
+            "session_id": s["id"],
+            "title": s["title"],
+            "start_hour": cum_time / 3600.0,
+            "duration_hours": dur / 3600.0,
+        })
+        blocks = cursor.execute(
+            """
+            SELECT block_index, start_time, end_time, time_label, tension, tension_justification, off_topic_pct
+            FROM scene_metrics
+            WHERE session_id = ?
+            ORDER BY block_index ASC
+            """,
+            (s["id"],),
+        ).fetchall()
+        for b in blocks:
+            b_start = float(b["start_time"] or 0.0)
+            b_end = float(b["end_time"] or 0.0)
+            g_start = cum_time + b_start
+            g_end = cum_time + b_end
+            all_blocks.append({
+                "episode_order": ep_num,
+                "session_id": s["id"],
+                "block_index": b["block_index"],
+                "global_start_hours": g_start / 3600.0,
+                "global_end_hours": g_end / 3600.0,
+                "global_mid_hours": (g_start + g_end) / 7200.0,
+                "tension": float(b["tension"] or 0),
+                "justification": b["tension_justification"] or "",
+                "off_topic_pct": float(b["off_topic_pct"] or 0),
+                "time_label": f"Ep. {ep_num} [{b['time_label']}]",
+            })
+        cum_time += dur
+
+    return {
+        "blocks": all_blocks,
+        "boundaries": boundaries,
+        "total_duration_seconds": cum_time,
+    }
+
+
+@st.cache_data
+def load_campaign_sanity_traumas(campaign_id: str) -> list[dict[str, Any]]:
+    """Carga todos los eventos de cordura y traumas ocurridos a lo largo de la campaña."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT s.episode_order, s.title AS session_title, se.session_id, se.block_index,
+               se.timestamp_str, se.character_name, se.player_name, se.trigger_cause,
+               se.sanity_loss, se.consequence
+        FROM sanity_events se
+        JOIN sessions s ON se.session_id = s.id
+        WHERE s.campaign_id = ?
+        ORDER BY COALESCE(s.episode_order, 9999) ASC, se.timestamp_seconds ASC, se.id ASC
+        """,
+        (campaign_id,),
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+@st.cache_data
+def load_campaign_clues(campaign_id: str) -> list[dict[str, Any]]:
+    """Carga todas las pistas descubiertas en la campaña."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT s.episode_order, s.title AS session_title, cl.session_id, cl.timestamp_str,
+               cl.character_name, cl.player_name, cl.clue_text, cl.source_skill, cl.importance
+        FROM clues cl
+        JOIN sessions s ON cl.session_id = s.id
+        WHERE s.campaign_id = ?
+        ORDER BY COALESCE(s.episode_order, 9999) ASC, cl.timestamp_seconds ASC, cl.id ASC
+        """,
+        (campaign_id,),
+    )
+    return [dict(r) for r in cursor.fetchall()]
+
+
+@st.cache_data
+def load_campaign_milestones(campaign_id: str) -> list[dict[str, Any]]:
+    """Carga todos los hitos narrativos de la campaña."""
+    if not DB_PATH.exists():
+        return []
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute(
+        """
+        SELECT s.episode_order, s.title AS session_title, nm.session_id, nm.timestamp_str,
+               nm.title, nm.description, nm.phase
+        FROM narrative_milestones nm
+        JOIN sessions s ON nm.session_id = s.id
+        WHERE s.campaign_id = ?
+        ORDER BY COALESCE(s.episode_order, 9999) ASC, nm.timestamp_seconds ASC, nm.id ASC
+        """,
+        (campaign_id,),
     )
     return [dict(r) for r in cursor.fetchall()]
 
@@ -469,42 +698,206 @@ def render_offtopic_chart(metrics: list[dict[str, Any]]) -> go.Figure:
     return fig
 
 
-def main() -> None:
-    st.markdown('<div class="main-title">🐙 Miskatonic Scribe — Analíticas de Partidas</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Plataforma empírica de ritmo dramático, inmersión y dinámicas de mesa para <i>La Llamada de Cthulhu</i>.</div>', unsafe_allow_html=True)
-
-    sessions = load_available_sessions()
-    if not sessions:
-        st.warning("⚠️ No se encontraron partidas en `partidas.db`. Asegúrate de ejecutar `python db_manager.py import`.")
+def render_campaign_global_view(campaign_id: str) -> None:
+    """Renderiza el tablero macro-analítico de la campaña completa (Spec 15 / US2, US3)."""
+    campaigns = load_campaigns()
+    camp_meta = next((c for c in campaigns if c["id"] == campaign_id), None)
+    if not camp_meta:
+        st.error(f"Campaña '{campaign_id}' no encontrada.")
         return
 
-    # Barra lateral
-    with st.sidebar:
-        st.header("🗂️ Selección de Partida")
-        session_map = {s["id"]: s for s in sessions}
+    camp_name = camp_meta["name"]
+    system = camp_meta["system"]
+    desc = camp_meta.get("description") or ""
+    kpis = load_campaign_kpis(campaign_id)
+    episodes = load_campaign_sessions(campaign_id)
+    total_secs = float(kpis.get("total_duration_seconds", 0.0))
+    total_hours = total_secs / 3600.0
 
-        def format_session_label(session_id: str) -> str:
-            s_info = session_map.get(session_id, {})
-            title = s_info.get("title") or ""
-            if title and title != session_id:
-                short_title = (title[:26] + "...") if len(title) > 28 else title
-                return f"{session_id} — {short_title}"
-            return session_id
+    # 1. Hero Banner de Campaña con Miniatura del Episodio 1
+    with st.container(border=True):
+        col_banner_thumb, col_banner_info = st.columns([1, 2.8], gap="large", vertical_alignment="center")
 
-        selected_id = st.selectbox(
-            "Elige la partida a consultar:",
-            options=[s["id"] for s in sessions],
-            format_func=format_session_label,
-            index=0,
-        )
+        with col_banner_thumb:
+            first_ep = episodes[0] if episodes else None
+            first_thumb = paths.get_thumbnail_path(first_ep["id"]) if first_ep else None
+            if first_thumb and first_thumb.exists():
+                st.image(str(first_thumb), width="stretch")
+            elif first_ep:
+                yt_fallback = f"https://img.youtube.com/vi/{first_ep['id']}/hqdefault.jpg"
+                st.image(yt_fallback, width="stretch")
+            else:
+                st.markdown(
+                    """
+                    <div style="background-color: #161b22; border: 1px dashed #30363d; border-radius: 8px; height: 130px; display: flex; align-items: center; justify-content: center; color: #8b949e;">
+                        🏰 <i>Campaña</i>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
 
-        # Botón de refresco
-        if st.button("🔄 Recargar Base de Datos"):
-            st.cache_data.clear()
-            st.rerun()
+        with col_banner_info:
+            st.markdown(f"<h2 style='margin-top: 0; margin-bottom: 0.25rem; color: #e0e6ed;'>🏰 {camp_name}</h2>", unsafe_allow_html=True)
+            meta_items = [
+                f"<b>Sistema:</b> {system}",
+                f"<b>Capítulos:</b> {len(episodes)} episodios",
+                f"<b>Duración Total:</b> {total_hours:.1f} horas ({int(total_secs // 60)} min)",
+                f"<b>Estado:</b> <span style='color: #26a69a;'>Completada</span>",
+            ]
+            st.markdown(" • ".join(meta_items), unsafe_allow_html=True)
+            if desc:
+                st.markdown(f"<p style='color: #8b949e; margin-top: 0.6rem; font-style: italic; line-height: 1.4;'>{desc}</p>", unsafe_allow_html=True)
 
-        st.divider()
-        st.caption("Miskatonic Scribe MVP • SQLite + Ollama (qwen2.5:32b)")
+    st.markdown("<div style='margin-top: 0.5rem;'></div>", unsafe_allow_html=True)
+
+    # 2. Barra de KPIs Acumulados
+    col_k1, col_k2, col_k3, col_k4, col_k5 = st.columns(5)
+    with col_k1:
+        st.metric("⏱️ Horas Totales", f"{total_hours:.1f} h", help="Suma de la duración de todos los episodios.")
+    with col_k2:
+        st.metric("🧠 Eventos de Cordura", f"{kpis.get('total_sanity_events', 0)}", help="Momentos de impacto psicológico y tiradas de Cordura sufridas.")
+    with col_k3:
+        st.metric("🔍 Pistas Halladas", f"{kpis.get('total_clues', 0)}", help="Pistas e indicios descubiertos a lo largo de la investigación.")
+    with col_k4:
+        st.metric("🎲 Críticos y Pifias", f"{kpis.get('total_critical_rolls', 0)}", help="Tiradas extremas registradas en momentos clave.")
+    with col_k5:
+        st.metric("📜 Hitos Clave", f"{kpis.get('total_milestones', 0)}", help="Hitos narrativos de progresión de la trama alcanzados.")
+
+    st.divider()
+
+    # 3. Pestañas Analíticas Multi-Episodio
+    tab_tension, tab_airtime, tab_sanity, tab_clues, tab_episodes = st.tabs([
+        "📈 La Gran Curva de Tensión",
+        "⚖️ Balance de Mesa y Protagonismo",
+        "🧠 Desgaste Psicológico (Traumas)",
+        "🗺️ Crónica de Pistas e Hitos",
+        "🎬 Índice de Capítulos",
+    ])
+
+    with tab_tension:
+        tension_data = load_campaign_tension_continuous(campaign_id)
+        fig_tension = render_campaign_tension_chart(tension_data, camp_name)
+        st.plotly_chart(fig_tension, width="stretch")
+
+        blocks = tension_data.get("blocks", [])
+        if blocks:
+            max_block = max(blocks, key=lambda b: b["tension"])
+            avg_tension = sum(b["tension"] for b in blocks) / len(blocks)
+            st.caption(
+                f"📊 **Análisis de Ritmo:** Tensión media de la campaña: **{avg_tension:.1f}/10** • "
+                f"Clímax dramático alcanzado en el **{max_block['time_label']}** con tensión **{max_block['tension']:.0f}/10**."
+            )
+
+    with tab_airtime:
+        airtime_data = load_campaign_airtime(campaign_id)
+        col_donut, col_bar = st.columns([1, 1.6], gap="medium")
+        donut_fig, bar_fig = render_campaign_airtime_charts(airtime_data, camp_name)
+        with col_donut:
+            st.plotly_chart(donut_fig, width="stretch")
+        with col_bar:
+            st.plotly_chart(bar_fig, width="stretch")
+
+    with tab_sanity:
+        st.markdown("#### 🧠 Historial de Pérdidas de Cordura y Secuelas Mentales")
+        st.caption("Registro de todos los impactos psicológicos, fobias y traumas adquiridos durante la aventura.")
+        traumas = load_campaign_sanity_traumas(campaign_id)
+        if traumas:
+            df_traumas = pd.DataFrame(traumas)
+            df_traumas_display = df_traumas[[
+                "episode_order", "character_name", "player_name", "sanity_loss", "trigger_cause", "consequence"
+            ]].rename(columns={
+                "episode_order": "Episodio",
+                "character_name": "Personaje",
+                "player_name": "Jugador",
+                "sanity_loss": "Pérdida COR",
+                "trigger_cause": "Desencadenante",
+                "consequence": "Secuela / Reacción",
+            })
+            st.dataframe(df_traumas_display, width="stretch", hide_index=True)
+        else:
+            st.info("No se registraron eventos de pérdida de cordura en esta campaña.")
+
+    with tab_clues:
+        st.markdown("#### 🗺️ Pistas Clave e Hitos Narrativos de la Aventura")
+        sub_tab_clues, sub_tab_milestones = st.tabs(["🔍 Pistas Clave", "📜 Hitos Narrativos"])
+
+        with sub_tab_clues:
+            clues = load_campaign_clues(campaign_id)
+            if clues:
+                st.caption(f"{len(clues)} pistas e indicios encontrados por los investigadores:")
+                for c in clues:
+                    with st.container(border=True):
+                        col_c_meta, col_c_desc = st.columns([1, 3])
+                        with col_c_meta:
+                            st.markdown(f"**Episodio {c.get('episode_order')}**")
+                            st.caption(f"👤 `{c.get('character_name') or 'Investigador'}`")
+                            st.caption(f"🏷️ `{c.get('source_skill') or 'Descubrimiento'}`")
+                        with col_c_desc:
+                            st.markdown(f"*{c.get('clue_text')}*")
+                            imp = c.get("importance") or "Media"
+                            st.caption(f"Importancia: `{imp}`")
+            else:
+                st.info("No se registraron pistas para esta campaña.")
+
+        with sub_tab_milestones:
+            milestones = load_campaign_milestones(campaign_id)
+            if milestones:
+                st.caption(f"{len(milestones)} hitos narrativos de progresión:")
+                for m in milestones:
+                    with st.container(border=True):
+                        col_m_meta, col_m_desc = st.columns([1, 3])
+                        with col_m_meta:
+                            st.markdown(f"**Episodio {m.get('episode_order')}**")
+                            st.caption(f"🚩 Fase: `{m.get('phase') or 'Desarrollo'}`")
+                        with col_m_desc:
+                            st.markdown(f"**{m.get('title')}**")
+                            st.markdown(f"{m.get('description')}")
+            else:
+                st.info("No se registraron hitos narrativos para esta campaña.")
+
+    with tab_episodes:
+        st.markdown(f"#### 🎬 Catálogo de Episodios ({len(episodes)} capítulos)")
+        st.caption("Acceso directo a las analíticas detalladas de cada sesión de la campaña.")
+
+        for idx, ep in enumerate(episodes):
+            ep_num = ep.get("episode_order") or (idx + 1)
+            dur_mins = int((ep.get("duration_seconds") or 0) // 60)
+            dur_str = f"{dur_mins // 60}h {dur_mins % 60}m" if dur_mins >= 60 else f"{dur_mins} min"
+            vid_id = ep["id"]
+            title = ep.get("title") or f"Episodio {ep_num}"
+
+            with st.container(border=True):
+                col_e_thumb, col_e_info, col_e_act = st.columns([1.2, 3, 1], vertical_alignment="center")
+
+                with col_e_thumb:
+                    thumb_p = paths.get_thumbnail_path(vid_id)
+                    if thumb_p.exists():
+                        st.image(str(thumb_p), width=180)
+                    else:
+                        yt_cdn = f"https://img.youtube.com/vi/{vid_id}/hqdefault.jpg"
+                        st.image(yt_cdn, width=180)
+
+                with col_e_info:
+                    st.markdown(f"**Episodio {ep_num}: {title}**")
+                    meta_bits = [f"⏱️ `{dur_str}`", f"🆔 `{vid_id}`"]
+                    if ep.get("channel"):
+                        meta_bits.append(f"📺 {ep['channel']}")
+                    st.caption(" • ".join(meta_bits))
+
+                with col_e_act:
+                    if st.button("👁️ Ver Episodio", key=f"btn_jump_ep_{vid_id}", width="stretch", type="primary"):
+                        st.session_state["dashboard_mode_radio"] = "🎬 Ver Episodio Específico"
+                        st.session_state["dashboard_selected_episode_id"] = vid_id
+                        st.rerun()
+
+
+
+def render_session_view(
+    selected_id: str,
+    campaign_info: dict[str, Any] | None = None,
+    all_campaign_sessions: list[dict[str, Any]] | None = None,
+) -> None:
+    """Renderiza el visor detallado para un episodio o sesión individual."""
 
     data = load_session_details(selected_id)
     if not data:
@@ -515,8 +908,62 @@ def main() -> None:
     characters = data["characters"]
     metrics = data["metrics"]
 
+    # 1. Barra de Navegación Contextual y Breadcrumbs (Spec 15 / US4)
+    curr_idx = 0
+    total_eps = len(all_campaign_sessions) if all_campaign_sessions else 0
+    if campaign_info and all_campaign_sessions and total_eps > 1:
+        camp_name = campaign_info.get("name", "Campaña")
+        session_ids = [s["id"] for s in all_campaign_sessions]
+        curr_idx = session_ids.index(selected_id) if selected_id in session_ids else 0
+        ep_order = all_campaign_sessions[curr_idx].get("episode_order") or (curr_idx + 1)
+
+        col_bcrumb, col_nav = st.columns([2.5, 2], vertical_alignment="center")
+
+        with col_bcrumb:
+            st.markdown(
+                f"<div style='color: #8b949e; font-size: 0.95rem;'>"
+                f"🏰 <b style='color: #58a6ff;'>{camp_name}</b> &nbsp;›&nbsp; "
+                f"<span style='color: #e0e6ed; font-weight: 500;'>Episodio {ep_order} de {total_eps}</span>"
+                f"</div>",
+                unsafe_allow_html=True,
+            )
+
+        with col_nav:
+            c_prev, c_home, c_next = st.columns([1.2, 1.4, 1.2])
+
+            with c_prev:
+                btn_prev_disabled = curr_idx == 0
+                if st.button("⬅ Anterior", key=f"nav_prev_{selected_id}", disabled=btn_prev_disabled, width="stretch", help="Ir al episodio anterior"):
+                    prev_sid = session_ids[curr_idx - 1]
+                    st.session_state["dashboard_selected_episode_id"] = prev_sid
+                    st.rerun()
+
+            with c_home:
+                if st.button("🗺️ Ver Campaña", key=f"nav_home_{selected_id}", width="stretch", help="Volver a la macro-visión global de la campaña"):
+                    st.session_state["dashboard_mode_radio"] = "🗺️ Visión Global de la Campaña"
+                    st.rerun()
+
+            with c_next:
+                btn_next_disabled = curr_idx == total_eps - 1
+                if st.button("Siguiente ➡", key=f"nav_next_{selected_id}", disabled=btn_next_disabled, width="stretch", help="Ir al episodio siguiente"):
+                    next_sid = session_ids[curr_idx + 1]
+                    st.session_state["dashboard_selected_episode_id"] = next_sid
+                    st.rerun()
+
+        st.markdown("<div style='margin-bottom: 0.4rem;'></div>", unsafe_allow_html=True)
+    elif campaign_info:
+        st.markdown(
+            f"<div style='color: #8b949e; font-size: 0.95rem; margin-bottom: 0.6rem;'>"
+            f"🏰 <b style='color: #58a6ff;'>{campaign_info.get('name')}</b> &nbsp;›&nbsp; "
+            f"<span style='color: #e0e6ed;'>Partida Independiente</span>"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
+
     # Ficha de Sesión (Hero Card - Spec 05)
-    title = session.get("title") or f"Sesión {session['id']}"
+    raw_title = session.get("title") or f"Sesión {session['id']}"
+    ep_num = session.get("episode_order")
+    title = f"Episodio {ep_num}: {raw_title}" if ep_num is not None else raw_title
     channel = session.get("channel") or ""
     yt_url = session.get("url") or f"https://www.youtube.com/watch?v={session['id']}"
     thumb_path = session.get("thumbnail_path")
@@ -872,6 +1319,129 @@ def main() -> None:
                     st.write(b["off_topic_justification"])
                     st.markdown("**📖 Estado de la Trama:**")
                     st.write(b["story_state"])
+
+    # 2. Navegación Secuencial al pie del episodio (Spec 15 / US4)
+    if campaign_info and all_campaign_sessions and total_eps > 1:
+        st.divider()
+        col_f_left, col_f_mid, col_f_right = st.columns([1.5, 2, 1.5], vertical_alignment="center")
+        with col_f_left:
+            if curr_idx > 0:
+                prev_ep = all_campaign_sessions[curr_idx - 1]
+                prev_order = prev_ep.get("episode_order") or curr_idx
+                raw_prev_title = prev_ep.get("title") or prev_ep["id"]
+                short_prev = (raw_prev_title[:20] + "...") if len(raw_prev_title) > 23 else raw_prev_title
+                if st.button(f"⬅ Ep. {prev_order}: {short_prev}", key=f"foot_prev_{selected_id}", width="stretch"):
+                    st.session_state["dashboard_selected_episode_id"] = prev_ep["id"]
+                    st.rerun()
+        with col_f_mid:
+            if st.button("🗺️ Volver al Tablero de la Campaña", key=f"foot_home_{selected_id}", width="stretch"):
+                st.session_state["dashboard_mode_radio"] = "🗺️ Visión Global de la Campaña"
+                st.rerun()
+        with col_f_right:
+            if curr_idx < total_eps - 1:
+                next_ep = all_campaign_sessions[curr_idx + 1]
+                next_order = next_ep.get("episode_order") or (curr_idx + 2)
+                raw_next_title = next_ep.get("title") or next_ep["id"]
+                short_next = (raw_next_title[:20] + "...") if len(raw_next_title) > 23 else raw_next_title
+                if st.button(f"Ep. {next_order}: {short_next} ➡", key=f"foot_next_{selected_id}", width="stretch", type="primary"):
+                    st.session_state["dashboard_selected_episode_id"] = next_ep["id"]
+                    st.rerun()
+
+
+def main() -> None:
+    st.markdown('<div class="main-title">🐙 Miskatonic Scribe — Analíticas de Partidas</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">Plataforma empírica de ritmo dramático, inmersión y dinámicas de mesa para <i>La Llamada de Cthulhu</i>.</div>', unsafe_allow_html=True)
+
+    all_sessions = load_available_sessions()
+    if not all_sessions:
+        st.warning("⚠️ No se encontraron partidas en `partidas.db`. Asegúrate de ejecutar `python -m pipeline.cli run`.")
+        return
+
+    campaigns = load_campaigns()
+    orphan_sessions = [s for s in all_sessions if not s.get("campaign_id")]
+
+    # Opciones de selección de campaña
+    camp_options: dict[str, str] = {}
+    for c in campaigns:
+        camp_options[c["id"]] = f"🏰 {c['name']} ({c['episode_count']} eps)"
+    if orphan_sessions or not campaigns:
+        camp_options["__oneshots__"] = f"🎲 Partidas Sueltas / One-Shots ({len(orphan_sessions)})"
+
+    with st.sidebar:
+        st.header("🗂️ Explorador Narrativo")
+
+        camp_keys = list(camp_options.keys())
+        selected_campaign_id = st.selectbox(
+            "Campaña o Colección:",
+            options=camp_keys,
+            format_func=lambda cid: camp_options[cid],
+            key="dashboard_campaign_select",
+        )
+
+        is_oneshots = selected_campaign_id == "__oneshots__"
+
+        # 2. Selector de Modo de Visualización (si es una campaña)
+        if not is_oneshots:
+            mode_options = ["🗺️ Visión Global de la Campaña", "🎬 Ver Episodio Específico"]
+            selected_mode = st.radio(
+                "Modo de Visualización:",
+                options=mode_options,
+                key="dashboard_mode_radio",
+            )
+        else:
+            selected_mode = "🎬 Ver Episodio Específico"
+
+        # 3. Selector Secuencial de Episodio (condicional al modo)
+        selected_episode_id: str | None = None
+        current_episodes: list[dict[str, Any]] = []
+
+        if selected_mode == "🎬 Ver Episodio Específico":
+            if is_oneshots:
+                current_episodes = orphan_sessions
+            else:
+                current_episodes = load_campaign_sessions(selected_campaign_id)
+
+            if not current_episodes:
+                st.info("No hay episodios disponibles para esta selección.")
+            else:
+                def format_episode_label(video_id: str) -> str:
+                    ep_match = next((ep for ep in current_episodes if ep["id"] == video_id), None)
+                    if not ep_match:
+                        return video_id
+                    ep_num = ep_match.get("episode_order")
+                    prefix = f"[Ep. {ep_num}] " if ep_num is not None else ""
+                    raw_title = ep_match.get("title") or video_id
+                    short_title = (raw_title[:28] + "...") if len(raw_title) > 30 else raw_title
+                    return f"{prefix}{short_title}"
+
+                ep_ids = [ep["id"] for ep in current_episodes]
+                prev_id = st.session_state.get("dashboard_selected_episode_id")
+                initial_index = ep_ids.index(prev_id) if prev_id in ep_ids else 0
+
+                selected_episode_id = st.selectbox(
+                    "Selecciona el episodio:",
+                    options=ep_ids,
+                    index=initial_index,
+                    format_func=format_episode_label,
+                    key="dashboard_selected_episode_id",
+                )
+
+        st.divider()
+        if st.button("🔄 Recargar Base de Datos", width="stretch"):
+            st.cache_data.clear()
+            st.rerun()
+
+        st.caption("Miskatonic Scribe v2.0 • SQLite + LLM")
+
+    # Renderizado condicional del cuerpo principal
+    if selected_mode == "🗺️ Visión Global de la Campaña" and not is_oneshots:
+        render_campaign_global_view(selected_campaign_id)
+    else:
+        if selected_episode_id:
+            camp_info = next((c for c in campaigns if c["id"] == selected_campaign_id), None) if not is_oneshots else None
+            render_session_view(selected_episode_id, camp_info, current_episodes)
+        else:
+            st.info("Selecciona un episodio en la barra lateral para ver sus analíticas.")
 
 
 if __name__ == "__main__":
