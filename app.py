@@ -828,19 +828,19 @@ def render_session_view(
                 btn_prev_disabled = curr_idx == 0
                 if st.button("⬅ Anterior", key=f"nav_prev_{selected_id}", disabled=btn_prev_disabled, width="stretch", help="Ir al episodio anterior"):
                     prev_sid = session_ids[curr_idx - 1]
-                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=prev_sid)
+                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=prev_sid, query_params=st.query_params)
                     st.rerun()
 
             with c_home:
                 if st.button("🗺️ Ver Aventura", key=f"nav_home_{selected_id}", width="stretch", help="Volver a la visión global de la aventura"):
-                    navigation.set_nav_target(st.session_state, navigation.NAV_CAMPAIGN, campaign_id=campaign_info.get("id"))
+                    navigation.set_nav_target(st.session_state, navigation.NAV_CAMPAIGN, campaign_id=campaign_info.get("id"), query_params=st.query_params)
                     st.rerun()
 
             with c_next:
                 btn_next_disabled = curr_idx == total_eps - 1
                 if st.button("Siguiente ➡", key=f"nav_next_{selected_id}", disabled=btn_next_disabled, width="stretch", help="Ir al episodio siguiente"):
                     next_sid = session_ids[curr_idx + 1]
-                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=next_sid)
+                    navigation.set_nav_target(st.session_state, navigation.NAV_EPISODE, campaign_id=campaign_info.get("id"), session_id=next_sid, query_params=st.query_params)
                     st.rerun()
 
         st.markdown("<div style='margin-bottom: 0.4rem;'></div>", unsafe_allow_html=True)
@@ -1093,7 +1093,7 @@ def render_session_view(
             tree=navigation.build_navigation_tree([campaign_info], all_campaign_sessions),
         )
         if foot_target:
-            navigation.set_nav_target(st.session_state, **foot_target)
+            navigation.set_nav_target(st.session_state, **foot_target, query_params=st.query_params)
             st.rerun()
 
 
@@ -1111,12 +1111,16 @@ def main() -> None:
     # Construcción de la jerarquía de navegación y gestión de estado (Spec 16 / US1)
     tree = navigation.build_navigation_tree(campaigns, all_sessions)
     default_camp = campaigns[0]["id"] if campaigns else None
-    current_target = navigation.init_navigation(st.session_state, default_campaign_id=default_camp)
+    current_target = navigation.init_navigation(
+        st.session_state,
+        query_params=st.query_params,
+        default_campaign_id=default_camp,
+    )
 
     # 1. Árbol de navegación interactivo en la barra lateral
     new_selection = navigation.render_navigation_tree(st, tree, current_target)
     if new_selection:
-        navigation.set_nav_target(st.session_state, **new_selection)
+        navigation.set_nav_target(st.session_state, **new_selection, query_params=st.query_params)
         st.rerun()
 
     with st.sidebar:
@@ -1128,15 +1132,8 @@ def main() -> None:
                 st.rerun()
         st.caption("Miskatonic Scribe v2.0 • Archivo de Rol")
 
-    # 2. Migas de Pan (Breadcrumbs) en la cabecera (Spec 16 / US2)
-    breadcrumbs_md = navigation.build_breadcrumbs(current_target, tree)
-    st.markdown(
-        f"<div style='background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); "
-        f"padding: 10px 16px; border-radius: 8px; margin-bottom: 20px; font-size: 0.95rem;'>"
-        f"{breadcrumbs_md}"
-        f"</div>",
-        unsafe_allow_html=True,
-    )
+    # 2. Migas de Pan (Breadcrumbs) interactivas en la cabecera (Spec 16 / US2)
+    navigation.render_breadcrumbs(st, current_target, tree)
 
     # 3. Enrutamiento del cuerpo principal por nivel de navegación
     cur_level = current_target.get("level", navigation.NAV_GLOBAL)
@@ -1148,7 +1145,7 @@ def main() -> None:
         archive_kpis = navigation.load_global_archive_kpis()
         camp_select = navigation.render_global_archive_view(st, archive_kpis, tree["campaigns"])
         if camp_select:
-            navigation.set_nav_target(st.session_state, **camp_select)
+            navigation.set_nav_target(st.session_state, **camp_select, query_params=st.query_params)
             st.rerun()
 
     elif cur_level == navigation.NAV_CAMPAIGN:

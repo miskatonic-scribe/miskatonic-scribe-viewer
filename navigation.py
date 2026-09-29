@@ -53,6 +53,66 @@ def normalize_nav_target(target: Mapping[str, Any] | None) -> dict[str, Any]:
     }
 
 
+def sync_query_params(query_params: Any, target: dict[str, Any]) -> None:
+    """Sincroniza el destino de navegación con los query parameters de Streamlit si existen."""
+    if query_params is None:
+        return
+    try:
+        level = target.get("level", NAV_GLOBAL)
+        cid = target.get("campaign_id")
+        sid = target.get("session_id")
+        query_params.clear()
+        if level == NAV_GLOBAL:
+            query_params["nav"] = "global"
+        elif level == NAV_CAMPAIGN and cid:
+            query_params["camp"] = cid
+        elif level == NAV_EPISODE and sid:
+            if cid:
+                query_params["camp"] = cid
+            query_params["session"] = sid
+    except Exception:
+        pass
+
+
+def get_target_from_query_params(query_params: Any) -> dict[str, Any] | None:
+    """Extrae un destino de navegación válido a partir de query parameters de Streamlit."""
+    if not query_params:
+        return None
+    try:
+        sid = query_params.get("session")
+        cid = query_params.get("camp")
+        nav = query_params.get("nav")
+
+        if isinstance(sid, list):
+            sid = sid[0] if sid else None
+        if isinstance(cid, list):
+            cid = cid[0] if cid else None
+        if isinstance(nav, list):
+            nav = nav[0] if nav else None
+
+        if sid:
+            return normalize_nav_target({
+                "level": NAV_EPISODE,
+                "campaign_id": cid,
+                "session_id": sid,
+            })
+        if cid:
+            return normalize_nav_target({
+                "level": NAV_CAMPAIGN,
+                "campaign_id": cid,
+                "session_id": None,
+            })
+        if nav == "global":
+            return normalize_nav_target({
+                "level": NAV_GLOBAL,
+                "campaign_id": None,
+                "session_id": None,
+            })
+    except Exception:
+        pass
+    return None
+
+
 def get_nav_target(session_state: Any) -> dict[str, Any]:
     """Obtiene el destino de navegación actual desde session_state garantizando su validez."""
     raw = getattr(session_state, STATE_KEY, None) if not isinstance(session_state, dict) else session_state.get(STATE_KEY)
@@ -70,8 +130,9 @@ def set_nav_target(
     level: str,
     campaign_id: str | None = None,
     session_id: str | None = None,
+    query_params: Any = None,
 ) -> dict[str, Any]:
-    """Establece un nuevo destino de navegación válido en session_state."""
+    """Establece un nuevo destino de navegación válido en session_state y sincroniza query params si existen."""
     new_target = normalize_nav_target({
         "level": level,
         "campaign_id": campaign_id,
@@ -81,37 +142,55 @@ def set_nav_target(
         session_state[STATE_KEY] = new_target
     else:
         setattr(session_state, STATE_KEY, new_target)
+
+    if query_params is not None:
+        sync_query_params(query_params, new_target)
+
     return new_target
 
 
 def init_navigation(
     session_state: Any,
+    query_params: Any = None,
     default_campaign_id: str | None = None,
     default_session_id: str | None = None,
 ) -> dict[str, Any]:
-    """Inicializa el estado de navegación si no existe previamente."""
+    """Inicializa o recupera el estado de navegación sincronizando query params y session_state."""
+    # 1. Si hay query params explícitos en la URL, tienen máxima prioridad
+    qp_target = get_target_from_query_params(query_params)
+    if qp_target:
+        return set_nav_target(session_state, **qp_target, query_params=query_params)
+
+    # 2. Si ya está inicializado en session_state, conservarlo y sincronizar query_params
     has_key = (
         STATE_KEY in session_state
         if isinstance(session_state, dict)
         else hasattr(session_state, STATE_KEY)
     )
+    if has_key:
+        current = get_nav_target(session_state)
+        if query_params is not None:
+            sync_query_params(query_params, current)
+        return current
 
-    if not has_key:
-        if default_session_id:
-            return set_nav_target(
-                session_state,
-                NAV_EPISODE,
-                campaign_id=default_campaign_id,
-                session_id=default_session_id,
-            )
-        elif default_campaign_id:
-            return set_nav_target(
-                session_state,
-                NAV_CAMPAIGN,
-                campaign_id=default_campaign_id,
-            )
-        else:
-            return set_nav_target(session_state, NAV_GLOBAL)
+    # 3. Fallback a valores por defecto
+    if default_session_id:
+        return set_nav_target(
+            session_state,
+            NAV_EPISODE,
+            campaign_id=default_campaign_id,
+            session_id=default_session_id,
+            query_params=query_params,
+        )
+    elif default_campaign_id:
+        return set_nav_target(
+            session_state,
+            NAV_CAMPAIGN,
+            campaign_id=default_campaign_id,
+            query_params=query_params,
+        )
+    else:
+        return set_nav_target(session_state, NAV_GLOBAL, query_params=query_params)
 
     return get_nav_target(session_state)
 
@@ -282,13 +361,26 @@ def render_navigation_tree(
 def build_breadcrumbs(
     current_target: dict[str, Any],
     tree: dict[str, Any],
+    as_html: bool = False,
 ) -> str:
-    """Construye la cadena de texto HTML/Markdown para las migas de pan (Breadcrumbs)."""
+    """Construye la cadena de texto HTML/Markdown para las migas de pan (Breadcrumbs).
+
+    Si as_html es True, genera enlaces HTML (<a href='...'>) con layout flexbox fluido.
+    Si as_html es False, genera texto Markdown compatible hacia atrás.
+    """
     cur_level = current_target.get("level", NAV_GLOBAL)
     cur_camp = current_target.get("campaign_id")
     cur_sess = current_target.get("session_id")
 
     if cur_level == NAV_GLOBAL:
+        if as_html:
+            return (
+                "<div class='miskatonic-breadcrumbs'>"
+                "<span class='bcrumb-current'>🐙 <b>Archivo Miskatonic</b></span>"
+                "<span class='bcrumb-sep'>›</span>"
+                "<span style='color: #64748b;'>📜 <i>Explorador de Aventuras</i></span>"
+                "</div>"
+            )
         return "🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 *Explorador de Aventuras*"
 
     # Buscar datos de campaña en el árbol
@@ -296,6 +388,16 @@ def build_breadcrumbs(
     camp_name = camp_match["name"] if camp_match else (cur_camp or "Partida Suelta")
 
     if cur_level == NAV_CAMPAIGN:
+        if as_html:
+            return (
+                "<div class='miskatonic-breadcrumbs'>"
+                "<a href='?nav=global' target='_self' class='bcrumb-link'>🐙 <b>Archivo Miskatonic</b></a>"
+                "<span class='bcrumb-sep'>›</span>"
+                f"<span class='bcrumb-current'>📜 <b>{camp_name}</b></span>"
+                "<span class='bcrumb-sep'>›</span>"
+                "<span style='color: #64748b;'>🗺️ <i>Visión de la Aventura</i></span>"
+                "</div>"
+            )
         return f"🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 **{camp_name}** &nbsp;›&nbsp; 🗺️ *Visión de la Aventura*"
 
     # Buscar datos de sesión
@@ -305,7 +407,7 @@ def build_breadcrumbs(
         sess_match = next((s for s in camp_match.get("episodes", []) if s["id"] == cur_sess), None)
         if sess_match:
             raw_title = sess_match.get("title") or cur_sess
-            ep_title = (raw_title[:35] + "…") if len(raw_title) > 37 else raw_title
+            ep_title = (raw_title[:45] + "…") if len(raw_title) > 48 else raw_title
             order = sess_match.get("episode_order")
             if order is not None:
                 ep_order_str = f"[Ep. {order}] "
@@ -316,7 +418,85 @@ def build_breadcrumbs(
         if sess_match:
             ep_title = sess_match.get("title") or cur_sess
 
+    if as_html:
+        camp_href = f"?camp={cur_camp}" if cur_camp else "?nav=global"
+        return (
+            "<div class='miskatonic-breadcrumbs'>"
+            "<a href='?nav=global' target='_self' class='bcrumb-link'>🐙 <b>Archivo Miskatonic</b></a>"
+            "<span class='bcrumb-sep'>›</span>"
+            f"<a href='{camp_href}' target='_self' class='bcrumb-link'>📜 <b>{camp_name}</b></a>"
+            "<span class='bcrumb-sep'>›</span>"
+            f"<span class='bcrumb-current'>🎬 <i>{ep_order_str}{ep_title}</i></span>"
+            "</div>"
+        )
+
     return f"🐙 **Archivo Miskatonic** &nbsp;›&nbsp; 📜 **{camp_name}** &nbsp;›&nbsp; 🎬 *{ep_order_str}{ep_title}*"
+
+
+def render_breadcrumbs(
+    st_module: Any,
+    current_target: dict[str, Any],
+    tree: dict[str, Any],
+) -> dict[str, Any] | None:
+    """Renderiza las migas de pan interactivas con enlaces HTML continuos y flexbox."""
+    st = st_module
+    html = build_breadcrumbs(current_target, tree, as_html=True)
+    st.markdown(
+        f"""
+        <style>
+        .miskatonic-breadcrumbs {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 8px 16px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            flex-wrap: wrap;
+        }}
+        .miskatonic-breadcrumbs a.bcrumb-link {{
+            color: #94a3b8 !important;
+            text-decoration: none !important;
+            font-weight: 500 !important;
+            padding: 2px 6px !important;
+            border-radius: 4px !important;
+            transition: all 0.15s ease !important;
+            display: inline-flex;
+            align-items: center;
+        }}
+        .miskatonic-breadcrumbs a.bcrumb-link:hover {{
+            color: #64ffda !important;
+            background: rgba(100, 255, 218, 0.08) !important;
+            text-decoration: none !important;
+        }}
+        .miskatonic-breadcrumbs .bcrumb-sep {{
+            color: #64748b;
+            font-size: 1.05rem;
+            user-select: none;
+            padding: 0 1px;
+            display: inline-flex;
+            align-items: center;
+        }}
+        .miskatonic-breadcrumbs .bcrumb-current {{
+            color: #f1f5f9;
+            font-weight: 600;
+            padding: 2px 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 650px;
+            display: inline-flex;
+            align-items: center;
+        }}
+        </style>
+        {html}
+        """,
+        unsafe_allow_html=True,
+    )
+    return None
 
 
 def get_adjacent_episodes(
