@@ -33,6 +33,9 @@ try:
     )
     from dashboard.visualizations.campaign_tension import render_campaign_tension_chart
     from dashboard.visualizations.campaign_airtime import render_campaign_airtime_charts
+    from dashboard.visualizations.tension import render_tension_chart
+    from dashboard.visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
+    from dashboard.visualizations.offtopic import render_immersion_tab, render_offtopic_chart
     from dashboard import navigation
 except ImportError:
     from visualizations.swimlane import (
@@ -42,6 +45,9 @@ except ImportError:
     )
     from visualizations.campaign_tension import render_campaign_tension_chart
     from visualizations.campaign_airtime import render_campaign_airtime_charts
+    from visualizations.tension import render_tension_chart
+    from visualizations.timeline_stream import consolidate_event_stream, render_timeline_stream
+    from visualizations.offtopic import render_immersion_tab, render_offtopic_chart
     import navigation
 
 from core import paths
@@ -524,90 +530,6 @@ def wrap_text(text: str, width: int = 55) -> str:
     return "<br>".join(lines)
 
 
-def render_tension_chart(metrics: list[dict[str, Any]]) -> go.Figure:
-    """Genera la Curva de Tensión Dramática con Plotly con tooltips enriquecidos."""
-    df = pd.DataFrame(metrics)
-    df["minute_mark"] = df["start_time"] / 60
-
-    # Paleta de colores para tensión según severidad
-    def get_color(val: int) -> str:
-        if val <= 0:
-            return "#8b949e"  # Gris ceniza (Error de análisis LLM / no evaluado)
-        elif val <= 3:
-            return "#26a69a"  # Verde (Baja)
-        elif val <= 6:
-            return "#ffa726"  # Ámbar (Media)
-        elif val <= 8:
-            return "#ff7043"  # Naranja intenso (Peligro)
-        return "#e53935"      # Rojo Carmesí (Horror Cósmico)
-
-    point_colors = [get_color(t) for t in df["tension"]]
-
-    # Textos formateados con ancho fijo para evitar cuadros gigantescos
-    wrapped_just = [wrap_text(t, width=55) for t in df["tension_justification"]]
-    wrapped_story = [wrap_text(s, width=55) for s in df["story_state"]]
-
-    fig = go.Figure()
-
-    # Líneas de umbral de referencia
-    fig.add_hline(
-        y=7,
-        line_dash="dash",
-        line_color="rgba(255, 112, 67, 0.4)",
-        annotation_text="Peligro / Tiradas Críticas (7)",
-        annotation_position="bottom right",
-    )
-    fig.add_hline(
-        y=9,
-        line_dash="dash",
-        line_color="rgba(229, 57, 53, 0.4)",
-        annotation_text="Horror Cósmico / Clímax (9)",
-        annotation_position="top right",
-    )
-
-    # Línea de tensión continua
-    fig.add_trace(
-        go.Scatter(
-            x=df["time_label"],
-            y=df["tension"],
-            mode="lines+markers",
-            name="Tensión Dramática",
-            line=dict(color="#58a6ff", width=3, shape="spline", smoothing=0.7),
-            marker=dict(size=12, color=point_colors, line=dict(color="#ffffff", width=1.5)),
-            customdata=list(zip(wrapped_just, wrapped_story, df["off_topic_pct"])),
-            hovertemplate=(
-                "<b>Bloque:</b> %{x}<br>"
-                "<b>Tensión:</b> %{y}/10<br>"
-                "<b>Off-Topic:</b> %{customdata[2]}%<br>"
-                "<span style='color:#8b949e;'>──────────────────────────────</span><br>"
-                "<b>Justificación:</b><br>%{customdata[0]}<br><br>"
-                "<b>Estado de la Trama:</b><br>%{customdata[1]}"
-                "<extra></extra>"
-            ),
-        )
-    )
-
-    fig.update_layout(
-        title="<b>Evolución del Ritmo y Tensión Dramática</b>",
-        xaxis_title="Intervalo Temporal (Minutos)",
-        yaxis_title="Nivel de Tensión (1-10)",
-        yaxis=dict(range=[0, 10.5], dtick=1, gridcolor="#21262d"),
-        xaxis=dict(gridcolor="#21262d"),
-        paper_bgcolor="#0d1117",
-        plot_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
-        hoverlabel=dict(
-            bgcolor="#161b22",
-            bordercolor="#30363d",
-            font_size=13,
-            font_family="sans-serif",
-            align="left",
-        ),
-        margin=dict(l=40, r=40, t=50, b=40),
-        height=450,
-    )
-
-    return fig
 
 
 def render_airtime_charts(session: dict[str, Any], characters: list[dict[str, Any]]) -> tuple[go.Figure, go.Figure]:
@@ -667,63 +589,6 @@ def render_airtime_charts(session: dict[str, Any], characters: list[dict[str, An
 
     return donut_fig, bar_fig
 
-
-def render_offtopic_chart(metrics: list[dict[str, Any]]) -> go.Figure:
-    """Genera el gráfico de área interactivo de evolución de Off-Topic."""
-    df = pd.DataFrame(metrics)
-    wrapped_off_just = [wrap_text(t, width=50) for t in df["off_topic_justification"]]
-
-    fig = go.Figure()
-
-    fig.add_trace(
-        go.Scatter(
-            x=df["time_label"],
-            y=df["off_topic_pct"],
-            mode="lines+markers",
-            fill="tozeroy",
-            name="Off-Topic %",
-            line=dict(color="#ffca28", width=2.5),
-            fillcolor="rgba(255, 202, 40, 0.15)",
-            marker=dict(size=8, color="#ffca28"),
-            customdata=wrapped_off_just,
-            hovertemplate=(
-                "<b>Bloque:</b> %{x}<br>"
-                "<b>Off-Topic:</b> %{y}%<br>"
-                "<span style='color:#8b949e;'>──────────────────────────────</span><br>"
-                "<b>Causa:</b><br>%{customdata}<extra></extra>"
-            ),
-        )
-    )
-
-    fig.add_hline(
-        y=20,
-        line_dash="dot",
-        line_color="rgba(255, 152, 0, 0.5)",
-        annotation_text="Alerta Distracción (>20%)",
-        annotation_position="top left",
-    )
-
-    fig.update_layout(
-        title="<b>Evolución del Índice de Off-Topic (Distracción vs Inmersión)</b>",
-        xaxis_title="Intervalo Temporal",
-        yaxis_title="Off-Topic (%)",
-        yaxis=dict(range=[0, max(50, df["off_topic_pct"].max() + 10)], gridcolor="#21262d"),
-        xaxis=dict(gridcolor="#21262d"),
-        paper_bgcolor="#0d1117",
-        plot_bgcolor="#0d1117",
-        font=dict(color="#c9d1d9"),
-        hoverlabel=dict(
-            bgcolor="#161b22",
-            bordercolor="#30363d",
-            font_size=13,
-            font_family="sans-serif",
-            align="left",
-        ),
-        margin=dict(l=40, r=40, t=50, b=40),
-        height=380,
-    )
-
-    return fig
 
 
 def render_campaign_global_view(campaign_id: str) -> None:
@@ -1074,18 +939,30 @@ def render_session_view(
     st.divider()
 
     # Pestañas analíticas principales
-    tab_tension, tab_swimlane, tab_airtime, tab_offtopic, tab_chronicle = st.tabs([
+    tab_tension, tab_dynamics, tab_offtopic, tab_chronicle = st.tabs([
         "📈 Curva de Tensión Dramática",
-        "🏊‍♂️ Carriles de Habla (Swimlane)",
-        "🎙️ Gestión de Mesa (Airtime)",
-        "🎲 Inmersión y Off-Topic",
+        "👥 Dinámicas de Mesa & Participación",
+        "🎭 Inmersión & Atmósfera",
         "📖 Crónica Narrativa y Desglose",
     ])
 
     # PESTAÑA 1: Tensión Dramática
     with tab_tension:
-        fig_tension = render_tension_chart(metrics)
-        st.plotly_chart(fig_tension)
+        sanity_events = load_sanity_events(selected_id)
+        clues = load_clues(selected_id)
+        milestones = load_milestones(selected_id)
+        critical_rolls = load_critical_rolls(selected_id)
+        combat_events = load_combat_events(selected_id)
+
+        fig_tension = render_tension_chart(
+            metrics,
+            sanity_events=sanity_events,
+            clues=clues,
+            milestones=milestones,
+            critical_rolls=critical_rolls,
+            combat_events=combat_events,
+        )
+        st.plotly_chart(fig_tension, width="stretch")
 
         error_blocks = [b for b in metrics if b["tension"] <= 0]
         if error_blocks:
@@ -1106,159 +983,23 @@ def render_session_view(
                         f"{b['tension_justification']}"
                     )
 
-        # Crónica Directa de Cordura y Shocks Psicológicos (Spec 02)
-        sanity_events = load_sanity_events(selected_id)
-        st.markdown("---")
-        st.subheader("🧠 Crónica de Cordura y Shocks Psicológicos")
+        # Línea de Tiempo Narrativa Consolidada y Filtrable (Spec 17 / US2 & US3)
+        event_stream = consolidate_event_stream(
+            sanity_events=sanity_events,
+            clues=clues,
+            milestones=milestones,
+            critical_rolls=critical_rolls,
+            combat_events=combat_events,
+        )
+        render_timeline_stream(st, event_stream, current_session_id=selected_id)
 
-        if not sanity_events:
-            st.caption("No se detectaron pérdidas de cordura ni tiradas de crisis en esta sesión.")
-        else:
-            for ev in sanity_events:
-                player = ev.get("player_name", "").strip()
-                char = ev.get("character_name", "").strip()
-                if player and char and player.lower() != char.lower():
-                    who = f"**{player}** (*{char}*)"
-                else:
-                    who = f"**{player or char or 'Investigador'}**"
-
-                loss = ev.get("sanity_loss", "").strip() or "Pérdida no especificada"
-                trigger = ev.get("trigger_cause", "").strip() or "Estímulo perturbador"
-                consequence = ev.get("consequence", "").strip()
-
-                time_badge = f"`[{ev.get('timestamp_str', '')}]`"
-                consequence_txt = f" · **Efecto:** *{consequence}*" if consequence and consequence.lower() != "ninguna" else ""
-
-                st.markdown(
-                    f"{time_badge} 🧠 {who} · **Pérdida:** `{loss}` · **Detonante:** {trigger}{consequence_txt}"
-                )
-
-        # Pistas Clave Descubiertas (Spec 03)
-        clues = load_clues(selected_id)
-        st.markdown("---")
-        st.subheader("🔍 Pistas Clave Descubiertas")
-
-        if not clues:
-            st.caption("No se registraron pistas formales descubiertas en esta sesión.")
-        else:
-            for c in clues:
-                player = c.get("player_name", "").strip()
-                char = c.get("character_name", "").strip()
-                if player and char and player.lower() != char.lower():
-                    who = f"**{player}** (*{char}*)"
-                else:
-                    who = f"**{player or char or 'Investigador'}**"
-
-                skill = c.get("source_skill", "").strip() or "Deducción"
-                importance = c.get("importance", "clave").strip().lower()
-                imp_badge = ":red-background[Clave]" if importance == "clave" else ":gray-background[Contexto]"
-                clue_txt = c.get("clue_text", "").strip()
-                time_badge = f"`[{c.get('timestamp_str', '')}]`"
-
-                st.markdown(
-                    f"{time_badge} 🔍 {who} · **Habilidad:** `{skill}` · {imp_badge} {clue_txt}"
-                )
-
-        # Hitos Narrativos y Puntos de Inflexión (Spec 03)
-        milestones = load_milestones(selected_id)
-        st.markdown("---")
-        st.subheader("🚩 Hitos y Puntos de Inflexión de la Trama")
-
-        if not milestones:
-            st.caption("No se registraron hitos narrativos destacados en esta sesión.")
-        else:
-            for m in milestones:
-                time_badge = f"`[{m.get('timestamp_str', '')}]`"
-                title = m.get("title", "").strip()
-                phase = m.get("phase", "investigación").strip()
-                desc = m.get("description", "").strip()
-                phase_badge = f"*{phase.capitalize()}*"
-
-                st.markdown(
-                    f"{time_badge} 🚩 **{title}** ({phase_badge}) — {desc}"
-                )
-
-        # Tiradas Críticas y Forzadas (Spec 04)
-        critical_rolls = load_critical_rolls(selected_id)
-        st.markdown("---")
-        st.subheader("🎲 Tiradas Críticas y Forzadas")
-
-        if not critical_rolls:
-            st.caption("No se registraron tiradas forzadas ni resultados críticos/pifias en esta sesión.")
-        else:
-            for r in critical_rolls:
-                player = r.get("player_name", "").strip()
-                char = r.get("character_name", "").strip()
-                if player and char and player.lower() != char.lower():
-                    who = f"**{player}** (*{char}*)"
-                else:
-                    who = f"**{player or char or 'Investigador'}**"
-
-                time_badge = f"`[{r.get('timestamp_str', '')}]`"
-                skill = r.get("skill", "General").strip()
-                roll_type = r.get("roll_type", "pushed_roll").strip().lower()
-                outcome = r.get("outcome", "failure").strip().lower()
-                consequence = r.get("consequence", "").strip()
-
-                # Badge temático
-                if roll_type == "fumble":
-                    badge = ":red-background[💥 Pifia]"
-                elif roll_type == "critical":
-                    badge = ":green-background[⭐ Éxito Crítico]"
-                elif roll_type == "pushed_roll":
-                    badge = ":orange-background[🎲 Tirada Forzada]"
-                else:
-                    badge = f":blue-background[{roll_type.capitalize()}]"
-
-                outcome_icon = "✅" if outcome == "success" else "❌"
-                consequence_txt = f" — *{consequence}*" if consequence else ""
-
-                st.markdown(
-                    f"{time_badge} 🎲 {who} · **Habilidad:** `{skill}` · {badge} {outcome_icon}{consequence_txt}"
-                )
-
-        # Combate y Letalidad Física (Spec 04)
-        combat_events = load_combat_events(selected_id)
-        st.markdown("---")
-        st.subheader("🩸 Combate y Letalidad Física")
-
-        if not combat_events:
-            st.caption("No se registraron enfrentamientos físicos ni heridas graves en esta sesión.")
-        else:
-            for ev in combat_events:
-                player = ev.get("player_name", "").strip()
-                char = ev.get("character_name", "").strip()
-                if player and char and player.lower() != char.lower():
-                    who = f"**{player}** (*{char}*)"
-                else:
-                    who = f"**{player or char or 'Víctima'}**"
-
-                time_badge = f"`[{ev.get('timestamp_str', '')}]`"
-                source = ev.get("source", "").strip() or "Amenaza física"
-                severity = ev.get("severity", "herida_leve").strip().lower()
-                details = ev.get("details", "").strip()
-
-                # Badges de severidad
-                if severity == "muerte":
-                    sev_badge = ":red-background[💀 Muerte]"
-                elif severity == "inconsciente":
-                    sev_badge = ":red-background[😵 Inconsciente]"
-                elif severity == "herida_grave":
-                    sev_badge = ":red-background[🩸 Herida Grave]"
-                else:
-                    sev_badge = ":orange-background[🩹 Herida Leve]"
-
-                details_txt = f" — *{details}*" if details else ""
-
-                st.markdown(
-                    f"{time_badge} 🩸 {who} · **Origen:** `{source}` · {sev_badge}{details_txt}"
-                )
-
-    # PESTAÑA 2: Carriles de Habla (Swimlane)
-    with tab_swimlane:
+    # PESTAÑA 2: Dinámicas de Mesa & Participación (Swimlane First + Airtime)
+    with tab_dynamics:
+        # Nivel 1 (Superior): Carriles de Habla Interactivos (Swimlane Timeline)
+        st.subheader("🎙️ Carriles de Habla en el Tiempo (Swimlane)")
         dialogs = load_session_dialogs(selected_id)
         if not dialogs:
-            st.info("ℹ️ No se encontraron turnos de diálogo normalizados para esta partida.")
+            st.info("ℹ️ No se encontraron turnos de diálogo normalizados para los carriles de esta partida.")
         else:
             speaker_map = build_speaker_metadata(characters)
             available_labels = []
@@ -1270,7 +1011,7 @@ def render_session_view(
             col_filter, col_stats = st.columns([3, 1])
             with col_filter:
                 selected_speakers = st.multiselect(
-                    "Filtrar participantes:",
+                    "Filtrar participantes en el timeline:",
                     options=available_labels,
                     default=available_labels,
                     help="Selecciona los oradores a visualizar en los carriles de habla.",
@@ -1283,7 +1024,7 @@ def render_session_view(
                 characters=characters,
                 selected_speakers=selected_speakers,
             )
-            st.plotly_chart(fig_swimlane)
+            st.plotly_chart(fig_swimlane, width="stretch")
 
             with st.expander("💡 Cómo interpretar el Diagrama de Carriles"):
                 st.markdown(
@@ -1297,31 +1038,26 @@ def render_session_view(
                     """
                 )
 
-    # PESTAÑA 3: Airtime y Participación
-    with tab_airtime:
-        c1, c2 = st.columns([1, 1.5])
+        # Nivel 2 (Medio): Reparto y Balance Macro
+        st.markdown("---")
+        st.subheader("⚖️ Reparto y Balance de Voz en la Mesa")
+        c1, c2 = st.columns([1.2, 1.8])
         fig_donut, fig_bar = render_airtime_charts(session, characters)
         with c1:
-            st.plotly_chart(fig_donut)
+            st.plotly_chart(fig_donut, width="stretch")
         with c2:
-            st.plotly_chart(fig_bar)
+            st.plotly_chart(fig_bar, width="stretch")
 
-        st.subheader("Desglose de Participantes")
+        # Nivel 3 (Inferior): Desglose Detallado
+        st.caption("Desglose detallado de intervención por participante:")
         df_display = pd.DataFrame(characters)[["player", "character", "role", "speaking_seconds", "airtime_pct"]]
         df_display.columns = ["Jugador", "Personaje", "Rol", "Segundos Habla", "Airtime %"]
         df_display["Minutos Habla"] = (df_display["Segundos Habla"] / 60).round(1)
-        st.dataframe(df_display[["Jugador", "Personaje", "Rol", "Minutos Habla", "Airtime %"]], hide_index=True)
+        st.dataframe(df_display[["Jugador", "Personaje", "Rol", "Minutos Habla", "Airtime %"]], hide_index=True, width="stretch")
 
-    # PESTAÑA 3: Off-Topic e Inmersión
+    # PESTAÑA 3: Inmersión & Atmósfera de Mesa (Spec 17 / US4)
     with tab_offtopic:
-        fig_offtopic = render_offtopic_chart(metrics)
-        st.plotly_chart(fig_offtopic)
-
-        immersion_pct = 100.0 - session["average_off_topic_pct"]
-        st.markdown(
-            f"**Índice de Inmersión Global:** La mesa pasó el **{immersion_pct:.1f}%** del tiempo completamente "
-            f"sumergida en el rol y la ficción de la partida."
-        )
+        render_immersion_tab(st, session, metrics)
 
     # PESTAÑA 4: Crónica y Desglose
     with tab_chronicle:
