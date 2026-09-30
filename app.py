@@ -52,12 +52,18 @@ try:
         render_campaign_investigator_scoreboard,
     )
     from dashboard.visualizations.campaign_evolution import render_campaign_evolution_section
+    import dashboard.visualizations.welcome as _welcome_mod
+    importlib.reload(_welcome_mod)
+    from dashboard.visualizations.welcome import render_welcome_banner
     from dashboard import navigation
 except ImportError:
     import visualizations.investigator_stats as _inv_stats_mod
     importlib.reload(_inv_stats_mod)
     import visualizations.offtopic as _offtopic_mod
     importlib.reload(_offtopic_mod)
+    import visualizations.welcome as _welcome_mod
+    importlib.reload(_welcome_mod)
+    from visualizations.welcome import render_welcome_banner
     from visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
@@ -1215,11 +1221,10 @@ def main() -> None:
 
     # Construcción de la jerarquía de navegación y gestión de estado (Spec 16 / US1)
     tree = navigation.build_navigation_tree(campaigns, all_sessions)
-    default_camp = campaigns[0]["id"] if campaigns else None
     current_target = navigation.init_navigation(
         st.session_state,
         query_params=st.query_params,
-        default_campaign_id=default_camp,
+        default_campaign_id=None,
     )
 
     # 1. Árbol de navegación interactivo en la barra lateral
@@ -1246,7 +1251,8 @@ def main() -> None:
     cur_sess = current_target.get("session_id")
 
     if cur_level == navigation.NAV_GLOBAL:
-        # Portada del Archivo General (Spec 16 / US3)
+        # Portada del Archivo General (Spec 16 / US3 + Spec 22)
+        render_welcome_banner(st)
         archive_kpis = navigation.load_global_archive_kpis()
         camp_select = navigation.render_global_archive_view(st, archive_kpis, tree["campaigns"])
         if camp_select:
