@@ -1,0 +1,1550 @@
+[
+  {
+    "speaker": "SPEAKER_00",
+    "start": 0.21,
+    "end": 28.56,
+    "text": "Muy buenas, os damos la bienvenida a la mazmorra de Pacheco y os damos la bienvenida a, aquí lo tenemos, Horror en el Orient Express, que hoy van a subirse en un tren nuestros aventureros. Van a dejar atrás Londres y van a decir hola a París. Así que vamos a ponerlos a París, a esta gente, vamos a ponerlos en París. Eso es lo que vamos a intentar hacer en este vídeo. ¿Qué tal, Isaac Chemi?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 29.54,
+    "end": 32.97,
+    "text": "¡Ulala! Aquí, otro idioma para aprender. Esto es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 32.99,
+    "end": 42.51,
+    "text": "genial. ¡Vamos, bebo! ¡Esto es todo el saco yo justo! Perfecto. ¿Qué tal, Alex Coxen, Lucía?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 43.67,
+    "end": 50.08,
+    "text": "Bien, bien, bien, bien. Súper bien. Guay. Bueno, vamos al país de los croissants. Eso tiene que ser"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 50.14,
+    "end": 67.11,
+    "text": "muy... Exactamente, va a su tierra natal. Y bueno, pues eso está bien. Probar los croissants en todos los sitios de Europa es la misión. Ellas le han dicho lo del artefacto de ese, de que le están diciendo hay que unir cada croissant de cada lugar de Europa en el gran"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 67.15,
+    "end": 68.39,
+    "text": "croissant"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 68.45,
+    "end": 71.23,
+    "text": "original. Muy bien. ¿Qué tal, Adil, lo de Toni?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 72.59,
+    "end": 77.78,
+    "text": "Muy bien, de eso no montar en este horror y en express, porque ya hay ganas de subir al tren."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 77.8,
+    "end": 81.46,
+    "text": "¿Y cómo estamos, Lili Luz?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 82.31,
+    "end": 88.67,
+    "text": "Pues mira, eso de que hoy vamos a coger un tren ya lo veremos, que la noche es larga y alberga horrores."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 88.85,
+    "end": 130.64,
+    "text": "Pues sí, eso es lo que yo esperaba. Nuestros investigadores habían recibido ya la main quest, por fin, del Orient Express. Le han dicho que tienen que reunir las piezas de un artefacto para destruirlo porque hay una secta que está... Que esa secta ya les ha metido una especie de juego en el que están ahí. Quizá ese Fez con esa nota es lo que les ha hecho saber que están detrás de ellos. Y el profesor Julius les dice que tienen que destruir este artefacto. Así que ahí están. Habían cogido un taxi para ir a la estación a comprar esto. Dime, Lucio Fajallego, que te veo."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 131.28,
+    "end": 142.31,
+    "text": "Sí, es que yo, ahora que has dicho lo del FED, lo he pensado antes y ya me había olvidado. Yo sé que no sirve para absolutamente nada, pero por si acaso me quiero llevar el FED en la maleta."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 142.33,
+    "end": 146.4,
+    "text": "Vale, muy bien. ¿Tú cualquier ítem que coges en el videojuego te lo guardas?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 147.1,
+    "end": 153.53,
+    "text": "Por supuesto, hasta que se me llene la mochila y luego ya voy seleccionando a ver qué me cabe y qué no. Así que yo voy con mis 12 botellas de agua y mi FED."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 154.85,
+    "end": 161.93,
+    "text": "Tiene uno de cada, no los vende nunca y ahí los tiene, ¿no? Inventario, botella de agua, Fez. Muy bien, perfecto."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 161.97,
+    "end": 163.95,
+    "text": "Esto es un point and click para"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 163.97,
+    "end": 182.5,
+    "text": "ella. Sí, sí, ya lo veo. Así que, y pues tienen esta main quest que Real Tony nos va a leer, yo creo que nos puede poner Echemi aquí a Real Tony. Bueno, o nos puedes poner que veamos exactamente el texto de la nota, ¿vale? Ya me tengo muy"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 182.54,
+    "end": 182.78,
+    "text": "visto."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 185.68,
+    "end": 190.5,
+    "text": "Así que, pues, cuando quieras, cuando quieras, Real Tony, léenos lo que ha escrito."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 191.14,
+    "end": 294.0,
+    "text": "Un segundo, que ve dos. Digo, dice, el simulacro de Sendefkar es un artefacto mágico de maligno poder. A finales del siglo XVIII, la estatua fue desmontada y esparcida por Europa. Recuperad las piezas y destruidlo. La estatua fue dividida en París, justo antes de la Revolución Francesa, 1789. Es posible que alguna parte siga en Francia. El dueño era el noble, el conde Fenalic. Apuntad y apuntad. Los soldados de Napoleón se llevaron una pieza a Venecia cuando invadió la ciudad. Otro fragmento llegó a Trieste durante esta misma época. Desconozco lo que ocurrió con ella, pero buscad a John Wilkenman en el museo local. Mira, de museo va. Es posible que haya otra pieza en el reino de los serbios, croatas y eslovenos. Comenzada en el Museo Nacional de Belgrado. Su director es el doctor Milovan Todorovic. Hay una pieza que se perdió en Sofia, Bulgaria, durante la guerra búlgara en 1875. Durante esa época las cosas de valor se escondieron de los invasores, por lo que puede estar enterrada en algún sitio. Otra pieza sigue en circulación por París, Talfe. tras el final de la gran guerra, pero se vendió a alguien de Milán. La única forma segura de destruir la estatua es llevarla a su lugar de origen, la mezquita velada de Constantinopla. Hay un ritual que permite destruirla completamente. El texto está recogido en una serie de documentos conocidos como los pergaminos de Saint-Déficard. Y hasta aquí mi actuación de hoy. Buenas noches."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 294.42,
+    "end": 441.21,
+    "text": "Muy bien, pues eso es lo que tienen que hacer, eso es lo que les ha dicho Julius Smith y parece ser que están de acuerdo con ello y sobre todo que tienen que salir de París porque saben que parece ser que una especie de secta turca ha puesto precio a su cabeza y algunos de ellos podrían ser, como dijo Lili, hechiceros que pueden convocar a vampiros de fuego y si eso es así, pues más les vale poner tierra de por medio. Así que, pues, o extintores de por medio, ¿vale? Vosotros podéis ir, pues, bueno, en Londres podéis ir o a las oficinas de Thomas Cook e hijo o a las oficinas que hay de la compañía internacional de Wagons Leeds, que son la empresa que lleva Soundplume. Orient Express. Así que, bueno, pues supongo que vais a Thomas & Cook, ya que Lily es la que conoce. Y allí compráis un billete de primera clase o dos billetes de primera clase, porque ya teníais un par, los de Beddows. Y este usa unas reservas, digamos, cambiáis esas reservas por unos billetes para... para este día y compráis. Realmente lo que vais a comprar en este caso es como el trayecto hasta Constantinopla, pero como os he dicho, como dije la otra vez, no es que sea un solo billete tal, sino tenéis este salvoconducto, por así digáis, con el que podréis canjearlo por los diferentes billetes o tal que necesitéis para ir en este trayecto que recibe este nombre de Samplon Orient Express. Así que, bueno, pues hacéis esas o gastáis vuestro buen dinero, ¿vale? Casi 22 libras, 21 libras, 14 chelines y 9 peniques, que vale cada billete a Constantinopla, un dineral de la época, pero bueno, el profesor os dio esto. Con lo cual, mañana por la mañana sale el tren. Como sabéis, no es exactamente el mítico Orient Express con sus vagones azules, con ribetes dorados, tan conocido que habéis visto en mil dibujos de la época, fotografías también, aunque no se aprecien los colores, sino que es la parte inglesa que conectará con el Orient Express en el continente. Así que, bueno, tenéis el resto de la tarde-noche. No sé si queréis hacer algo o simplemente hacer vuestro equipaje y prepararos para este viaje que se promete largo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 441.24,
+    "end": 445.1,
+    "text": "Tengo poco equipaje. Soy una persona que anda ligero. Soy como"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 445.12,
+    "end": 446.94,
+    "text": "talco. Esa última noche..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 447.99,
+    "end": 474.25,
+    "text": "Pues yo quiero aprovechar el dinero que tengo y no sé si existe en la época, pero yo de verdad estoy obsesionada y quiero pertrecharme bien. Entonces, como ya tengo un arma, quiero intentar buscar por las tiendas que sigan abiertas, especializadas, a ver si existe algún mecanismo de extinción que sea más pequeñito, más portátil, algo que se pueda llevar en una mochila, un bolso, unos primeros auxilios de extintores."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 477.71,
+    "end": 486.8,
+    "text": "vale, pues digamos que tú te pasas la tarde buscando el extintor más pequeñito que hay, vale, una cosa así a lo mejor bueno, pues hay un... encuentras un extintor pequeñito vale, pues me llevo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 486.82,
+    "end": 488.99,
+    "text": "todos los que pueda, los que me alcance todos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 489.11,
+    "end": 489.85,
+    "text": "los que pueda?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 490.93,
+    "end": 493.09,
+    "text": "hombre, bueno, para cada compañero si puede ser"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 495.77,
+    "end": 498.19,
+    "text": "compras cuatro extintores pequeñitos"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 499.42,
+    "end": 500.62,
+    "text": "si me alcanza el dinero, sí"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 501.61,
+    "end": 506.02,
+    "text": "Sí, sí, tenéis dinero, tenéis dinero. Compras cuatro extintores pequeñitos, perfecto, vale. Piensa"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 506.04,
+    "end": 507.08,
+    "text": "que nos tiene que durar todo el viaje"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 507.64,
+    "end": 508.26,
+    "text": "el dinero, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 509.58,
+    "end": 512.32,
+    "text": "Bueno, yo creo que es una buena manera de invertirlo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 514.92,
+    "end": 519.78,
+    "text": "Tienes que soltar varias botellas del inventario para que te peguen los inventores, los escintores, pero bueno."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 519.8,
+    "end": 527.21,
+    "text": "Con sacrificio. Las dejas ahí, clink, clink. Mira a ver si con el Resident Evil, si los rotas, caben en el inventario de otra forma."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 527.23,
+    "end": 532.43,
+    "text": "Las dejo y luego vuelvo. Más de una mochila y vuelvo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 533.23,
+    "end": 538.86,
+    "text": "Perfecto. Muy bien. ¿Algo más? ¿Alguna cosa absurda? ¿Alguna otra cosa que queráis hacer más?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 540.24,
+    "end": 544.02,
+    "text": "Yo quiero hablar con ellos en algún momento que estemos a lo mejor cenando."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 544.75,
+    "end": 553.71,
+    "text": "Esto es un momento. Volvéis al hotel ahí, cenando. Cenéis un poquito quizá más tarde que los demás y digamos que estáis en un rinconcillo más o menos discreto."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 553.77,
+    "end": 564.46,
+    "text": "Les digo, chicos, he ido de compras y os he traído esto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 564.54,
+    "end": 569.78,
+    "text": "Espero que sea de ayuda. Gracias, Alex. Creo que es de mucha ayuda. Gracias por tu originalidad."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 571.56,
+    "end": 587.74,
+    "text": "Ojo en el extintor con mano temblorosa. Señores, debo preguntaros, ¿por qué queréis hacer esto? ¿Sois simplemente almas buenas que quieren hacer el bien por el mundo? ¿Da igual el peligro? Yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 589.98,
+    "end": 606.76,
+    "text": "he de confesar que mi motivación es más personal, ya que la persona de la que estoy enamorada depende... su vida depende de que demos con la clave de todo este misterio."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 606.78,
+    "end": 611.71,
+    "text": "¿Su vida depende de ese simulacro?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 614.93,
+    "end": 616.79,
+    "text": "Todo parece que sí, apunta que sí."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 616.81,
+    "end": 620.21,
+    "text": "¿Y ustedes, señores?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 620.46,
+    "end": 646.29,
+    "text": "Sí, si te sirve de ayuda, pues bueno, Lili, yo he visto y he oído cosas más allá de la razón y en una de ellas he sido salvado en un momento que mi vida había acabado. Desde entonces estoy viviendo ya libre, gratis y mientras pueda también ayudar a la gente en estas cosas tan horribles, pues es mi manera de pagar por esta vida extra que me han dado."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 648.89,
+    "end": 651.37,
+    "text": "O sea, que ha decidido pasar el resto de su vida haciendo el bien."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 652.95,
+    "end": 664.2,
+    "text": "O por lo menos metido en estos horrores. Y bueno, a ver hasta dónde, hasta lo que me lleve la vida. No le pido nada más a la vida, señorita."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 664.22,
+    "end": 667.2,
+    "text": "¿Y usted, señor Adil?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 668.81,
+    "end": 698.92,
+    "text": "Pues a raíz de lo vivido en varias ocasiones me hice investigador de lo paranormal y en este caso pues no iba a dejar a mis compañeros que se llevan todo el mérito descubriendo este misterio. Y solo Allah sabe dónde nos llevará este tren que no descarrile."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 700.04,
+    "end": 726.95,
+    "text": "También, si le sirve de consuelo por bajar un poco, la veo un poco tensa, nerviosa, bueno, no se preocupe por el viaje, aunque es cierto que ha hablado de unos turcos que pueden estar detrás de nosotros. Pero no creo que haya mucho peligro al principio, igual me equivoco, evidentemente, porque igual les vamos a reunir las piezas para esas personas. Entonces yo creo que por ahora no debemos temer mucho. Que no se preocupe. Me lo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 727.03,
+    "end": 837.14,
+    "text": "dice ahora, después de todo lo que hemos pasado. No tiene que convencerme, señor Isaac. La verdad no iba a ir con vosotros, seré sincera. Todo esto me parece una locura y... En fin, no debería de estar yendo a ningún lado, pero... Verán... Tendría alrededor de 11 años o así y fui a visitar a mi abuelita. Era una señora maravillosa, ¿saben? Era muy, muy sabia. De esas personas que siempre te responden absolutamente todo. Pero la pobre se estaba muriendo. Su vida se apagaba como una vela a la que se le acaba la cera y solo queda ese trocito de mecha donde hay una pequeña llama que titila y que sabes que está a punto de apagarse. Y estaba en su cama y sus ojos estaban blancos y lechosos por culpa de esas cataratas. Y yo me acerqué a ella y le cogí la mano y me dijo si venía a visitarla y a despedirme. Y yo le dije que sí, que sí, no tenía miedo. Ella me respondió que se tenía que ir a un viaje, a un viaje al que tenemos que ir todos alguna vez y que no tenía miedo, pero que algún día yo tendría mucho miedo y me invitarían a un viaje. Y que no querría ir a ese viaje, pero que debía de ir, porque allí habría gente que me iba a necesitar y que yo era buena cuidando y tenía que estar con ellos. Así que, en fin, parece que el destino nos ha unido, ¿verdad? Sea para lo que sea, tendremos que permanecer juntos hasta el final."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 840.24,
+    "end": 842.9,
+    "text": "Permanecer juntos y nos cuidaremos juntos también, Lili."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 846.29,
+    "end": 853.19,
+    "text": "Tratemos de sobrevivir. Tratemos de sobrevivir lo más posible. Eso espero, señores."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 853.21,
+    "end": 857.05,
+    "text": "Eres muy valiente, Lili. Y es increíble lo que estás haciendo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 859.12,
+    "end": 864.58,
+    "text": "Bueno, esperemos que todo esto salga bien y podamos salvar el mundo, ¿verdad? De todo. Esto trata de eso."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 866.28,
+    "end": 867.44,
+    "text": "Por lo menos al profesor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 872.1,
+    "end": 925.9,
+    "text": "Pues os traen los postres, ¿vale? Ha hecho hincapié al Scotsman en que le hicieran una tarta de croissants y gofres, ¿vale? Y se ha puesto muy, muy, muy nerviosa y al final han decidido los de la cocina que sí, que se lo iban a hacer. Y después de comer eso... Vale, y de llorar azúcar. Pues vais a vuestros cuartos y pasáis una noche que, bueno, no os voy a decir que sea una noche tranquila, pero conseguís más o menos descansar dentro de la situación. Y al día siguiente, pues tenéis que coger un tren. Tienes que coger un tren, vais ligeros de equipaje, llegáis vuestra escopeta recortada, vuestros extintores de mano, vuestras pistolas, algún croissant... Los billetes, los billetes también."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 926.44,
+    "end": 926.78,
+    "text": "El FED."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 928.21,
+    "end": 931.66,
+    "text": "El FED, vale. Bueno, pues... Yo llevo mi"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 931.72,
+    "end": 934.5,
+    "text": "ropa, nada más. Un par de vagas y"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 934.54,
+    "end": 935.42,
+    "text": "unos calcetines."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 935.98,
+    "end": 939.38,
+    "text": "Un par de mudas de los domingos y ya está. Y"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 939.42,
+    "end": 1000.67,
+    "text": "bueno, pues por la mañana, esta mañana londinense fría, pero bueno, reconfortante quizá. Montáis en este tren que, como digo, son estos vagones que son de la compañía Thomas Kuhn-Kickson, quienes están asociados con la compañía Wagons Lead. Y no son los lujosísimos vagones de Lorient Express, pero son los mejores vagones, digamos, en los que habéis estado. Porque los trenes en los años 20 eran una cosa bastante destartalada y precisamente por eso se crearon estos servicios de viajes de lujo. Entonces estáis ...en este tren... ...bastante placentero este tramo... ...vais viendo la campiña inglesa... ...porque tenéis que ir a Dover... ...y en menos de dos horas os plantáis en Dover... ...lo cual la verdad es que Lili... ...tú estás maravillada porque tú has hecho... ...un trayecto parecido otras veces... ...sabes que tarda mucho más porque se va cargando... ...en cada pueblo, cada peadero... ...y esta línea directa... ...de Londres-Dover... ...es una fantasía que en dos horas... ...hayáis cruzado la mitad de las islas británicas..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1002.08,
+    "end": 1020.23,
+    "text": "De hecho, he subido con miedo en el cuerpo, temblando, pero en cuanto estábamos todos ahí, la sonrisa ha vuelto a mi cara y voy señalando por las ventanillas diciendo, ¿qué os parece? Mirad, ¿habéis visto aquello? Como si fuera una niña pequeña otra vez. Y pasamos así el viaje."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1020.77,
+    "end": 1030.5,
+    "text": "Además ya lo pone en el cartelito, que es un tren sin plomo, que no tiene muchas cosas. Bueno, hemos llegado en dos horas ya a Dover."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1031.13,
+    "end": 1089.99,
+    "text": "A Dover, sí, sí, sí. Como te digo, es fantástico. Vais en estos trenes y ya hay personal en el tren que tiene la insignia, el logotipo de Lorient Express y que atienden todas vuestras necesidades. Es un servicio absolutamente de lujo. Y, de hecho, cuando llegáis a Dover ya os ayudan y tenéis los mozos que os llevan los equipajes y tal para coger el ferry. En Dover hay que coger un ferry que os llevará a la ciudad de Calais, la costa de Francia. Y bueno, pues os llevan ahí a las habitaciones. El ferry tiene habitaciones comunes, pero vosotros dentro de... Supongo que, como no nos falta el dinero, habéis hecho como el profesor que reservó unas cabinas en primera clase, ¿vale? Y bueno, hay que pagar un recargo adicional de 6 libras, pero yo creo que lo habéis pagado y tenéis vuestras cabinas en el ferry en primera clase. Y bueno, pues de nuevo, un par de horas."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1090.01,
+    "end": 1095.65,
+    "text": "¿Alguien se fija en nosotros en el intercambio en cuanto hemos dejado el tren y hemos cogido el ferry?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1095.67,
+    "end": 1101.0,
+    "text": "Tira a descubrir, tira a Spot Hidden a ver si hay alguien que os está vigilando. No"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1103.32,
+    "end": 1104.72,
+    "text": "se ve."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1104.78,
+    "end": 1118.45,
+    "text": "Ahora. Tú ves que no, crees que nadie os ha visto, crees que todo está muy en kilo y no crees que tengáis... Tú crees que no tenéis nada que temer. Habéis dado esquina a esos turcos. Me encanta la repetición del verbo crees."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1118.47,
+    "end": 1122.22,
+    "text": "Crees, tú crees, tú crees."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1122.24,
+    "end": 1126.56,
+    "text": "Me he contagiado del espíritu de Lili. Mira qué bonito es esto. Mira, yo ya me estoy viendo arriba también."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1127.39,
+    "end": 1129.3,
+    "text": "¿Habéis estado alguna vez en París? Tiene que ser"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1129.36,
+    "end": 1132.06,
+    "text": "fabuloso. ¿Sabéis hablar francés?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1132.08,
+    "end": 1135.18,
+    "text": "¿O hablas tan bien francés como español?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1135.5,
+    "end": 1140.26,
+    "text": "Yo lo intento. Yo voy a llegar allí y voy a decir lo primero que aparezca. Estoy"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1140.3,
+    "end": 1140.92,
+    "text": "seguro que voy a"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1140.96,
+    "end": 1142.57,
+    "text": "poder aprender francés. Me"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1142.61,
+    "end": 1147.11,
+    "text": "escucharíais enseñándole algo de francés. Te voy a enseñar cómo dirigirte a un camarero."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1147.29,
+    "end": 1148.27,
+    "text": "Gracias, por favor. Y"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1148.29,
+    "end": 1149.31,
+    "text": "le hablo en perfecto"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1149.33,
+    "end": 1303.96,
+    "text": "francés. Para que no nos pase lo de la otra vez, ¿vale? Y yo entiendo bien lo que me dice Lili. Tú estás ahí en babo bebo. Muy bien. Vale. Pues nada, unas horas de viaje y llegáis cerca de la noche al puerto de Calais. Y bueno, la verdad es que como vosotros tenéis cierta pista, supongo que cogéis, aunque sea por la tarde, ese tren. El tren, como digo, ese tren no es tampoco el Orient Express, aunque son unos vagones que sí que se van a enganchar al convoy principal del Samplon Orient Express y que sabes que se conocen como los coches de Calais, que van al final. Aún así, vuestros coches una vez allí serán mucho más lujosos que estos. Subís a esos vagones y sabéis que la parada principal donde vais a deteneros en este viaje es París. Así que pasáis la noche en el tren. El servicio Orient Express lo que tiene evidentemente son coches camas, eso es Wabon Lit. Y aunque estos no son el Orient Express y no tienen todavía ese lujo que tendrán, pues pasáis la noche de camino a París. Y pues a la mañana siguiente, pues quizá, bueno, no con... No tan aseados o tan frescos como os gustaría, al final acabáis dormido en un tren, pero sí que conseguís llegar a la ciudad de París. Cuando amanece y os despertáis, pues veis que estáis entrando en la ciudad y... Y bueno, pues ya de mañana conseguís llegar precisamente a la ciudad de la luz, a París. Y bueno, pues no sé si alguno de vosotros habéis estado, sé que Lili no, pero la verdad es que llegando allí, viendo la Torre Eiffel, los campos elíseos, tal, lo que podéis ver a la entrada de la ciudad, pues es una de las ciudades, quizá la ciudad más cosmopolita del mundo actualmente. Y desde luego es algo impresionante después de tanta muerte, de tanto peligro, pues llegar a esta ciudad, para muchos la ciudad del amor, pues es bastante reconfortante, al menos por ahora."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1304.71,
+    "end": 1309.59,
+    "text": "Yo como persona humana sí he estado, pero como Adil no lo sé."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1309.61,
+    "end": 1311.35,
+    "text": "Pues lo que tú digas, es tu personaje. Ha estado,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1311.37,
+    "end": 1318.08,
+    "text": "qué demonios, ha estado un par de semanas en París. Yo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1318.17,
+    "end": 1323.44,
+    "text": "no. Yo estoy súper sorprendido, estoy maravillado de lo que estoy viendo. Me parece increíble. Yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1323.48,
+    "end": 1325.0,
+    "text": "estoy echando de menos"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1325.12,
+    "end": 1334.08,
+    "text": "a Howie. ¡Hulalá, París! Adil, ya que lo conoces, podías hacernos un poco de turismo, ¿verdad? Podemos ir a la Torre"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1334.12,
+    "end": 1339.94,
+    "text": "Eiffel. Yo sí, Adil. Llévanos, llévanos. Venga, andos de guía."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1339.98,
+    "end": 1341.98,
+    "text": "Adil, vamos. ¿Qué año es? ¿Hemos dicho?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1343.42,
+    "end": 1344.2,
+    "text": "1923. Es"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1344.76,
+    "end": 1347.16,
+    "text": "que igual la Torre Eiffel... Sí, sí, está"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1347.26,
+    "end": 1353.42,
+    "text": "construida. Mírala allí en el fondo, Adil. Es que no has ido a verla a la vez que viniste. Parece mentira. Y te"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1353.44,
+    "end": 1355.79,
+    "text": "empuja Adil. Venga, vamos, Adil. Vamos para allá. Vamos a verlo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1358.47,
+    "end": 1361.93,
+    "text": "Muy bien, pues vais a hacer... Vais a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1361.95,
+    "end": 1362.73,
+    "text": "hacer turismo. Sí, sí."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1362.75,
+    "end": 1363.57,
+    "text": "El 31 de marzo de 1889. Está, está."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1363.65,
+    "end": 1364.33,
+    "text": "Sí, sí, sí, claro."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1369.77,
+    "end": 1395.19,
+    "text": "Sí, o sea, a ver, tenemos que, mientras hacemos turismo con nuestra boina y nuestra baguette debajo del brazo y nuestro pañuelito aquí rojo atado, voy hablando, digo, bueno, qué bonito es todo, qué precioso, tenemos que encontrar al conde Fenelik. ¿Dónde pensáis que podemos empezar a buscarlo?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1398.95,
+    "end": 1409.68,
+    "text": "El conde Fenalik venía en las notas, si os acordáis, parece ser el dueño original del artefacto del siglo XVIII. Ah, pues igual"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1409.72,
+    "end": 1412.94,
+    "text": "está un poco muerto este señor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1413.74,
+    "end": 1418.46,
+    "text": "Quizás sea très difficile, pero bueno, quizás podéis encontrar información"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1418.48,
+    "end": 1426.55,
+    "text": "sobre él. Sí, los nobles solían tener casas y cosas de estas grandes de nobles, quizás tenga algún palacete o algo..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1426.95,
+    "end": 1427.21,
+    "text": "Vale, aquí"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1427.31,
+    "end": 1428.31,
+    "text": "en París"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1428.33,
+    "end": 1428.53,
+    "text": "tenemos"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1428.67,
+    "end": 1429.59,
+    "text": "que encontrar... ¿En esta época"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1429.69,
+    "end": 1432.47,
+    "text": "habría como oficina de turismo o algo similar?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1435.79,
+    "end": 1452.66,
+    "text": "Pues no creo, no creo la verdad. Por cierto, que vamos a poner a París aquí en el Roll20. Alex, quería decir algo. No, oficina de turismo, pues no, evidentemente. Dime, Alex."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1454.57,
+    "end": 1474.62,
+    "text": "No, iba a decir al grupo que aquí en París tenemos que encontrar dos vías de información. Una, los soldados de Napoleón que fueron a Venecia y dos, el artefacto que vendieron a Milán a finales de la Gran Guerra, de la Primera Guerra Mundial."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1476.1,
+    "end": 1478.14,
+    "text": "Sí, porque en París hay uno."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1480.58,
+    "end": 1481.96,
+    "text": "Pero dice que se vendió en Milán."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1482.57,
+    "end": 1486.89,
+    "text": "Sí, pero yo creo que en Milán sería más fácil encontrar el rastro allí."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1489.23,
+    "end": 1491.81,
+    "text": "Claro, pero vas a ir a Milán, tendrás que... El"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1491.83,
+    "end": 1492.43,
+    "text": "profesor"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1492.47,
+    "end": 1494.35,
+    "text": "decía que es posible que llegue"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1494.41,
+    "end": 1497.11,
+    "text": "alguna en Francia. Pone eso en las notas."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1497.43,
+    "end": 1502.35,
+    "text": "Sí, hay una en Francia, sí. Por eso tenemos que ir a donde el conde..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1502.39,
+    "end": 1513.75,
+    "text": "Tres rastros. Conde Fenalic, los soldados de Napoleón y la que se vendió a Milán. Esos son los tres que estaban conectados con París."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1521.04,
+    "end": 1524.9,
+    "text": "Habría que buscarlo el conde e investigar un poco sobre la historia de este señor."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1526.62,
+    "end": 1536.75,
+    "text": "Vale, pues si fue un hombre relevante, que parece que sí, seguramente haya... Claro, o en el museo a lo mejor se habla de él o..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1537.21,
+    "end": 1547.49,
+    "text": "Pero igual deberíamos mirar un poco la historia de París, historia de Francia, algún volumen o la biblioteca. Y luego lo que pasa es que estará en francés."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1548.67,
+    "end": 1550.1,
+    "text": "Bueno, yo hablo un poquito de francés."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1551.06,
+    "end": 1582.52,
+    "text": "La biblioteca... La biblioteca más grande de París y la segunda más grande del mundo, después de la que venís y no habéis podido usar, que es la del Museo Británico, pero la segunda más grande del mundo, pues es la Bibliothèque Nationale de París. Así que, pues, ahí necesitáis, eso sí, que os dejen entrar porque hace falta igual unas credenciales que teníais, la del Museo Británico, pero aquí no."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1585.91,
+    "end": 1587.73,
+    "text": "Pues habrá que preguntar cómo conseguirlas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1587.77,
+    "end": 1595.01,
+    "text": "Sí, vamos a ir para allá. Bueno, tenemos mucho dinero. Igual."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1595.11,
+    "end": 1609.74,
+    "text": "Y tenemos documentos también de universidades y demás. O sea, que podemos preguntar que si somos investigadores, que queremos investigar sobre algo, que nos dejen usar la biblioteca nada más. Y qué tenemos que hacer."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1609.86,
+    "end": 1610.56,
+    "text": "Vale."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1610.82,
+    "end": 1614.7,
+    "text": "Que lo cuente alguien. Si no te importa traducirlo, por favor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1616.19,
+    "end": 1673.61,
+    "text": "A ver, vais a esa grandísima biblioteca que se encuentra en el centro de Paris, en la Rue Israëlle, en el número 59 de la Rue Israëlle. Conseguís, evidentemente, entrar en el hall, entrar dentro de ese edificio, que por dentro es impresionante, tiene unos arcos y unas bóvedas geniales. Y ahí podéis ver en el Roll 20 la sala principal de lectura, que en un grabado... Porque es un edificio antiguo ya incluso en la época en la que estáis vosotros. Y pues... Entráis para allá y le voy a pedir a Alex Coxen que haga una tirada de crédito, porque es la que tiene mejores credenciales de todos vosotros, para ver si le dejan a ella y su grupo de trabajo, su grupo de investigadores. Te voy a dar un dado de bonificación por ser una universitaria, pero bueno, dirá tú."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1673.62,
+    "end": 1681.23,
+    "text": "Podríamos ponerle un nombre al grupo, un nombre secreto para que nadie sospeche de nosotros, yo que sé, la expedición 33, por ejemplo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1684.18,
+    "end": 1685.82,
+    "text": "Eso suena"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1685.86,
+    "end": 1687.64,
+    "text": "muy"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1688.44,
+    "end": 1689.16,
+    "text": "sospechoso, señora."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1689.18,
+    "end": 1778.13,
+    "text": "Sin bonificación. Toma, pues magnífico. Puedes tirar el dado si quieres, por si te sale el crítico. Pero bueno, veis como con un francés, veis que tiene acento americano tal, pero se defiende muy bien el francés, saca sus credenciales y empieza a contar una minonga de que están aquí investigando, tal. Y le dice que soy su grupo de trabajo, tal, el ingeniero Taylor, orientalismo, no sé qué. Y, pues, a Lili no sé qué inventar de ella porque lo de enfermera, pues, a lo mejor... Es mi ayudante. No cuadra tanto, pero el caso es que tú vas ahí... exactamente tu ayudante personal la chiquilla y joven que te ayuda y veis que la biblioteca nacional de parís pues se abre ante ante vosotros y pues podéis tener acceso con este éxito difícil a todas instalaciones que tiene acceso cualquier investigador de renombre así que bueno ahí podéis también ver el el plano de la planta baja y la planta larga de la Biblioteca Nacional y, como he dicho, es que es un edificio impresionante donde esa sala pública de lectura, que es lo que estáis viendo en el grabado, tiene el jardín interior y, bueno, pues el magnífico lugar donde ahora estáis y lo tiene a vuestra disposición. Te preguntan que si necesitas algún asistente, algún traductor, alguien que te ayude o si podéis trabajar por vuestra cuenta."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1780.53,
+    "end": 1783.35,
+    "text": "¿Pero hay alguien que nos ayude a buscar los libros?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1785.75,
+    "end": 1803.86,
+    "text": "Tú sabes que... Tú sabes que a buscar los libros no... O sea, sí, esa persona os va a ayudar, aunque digamos que la investigación la hace vosotros, la actividad de buscar libros la hace vosotros, pero sí alguien nos puede ayudar. Sí que este ayudante, Alex, se paga aparte. Ya sé que tú esas cosas a lo mejor las tienes un poquito... Pero... Hombre, es dinero que no es mío. Yo el dinero que no"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1803.94,
+    "end": 1808.08,
+    "text": "es mío me lo gasto con una facilidad pasmosa, vamos..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1809.17,
+    "end": 1814.33,
+    "text": "Vale, pues entonces sí, entonces queréis contratarlos. Yo creo que sí,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1814.35,
+    "end": 1818.41,
+    "text": "¿no, chicos? Claro, yo les consulto a ellos, yo considero que sí, porque creo que lo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1818.43,
+    "end": 1819.27,
+    "text": "vamos..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1820.51,
+    "end": 1829.57,
+    "text": "Y sobre todo porque lo que vamos a investigar tampoco es que sea así como súper ultra mega secreto, o sea que no pasa nada porque una persona ajena se entere de lo que estamos buscando,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1829.59,
+    "end": 1833.23,
+    "text": "¿no? El último tramo del viaje vamos a ver... Pues recomiendan..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1836.87,
+    "end": 1852.6,
+    "text": "Te recomiendan un chico joven que habla perfectamente inglés, que es de aquí, de la ciudad, y que estudia en la Sorbona. Y te presentan a este chico que se llama Rémi Van Geen. Ojo de halcón."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1853.58,
+    "end": 1856.99,
+    "text": "Ha llevado un peinado arriesgado para la época."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1859.89,
+    "end": 1883.85,
+    "text": "Sí, le ves que es lo que en la época se llamaba, o sea, en la época pues también había sus tribus urbanas, como hoy en día. Y tú le ves de arriba abajo y dices, este es un bohemio, este es un tremendo bohemio. Pero bueno, el hombre está ahí, se mece el cabello y dice, Madame Coxen, un placer conocerla. Mi nombre es Remy Fangen. Cualquier cosa que necesite, aquí estoy a su disposición."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1886.87,
+    "end": 1903.32,
+    "text": "Estupendo, pues estamos buscando información sobre el Conde Fenalic y todo lo que podamos encontrar sobre él, sobre su vida, sobre su historia, nos interesa."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1908.11,
+    "end": 1973.55,
+    "text": "No me suena ese nombre, pero por supuesto, yo les ayudaré a traducir y a movernos por la biblioteca. Por favor, síganme. Y os lleva a la zona donde hay que buscar los manuscritos, etc. Y aquí es donde empieza nuestro bonito momento de tiradas, de buscar libros. ¿Vale? Así que, pues... Pues... Sí que recordad que cada uno me tiene que decir exactamente por qué tira. A lo mejor me decís con escena leak y ya está. Podéis tirar varios por lo mismo, pero sí que recordad que había un poco que decir porque hay varias cosas. Y además hay que tener en cuenta que las tiradas, estáis empezando una investigación y tal, las tiradas pueden recurrir, pueden tener que necesitar varios, digamos, varios intentos, varios... Esto es una, por así decirlo, ¿vale? Que a lo mejor no vuelve simplemente con una sola tirada exitosa o no, sino que va a hacer falta varios intentos y ir tirando de un hilo a otro. ¿Decías algo, Lucía? No,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1975.93,
+    "end": 1987.02,
+    "text": "no, es que se ha cortado y, pero vamos, que has dicho que para investigar necesitaremos seguramente varias tiradas porque un hilo nos llevará a otro hilo, ¿no? Es lo que estabas diciendo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1988.44,
+    "end": 2002.39,
+    "text": "Exactamente. Exactamente, sí. Que no son un éxito, que pueden ser éxitos encadenados. Y la pregunta es, ¿aquí no había algo para ayudar que diera...? Porque a lo mejor yo buscar libros tengo muy poquito."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2003.19,
+    "end": 2010.55,
+    "text": "Si alguien, en vez de tirar él, lo que quiere es darle un dado de bonificación a la persona que tira, pues también es correcto."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2011.21,
+    "end": 2015.23,
+    "text": "Ah, no, que yo tengo un 80 en buscar libros. ¿Tienes más que yo en buscar"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2016.47,
+    "end": 2017.02,
+    "text": "libros?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2017.96,
+    "end": 2018.56,
+    "text": "Por supuesto."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2020.33,
+    "end": 2020.55,
+    "text": "Pues yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2020.61,
+    "end": 2020.81,
+    "text": "voy a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2020.83,
+    "end": 2023.69,
+    "text": "ayudar. Yo también voy a ayudar, entonces."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2024.37,
+    "end": 2032.25,
+    "text": "Pues yo voy a ayudar, por ejemplo, a la señorita Coxen y dejo a Isaac que ayude a Bill. Muy bien, pues señorita"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2032.31,
+    "end": 2058.91,
+    "text": "Coxen. Señorita Coxen, pues tú tira un Buscar Libros sobre Fenalic, que es lo que nos han dicho que quería buscar, y tienes un dado de bonificación si lo necesitas debido a la ayuda de... Madre del amor hermoso. Luego dices, luego dices, ya he estado diciendo algo para nada, no destaco en nada. Vale."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2058.99,
+    "end": 2064.79,
+    "text": "No, no, yo ya fallaré en las de vida o muerte. No te preocupes. Ya fallaré en las importantes."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2067.4,
+    "end": 2212.68,
+    "text": "Bueno, pues con la ayuda de Lili, a ver, ella no habla francés y tal, pero ves que es una persona súper resuelta. El otro dice, ah, pues libros en este... Por reloj baja, tal, ayuda, va tomando notas, va... Tú hablas francés, con lo cual puedes leer los manuscritos, pero Remy te va ayudando con alguna cosilla que no sabes sobre la biblioteca. Y... Empiezas a investigar referencias comunes, monografías modernas, buscas en referencia al conde Fenalik y estás viendo que hay varios relatos. Los primeros son un libro de consulta como tal. En varios libros, en varios sitios, hay varios relatos que hablan de un escándalo, que no muy específicamente, que sucedió en la corte de la Reina. en la víspera de la revolución. El hombre de la nobleza menor se vio aparentemente en una indiscreción con la reina. Tras ese escándalo panaciego, el individuo fue ejecutado sin juicio, fue ejecutado de manera sumaria. El hombre era un conde alemán llamado Fenalik. Y ahí es donde dices, ahí está el primer hilo del que puedes tirar. Como... extremo, pues digamos que tú misma vas a ir buscando tirarte del hilo ves que Fenalik no tuvo ningún descendiente, no hay desde luego no, ves como que ese hombre murió sin descendencia y fue ajusticiado de esa manera sumaria después de este incidente con la reina y Desentrañas, ¿no? Buscando, dices, a ver, si esto era de la reina, pues se me ocurre que a lo mejor alguna ayuda de cámara, alguna camarera de la reina, tal, desentierrase un diario de una tal Madmoiselle de Berlín. ya miembro de la Corte de Reina, y en sus páginas se habla del asunto de Fénalik. Y, Alec Conxen, te voy a poner aquí, a ver, el diario de Mademoiselle de Brienne, que te voy a compartir en un momentito para que lo leas tú y nos lo leas a todo el mundo. Mientras, pues, Chemi nos lo pincha para que veamos este diario de una señora francesa."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2218.47,
+    "end": 2252.21,
+    "text": "Del diario de Mademoiselle de Brienne, junio de 1789, 200 años justo antes de que naciera yo. El conde relucía como un sol entre la multitud, arrojando su luz y haciendo que nos regocijáramos en sus placeres. Se dice que sus fiestas son las más lujosas y las cibas jamás vistas en nuestra ciudad. Fue entonces cuando se hizo evidente la presencia de una gran maldad, lo que provocó la ira de la reina. Los hombres del rey asaltaron la casa y fue mucha la destrucción. El conde fue arrestado. Puntos suspensivos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2257.11,
+    "end": 2308.79,
+    "text": "Y bueno, sigues leyendo un poquito el grueso del diario, que realmente lo que ves es que recoge las mezquinas intrigas y homeríos que plagaban la corte, pero que también relata un incidente relacionado con el Comte Fenalichek en junio de 1789. Y que, bueno, luego ves que hay otras partes del manuscrito dañadas por el agua, que son ilegibles. Y Remy, viendo esto, pues, que por cierto, Remy, que a todo esto las tira de buscar libros se supone que pasan horas, mientras consulta, menos gritos. La verdad es que Remy se te acerca y dice, señora Coxen, es usted una investigadora increíble, sagaz, incluso en un idioma que no domina por completo lo que ha conseguido solo en un día de trabajo. Me parece fenomenal, tengo que felicitarla."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2312.14,
+    "end": 2326.29,
+    "text": "Pues se lo agradezco, parece que hay días que la suerte me sonríe, aunque suelen ser bastante, bastante extraordinarios estos días, no suelo beneficiarme de la suerte."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2328.53,
+    "end": 2348.85,
+    "text": "Entonces tú le has hecho como una lista de peticiones de lo próximo que debe buscar y él te dice, sin embargo, creo que quizá hayamos llegado aquí a un callejón sin salida porque esto que me pide no creo que se guarde en esta biblioteca. Debería ir a la biblioteca del Arsenal, cerca del Palacio de la Bastilla. ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2348.87,
+    "end": 2351.72,
+    "text": "hay en esa biblioteca y por qué estar allí?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2356.37,
+    "end": 2408.37,
+    "text": "porque esa biblioteca que está levantada sobre los restos del antiguo Arsenal de París, construida por Enrique II, es donde se guardaron todos estos diarios de los tiempos En aquella época, estos líos de la nobleza, de los condes, de los duques, digamos que después de la revolución del pueblo, no tenía sentido. No puedo estar más que de acuerdo en la verdad. Como historiador hay que preservarlos, pero creo que mantener en cuarentena todos estos escándalos y mezquindades que usted está destapando de esa historia, Caterva de Chupocteros, que eran los nobles, no me parece mala idea. Será, como le digo, en la Arsenal, donde estén, si acaso, algo que pueda referirse a ello. Aquí, en este lugar del pueblo, lo que se recoge es la verdadera historia de Francia."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2408.39,
+    "end": 2418.79,
+    "text": "¿Podemos"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2418.87,
+    "end": 2430.51,
+    "text": "ir a buscar? Sí, pero no hemos terminado de buscar aquí. Adil, y tenemos también las dos opciones de... Eso es una parte que ya habrá que seguir por ahí, como dice Lucía. Faltan dos. Lo de Venecia y lo de Milán."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2431.22,
+    "end": 2437.34,
+    "text": "De hecho, podemos ir en un futuro imperfecto. Eso es lo que podemos estar buscando nosotros."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2438.86,
+    "end": 2439.1,
+    "text": "En tu"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2439.14,
+    "end": 2444.56,
+    "text": "caso. Esto es lo que han hecho ellas. Ellas han estado haciendo..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2444.6,
+    "end": 2463.28,
+    "text": "Podemos analizar lo que los soldados de Napoleón se han llevado principalmente, en este caso Milán y Venecia. A ver si hay alguna información del por qué o lo que sea. Porque esas son las otras dos pistas. Unos en Milán y otros... vale, pues"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2463.94,
+    "end": 2488.79,
+    "text": "tira que sí, que tires y de hecho si vais a ir por ahí y buscar las cosas del simulacro de Zedefkar habría que hacer una tirada combinada de buscar libros con ciencias ocultas eso quiere decir que si solo tiras una la que tengas más alta de las dos y luego se ve si también hubieras conseguido un éxito en la otra"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2489.68,
+    "end": 2496.51,
+    "text": "Bueno, pues en Ciencias Ocultas tengo poco, tengo un 90 y en Buscar Libros tengo 80, así que... Pues"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2496.55,
+    "end": 2498.15,
+    "text": "eres la persona perfecta, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2499.07,
+    "end": 2508.72,
+    "text": "Más el dado de bonificación de la ayuda de Chemi. Por Ciencias Ocultas."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2508.74,
+    "end": 2509.06,
+    "text": "Muy bien."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2509.46,
+    "end": 2509.84,
+    "text": "Pues ahí está."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2509.94,
+    "end": 2520.03,
+    "text": "Pues si hubieras conseguido un éxito en las dos, ¿vale? Con lo cual sí que consigues esto. Y bueno, vosotros, claro, lo primero que... Puedes tirar el dado de"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2520.05,
+    "end": 2521.35,
+    "text": "bonificación, por si acaso. Ah, bueno,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2521.39,
+    "end": 2586.76,
+    "text": "sí, es verdad. Puedes tirar el dado de bonificación, por si acaso. Buscando... Lo que buscáis es ese artefacto de Sedefkar, ¿vale? Eso es lo que estáis buscando. Con lo cual, pues, no encontráis ese libro, pero sí encuentras una referencia a un manuscrito iluminado, ¿no? Un codice miniado que se llama El simulacro del diablo. Escrito en latín por un monje anónimo cistercense alrededor de 1260 y encuadernado como libro en Venecia en 1505. Se considera que la obra es un apócrifo salido de la mano de un clérigo loco, aunque es un tomo conocido en los círculos ocultistas. Tú dices, ah sí, la verdad es que yo había oído hablar de eso. La única copia que se tiene constancia se conserva en la iglesia de Santa María Celeste en Venecia. Así que realmente si quisieras encontrar ese simulacro del diablo, que te parece que puede algo tener que ver con el simulacro de Sedefkar, tendrías que ir a Venecia, ir a la iglesia de Santa María Celeste. Allí se supone que se guarda, por lo que tú puedes averiguar. La"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2586.78,
+    "end": 2588.82,
+    "text": "casualidad que el tren pasaba por allí, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2590.23,
+    "end": 2592.11,
+    "text": "Bueno, pues sí, creo que pasa cerquita."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2593.96,
+    "end": 2611.56,
+    "text": "Bueno, pues yo se lo transmito a mis compañeros. En Venecia, en la iglesia de Santa María de Blablabla, que no me acuerdo a mí, hay un libro que se llama El simulacro del diablo, que puede estar referido al simulacro este que estamos buscando."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2612.59,
+    "end": 2625.93,
+    "text": "Sé que buscabais muchas cosas, Chemi, pero como solo habéis hecho una tirada y ha salido un éxito normal, pues hasta ahí es donde habéis llegado. O sea, lo que tú buscabas de las tropas de Napoleón, lo tendríais que seguir buscando en otro momento, en otras tiradas o lo que sea, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2625.95,
+    "end": 2636.99,
+    "text": "Bueno, pero ya por lo menos de Venecia ya tenemos de dónde tirar. O sea, que ya genial, porque ya podemos tirar. Nos falta lo de Milán, que podemos mirar algo más. Adil. Quizás... Ah,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2637.01,
+    "end": 2637.75,
+    "text": "bueno, yo no estoy con"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2637.97,
+    "end": 2639.93,
+    "text": "ellos, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2641.21,
+    "end": 2671.34,
+    "text": "No, a ver, esto pasa mientras tú estabas buscando, digamos que han pasado las cosas a la vez, y Remy va de un lado a otro buscando. Sí que es verdad que vosotros habéis terminado antes que Alex Coxen, porque Alex Coxen ha exprimido todo lo que se puede. Digamos que habéis llegado, os instalasteis y tal, os llegasteis a París por la mañana, bueno, supongo que fuisteis a un hotel, os instalasteis, que esto lo hemos saltado un poquito así, pero... Y tomamos las años"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2671.38,
+    "end": 2674.06,
+    "text": "también para empezar los primeros."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2674.5,
+    "end": 2694.9,
+    "text": "Y habéis dedicado toda la tarde a esto. La biblioteca va a cerrar, con lo cual, pues digamos que hoy no se podrían hacer ya más tiradas, sino que hoy tendríais que dejar el día por acabado. La biblioteca va a cerrar y Remy os conduce amablemente a la salida."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2696.07,
+    "end": 2704.22,
+    "text": "Vale, y Remi, ¿nos podría dar alguna recomendación para la biblioteca que decía?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2704.3,
+    "end": 2750.75,
+    "text": "Ah, dice, por supuesto, por supuesto, la biblioteca del Arsenal no es, no sigue un protocolo tan estricto y teniendo ustedes ya las credenciales que le han despedido a la señora Coxen para la Biblioteca Nacional, pues eso mismo ya les garantiza la entrada a los archivos del Arsenal, no habrá ningún problema. Sin embargo, creo que su investigación, señor Taylor, debería proseguir aquí en esta biblioteca. Lo que usted busca, ni por asomo, va a estar en la biblioteca del Arsenal. ¿Ves que cuando habla de tu investigación no lo hace con el respeto que hace con la de Alex Coxen? Porque, claro, ya ha ido un poco por la historia y el tipo es historiador y vosotros qué ciencias ocultas, qué no sé qué, pero desde luego lo que te dice es que vosotros si queréis investigar lo que estabais investigando deberíais seguir en esta biblioteca, no en la otra."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2751.84,
+    "end": 2758.04,
+    "text": "Vale, pero esa sensación es porque le da asco el tema"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2758.32,
+    "end": 2766.92,
+    "text": "o porque... No lo considera muy serio. Tú ves que ciencias ocultas, tal, el hombre es historiador, no lo considera tan serio. Vale, ok. O eso es la impresión que te"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2766.94,
+    "end": 2797.82,
+    "text": "da. Señor Remy, quizás... No sé si sería posible o si le interesaría acompañarnos a la señorita Lili Yamia a la biblioteca del Arsenal para seguir investigando y en caso de ser así, si sería posible, si mis compañeros Isaac y Adil volvieran al día siguiente, si podrían encontrar aquí ayuda de otra persona que no fuera usted, si al final decide acompañarnos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2798.5,
+    "end": 2818.05,
+    "text": "Yo estoy a su disposición. Yo voy a donde ustedes me digan mientras sigan con mi estipendio y no se preocupen. Si están dispuestos a pagar un extra para que yo reclame la ayuda de uno de mis compañeros, pues aquí lo tendrán cuando el señor Taylor y el señor Adil lleguen"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2818.09,
+    "end": 2820.37,
+    "text": "mañana. Pues"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2823.53,
+    "end": 2825.28,
+    "text": "muy amables de mí. Show me the francos."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2826.94,
+    "end": 2838.53,
+    "text": "No, yo le pongo los francos. Pero es verdad que si él es historiador, a lo mejor no se está esforzando todo lo que se podría esforzar con Isaac y Adil y a lo mejor otra persona. Lo mismo, ¿no? Pero igual tiene más suerte que otra persona."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2840.33,
+    "end": 2847.18,
+    "text": "Y lo que comentas, ya que es un tema más escabroso y él lasquea la nobleza, seguramente allí ayude mucho más. Claro."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2850.93,
+    "end": 2874.39,
+    "text": "Y también, de todas formas, no por la cara que le ha puesto a Isaac, pero sí porque Coxen es ya desconfiada por naturaleza, sí que quiero tirar psicología con él para ver si realmente me parece una persona profesional o que tiene algo ahí de que en algún momento puede estar filtrando información a los tipos malos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2879.15,
+    "end": 2880.87,
+    "text": "Vale, pues tira psicología."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2881.31,
+    "end": 2889.38,
+    "text": "Pues no, me parece súper de confianza"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2889.86,
+    "end": 2922.45,
+    "text": "este señor. Lo que has visto es que es un tipo... Es un tipo muy profesional. Le estáis pagando 50 francos al día, lo cual no es una locura, pero es bastante generoso. Y el tipo tal, os ha pedido 20 francos más, pero es tu compañero para mañana. Con lo cual, pues, el tipo lo que ve es un buen negocio. Estoy diciendo, estos yankees están pagando bien. Y tú le ves un tipo, pues, bastante profesional, bastante serio."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2925.42,
+    "end": 2927.24,
+    "text": "En principio un trabajador"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2927.26,
+    "end": 2946.77,
+    "text": "sin más. Vale. En todo ese tiempo también, bueno, como yo estoy con la mosca atrás de la oreja con el tema de los turcos, me gustaría ver si hay alguien de turcos o similar o alguien que nos haya prestado más atención de la habitual."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2949.63,
+    "end": 2952.19,
+    "text": "Porque aún fue rojo en esa sala. Pues no..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2956.32,
+    "end": 2966.19,
+    "text": "Pues tira, tira a descubrir, tira a Spot Hidden si quieres, porque tú siempre estás ahí mirando a ver si alguien os está siguiendo. Vamos,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2966.21,
+    "end": 2966.43,
+    "text": "Chemi."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2967.09,
+    "end": 2985.45,
+    "text": "Vale, pues no, no ves que nadie os esté siguiendo. Nada, en principio, desde que salisteis de Londres todo ha sido más tranquilo y desde luego o tú no te estás dando cuenta o habéis dado esquinazo a quien sea, pues no ves nada."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2988.53,
+    "end": 2996.86,
+    "text": "Bueno, yo sigo pensando que nos van a dejar hacer hasta que consigamos las cosas. Claro,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2998.2,
+    "end": 3000.0,
+    "text": "hasta que finalice la misión sería guay."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3001.84,
+    "end": 3007.38,
+    "text": "Bueno, pues tenemos la noche libre, ¿verdad? Hasta mañana que haya que volver a estar durante horas en una biblioteca."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3009.12,
+    "end": 3014.94,
+    "text": "Pues sí, es una grandísima idea que empiezas a sugerir. ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3014.98,
+    "end": 3016.38,
+    "text": "te apetecería hacer, Lili?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3017.04,
+    "end": 3018.0,
+    "text": "Quizás ir a bailar."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3019.61,
+    "end": 3019.93,
+    "text": "Los"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3019.95,
+    "end": 3027.9,
+    "text": "locales de París son muy famosos. ¿Al Mulagros?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3027.92,
+    "end": 3033.26,
+    "text": "¿Existe el Mulagros? Sí, sí."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3033.28,
+    "end": 3045.28,
+    "text": "¿Sobrevalorado? Le preguntamos al chico este, ¿cómo se llamaba? ¿Algún sitio donde nos recomiendes para ir a pasar unas horas de diversión por las noches, por la noche?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3049.69,
+    "end": 3069.76,
+    "text": "os mira y tal, y dice, sí, claro, hay muchos sitios, y os va diciendo locales de la bohemia de París, como tú dices, locales de baile, donde se bebe, donde se bebe absenta y ese tipo de rollo. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3069.78,
+    "end": 3072.69,
+    "text": "¿qué os parece? Pinta bien,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3072.71,
+    "end": 3072.87,
+    "text": "¿verdad?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3072.89,
+    "end": 3072.95,
+    "text": "Sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3073.61,
+    "end": 3078.49,
+    "text": "Bueno, por conocer los sitios. Un poco de espacio. Mañana hay que seguir"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3078.57,
+    "end": 3088.38,
+    "text": "investigando. Remy te dice, Lili, que si quieren que yo les acompañe, no dentro de mi tarifa, por supuesto, esto ya como deferencia profesional, pues yo no tengo ningún problema."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3088.4,
+    "end": 3092.14,
+    "text": "Le haces un guiño a"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3092.16,
+    "end": 3100.35,
+    "text": "Lili. No le hace un guiño, guiño, pero tú dices, bueno, la Lili esta que es así de su edad, tal, no sé qué, cuidado con el Remy, cuidado con los franceses."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3104.3,
+    "end": 3105.7,
+    "text": "¿Es buen bailarín usted?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3105.72,
+    "end": 3110.54,
+    "text": "Eh, podamos averiguarlo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3112.42,
+    "end": 3117.6,
+    "text": "Pues claro, digo, no sé, ¿qué les parece a ustedes? Yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3121.02,
+    "end": 3143.97,
+    "text": "quiero ir, a mí no porque me apetezca, sino también un poco por... cuidar que Lili haga lo que ella quiere hacer y que no se vea envuelta en algo que ella no quiera. O sea, voy un poco de vigilante, ¿sabes? Porque yo, bueno, al final tengo un poco más de experiencia que ella y ella, que es la, creo, la primera vez que está en una ciudad así más... que no es nombre y que anda"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3144.01,
+    "end": 3151.8,
+    "text": "suelta. Tenemos que poner una hora de vuelta porque mañana tenemos mucho trabajo por delante."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3153.33,
+    "end": 3158.87,
+    "text": "Sí, no digo de trasnochar mucho. Señor Isaac, cenar algo, dar unos bailes y volveremos. Sí, sí, por"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3160.24,
+    "end": 3161.26,
+    "text": "supuesto."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3161.28,
+    "end": 3161.58,
+    "text": "Bien, pues"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3161.68,
+    "end": 3162.34,
+    "text": "vayamos."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3162.58,
+    "end": 3169.15,
+    "text": "Has oído hablar de Coco Chanel y voy hablando y parloteando sobre la moda parisina."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3171.1,
+    "end": 3186.16,
+    "text": "Muy bien, pues bueno, pues nada, pues vais a comer, vais al hotel, os aseáis y después noche de fiesta en el París de la época. Pues nada, vais todos, vais los cuatro, aquí a los garitos que os lleva el bohemio este."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3186.7,
+    "end": 3190.39,
+    "text": "Sí, con pocas ganas, Audil tiene pocas ganas de fiesta."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3190.8,
+    "end": 3261.94,
+    "text": "Vale, pues para allá la gente cuando llega al hombre, Remi, Remi, tal, y veis que el Remi, además de ser un gran estudiante de historia, pues es un amo de la fiesta y la gente le conoce. Y veis que son el tipo de gente bohemia, tal, de su edad, hay hombres, mujeres, tal. Pues no, aquí no ha llegado tanto esa moda de las flappers, pero hay algún remedio de flapper que ven por ahí, que Alex conoce también, ¿vale? Y pues, bueno, pues es un, veis que, veis además que la gente, eso ya, pues no sé cómo os... Como os lo tomaréis, pero además de Bohemio, si veis que hay mucho artista, mucho poeta, mucho tal, mucho pintor, no sé qué. Hay mucho socialista, hay mucho anarquista. El rey, mi vez, que está metido en cosas ardestas, ¿vale? Y pues están hablando de que el fin de semana van a ir a una manifestación contra la ocupación del Rur, de Francia y tal. Y alguno dice, tenéis que venir, os hay que apoyar, tal, no sé qué. Y bueno, una noche bien, de diversión. Ya digo, corre el absenta, corre el tal cual. Así que si alguno de vosotros quiere hacer algo en especial, que me lo dice. Y si no, pues nada, veis a Lili bailando con Remy a tope."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3262.6,
+    "end": 3266.08,
+    "text": "Voy a intentar sacar a Dil también. ¡Vamos, Dil!"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3266.5,
+    "end": 3267.12,
+    "text": "¡Baila mientras puedas!"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3267.86,
+    "end": 3271.44,
+    "text": "No, Adil no sabe bailar, es arrítmico, ves que hace..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3273.8,
+    "end": 3280.78,
+    "text": "Bueno, yo si sales a bailarte me río contigo y mal bailo contigo, que tampoco es que yo baile genial, pero lo importante es poner la actitud."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3281.68,
+    "end": 3293.21,
+    "text": "Sí, sí, o sea, veis que cuando tiran de él Adil pone una cara rara y os mira a Alex y a Isaac como tal y se va a la pista. Sí. Yo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3293.57,
+    "end": 3293.97,
+    "text": "aplaudo a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3293.99,
+    "end": 3296.82,
+    "text": "Diel."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3296.86,
+    "end": 3299.84,
+    "text": "Sí, nada, yo los miro y me río también. Sin más."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3300.56,
+    "end": 3301.22,
+    "text": "Sacad fotos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3304.37,
+    "end": 3401.7,
+    "text": "Pues nada, en esta noche parisina donde corre la absenta, la bohemia, pues la verdad es que nuestros investigadores tienen una noche, bueno, una noche agradable. Han dejado atrás los peligros de París. Pero los peligros de París están atrás, pero les siguen los pasos. Podemos ver cómo a la estación de tren principal de París llega un hombre, un hombre con una gran maleta, con un chaquetón, que se pone un fez rojo, con unos bigotes. Y vemos cómo ese hombre está mirando para un lado o para el otro y encamina sus pasos hacia el centro de París. Y eso no es lo único que tiene que preocupar a nuestros investigadores, porque en un lugar, en un lugar no muy lejano, veríamos una sombra, una sombra de un ser, quizá arrodillado en la oscuridad, que levanta la cabeza... Y que en un extraño francés, con un extraño acento, dice, se ha vuelto a pronunciar mi nombre. Vuelvo a la vida. Y una sonrisilla malévola brilla en la oscuridad. ¿Quiénes son estos hombres que persiguen al grupo o que esperan al grupo? ¿Qué peligros les aguardan aquí en la ciudad de la luz? Veremos, veremos la resaca que tienen mañana, que la absenta pega bastante fuerte y veremos si están para buscar en los libros, para buscar en los libros esta gente. Eso será dentro de siete días aquí en la mazmorra de Pacheco y, por supuesto, aquí con nuestro amigo Orien Express, que ya estamos en París. Así que, hasta entonces, ¡adiós!"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3402.49,
+    "end": 3403.85,
+    "text": "Adiós."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3403.87,
+    "end": 3404.26,
+    "text": "Chao."
+  }
+]

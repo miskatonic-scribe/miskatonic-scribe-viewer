@@ -76,6 +76,7 @@ def build_session_investigator_stats(
     critical_rolls: list[dict[str, Any]],
     combat_events: list[dict[str, Any]],
     clues: list[dict[str, Any]],
+    dialogs: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     """Genera la lista de estadísticas puras por investigador para un episodio.
 
@@ -96,11 +97,20 @@ def build_session_investigator_stats(
         reverse=True,
     )
 
+    # Precalcular conteo de turnos por speaker si se proporcionan diálogos
+    speaker_turns: dict[str, int] = {}
+    if dialogs:
+        for d in dialogs:
+            spk = d.get("speaker") or ""
+            if spk:
+                speaker_turns[spk] = speaker_turns.get(spk, 0) + 1
+
     for c in sorted_investigators:
         c_name = c.get("character") or "Investigador"
         p_name = c.get("player") or "Jugador"
         airtime_pct = float(c.get("airtime_pct") or 0.0)
         speaking_sec = float(c.get("speaking_seconds") or 0.0)
+        spk_id = c.get("speaker_id") or ""
 
         # 1. Cordura perdida
         s_loss = 0
@@ -137,9 +147,20 @@ def build_session_investigator_stats(
             if matches_character(c_name, p_name, cb.get("character_name", ""), cb.get("player_name", "")):
                 combat_count += 1
 
+        # 5. Turnos de diálogo (intervenciones)
+        turn_count = 0
+        if dialogs:
+            if spk_id and spk_id in speaker_turns:
+                turn_count = speaker_turns[spk_id]
+            else:
+                for d in dialogs:
+                    if matches_character(c_name, p_name, d.get("character", ""), d.get("player", "")):
+                        turn_count += 1
+
         stats_list.append({
             "character": c_name,
             "player": p_name,
+            "speaker_id": spk_id,
             "sanity_loss": s_loss,
             "sanity_incidents": sanity_incidents,
             "critical_successes": crits,
@@ -147,6 +168,7 @@ def build_session_investigator_stats(
             "pushed_rolls": pushed,
             "clues_found": clue_count,
             "combat_events": combat_count,
+            "turn_count": turn_count,
             "speaking_seconds": speaking_sec,
             "speaking_minutes": round(speaking_sec / 60.0, 1),
             "airtime_pct": round(airtime_pct, 1),
@@ -185,6 +207,7 @@ def build_campaign_investigator_stats(
                     "pushed_rolls": 0,
                     "clues_found": 0,
                     "combat_events": 0,
+                    "total_turns": 0,
                     "speaking_seconds": 0.0,
                 }
 
@@ -196,6 +219,7 @@ def build_campaign_investigator_stats(
             aggregated[c_name]["pushed_rolls"] += s.get("pushed_rolls", 0)
             aggregated[c_name]["clues_found"] += s.get("clues_found", 0)
             aggregated[c_name]["combat_events"] += s.get("combat_events", 0)
+            aggregated[c_name]["total_turns"] += s.get("turn_count", 0)
             aggregated[c_name]["speaking_seconds"] += s.get("speaking_seconds", 0.0)
 
     investigators_list = list(aggregated.values())

@@ -1,0 +1,2120 @@
+[
+  {
+    "speaker": "SPEAKER_05",
+    "start": 0.35,
+    "end": 36.73,
+    "text": "Muy buenas, os doy la bienvenida a la mazmorra de Pacheco y os doy la bienvenida, esta vez sí, me he traído mi libro, a Horror en el Orient Express, esta mítica, mítiquísima campaña de Chulu, de la llamada de Chulu, que estamos haciendo aquí en la mazmorra de Pacheco. Y hoy no solo tengo este libro, quería enseñar que también tengo este, ¿vale?, el grimorio. Cuando yo tengo este libro es porque pueden pasar cosas chungas, ¿vale? Así que esperemos que sea así. ¿Y a quién les van a pasar las cosas chungas? Pues a mis compañeras, a mis compañeros, a esta gentucilla que hay por aquí."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 38.59,
+    "end": 40.39,
+    "text": "Uy, qué mal recibimiento este, como"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 40.41,
+    "end": 41.13,
+    "text": "un grimorio en las"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 41.15,
+    "end": 42.79,
+    "text": "manos. El grimorio me da un poco de grima,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 42.85,
+    "end": 62.36,
+    "text": "eh. Ya, esa es la reacción que quería. Así que, bueno, el último capítulo, pues, fue trepitante, increíble, vamos, se rompió internet, eh, la gente todavía está diciendo, Lili, Lili, quiero que me defienda, eh, antes de todo en la vida. Ya tienes trabajo, Lili."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 66.48,
+    "end": 66.84,
+    "text": "Por muy"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 67.84,
+    "end": 208.77,
+    "text": "ufanos que estén aquí los jugadores y sus personajes, que dejamos desayunando ahí a Alex Coxen cogiendo croissant, venga, de chocolate blanco, venga, que sí, da igual, de lo que sea, con pistacho, con chocolate de Dubái. Estaban ahí viviendo la vida por encima de sus posibilidades. Si os acordáis, por muy felices que estuvieran, nuestro amigo el conde, nuestro amigo el duque, nuestro amigo el príncipe, el rey, ya sabéis que tiene muchos títulos, se sentó a su lado y dijo, bueno, ¿dónde lo habíamos dejado? Así que ahí es donde vamos a empezar nuestra partida, ¿vale? Estamos todavía en La Usana. Estamos también en Lausana y si aquí Chemi nos pone el Roll20, pues veremos ese vagón, ese vagón restaurante, ¿vale? Que además están ahí a fotitos de época perfecta y ahí incluso os he puesto los tokens para que veáis dónde estáis, ¿no? Vosotros estáis en una de esas mesas de cuatro, ¿no? Sentados ahí tranquilamente, vuestro corazón, vuestra mantequilla. Vuestro tal y vuestro cual. Y en la mesa de al lado, una mesa que es para dos, se gira un poquito la silla y aquí este hombre, que recordamos que era una especie de gigante, una especie de Darth Vader de tipo enorme, a pesar de que aquí muestro su cara, su cabeza parecía como la de otra persona puesta ahí en ese cuerpo. Y por lo que visteis, casi a lo mejor hasta es verdad. Porque visteis que debajo de ese cuerpo había una maraña de músculos entrecocidos, una cosa frankensteiniana, que esa masa de músculo con esa cabeza de aristócrata, pues estaba movida por algo más que las leyes de la naturaleza. Así que nuestro amigo, nuestro amigo que realmente es el duque de Saint, aquí cuando vuelve otra vez al mundo real, os mira y os dice, ¿dónde estábamos? Y que decís qué hacéis que vuestros personajes, cómo reaccionan, se les corta ahí el colacao y cómo reaccionan ante esta aparición."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 215.91,
+    "end": 224.56,
+    "text": "Se me cae la leche de la boca y me pega el respaldo como para que mire a Alex Kongsen y no me mire a mí, como"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 224.64,
+    "end": 257.44,
+    "text": "no. Adil, que casi es llovido, ¿no? O el café con leche, ¿no? Álex que estaba al lado, ahí según el mapa, pues os quedáis un momento patidifusos sin poder reaccionar. Y la verdad es que el duque dice, damas, caballeros, disculpen mi brusquedad, pero iré directo al grano. Quiero el pergamino. O me lo dan o les destruiré. Me gustaría que me respondieran inmediatamente, por favor, porque tengo poco tiempo. ¿El"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 257.45,
+    "end": 259.06,
+    "text": "tren está en marcha?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 259.08,
+    "end": 280.03,
+    "text": "El tren está en marcha, sí. El tren está en marcha. Está de camino, pues eso, cruzando Suiza, de camino a Milán. A Milán, que es la próxima parada donde tenéis que hacer algo. Pues eso, tenéis todavía un trayecto largo hasta Milán. De repente"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 280.07,
+    "end": 280.27,
+    "text": "me"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 280.29,
+    "end": 283.44,
+    "text": "parecen muy interesantes las migas de la mesa."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 285.46,
+    "end": 299.41,
+    "text": "El pergamino se quedó en las tierras del sueño. Yo lo voy a llamar las tierras del sueño. El pergamino se quedó en las tierras del sueño, creo recordar. Me voy a tirar un triplazo y voy a morir primero."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 299.45,
+    "end": 315.07,
+    "text": "Pues tira charlatanería. Vale, porque a veces se os olvida que hay que tirar para refrendar las mentiras, intimidaciones, encantos y esas cosas. Así que tú le cuentas esa movida sabiendo que es mentira."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 315.09,
+    "end": 317.95,
+    "text": "¿Puedo ayudarle?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 318.51,
+    "end": 321.09,
+    "text": "¿Con charlatanería o con intimidad?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 322.09,
+    "end": 324.88,
+    "text": "Pues con charlatanería porque no le has intimidado, le has engañado."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 324.89,
+    "end": 327.94,
+    "text": "¿Puedo intentar ayudarle de alguna manera?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 328.52,
+    "end": 334.6,
+    "text": "Pues yo creo que ahora mismo no. Él ha hecho su bluff. La voy a liarte en un día."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 335.12,
+    "end": 336.11,
+    "text": "Puedo hablar, puedo hablar."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 337.61,
+    "end": 338.79,
+    "text": "Él tira y luego tú hablas."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 339.33,
+    "end": 343.01,
+    "text": "Uy, cástate suerte. Bueno, el punto de"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 343.05,
+    "end": 343.51,
+    "text": "suerte..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 345.98,
+    "end": 348.1,
+    "text": "Espera. Tengo 8 de suerte."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 348.56,
+    "end": 361.6,
+    "text": "Uy. Uy. Qué pena. Qué pena. Lili, tú ves que evidentemente Luque no se está creyendo para nada la mentira de Adil. ¿Y qué dices?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 363.5,
+    "end": 383.37,
+    "text": "Es cierto lo que dice el señor Adil. El pergamino del señor Wellington, el que quería vendernos, está dentro de ese oso con las tripas fuera, en la casa del señor Wellington, en ese mundo extraño al que hemos ido. De verdad, vaya a verlo. Lo encontrará allí. No nos dio tiempo recogerlo cuando volvíamos. Mientras huíamos de esa tropa"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 383.89,
+    "end": 386.11,
+    "text": "de... Pues tira tu charlatanería."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 386.67,
+    "end": 391.45,
+    "text": "No es charlatanería. Yo le estoy diciendo la verdad. Le está diciendo la verdad. Sí, sí,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 391.49,
+    "end": 396.99,
+    "text": "sí. Pero qué gente más falsa. Qué gente más falsa. Un"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 397.01,
+    "end": 401.33,
+    "text": "momento. Están dentro del oso."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 402.07,
+    "end": 411.58,
+    "text": "Un momento. Lo siento, pero yo tengo varias especialidades en filosofía del lenguaje y no os voy a dejar cometer tales falacias. Un"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 411.62,
+    "end": 424.74,
+    "text": "momento, señor Máster. Voy a abogar yo ahora por ella. Es verdad que ella no sabe que se sacó el pergamino del oso. Su última localización que ella sabe del pergamino es el oso."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 425.0,
+    "end": 433.45,
+    "text": "Ella sabe que tenéis el pergamino, de verdad, que es el que busca. Sabe que es el que busca. Y ella sabe que esto es un engaño para intentar... Ella sigue mi cuartada,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 434.01,
+    "end": 436.37,
+    "text": "pero por lo tanto ella está diciendo su verdad."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 437.09,
+    "end": 447.01,
+    "text": "No, no está diciendo eso. El pergamino fake está en el oso. Está intentando engañarle. Esto es lo que Lope de Vega llamaba engañar con la verdad. Pero sigue siendo así. Casi prefiero que hable"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 447.07,
+    "end": 449.42,
+    "text": "otra persona. Porque él sabe que"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 449.46,
+    "end": 453.38,
+    "text": "no es el pergamino que quiere. Así que tira charlatanería. De verdad, casi"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 453.4,
+    "end": 456.56,
+    "text": "prefiero no intentar convencerle. No puede hablar otra persona por mí. Tira"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 456.72,
+    "end": 457.7,
+    "text": "charlatanería."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 459.42,
+    "end": 462.18,
+    "text": "Si tengo un cinco… ¡Uy, me gasto uno de suerte!"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 463.06,
+    "end": 463.9,
+    "text": "Madre mía, qué"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 463.96,
+    "end": 466.26,
+    "text": "increíble. Pero qué increíble."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 466.36,
+    "end": 468.78,
+    "text": "Se ha hecho una lectora. Qué increíble. Jo, qué suerte he tenido. Madre mía."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 468.82,
+    "end": 477.72,
+    "text": "Vale,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 477.74,
+    "end": 487.25,
+    "text": "perfecto. Pero… Realmente, o sea, el tipo cree que dices la verdad, el pergamino está ahí y tal, pero ese pergamino no está ahí, porque también lo llevasteis."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 487.75,
+    "end": 491.03,
+    "text": "No, no, no, no. Se lo dejaron dentro de las tripas del oso."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 491.05,
+    "end": 493.35,
+    "text": "¿Lo dejaste dentro de las tripas del oso?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 493.57,
+    "end": 494.47,
+    "text": "Sí, eso seguro. ¿El camino"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 494.49,
+    "end": 495.39,
+    "text": "falso? No."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 495.41,
+    "end": 496.01,
+    "text": "Sí,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 496.05,
+    "end": 496.71,
+    "text": "lo volvió a meter."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 497.09,
+    "end": 503.26,
+    "text": "Al final, cuando estaban huyendo, lo cogió al que"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 503.28,
+    "end": 503.62,
+    "text": "había salvado"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 503.64,
+    "end": 504.68,
+    "text": "y se lo dio a Adi."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 504.74,
+    "end": 506.06,
+    "text": "Sí. El camino falso también lo tenéis."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 508.34,
+    "end": 510.92,
+    "text": "Vaya, pues yo estaba seguro que lo… No, no, tú lo creías."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 511.06,
+    "end": 543.08,
+    "text": "No pasa nada, tú lo creías. A ver, tú lo creías. Dice… Cuando llegamos a la taxidermia había un estropicio en ese oso, sus tripas tiradas por el suelo vaciado. Era bastante sospechoso como para que no mirásemos, pero ahí no había nada, señorita Lili. Quizá está usted mal informada. No la dudo, no dudo de usted. Es desde luego muy locuaz, pero creo que ahí no había ningún pergamino."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 544.14,
+    "end": 550.7,
+    "text": "Pues miro confusa a mis compañeros, como, ¿cómo? Y digo, le doy un poco la espalda y digo, ¿no estaba ahí el"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 550.78,
+    "end": 573.87,
+    "text": "pergamino? Bueno, entonces aquí dijo, Lili, como no hemos tenido tiempo casi de hablar, el señor tiene razón, el pergamino lo tenemos nosotros, te lo dio, bueno, era en su manera de compensar también el buen trabajo que habías hecho y evidentemente lo tenemos nosotros. Creo que negar lo que todo el mundo sabemos... Es un poco absurdo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 574.61,
+    "end": 595.6,
+    "text": "Por fin, un caballero, una persona con cierta dignidad. Gracias, señor Isaac. Así que si lo tienen ustedes, pone así la mano, una mano con dedos como chistorras. Creo que harían bien en dármelo. Y no voy a permitir dilaciones, ni engaños, ni más"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 596.34,
+    "end": 606.75,
+    "text": "estupideces. Usted lo quiere, nosotros lo aceptamos también. No entiendo por qué no podemos compartir el conocimiento del pergamino. Porque"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 607.11,
+    "end": 625.09,
+    "text": "el conocimiento es poder y el poder no se comparte, el poder se ejerce. Así que, como le he dicho, si uno de ustedes no se levanta por ese pergamino y me lo trae ahora, aténganse a las consecuencias. Yo les he avisado. ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 625.11,
+    "end": 627.99,
+    "text": "hacéis? ¿Sabemos dónde tenemos el pergamino fake?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 628.63,
+    "end": 633.61,
+    "text": "Pues en el camarote de alguno de vosotros. Eso ya me da igual cuál lo tengáis."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 633.91,
+    "end": 644.91,
+    "text": "Vale, yo que estoy fuera, que si veis la mesa, soy el que está más fuera, me levanto y hago... Yo te hago así. Y voy a por el pergamino fake y vuelvo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 645.85,
+    "end": 652.58,
+    "text": "Vas a por el pergamino fake y vuelves. Muy bien. Vale. Pues vas ahí a... O sea,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 652.88,
+    "end": 653.38,
+    "text": "yo vigilo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 654.03,
+    "end": 664.98,
+    "text": "que el otro no haga nada. O sea, que esté... Va a seguir al camarote de Lili, que lo ha hecho así como diciendo que lo ha dejado abierto. ¿Dónde están los dos pergaminos? ¿Y cuál es el...? ¿Cómo sabes cuál es el falso y cuál es el verdadero?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 665.64,
+    "end": 673.8,
+    "text": "Porque el verdadero lo he tenido durante mucho tiempo y lo tengo sabido. En principio,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 674.21,
+    "end": 676.99,
+    "text": "de lo que pasó la otra vez, el verdadero lo tengo yo. El falso lo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 677.03,
+    "end": 685.39,
+    "text": "tiene Adil. Vale, vale. Muy bien, pues lo coges, coges el pergamino falso y ¿qué haces? ¿Vuelves y se lo das tranquilamente?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 686.03,
+    "end": 692.07,
+    "text": "Sí, claro. Le digo, tome su pergamino. Espero que esté contento. Pues sí. Y ahora..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 692.21,
+    "end": 704.96,
+    "text": "¿El qué, no? ¿El qué, el qué? Perdón. Un momento. No, no. Di de Isaac. ¿Qué vas a decir? No, quiero saber si hay alguna seguridad o alguien de seguridad por el... El camarero. No"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 705.02,
+    "end": 709.52,
+    "text": "hay guardia de seguridad. No lo tienes. No hay, ¿no? No hay seguridad ahí. Vale. No."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 712.03,
+    "end": 712.67,
+    "text": "Tome su pergamino, aquí"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 712.69,
+    "end": 753.61,
+    "text": "lo tienes. Quizá haya un detective de a bordo o algo así, un policía de a bordo, como en los hoteles, pero si lo hay, no lo sabéis, quizá está de incógnito. El tipo dice, muy bien. Le mira a ti, Lili, y dice, bonito alegato, pero creo que no valió para nada. Y el tipo saca una cuerda, una cuerda así, bastante grande, con unos cuantos nudos, y hace así, a tié. y la lanza para arriba y le cae como por encima y ¡pum! El tipo, el pergamino y la silla que había debajo de él, cuando cae la cuerda al suelo, desaparecen justo con la cuerda que desaparece al golpear el suelo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 754.01,
+    "end": 756.03,
+    "text": "No, las sillas no, era de marquesía."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 756.37,
+    "end": 757.95,
+    "text": "Entonces, tirad cordura, por favor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 758.83,
+    "end": 760.97,
+    "text": "Vale."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 762.13,
+    "end": 763.55,
+    "text": "Sabía que... Yo estaba con mi croasanes."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 766.88,
+    "end": 769.6,
+    "text": "¡Olé! La hemos pasado todos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 771.25,
+    "end": 774.75,
+    "text": "Muy bien. No, ya iba yo a fallarla. No te preocupes que ya iba yo a fallarla. Si no"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 774.77,
+    "end": 775.79,
+    "text": "hubieras dicho eso, Toni..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 776.56,
+    "end": 778.44,
+    "text": "Alex Coxen, pierdes un punto de cordura."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 778.76,
+    "end": 779.71,
+    "text": "Vale, ahora..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 779.83,
+    "end": 783.55,
+    "text": "Porque tú estás con tu croissant. Es que de verdad, en serio, voy a perder cordura porque un señor me haga"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 784.79,
+    "end": 790.97,
+    "text": "un truco de magia."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 791.01,
+    "end": 820.47,
+    "text": "A ver, este juego no funciona de que cuanto más cosas ves te insensibilizas. Al contrario, como veis la cordura va bajando. Cuanto más cosas ves, más inestable eres. Una persona más desequilibrada. Una persona más propensa a perder los nervios. Y veis qué es lo que le está pasando a Alex Coxen. Veis que cuando ve eso, deja la taza en la mesa y la veis temblar. Veis que vuestra compañera no está muy bien."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 821.31,
+    "end": 821.49,
+    "text": "Así"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 821.51,
+    "end": 822.45,
+    "text": "que era eso. No"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 822.73,
+    "end": 825.21,
+    "text": "es gordura, es ira."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 826.21,
+    "end": 830.6,
+    "text": "Me acerco a ella, le doy un abrazo y le pregunto cómo estás, Alex."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 832.02,
+    "end": 843.31,
+    "text": "Indignada. Sí, por favor, por favor, quiero y gofres y huevos fritos, quiero cosas ricas."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 844.81,
+    "end": 850.07,
+    "text": "Lo que dijo de que no sirvió de nada se refiere a que consiguió el pergamino, no de que el señor Wellington al final…"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 850.75,
+    "end": 855.01,
+    "text": "¿Le pasó algo, verdad? No, no, no. Si os"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 855.03,
+    "end": 863.32,
+    "text": "acerca el camarero, sin interrumpirme, dice, perdone, señores, damas, ¿han visto lo que ha hecho este señor con la silla?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 864.65,
+    "end": 869.13,
+    "text": "Es un mago, no se preocupe. Está actuando, preparando su número de Milán."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 869.23,
+    "end": 870.95,
+    "text": "Pero la silla es nuestra. Volverá"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 870.99,
+    "end": 871.89,
+    "text": "a aparecer, no se"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 871.91,
+    "end": 879.6,
+    "text": "preocupe. Bueno, esperemos que el tipo se va. Esperemos también. Yo nunca había visto este truco. No, yo tampoco. Madre mía, lo que se ve en el oriente."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 884.62,
+    "end": 891.49,
+    "text": "Creo que deberíamos ver que tiene el pergamino. No vaya a ser que por lo que sea desaparezca. Por lo menos en ese conocimiento deberíamos adquirirlo."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 893.61,
+    "end": 902.62,
+    "text": "Sí, me acabo el poco de leche que quedaba en el vaso, me como un trozo de pan. Vamos."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 902.64,
+    "end": 920.61,
+    "text": "Vale, pues vais a vuestros camarotes, ¿no? Vais a vuestros camarotes y ahí, pues bueno, el camarote de alguno de vosotros os juntáis y pues tenéis ese pergamino sellado con un lacre y pues ¿quién lo va a abrir? ¿Quién va a romper el lacre?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 921.44,
+    "end": 923.98,
+    "text": "Yo mismo, ya estoy maldito en el brazo, así que..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 924.0,
+    "end": 996.7,
+    "text": "Perfecto, tú. De hecho, te da un tirón. Le veis a Adil y pensáis, joder, en Alex con los nervios rotos, con un brazo chungo, no sé yo si esto... Pero bueno, lo abre, casi quizá un escalofrío recorre cuando se destruye ese sello y abre el... El pergamino. El pergamino. ¿Qué pone? Pues el pergamino es... Parece ser que pertenece, por lo que pone ahí, lo está leyendo Adil, que es el único que habla árabe, entiendo. Tú sabes que se corresponde con... Este camino es el pergamino de la cabeza. Se corresponde con la cabeza del simulacro de Sedefkar. El autor es el propio Sedefkar. Sedefkar es el Osmanli. Y expone sus pensamientos y la verdad es que, así para resumir, es la historia de un loco. Las descripciones de su ciudad permiten determinar... Bueno, si me tiras historia, quizá pueda sacar un poquito más. A ver, una tiradita de historia."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 997.36,
+    "end": 997.5,
+    "text": "Voy."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 998.68,
+    "end": 1002.12,
+    "text": "Una tirada conjunta de historia, venga, y arqueología."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1002.14,
+    "end": 1003.96,
+    "text": "¿De todos?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1004.0,
+    "end": 1008.97,
+    "text": "No, conjunta quiere decir que tira él, Adil, dos cosas, los demás no estáis leyendo. ¿De historia o de"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1009.05,
+    "end": 1010.35,
+    "text": "arqueología? Tirada"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1010.41,
+    "end": 1015.47,
+    "text": "conjunta quiere decir que tiras la que tengas menos y vale para las dos."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1016.83,
+    "end": 1016.85,
+    "text": "O"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1016.89,
+    "end": 1022.16,
+    "text": "sea, historia o arqueología. Si lo lees en voz alta igual te puede ayudar a bien con el conocimiento."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1023.18,
+    "end": 1024.4,
+    "text": "Eso es. Que me lo diga Toni."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1024.92,
+    "end": 1026.82,
+    "text": "Sí, sí, yo lo puedo leer. Vale,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1027.24,
+    "end": 1030.81,
+    "text": "pues todos podéis tirar historia y arqueología."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1032.39,
+    "end": 1041.52,
+    "text": "Vale, entonces tiro historia porque tengo menos... Pues sin"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1041.58,
+    "end": 1094.78,
+    "text": "duda, sin duda se está refiriendo a Constantinopla, una Constantinopla medieval. Al final del pergamino hay una referencia a la inminente llegada de los destructores blancos, por lo que, por supuesto, tú deduces que se trata de la Cuarta Cruzada, justo antes de la Cuarta Cruzada, es decir, a principios del siglo XIII. Y bueno, pues es lo que tienes ahí. Entonces... Esto, según las reglas de la llamada de Chulu, tú puedes tirarte unas horas leyéndolo, 40 horas en este caso, ¿vale? O sea, puedes decir que tú puedes decretar, pues oye, guardián, cuando entre tal, cuando no esté haciendo otra cosa, yo estoy leyendo el pergamino. Y eso, pues, te hará perder cordura, pero subir mitos de Chulu, ¿vale? Así que, pues, si quieres hacerlo, pues tú me dirás, si no, pues nada."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1095.96,
+    "end": 1102.17,
+    "text": "Pues sí, en los impases... Lo coge,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1102.43,
+    "end": 1121.36,
+    "text": "tú lo vas haciendo, perfecto. Y pues voy a dejarte, voy a dejaros de hecho a todos, pero bueno, lo va a leer Rialtoni, un pasaje, creo que deberíais estar viendo, un pasaje del pergamino de Sedefkar, así de ejemplo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1123.76,
+    "end": 1226.06,
+    "text": "Un pasaje de muestra del pergamino. O sea, este pergamino es largo porque si solamente es esto, madre mía. He visto los poderes que acechan en la noche y llenan de miedo los corazones de aquellos que adoran al falso Dios. Lo conozco y lo adoro. He oído las palabras del ser sin piel. Ojo al pato. Me susurró secretos en el corazón y ahora sé lo que debo hacer. Lo he visto y es todo lo que mi Señor dijo que era. En mis sueños he presenciado su perfección y caminando sobre las ruinas de las ciudades. Reyes y países han caído ante ella. Incluso los dioses deben arrodillarse. Lo reconocí como un objeto de poder la primera vez que lo contemplé. Un poder capaz de someter al mundo. Villaba como las perlas más perfectas. Se despertó cuando despellejé vivo al desgraciado que intentó robarme mi tesoro. Esa noche vino a por mí por primera vez y me dijo qué hacer. Medité ante su gloria. Infinitas alabanzas para que él, que no tiene piel, realicé ¿Qué más está escrito ahí? Las 17 devociones y la abrí por primera vez. En su interior, el artefacto era suave y liso. Mientras paseaba mi mano por su interior, sentí como acariciaba la piel de un bebé recién nacido. Ofrecí cuatro hijos como sacrificio a mi maestro. Luego lo usé por primera vez. En su sabiduría, el señor de la carne desnuda lo había hecho de mi altura. Con toda modestia, creo que se hizo a mi imagen. Bienaventurado el elegido del sin piel. He tenido que conservar su pureza. La sustancia es del color inmaculado y no debe ser macillado por aquello que esté sucio."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1227.2,
+    "end": 1238.59,
+    "text": "Pues bien, se los va traduciendo al inglés, ¿vale? Por eso ahí tarda un poquito, tal cual. Pero pues os leo un poquito por encima para que veáis de qué va la vaina, pero es un texto largo, como os he dicho. Habla"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1238.61,
+    "end": 1241.33,
+    "text": "del simulacro, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1242.54,
+    "end": 1259.33,
+    "text": "Eso creo. La parte buena es que tenemos una de las partes, por lo tanto, si hay que hacer algún ritual, ese ritual está parado hasta que nos quiten esa parte o encontremos nosotros las demás."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1260.89,
+    "end": 1266.37,
+    "text": "Yo creía que estabas insinuando que tuviéramos nosotros que hacer un ritual. Yo no pienso despellejar a nadie."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1267.27,
+    "end": 1287.09,
+    "text": "Bueno, todos ponen ese. No, no. Con el simulacro completo, sea quien sea, nosotros o el duque o alguien tendría que hacer un ritual. Pero que tenemos una de las piezas que juega a nuestro favor. Que no puede"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1287.17,
+    "end": 1287.33,
+    "text": "ser"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1287.39,
+    "end": 1287.87,
+    "text": "el ritual."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1288.35,
+    "end": 1314.37,
+    "text": "Camino de Milán a por otra. Una pregunta, por si acaso viene el duque puesto preparados, ¿crees que podríamos, parte del suero este de la usana onírica o del sueño o como la llamemos, podemos usarlo como arma? ¿Le podemos mandar al reino onírico? ¿Puedo hacer una idea o algo?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1315.9,
+    "end": 1336.45,
+    "text": "Bueno, si el duque fuera una persona normal, supongo que si le inyectamos esto es un somnífero muy potente. Nosotros con apenas una pequeña dosis nos durmió. Supongo que el duque sería lo mismo, pero no es exactamente una persona, ¿verdad? No sabría si tiene exactamente el mismo efecto, pero bueno, él va allí, supongo que lo hará de la misma manera."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1336.81,
+    "end": 1339.57,
+    "text": "Me recuerda la historia del monstruo de Frankenstein."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1340.63,
+    "end": 1345.15,
+    "text": "¿Puedo llevar preparada una jeringuilla de lo que me quede en el bolsillo por si las moscas?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1345.8,
+    "end": 1349.84,
+    "text": "¿Y cuál sería la dosis para tumbar un elefante, por"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1349.9,
+    "end": 1355.78,
+    "text": "ejemplo? Bueno, por el peso, si nosotros hemos usado 0,1 mililitros, el mililitro…"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1355.8,
+    "end": 1358.93,
+    "text": "¿Y cuánto tenemos?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1358.95,
+    "end": 1359.87,
+    "text": "¿Cuánto me queda de eso?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1360.75,
+    "end": 1367.51,
+    "text": "O sea, tenéis un frasquito así pequeño, lleno hasta la mitad, pues hombre, os queda…"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1368.99,
+    "end": 1370.51,
+    "text": "Bueno, me quedaría lo suficiente."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1371.33,
+    "end": 1377.89,
+    "text": "De todas formas, ¿no pensáis que el conde ha ido y vuelto suficientes veces como para...?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1377.93,
+    "end": 1384.13,
+    "text": "Sí, pero por lo menos le retrasamos un poco. Claro, lo echamos. No es otra... No sé si él es capaz de"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1384.21,
+    "end": 1393.56,
+    "text": "entrar ni salir a su voluntad, ¿sabe? Viendo cómo hizo ese truco con la cuerda. Pero bueno, como plan B, pues no es mala idea."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1394.14,
+    "end": 1396.44,
+    "text": "Pues te la ha preparado para elefantes."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1399.64,
+    "end": 1405.24,
+    "text": "Muy bien, pues desde ahora Lili va con una jeringuilla."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1405.26,
+    "end": 1412.06,
+    "text": "Igual mejor sería llenarla de lejía. ¿Me vas a poder acercar lo suficiente? No lo sé."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1412.61,
+    "end": 1416.51,
+    "text": "Creo que siendo... ¿Eso lo dice Alex o lo dice"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1417.03,
+    "end": 1421.61,
+    "text": "Lucía? Lo dice Alex totalmente. O sea, yo no creo que el"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1421.63,
+    "end": 1442.1,
+    "text": "suelo... Creo que visto lo visto, que es una amalgama de partes de otra cosa y que tiene la cabeza más pequeña de lo habitual, creo que la alergia o cualquier cosa venenosa no le va a hacer nada. Esto... No lo sabemos y recemos a la que funcione en un momento si lo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1442.16,
+    "end": 1444.56,
+    "text": "necesitamos."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1444.58,
+    "end": 1457.03,
+    "text": "Bueno, pues habéis vuelto, ¿no? Habíais dicho que habíais vuelto a uno de los camarotes. Sí, sí, sí. Estabais ahí hablando, tal, estabais viendo..."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1459.4,
+    "end": 1466.15,
+    "text": "Bueno, que me quede claro. Entonces, este pergamino lo hemos conseguido simplemente para saber, bueno, simplemente no, que la cabeza está en Constantinopla."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1466.91,
+    "end": 1481.98,
+    "text": "No, de hecho, es muy importante para saber qué tenemos que hacer luego con las piezas. Es parte de un ritual que tenemos que hacer para destruir, en principio… La idea es encontrar información para, tenemos que destruir con esta maldad. Y como digo, todavía no os lo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1482.02,
+    "end": 1482.48,
+    "text": "habéis leído."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1482.9,
+    "end": 1483.56,
+    "text": "Claro, por eso, por"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1483.58,
+    "end": 1483.76,
+    "text": "eso."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1484.29,
+    "end": 1494.21,
+    "text": "Espero que consiga sacar algún claro. Si os parece, yo me gustaría quedarme cerca de Adil, no vaya a ser que aparezca el señor mago este y aparezca justo al lado de Adil, mientras él está trabajando."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1494.23,
+    "end": 1497.32,
+    "text": "¿Cuántas horas tenemos de camino hasta Milán?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1497.34,
+    "end": 1520.88,
+    "text": "¡Uf! Bueno, pues en los tiempos muertos que no estamos comiendo croissants y no estamos sobreviviendo a ningún impacto cataclímico, pues dedico el estudio."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1521.51,
+    "end": 1526.71,
+    "text": "Vale, mira, os voy a poner para que veáis la ruta del Oregon Express, ¿vale? Vale."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1527.15,
+    "end": 1536.9,
+    "text": "Una cosa, me gustaría inspeccionar en cualquier momento también ver si ha quedado algún residuo de lo que el Conde ha hecho. No voy a ser que haya dejado una especie de puerta de entrada. Me"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1536.94,
+    "end": 1585.36,
+    "text": "gustaría, si ha quedado algo, tirarlo. No queda absolutamente nada después de cuando haces el desayuno. Además, el gente limpia, tal y cual, la silla no aparece por ningún lado. Mira, nada, les estoy diciendo que iba a aparecer, pero bueno. No detectas nada. Así que bueno, pues eso. Si estáis viendo ahí el Roll20, estáis en Lausana y os estáis dirigiendo, como veis aquí, a Milan. Así que, pues como veis, todavía hay un trayecto. Así que bueno, podéis usarlo. para descansar un poquito, ¿vale? No sé si teníais heridas, si estabais, pues, alguno tenía los puntos de vida por debajo de lo normal o no. No, yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1586.02,
+    "end": 1587.26,
+    "text": "no. Yo estoy bien."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1587.28,
+    "end": 1590.84,
+    "text": "Cordura, yo quiero recuperar cordura."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1592.0,
+    "end": 1610.17,
+    "text": "pues digamos que a pesar de que al principio pues estáis un poco nerviosos pensando va a aparecer el hombre este tal y cual no aparece no es la tranquilidad absoluta pero bueno un punto de cordura poder recuperar gracias como hemos dicho a este científico"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1610.95,
+    "end": 1614.69,
+    "text": "me gustaría aprender un poco de italiano lo que pueda puedes"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1614.71,
+    "end": 1619.35,
+    "text": "preguntarle a la"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1619.47,
+    "end": 1620.05,
+    "text": "carbonara a la"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1620.13,
+    "end": 1620.95,
+    "text": "carboyaro que te enseñe"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1621.84,
+    "end": 1646.81,
+    "text": "Bueno, pues digamos que tú estos días has estado con Carbollaro intentando practicar el italiano, ¿no? Has estado ahí con Mario, con Luigi, con su gente. Isaac ha estado ahí tal y cual, pues, haciendo tus pinitos de italiano. Ok, perfecto. Muy bien. Pues mira, vamos a tirar un dado de 10, ¿eh? Y lo que saques, pues te quedas con puntos de italiano. Vamos. Significaba a"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1646.93,
+    "end": 1649.97,
+    "text": "ti a Xemi, ¿verdad?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1650.01,
+    "end": 1650.11,
+    "text": "Sí."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1652.46,
+    "end": 1720.63,
+    "text": "Vamos a ver, 4, pues venga, tienes 4 puntos de italiano. Pero coloca los dedos perfectamente. Así que bueno, todos se rían. ¡Ay, qué gracioso es usted, señor Isaac! Y te lo pasa muy bien con la Carbollaro, que el vejez está... Está que no caga la mujer, a pesar de que tú que estás estos días con ella practicando, es que a pesar de que es una diva, es una mujer que ha llegado a lo más alto, pues esa ilusión que le hace ser de verdad Aida, protagonizar a Aida en la escala, en su Milán natal, pues desde luego tú ves que a pesar de esa fachada un poco indolente y tal, pues la mujer sí que está muy, muy emocionada y la oyes tararear de vez en cuando, practicar, tal, o sea que, bueno, digamos la fachada de fiesta y tal, que también hay fiesta y cosas, pero ahora es muy metida, muy ilusionada con su papel. Así que bueno. ¡Ay!"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1722.78,
+    "end": 1734.2,
+    "text": "Te gustaría animarla y decirle que estoy totalmente seguro que va a ser un éxito y que quiero dentro que puedo también pues que aumentar su autoestima."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1735.18,
+    "end": 1766.1,
+    "text": "Bueno, su autoestima creo que no necesita ser aumentada. Pero bueno, pues ya te da las gracias y este va a ser el papel por el que me van a recordar durante décadas a Isaac. Estoy seguro. No la interrumpo más. Y nada, pues además de aprender italiano y hacerle la pelota a una diva a los demás, ¿hay algo que queráis hacer en estos días? ¿Qué me queréis decir? Bueno, Adil ya ha dicho que va a estar leyendo el pergamino y va a estar a full con eso. Y yo con él también. Quiero volver a"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1766.5,
+    "end": 1774.26,
+    "text": "revisar el brazo a ver si ha cambiado en algo, ha variado algo o sigue exactamente"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1774.3,
+    "end": 1779.22,
+    "text": "igual. No, no ha variado en nada. Sí que hay alguna vez que tú... ¿Lo tocas?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1779.94,
+    "end": 1780.04,
+    "text": "No."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1780.76,
+    "end": 1818.17,
+    "text": "No, no, el brazo está absolutamente igual, incólume, no hay nada. A lo largo de estos días pues has podido ver pues eso, como Adil, por más que intenta fingir o por más que intenta ser pues un tipo duro y tal, pues sí que se duele del brazo, se pega golpes en ese brazo, una torpeza inusual en él, o sea, sí que ves que cada vez incluso pues está mal, alguna vez se le cae algo que tiene cogido con esa mano, ¿no? no sabes si va más pero desde luego nunca va a menos eso sí que lo pero el brazo en sí el brazo sí es un objeto inerte que no tiene nada de extraño según se ve"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1819.09,
+    "end": 1827.72,
+    "text": "y podría intentar tirar mitos para ver si descubro qué es lo que le pasa en el brazo y si hay alguna posible solución"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1828.98,
+    "end": 1831.88,
+    "text": "vale pues tira mitos tira mitos de chulo cuántos días en mitos en"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1831.9,
+    "end": 1832.74,
+    "text": "la"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1832.78,
+    "end": 1833.14,
+    "text": "pregunta"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1834.48,
+    "end": 1834.66,
+    "text": "Pues"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1834.68,
+    "end": 1842.77,
+    "text": "poco, porque siempre se tiene poco. Y tiene bastante, la verdad es que es una experta, pero el mayor experto suele tener poco."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1848.44,
+    "end": 1848.8,
+    "text": "A ver, ¿dónde"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1849.92,
+    "end": 1850.9,
+    "text": "es? Ah, ya. Tengo 20. Muy"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1850.92,
+    "end": 1852.26,
+    "text": "bien. ¡No!"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1856.67,
+    "end": 1861.84,
+    "text": "Si es que te lo vas buscando. Mucho hacía que no"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1861.94,
+    "end": 1862.92,
+    "text": "fui fiaba,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1863.42,
+    "end": 1867.85,
+    "text": "¿eh? Mejor en esto que en cualquier otra cosa. Me"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 1867.89,
+    "end": 1869.45,
+    "text": "quiere cortar el brazo, Alex Cox."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1871.89,
+    "end": 1902.92,
+    "text": "Hay un momento en el que te quedas a solas, con el brazo tú ahí y tú viendo si este brazo tiene algo. Tú intentas pensar en todas las cosas que has vivido, en todas las cosas que ha pasado y de repente ves como el brazo se mueve y se te agarra al cuello y empieza a estrangularte. ¿Qué haces, Alex Coxen? Es que es una tenaza, pero... Un momento, tengo que hacer un matiz. Un momento, no. ¿Qué matiz vas a hacer si estás sola?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1903.88,
+    "end": 1912.88,
+    "text": "No, si está con el brazo, está en mi cuarto. Tienes que mear. En mi cuarto estoy yo estudiando. Ha tenido muy mala suerte."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1912.9,
+    "end": 1917.15,
+    "text": "Bueno, luego voy"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1917.19,
+    "end": 1919.73,
+    "text": "contigo. Ella está sola. Vale. Me pongo en posición"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1919.75,
+    "end": 1919.89,
+    "text": "fetal"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1919.91,
+    "end": 1920.13,
+    "text": "y lloro."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1920.17,
+    "end": 1941.86,
+    "text": "Eh... ¿Qué hago? Pues, a ver, con la... porque aunque me esté tocando, entiendo, la piel, el cuello, yo no quiero tocarlo directamente. Entonces, intento con la falda, ¿sabes? Envolverme las manos e intentar abrirlo. O sea, yo que sé, intento quitármelo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1942.21,
+    "end": 1954.13,
+    "text": "Menos mal que no lleva minifalda, menos mal que no es inventado. Muy bien, ¿vale? Te lo intentas quitar, pues tira a fuerza y vas a tener que te dar un éxito difícil, porque además estás ahí con la falda haciendo absurdeces, así que tira un éxito difícil de fuerza."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1954.77,
+    "end": 1963.66,
+    "text": "Ah, no la tengo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1963.76,
+    "end": 1967.18,
+    "text": "en la S. Venga, que sacas un nuevo. Ah, es de característica, vale, vale, vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1967.2,
+    "end": 1968.98,
+    "text": "Perfecto."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 1971.12,
+    "end": 1987.46,
+    "text": "Así que tienes que sacar un éxito difícil de fuerza. Pues fallas. Un fallo extremitoso. Vale. No tengo suerte ninguna, no la he visto. Vale, pues tú sientes cómo vas perdiendo la vida y cómo... Vale, ¿puedo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1987.5,
+    "end": 2035.96,
+    "text": "intentar otra cosa? que probablemente no funcionará, pero visto lo visto. Dime. Como realmente es un objeto mágico, no sé hasta qué punto puede reaccionar con... conmigo, o sea, con mi fisicidad. Entonces, viendo que tampoco es que pueda hacer otra cosa y que yo ya he tenido experiencia y contacto con otros objetos mágicos, Quiero intentar relajarme y ver si de alguna manera ese contacto con mi piel está... O sea, como si pudiera abandonarme o luchar, pero desde otro punto. O sea, no desde lo físico, sino desde lo místico. Lo mental, lo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2035.98,
+    "end": 2041.92,
+    "text": "espiritual. Vale, pues tira una tirada difícil de poder. Poder es otra característica, está arriba."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2044.84,
+    "end": 2045.48,
+    "text": "Pues no puedo..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2046.21,
+    "end": 2048.59,
+    "text": "Madre mía."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2048.73,
+    "end": 2087.39,
+    "text": "Sientes como te atenaza y ya no es que la asfixia, ya es que no sé si es la tráquea lo que se ha roto, sientes un dolor tremendo y sientes como la vida te abandona. Adil, tú estabas con Alex Coxen ahí que estaba... que estaba viendo el este y de repente ves como de la nada se echa para atrás, se tira al suelo, parece como que se está asfixiando, se pone roja, se levanta la falda, empieza como a luchar con ella misma hasta que se tira al suelo, intenta relajarse y ves que se está quedando inconsciente. ¿Qué haces, David?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2087.41,
+    "end": 2090.1,
+    "text": "Pues agarro el brazo, me"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2090.12,
+    "end": 2093.06,
+    "text": "levanto... ¿Qué brazo? El brazo está en su sitio, el brazo no se ha movido."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2094.55,
+    "end": 2099.99,
+    "text": "Pues la agarro y le hago primeros auxilios."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2100.05,
+    "end": 2105.13,
+    "text": "¿Primeros auxilios? La zarandeo un poquito. Ah, la zarandeas. Le pegas unas tortitas ahí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2105.67,
+    "end": 2106.47,
+    "text": "Alex, Alex,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2107.23,
+    "end": 2119.94,
+    "text": "Alex. Y tú, de repente, ves que Adil… Primero piensas que Adil es el que te está estrangulando, intentas forcejear y luego te das cuenta de que no hay brazo, de que no te ha cogido, de que se te está yendo la cabeza."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2123.79,
+    "end": 2123.91,
+    "text": "Así"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2123.93,
+    "end": 2126.11,
+    "text": "que haz otra tirada de cordura, por favor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2128.16,
+    "end": 2128.96,
+    "text": "Ay, madre."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2131.38,
+    "end": 2138.24,
+    "text": "Bopi. Bueno, un éxito difícil. Un punto vas a perder, eso sí, por esta experiencia. ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2138.28,
+    "end": 2140.46,
+    "text": "ha sido difícil?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2140.48,
+    "end": 2158.5,
+    "text": "Bueno, ha sido extremo, así que no vas a tener una experiencia que casi te mata el brazo y pasar así de rositas. Pues nada, tú ves que ella se repone, ves que se peina, se levanta, así como se repone, así muy dura, muy tal. Pero tú ves que a Alex Coxen se le está yendo la flapa."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2160.14,
+    "end": 2163.6,
+    "text": "Pero estaba al lado del brazo, lo había... Sí, ni lo"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2163.64,
+    "end": 2171.58,
+    "text": "ha tocado. Estaba ahí mirándolo, estaba como pensando, consultando unas notas que ella misma tenía y de repente se ha puesto a actuar como si el brazo la estrangulara."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2172.22,
+    "end": 2189.06,
+    "text": "Como una persona súper bondadosa, la cual no soy, le pone así la mano en los hombros y le dice... No te acerques al brazo. Con que nos mate a uno de los dos, vale. Que no nos mate a los dos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2189.68,
+    "end": 2191.56,
+    "text": "Estaba intentando ayudarte."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2191.6,
+    "end": 2197.19,
+    "text": "Lo sé, pero con que tenga el brazo de una sola víctima, vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2198.81,
+    "end": 2204.25,
+    "text": "¿Me han dejado marcas o algo? O sea, lo físico visiblemente tengo nada. No, fue todo producto de tu"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2204.29,
+    "end": 2207.6,
+    "text": "imaginación. La siento despacito en la cama y..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2208.57,
+    "end": 2213.84,
+    "text": "Sí, no, pues le digo voy, necesito ir un rato a mi cuarto a descansar."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2215.89,
+    "end": 2250.5,
+    "text": "Muy bien. Pues se va y tú te quedas ahí solo. Vas a girar el brazo que parece atenazado y cierras la caja donde se queda esa mano que parece reírse de ti y cuando cierras la caja, tirón, te da un calambrazo en tu propio brazo. Calambrazo. Exactamente. Un calambrazo. Si fuera la pierna, me daría un calampierna, pero bueno, con esos pensamientos te sientas en la cama y no te hago tirar cordura porque bueno. Así que... ¿Algo más que queréis hacer en estos días? ¿Algo así relajante como Alex Coxen?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2250.68,
+    "end": 2252.12,
+    "text": "Yo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2252.78,
+    "end": 2252.92,
+    "text": "quiero"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2252.98,
+    "end": 2269.65,
+    "text": "mirar los periódicos de todos los días para mirar más o menos por donde hemos pasado, si hay alguna información, noticias en Londres y también en Milán. También saber un poco hacia dónde vamos, qué se espera, si hay algo así revuelta o no revuelta, yo qué sé, de todo un poco."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2271.1,
+    "end": 2402.93,
+    "text": "Vale, pues en principio vosotros vais recibiendo sitios en los que estáis, pues sí que la prensa del lugar... Hombre, tú no hablas tantos idiomas, con lo cual en realidad tú la prensa local no la puedes leer. Tendrás que leer el Times o lo que sea que llegue allí con un poco de retraso. Y bueno, pues a ver, en Lausana, si os acordáis, pues estaba esta conferencia, esta conferencia... de paz, precisamente por el imperio turco y tal y cual, los periódicos hablan de ello y tú ves que, bueno, pues no, claro, como tú no puedes leer la prensa local, pues no, si a lo mejor preguntas a alguien tal, pues bueno, quizá alguien hablaba de... Pues quizá algún diario suizo hablan de que hubo un asalto a la casa de unos inmigrantes ingleses, tal y cual. Y bueno, la cosa parece ser... Lo venden un poco como que eran unos tipos que estaban metidos en drogas, en falsificación, extraperlo, tal, que tenían una tapadera de taxidermia. Y que, bueno, pues un poco gentuza que al final, con un ajuste de cuentas o lo que sea, se llevó su merecido. Y evidentemente nada que implique nada. Ni a vosotros, por suerte, ni al Duque, con lo cual, bueno, y es un poquito notapia de página de una cosa que pasa en un lugar. Y bueno, pues sobre Italia, pues a Italia las noticias son todas las remodelaciones que está haciendo Il Duce, que está haciendo Benito Mussolini con su gobierno fascista y tal y cual, que ahora está muy en boga y pues las típicas polémicas de la época de fascismo, sí, fascismo no, menos mal que estamos muy lejos de eso hoy en día, ¿no? Y, pues, ese tipo de cosas. En realidad, alguna noticia que a ti te parezca muy interesante, importante, relacionado con esto y sobre Londres y tal y cual, pues, no. O sea, no hay noticias ahí. Pues, noticias de actualidad y tal y cual, pero nada que tú puedas relacionar con algo de tu investigación o de vuestros casos o no. OK. Gracias."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2402.95,
+    "end": 2407.77,
+    "text": "Pues, se resuelve el tiempo junto con Adil, como comentaba."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2409.94,
+    "end": 2424.03,
+    "text": "Pues yo voy a dejar los planes, si es que los hacen a mis compañeros, que son los expertos en estos casos, y estos días de viaje me voy a dedicar a seguir con los masajes en el brazo de Adil, que por cierto, ¿era el brazo derecho o el brazo izquierdo?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2424.69,
+    "end": 2427.27,
+    "text": "Pero ¿qué os ha pasado a todos con Adil? Yo"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2427.29,
+    "end": 2431.55,
+    "text": "ya te estaba, pero bueno, desagradecido, yo ya te estaba echando masajes y demás. No lo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2431.65,
+    "end": 2437.56,
+    "text": "sé, no lo sé, ¿qué brazo? Justo cuando levantas la mano, ¿qué brazo es el que levantas? ¿Con qué mano haces la garra?"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2439.02,
+    "end": 2452.17,
+    "text": "A ver, el brazo que encontraste y será uno concreto. ¿Vale? ¿Y cuál era? O sea, no lo tenéis ni... Es el izquierdo. Es el izquierdo. El izquierdo. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2453.18,
+    "end": 2510.97,
+    "text": "pues seguiré intentando masajearlo por si está agarrotado, echándole la crema esta que tenía. Y aparte, he notado desde que hemos empezado el viaje que Alex está un poquito... Bueno, afeitada. A veces, aunque ella parece que no lo nota, se queda así como mirando a la nada, ensimismada. A veces hace como respingos, incluso a veces mira así como si tuviera un tic vigilando hacia las puertas, como si estuviera nerviosa. Entonces creo que me voy a dedicar también parte de este viaje a hablar con ella. Simplemente soy buena escuchando, siempre me lo han dicho. Entonces quiero hablar con ella, que me cuente sobre su vida. Además me parece una persona muy interesante, que ha recorrido mucho mundo. Y quiero escuchar sus problemas, los que ella me quiera contar. Y lo que quiero hacerle un poco es de psicología, ¿sabes? De intentar darle algún apoyo o algo así durante estos días que tenemos de camino."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2511.89,
+    "end": 2513.33,
+    "text": "¿Tienes la habilidad de psicoanálisis?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2515.45,
+    "end": 2517.09,
+    "text": "Tengo psicología."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2517.11,
+    "end": 2539.05,
+    "text": "Tienes psicología, bien. No es psicoanálisis. Bueno, pues charlas con ella, pero tanto como para curar cordura me parece que no, si es lo que se intentaba. Y si no, pues bueno, pues creo que no eres una profesional de la salud mental, por muy enfermera que seas. Así que, bueno, pues no sé, que nos diga Alex Coxen cómo reacciona ante eso."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2539.81,
+    "end": 2549.24,
+    "text": "Yo creo más en la psicología que en el psicoanálisis en general. O sea, el psicoanálisis depende para qué. Eso está guay cuando traumas de la infancia. Son"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2549.26,
+    "end": 2552.78,
+    "text": "los nombres de las habilidades, ¿vale? Tú"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2552.8,
+    "end": 2554.96,
+    "text": "ponte como quieras y yo lo voy a pelear siempre."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2555.46,
+    "end": 2555.96,
+    "text": "Vale, vale."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2557.22,
+    "end": 2615.57,
+    "text": "Bien, bien, bien. A mí, a ver, yo agradezco a Lili porque veo que se preocupa también. Es verdad que en el fondo me da ternura y me da cierta... cierto miedo y cierta pena porque no quiero que acabe como yo y no sé por un lado cómo protegerla, cómo hacer que ella no sea consciente de todo lo que hay fuera, pero por otro lado pienso que no la puedo tener en una burbuja, entonces creo que intentar contarle realmente de manera sincera si no todo, por lo menos parte de lo que he vivido y de lo que he visto, también puede ayudar a prepararla. Mientras ella quiera hablar y escuchar, no tengo ningún problema con abrirme, así que perfecto y agradecida."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2615.61,
+    "end": 2642.83,
+    "text": "Si la dejas yo te voy a interrogar hasta de buenas maneras, pero al final me resulta muy interesante su vida porque Yo solo he salido de mi granja para ir a estudiar y me he quedado donde he estudiado y este es mi primer viaje y conozco gente tan interesante como son estos tres. Entonces si puedo, claro, voy a intentar hablar más con Alex Coxen, pero bueno, también hablaría con los otros dos y Adil saca la nariz de ese pergamino y bueno, pues a conocernos más."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2644.84,
+    "end": 2666.31,
+    "text": "Perfecto. Vale, pues desde luego, Adil, sí que consigues leer el pergamino. No tienes tiempo en estos días, así que creo que deberías estar viendo el resumen del pergamino, que puedes leernos también, para que veamos un poquito por encima un resumen de lo que hay ahí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2668.74,
+    "end": 2751.98,
+    "text": "No, el pergamino fue escrito por Sedekar, el Osmanli, y gira en torno a un artefacto de su propiedad, el simulacro Sedekar, la casualidad. El autor profetiza que pronto perderá el simulacro. Alaba sus poderes y explica su naturaleza en un conjunto de cinco pergaminos. Este pergamino es el primero de los cinco. Se le conoce como el pergamino de la cabeza y trata sobre los pensamientos y la historia de Sadevkar. Los cuatro pergaminos que faltan son el pergamino del vientre, ir apuntando, donde se habla de la adoración de un ser conocido como el ser cínico. El pergamino de las piernas, tampoco tenéis que apuntar porque eso no sabéis. Una serie de conjuros que afectan al cuerpo, la base sobre la cual construyó el poder de Sadefkar. El pergamino de la mano derecha, un ritual que despertó a la estatua y que es la fuerza impulsora del poder de Sadefkar. Y el pergamino de la mano izquierda, que contiene un ritual que equilibra el poder mediante un continuo sacrificio. Continuo sacrificio. El pergamino es un documento lleno de divagaciones y delirios. El autor no ha estructurado los eventos de ninguna forma u orden, lo que dificulta su seguimiento. La descripción más detallada del documento versa sobre la tortura y el desolamiento de seres humanos."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2753.2,
+    "end": 2759.68,
+    "text": "Muy bien, pues por haber leído todas estas cosas, pierdes un dado de 6 más 1 de cordura."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2760.9,
+    "end": 2761.58,
+    "text": "Poco me parece."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2762.93,
+    "end": 2763.86,
+    "text": "Muy bien."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2763.91,
+    "end": 2764.69,
+    "text": "Un dado de 6 más..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2765.91,
+    "end": 2777.34,
+    "text": "Más 1. Un dado de 6, más 1. Pues toma, 4. Vale, 4 puntos de Cordura. Y sumas 5 a 2 mitos de Chulu. ¿Cuánto llegarías con 5 más en tu puntuación de mitos de Chulu?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2777.74,
+    "end": 2779.78,
+    "text": "Esperábamos por partes. Cordura."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2781.52,
+    "end": 2782.44,
+    "text": "Cordura pierdes 4."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2783.84,
+    "end": 2791.17,
+    "text": "Vale. Entonces estoy en 37. Ahora, Chulu Might. Mitos de Chulu tengo 10."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2792.6,
+    "end": 2795.46,
+    "text": "10, pues 15, pues pasas a tener 15. ¿Y eso"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2796.16,
+    "end": 2801.65,
+    "text": "se refleja en mí? ¿En que se me ponen ojeras? Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2803.31,
+    "end": 2845.8,
+    "text": "pues eso, los que han estado preocupados por ti han visto que leer este pergamino también te estaba afectando, pero bueno, por mucho que a lo mejor te han dicho déjalo, tal, no sé qué, descansa, léete entre medias un poquito de Agatha Christie, pues tú has seguido y has descubierto los misterios del pergamino. Así que, además... Así que bueno, pues eso, te sube a 15. Además, digamos que durante este tiempo has hecho una transcripción en inglés para si tus compañeros se la querían leer. Si alguno de vosotros la quiere leer, pues eso quiere decir, bueno, a Alex Coxen no le valdría para nada porque ya sabe mucho de estas cosas, pero si alguno quiere, pues tira un dado de 4 de pérdida de cordura y suma más 2 de mitos de Chulu. Si no queréis, pues evidentemente no lo hagáis. Mi"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2845.82,
+    "end": 2876.29,
+    "text": "recomendación, yo lo dejo ahí encerrado con un lacito Esta es la transcripción completa en inglés. No es una cosa agradable de leer y probablemente y no hay nada que no se haya contado ya porque ya se lo he contado todo. Y este es el primero de cinco. En vuestra mano está y se lo dejo a Isaac."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2879.09,
+    "end": 2883.11,
+    "text": "Le doy un abrazo también a Adil. Gracias Adil por todo el esfuerzo que estás haciendo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2883.39,
+    "end": 2906.88,
+    "text": "Tengo un poco de daño en el brazo, pero bueno. Y ves que tiene marcadas así unas ojeras negras como si se hubiera dado rímel, o sea, como si se hubiera dado maquillaje, pero no es maquillaje. ¿Quieres tomar algo? Te invito, para ver si mejoras la cara. Sabes que eso no es... Te lo digo directamente. Sabes que eso no es falta de sueño. Ningún café lo quita."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2907.02,
+    "end": 2918.72,
+    "text": "Pero igual te puedo animar un té o te puedo animar algo. Pero no me lo va a quitar. Ya, bueno. Lo llevan mejor,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2918.76,
+    "end": 2936.89,
+    "text": "hombre. Muy bien, bueno, pues Adil, pues eso, un poquito ya cuando estéis acercando a Miral, pues os cuenta eso, le da la transcripción a Isaac por si alguno la quiere leer, pero no estáis al principio muy interesados, así que pues nada, dime. Pero bueno, bueno, sí, Alex, que lo siga."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2937.07,
+    "end": 2960.61,
+    "text": "No, de cara a nuestros compañeros, si ninguno de vosotros va a querer leerlo, yo pues puesto no tengo ningún interés tampoco porque confío plenamente en la palabra de Adil y sé que nos lo ha contado todo, pero no sé si es muy inteligente tener esa transcripción al inglés, al alcance de cualquiera."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2962.31,
+    "end": 2973.97,
+    "text": "Vale, voy a hacer solamente una vez esta pregunta. No esta, sino la que sigue. Y es... ¿Vais a querer leer el pergamino con la transcripción en inglés?"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2975.34,
+    "end": 2976.56,
+    "text": "Yo me fío de su palabra, Dil."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2977.16,
+    "end": 2977.62,
+    "text": "Si dice que es"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 2977.68,
+    "end": 2979.62,
+    "text": "mejor no leerlo, yo no lo leeré."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2979.9,
+    "end": 2986.87,
+    "text": "Lo destruís, entonces. Se lo cojo a Isaac despacito de la mano, lo pongo en un cenicero y le doy Jeskai."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 2988.41,
+    "end": 3000.7,
+    "text": "Vale, pues quemáis esa transcripción, ¿vale? Y Adil, algo muy digno, pero pensando, me he tirado 20 horas haciendo una muñeca de transcripción y ahora me dicen que la queme. Vale, pero"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3001.68,
+    "end": 3017.72,
+    "text": "dignísimo. Y la segunda pregunta es, ¿qué vamos a hacer con el original? ¿El original creéis que es un medio y que si se juntan los cinco pergaminos va a pasar algo o le damos yesca como a este? No lo sé."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3019.17,
+    "end": 3021.95,
+    "text": "Yo lo guardaría por si las moscas, ya que guardamos el brazo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3022.93,
+    "end": 3032.29,
+    "text": "Y vamos a ir cargados durante todo el trayecto con un montón de piezas de una estatua. En el... Una pregunta, justo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3032.59,
+    "end": 3037.53,
+    "text": "en el Oriente Express hay como una especie de banco o de depósito."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3037.88,
+    "end": 3077.72,
+    "text": "Sí, sí, por supuesto. Hay un compartimento de carga y en el compartimento de carga se puede, o sea, en principio si tú dices, hombre, esto es valioso y tal, supone que se comprometen. Esto es el nivel de los más grandes hoteles. También se puede solicitar que una pequeña cajita fuerte o caja tal lo puedes tener en tu camarote El brazo no cabría, el pergamino pues ahí sí, un poquito justo sí, pero de todas maneras, hombre, digamos que vosotros podéis fiar o no, porque sois unos paranoicos investigadores de una aventura de rol, pero digamos que el compartimento de carga del Orient Express sería una cosa súper confidencial, súper segura. Voy a hacer una cosa."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3077.74,
+    "end": 3094.28,
+    "text": "Voy a poner el pergamino, el de verdad, el dado que el otro se está quemando, al lado del brazo. Y voy a cerrar esto y le voy a poner un candadito. Y se van a quedar donde se han quedado siempre. Menos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3094.32,
+    "end": 3097.3,
+    "text": "sospechosos. Y si"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3097.74,
+    "end": 3110.58,
+    "text": "los guardamos por separado. Claro. Pero porque el percamino tiene que estar con nosotros. Y más ahora que puede que el conde vuelva o lo que sea. Yo lo dejaría en... en el compartimento de... Si con"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3110.78,
+    "end": 3114.97,
+    "text": "Devolvia por el pergamino seguro que va a ir a cualquier compartimento a buscarlo, señor Isaac."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3115.31,
+    "end": 3118.83,
+    "text": "Por eso. Que no lo pille en el"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3118.89,
+    "end": 3126.05,
+    "text": "nuestro. Que no lo pille en el nuestro, está claro. Y con sus poderes le va a dar igual donde esté."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3126.67,
+    "end": 3132.7,
+    "text": "Pero mejor ponerlo más... Pero ya es un problema del Orient Express, no solo nuestro."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3133.36,
+    "end": 3133.5,
+    "text": "Ten"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3133.52,
+    "end": 3133.9,
+    "text": "en cuenta una"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3133.98,
+    "end": 3154.58,
+    "text": "cosa... Alex, ten en cuenta una cosa. Si ahora guardáis uno de vosotros el peramino y yo guardo el brazo, si él entra en uno de los cuatro cuartos va a tener dos posibilidades sobre cuatro de que lo encuentre. Si lo guardamos todo junto hay una sobre cuatro."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3154.6,
+    "end": 3160.77,
+    "text": "Estamos diciendo de guardarlo en la caja fuerte, no en nuestros compartimentos."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3161.31,
+    "end": 3172.7,
+    "text": "Es que va a dar igual, el hombre este ya lo vimos en la lausana onírica que era y lo hemos visto aquí que es prácticamente algo sobrenatural."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3172.72,
+    "end": 3175.28,
+    "text": "Ya, ¿y por qué no se ha hecho con el brazo todavía?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3175.9,
+    "end": 3177.12,
+    "text": "¿Y"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3177.16,
+    "end": 3205.3,
+    "text": "por qué no se ha dado cuenta de que el pergamino era falso? O sea, quiero decir, tenemos posibilidades, tenemos posibilidades. Yo creo que si se cabrea evidentemente y viene a por él, pues vamos a decir jaja, pero yo creo que si por lo menos los separamos... tendrá menos posibilidades de encontrar las dos cosas. A lo mejor se piensa, a lo mejor registra en nuestros camarotes y se piensa que lo tenemos nosotros y no se le ocurre pensar en... Hombre,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3205.36,
+    "end": 3209.69,
+    "text": "nosotros somos los que le hemos engañado, va a venir a nuestros camarotes sí o sí, aunque después... Por eso te"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3209.75,
+    "end": 3215.17,
+    "text": "digo, entonces no es más inteligente sacar al menos una de las cosas de nuestros camarotes."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3215.55,
+    "end": 3216.21,
+    "text": "Como tú creas."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3217.4,
+    "end": 3222.89,
+    "text": "Pues es lo que decía, estoy con Alex, vamos a dárselo a Lorien."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3224.47,
+    "end": 3229.59,
+    "text": "Tened en cuenta una cosa, lo del duque nos va a venir a morder el culo en algún momento."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3230.23,
+    "end": 3230.76,
+    "text": "Y otras tantas"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3230.89,
+    "end": 3232.48,
+    "text": "cosas. Cualquier cosa."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3232.52,
+    "end": 3234.48,
+    "text": "Sorpresa para nadie. Como"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3235.62,
+    "end": 3236.52,
+    "text": "el"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3237.4,
+    "end": 3240.92,
+    "text": "del burrito cojo también, lo vamos a encontrar en algún momento. ¿A"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3240.96,
+    "end": 3241.34,
+    "text": "quién, perdón?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3241.93,
+    "end": 3243.69,
+    "text": "A los turcos, lo vamos a tener en algún momento."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3244.31,
+    "end": 3248.27,
+    "text": "Sí, me temo que esto nos va a acarrear varios enemigos y no solo el duque."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3249.39,
+    "end": 3257.83,
+    "text": "Así que, toma, vuelvo a sacar el pegamino de donde la mano, extiendo la mano, no se lo de a nadie y dejo que alguien lo coja."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3258.34,
+    "end": 3275.07,
+    "text": "Lo cojo y voy a pedir un compartimento en el Orin Express. Antes de eso, le pregunto a Dil, en todo el manuscrito que has leído, ¿no dice nada de si tenemos que usarlo para destruirlo y dónde pueden estar los otros pergaminos?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3276.1,
+    "end": 3282.74,
+    "text": "Son conjeturas de un loco. Era imposible seguir la lectura. Lo más que pone es todo. Pero como él"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3282.9,
+    "end": 3287.52,
+    "text": "anticipaba que se iba a separar por partes, igual decía algo."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3288.14,
+    "end": 3310.71,
+    "text": "Igual él sabía que iba a morir, dado que estaba adorando a cosas extrañas y sabía que se iba a separar en algún momento, en el momento que muriera. No pone nada más que lo que os he leído. y lo que está escrito. Pero como tenía esto lo he hecho en 20 horas, tengo aquí otra transcripción al inglés por si queréis. No."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3312.13,
+    "end": 3321.32,
+    "text": "Y si probamos una última cosa, no sé, yo sigo pensando que de alguna manera el brazo tiene que estar relacionado directamente con el pergamino. A"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3321.54,
+    "end": 3324.14,
+    "text": "ver, termina Alex."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3324.56,
+    "end": 3339.07,
+    "text": "Y si probaras, Adil, dado que eres el único que habla el idioma, Leer, aunque sea un poquito en voz alta, delante del brazo a ver si reacciona. Y Adil te dice que te crees que no lo he hecho"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3339.19,
+    "end": 3341.55,
+    "text": "ya. Adil te dice que te crees que no lo he hecho ya."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3341.78,
+    "end": 3349.93,
+    "text": "Iba a decir exactamente lo mismo. Y también comprobé todos los tatuajes que lleva. A ver,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3349.95,
+    "end": 3354.87,
+    "text": "usar pergamino con brazo, brazo con pergamino, todo eso lo habéis probado, ¿vale? Y también"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3354.91,
+    "end": 3359.32,
+    "text": "comprobé los tatuajes que llevaba el brazo para ver si había alguna coincidencia con el pergamino. Se"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3359.34,
+    "end": 3362.58,
+    "text": "los hizo, se los borró con láser, no."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3362.96,
+    "end": 3364.8,
+    "text": "Y no hay nada que hacer."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3366.08,
+    "end": 3366.14,
+    "text": "Ok,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3366.2,
+    "end": 3368.58,
+    "text": "ok, perfecto."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3368.6,
+    "end": 3370.96,
+    "text": "Pues voy a llevar el pergamino para... Pues"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3371.02,
+    "end": 3582.71,
+    "text": "tú, el pergamino, va a ir metido en una caja o lo que sea, tal y cual, para que no sepa lo que es, pues te lo guardan en los compartimentos de seguridad del vagón de carga del Orient Express, mientras Adil sigue con su brazo guardado. Y les doy una propinilla y les digo que muchas gracias. Vale. Y... Y nada, pues... Magníficamente, llegáis después de tanto tiempo a Milán. ¡A Milano, qué bonito! ¡Vamos, bebo! Exactamente. Así que yo voy a mover mi fichita del Orient Express aquí a Milán, aquí en nuestra ruta, para que sepáis que vais para allá y llegáis a la estación de Milán al mediodía. Carbollaro está... Está, que no caben, sí, de ojo, está ahí a topísimo, ¿vale? Pues eso, ya estas últimas horas, pues ha hablado con vosotros, tal, os ha dado la dirección del hotel en el que os ha reservado, pues eso, os ha dado las entradas de, o bueno, donde tenéis que llamar para conseguir las entradas de tal, para el estreno de AIDA, y bueno, pues la mujer, como digo, está... Está a topísimo. Y vosotros entráis, pues eso, vais entrando en Milán, ¿vale? Os vais acercando, ¿no? Os vais acercando para allá y, bueno, pues vais viendo cómo esa, digamos, no sé, campiña va dando lugar a a una zona más industrial. Véis desde las ventanas del vagón cómo el paisaje cambia, las praderas y las granjas dan paso a fábricas y bloques de apartamento y a medida que los edificios se vuelven más numerosos, el cielo pierde el profundo azul de las montañas. Las nubes empiezan a acumularse y la niebla y el humo oscurecen los contornos de la ciudad industrial. Aunque de vez en cuando emerge algún parche verde que desaparece abruptamente. Son los parques que hay en las afueras de Miran. El Orin Express llega a las estaciones centrales, como diría aquí nuestro amigo Isaac, a las 12 y 20 del mediodía. Y cuando llegáis allí, veis las estaciones centrales, parece que hubiera explotado una bomba. Decís, ¿pero qué pasa aquí? O sea, nos atacan. Los escombros se apelan en montones y polvo gris lo cubre todo. Mucha gente tosiendo de los que trabajan por allí. El tren lanza sus últimos jadeos, lanza ese humo negro, finalmente se detiene. No hay nadie en el andén y la estación está sorprendentemente vacía. Justo cuando estoy pensando si no estaréis en Milán o Lirico o algo así, y que esto es una especie de ciudad fantasma, aparecen los carritos del equipaje empujado por mozos de aspecto sonnoliento y seguido de un grupo de personas que se arrastran para dar la bienvenida a familiares y amigos. No, no, no, estáis en Milán, solo que el mudo es un poco chungo, pero bueno. Y bueno, pues vais bajando, la Carbollaro baja también para allá, dice, bueno, lo dicho, espero verlos en la noche del estreno, estaré solicitadísima, pero bueno, si tengo algún momento intentaré homenajearos como os merecéis. Y ves como un coche pita un Alfa Romeo último modelo negro precioso con un software y dentro, es tipo limusina dentro, un hombre le hace un gesto y dice, ese es mi coche. Así que, pues nada, os da tres besos a cada uno y sale pitando y dice, adiós, adiós, nos vemos en el estreno. Mucha mierda,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3583.21,
+    "end": 3585.01,
+    "text": "así en italiano."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3587.51,
+    "end": 3588.55,
+    "text": "Un bocalupo,"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3588.59,
+    "end": 3589.33,
+    "text": "creo que dicen los"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3589.41,
+    "end": 3591.95,
+    "text": "italianos. No sé lo que quieres decir."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3592.79,
+    "end": 3596.19,
+    "text": "Qué amable es la señorita Cabo Llaro, a pesar de ser tan famosa, ¿verdad?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3598.37,
+    "end": 3600.35,
+    "text": "Sí, porque la gente famosa no suele"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3601.67,
+    "end": 3605.57,
+    "text": "ser."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3605.59,
+    "end": 3606.93,
+    "text": "Bueno, pues ¿qué hacemos? ¿Vamos al hotel?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3607.21,
+    "end": 3609.83,
+    "text": "Decía justo, decía justo, que lo hemos cortado, perdona."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3610.86,
+    "end": 3612.23,
+    "text": "¿Qué decía? No, no lo decía."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3612.25,
+    "end": 3612.35,
+    "text": "Ah,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3612.37,
+    "end": 3612.95,
+    "text": "¿no?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3613.05,
+    "end": 3613.91,
+    "text": "No, simplemente, pues eso,"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3613.95,
+    "end": 3635.32,
+    "text": "Lili os dice eso, miráis al hotel y sí que os llama la atención, ¿no? Que más allá de, o sea, lo que contrasta Carbollaro con el ambiente opresivo, triste, ¿no? Que veis por aquí, por la ciudad, además, claro, con esta estación que está medio derruida, ¿no? Luego, pues os enteráis a lo mejor preguntando que es que la están reformando, que Ilduche quiere hacerla toda nueva, tal y cual. Y bueno, pues,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3636.77,
+    "end": 3643.13,
+    "text": "dime. Eh... ¿Qué coche era? Porque como me encantan los coches y todo esto... Ah, pues es un Alfa"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3643.33,
+    "end": 3657.76,
+    "text": "Romeo, pues si sabes de coches, es el último modelo de la fábrica Alfa Romeo, una fábrica italiana, la Alfa Romeo RL, que acaba de salir de la fábrica, como quien dice. De hecho, tú sabes que aquí, en Milán, está una de las fábricas principales de Alfa Romeo. Sí, sí, por eso es que me"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3657.82,
+    "end": 3671.53,
+    "text": "apasiona la mecánica y la matrícula me llama mucho la atención. la matrícula te da mucha atención no, todo, todo, todo la matrícula igual no me quedo con ella pero si me llama la atención respecto a"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3672.07,
+    "end": 3687.11,
+    "text": "otras vale, si es un Alfa Romeo RD lo reconocerías en cualquier parte porque como digo es el último modelo y pues nada quizá pedís un taxi para que os lleve a a vuestro hotel"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3688.14,
+    "end": 3690.3,
+    "text": "...al Vittorio... ...Manuele, ¿no? Era..."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3690.76,
+    "end": 3692.64,
+    "text": "Exactamente, Vittorio Manuele... ...ah,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3692.68,
+    "end": 3702.39,
+    "text": "cerca de... Y yo, como soy el paranoico... ...ahí noto que si alguien nos está... ...espiando... ...se han perdido de nosotros... Me esperaba"
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3702.41,
+    "end": 3703.49,
+    "text": "que dijera eso..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3705.16,
+    "end": 3707.78,
+    "text": "Yo sigo esperando a los turcos. Metéis las"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3707.88,
+    "end": 3755.09,
+    "text": "cosas, vuestro equipaje en el taxi, que es otro Alfa Romeo, por cierto. Os metéis a este descapotable, está guay. Y tú, pues eso, con este coche descapotable, os metéis todos a un coche que cabe mucha gente. Y tú, pues tira un descubrir, tira un descubrir. A ver si ves algo, Isaac, de alguien. A ver si... Si alguien nos sigue mientras vuestro coche se va, ¿vale? Pues tú estás, pues eso, mientras os estáis yendo, a ti, ¿te parece ver justo cuando os vais y junto, cuando pierdes la estación de vista? ¿Hay una persona que ha saltado como de un tejado al tejado de la estación? ¿Una figura negra con un chaquetón oscuro que se ha quedado arrodillado, agazapado como si fuera un ave rapaz?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3755.79,
+    "end": 3756.19,
+    "text": "Es sexo."
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3757.7,
+    "end": 3790.3,
+    "text": "Tú miras eso y cuando levantas la cabeza vuelves a mirar, no hay nada. ¿Lo has visto o te lo has imaginado? ¿Lo ha visto o se lo ha imaginado a Isaac? ¿Está tan paranoico que ve cosas o de verdad es el único que presta atención? ¿Quién es esa figura? Lo sabremos, no sé si en el siguiente vídeo, la verdad lo sabremos, pero algún día lo sabrán. Algún día, como dijo Alex Coxen, las cosas que han dejado atrás vendrán a morderles en el culo. No sé quién lo dijo, pero todos están de acuerdo. Así que hasta entonces, lo dijo Atil, hasta entonces..."
+  },
+  {
+    "speaker": "SPEAKER_02",
+    "start": 3790.92,
+    "end": 3791.36,
+    "text": "¡Adiós!"
+  },
+  {
+    "speaker": "SPEAKER_05",
+    "start": 3791.38,
+    "end": 3793.01,
+    "text": "¡Chao!"
+  }
+]

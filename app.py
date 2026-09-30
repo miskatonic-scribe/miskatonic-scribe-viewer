@@ -46,6 +46,7 @@ try:
         render_session_investigator_table,
         render_campaign_investigator_scoreboard,
     )
+    from dashboard.visualizations.campaign_evolution import render_campaign_evolution_section
     from dashboard import navigation
 except ImportError:
     from visualizations.swimlane import (
@@ -68,6 +69,7 @@ except ImportError:
         render_session_investigator_table,
         render_campaign_investigator_scoreboard,
     )
+    from visualizations.campaign_evolution import render_campaign_evolution_section
     import navigation
 
 from core import paths
@@ -542,12 +544,14 @@ def load_campaign_milestones(campaign_id: str) -> list[dict[str, Any]]:
 
 @st.cache_data
 def load_campaign_investigator_stats(campaign_id: str) -> dict[str, Any]:
-    """Carga y agrega las métricas numéricas por investigador de toda la campaña (Spec 19)."""
+    """Carga y agrega las métricas numéricas por investigador de toda la campaña (Specs 19 y 20)."""
     episodes = load_campaign_sessions(campaign_id)
     if not episodes:
-        return {"investigators": {}, "awards": {}}
+        return {"investigators": {}, "awards": {}, "session_stats_map": {}}
 
     session_stats_list: list[dict[str, Any]] = []
+    session_stats_map: dict[str, list[dict[str, Any]]] = {}
+
     for ep in episodes:
         sid = ep["id"]
         details = load_session_details(sid)
@@ -558,10 +562,21 @@ def load_campaign_investigator_stats(campaign_id: str) -> dict[str, Any]:
         cl = load_clues(sid)
         cr = load_critical_rolls(sid)
         ce = load_combat_events(sid)
-        s_stats = build_session_investigator_stats(chars, se, cl, cr, ce)
+        dial = load_session_dialogs(sid)
+        s_stats = build_session_investigator_stats(
+            characters=chars,
+            sanity_events=se,
+            critical_rolls=cr,
+            combat_events=ce,
+            clues=cl,
+            dialogs=dial,
+        )
         session_stats_list.append(s_stats)
+        session_stats_map[sid] = s_stats
 
-    return build_campaign_investigator_stats(session_stats_list)
+    res = build_campaign_investigator_stats(session_stats_list)
+    res["session_stats_map"] = session_stats_map
+    return res
 
 
 import textwrap
@@ -747,6 +762,8 @@ def render_campaign_global_view(campaign_id: str) -> None:
     with tab_scoreboard:
         scoreboard_data = load_campaign_investigator_stats(campaign_id)
         render_campaign_investigator_scoreboard(st, scoreboard_data, camp_name)
+        session_stats_map = scoreboard_data.get("session_stats_map", {})
+        render_campaign_evolution_section(st, episodes, session_stats_map)
 
     with tab_sanity:
         st.markdown("#### 🧠 Historial de Pérdidas de Cordura y Secuelas Mentales")

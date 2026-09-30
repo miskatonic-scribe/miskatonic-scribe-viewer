@@ -1,0 +1,2210 @@
+[
+  {
+    "speaker": "SPEAKER_01",
+    "start": 0.35,
+    "end": 44.63,
+    "text": "Muy buenas, os damos la bienvenida a la mazmorra de Pacheco y os damos la bienvenida a horror en el Orient Express, que todavía no hemos subido al verdadero Orient Express, pero horror el que queráis. Y si no, mirad, mirad la gente que me rodea, que, bueno, no digo que sea horrorosa, pero que ha visto muchos horrores, ¿vale? Ha visto muchos horrores y alguno quizá lo acaba de ver en un espejito de mano, no sé qué historia, que... Así que, ¿qué tal? ¿Cómo estáis? ¿Qué tal, Isaac? ¿Crees que Isaac le ha salvado la vida al Skoksen diciendo que no baje la cabeza a ras de suelo? ¿O no? ¿O tampoco pasaba nada porque llevaba un moño? Pues"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 44.65,
+    "end": 48.01,
+    "text": "yo creo que igual sí que le ha ayudado un poquito."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 48.21,
+    "end": 48.35,
+    "text": "Digo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 48.63,
+    "end": 49.25,
+    "text": "que sí, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 50.11,
+    "end": 61.46,
+    "text": "Vale, vale. Muy bien. ¿Y Luz? ¿Lili todavía le queda agua bendita? ¿Se la puede lanzar en un momento dado o no? ¿Se la ha gastado ya toda…?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 61.5,
+    "end": 70.39,
+    "text": "No, por supuesto que no. La tiene bien guardadita. Es el arma definitiva. Un poco cansada de que «ay, la novata, no sabes lo que es ese…» pero ella sabe que es la única que va armada aquí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 71.92,
+    "end": 85.1,
+    "text": "Pues muy bien, después de embadurnar de agua bendita a musulmanes, pues ella todavía le queda. Hablando de musulmanes, Adil, el Real, Toni, ¿tú te has vuelto a dormir y tal? Porque tú te he visto muy pasota, ¿o no? No,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 85.18,
+    "end": 95.48,
+    "text": "no, yo estaba ahí, me han explicado lo de la niebla, he dicho que no había leído la novela y se ha montado este pifostio..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 98.32,
+    "end": 110.99,
+    "text": "Increíble. Y por último, Alex, una mano, Coxen, como quizás se le conozca ahora en estos 22 minutos, se ha quedado pilladísima, se ha quedado que no puede, que no puede. No"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 111.15,
+    "end": 112.23,
+    "text": "puede con la vida. No"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 112.31,
+    "end": 117.51,
+    "text": "puede con la vida. Lucía fue en gallego, no seas una cobarde. Estaba"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 117.53,
+    "end": 119.56,
+    "text": "arrastrando de ella y se la ha llevado."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 120.45,
+    "end": 236.34,
+    "text": "Ya dijo que esta era la última aventura de Alex Coxen, pues quizá será esta su última partida. Bueno, pues su espejito de mano nos lo dirá. Así que pues recordamos que estamos en el Orient Express, que seguimos, bueno, hemos salido de París y de Poissy, es donde estamos. Y aquí se supone que en algún momento nuestros héroes cogerán el Orient Express y si salen de este pueblo y llegan a París cogerán ya el Orient Express, pero por ahora estaban en la casa de los Orient, esta familia que tenía problemitas todos con su brazo izquierdo. lo cual pues no a Alex Coxen le llamó la atención y bueno, les habían echado de casa después de que Adil la empujara, de que Lily quemara a su hija, tal y cual, pues hay cosas que tienen ya, pasan de castaño oscuro y habían decidido que iban a montar guardia en, iban a montar guardia en la Alameda, que es cerca de la casa, después de ir a por agua bendita, pues una niebla, o según Lili, que es la única que lo ha visto, la verdad, me había dicho que una niebla extraña se había metido por debajo del coche y como Adil no la creía, porque no veía nada, despertaba todo el coche y entonces es cuando Alex Coxen ha dicho que ella sacaba el espejito de mano, lo ponía por aquí Y pues miraba. Alex Coxen es la única que ha sentido ese frío sobrenatural. Vosotros solo habéis visto, bueno, a la que ya baja el este. Ella sí que ha podido ver cómo se ponía el bao y se criaba, se rajaba incluso. Y cuando quizá el que pueda estar mirando y esté justo al lado lo vea, pues Alex Coxen tú sientes como que algo tira de ti. Así que te voy a pedir que tires fuerza. Y te voy a pedir un éxito difícil de fuerza."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 237.44,
+    "end": 242.37,
+    "text": "Acabo de volver porque me había caído. No sé qué ha pasado."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 242.39,
+    "end": 242.67,
+    "text": "Todavía"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 242.77,
+    "end": 243.23,
+    "text": "no te has"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 243.25,
+    "end": 245.83,
+    "text": "caído. Nada. Ha habido"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 245.87,
+    "end": 249.55,
+    "text": "resumen. ¿Todavía"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 249.57,
+    "end": 261.9,
+    "text": "conservo mi brazo? Me gusta tu prop, pero todavía tienes el brazo. Sientes que tiran de ti debajo del coche. Y te pido que tires fuerza y tienes que conseguir un éxito difícil."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 263.33,
+    "end": 264.45,
+    "text": "Con"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 264.49,
+    "end": 267.83,
+    "text": "fuerza. Exactamente. Con fuerza. Vamos, tú puedes."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 269.38,
+    "end": 271.6,
+    "text": "Claro"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 271.62,
+    "end": 274.78,
+    "text": "que sí. Ni difícil ni nada."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 274.8,
+    "end": 276.22,
+    "text": "Yo en cuanto veo que ella se mueve... Tú ves"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 277.52,
+    "end": 286.08,
+    "text": "como empiezan a tirar de ella. Algo empieza a tirar de ella y la arrastra para debajo del coche. Esto está cayendo al barro. Vale, Adil, tú quieres pararlo, ¿no? Atraparla. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 286.5,
+    "end": 292.49,
+    "text": "voy a tirar de ella en sentido contrario para arrancarle el otro brazo. Digo, para que no se la lleven."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 293.31,
+    "end": 307.59,
+    "text": "Yo si puedo también me giro, que supongo que los que estábamos montando guardia estábamos delante y yo estaba así como un poco enfurruñada, mirando por la ventanilla como no me hace caso nadie. Pero cuando veo que Álex también hace como… Supongo que emitirá un grito o algo así de sorpresa también… Sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 307.61,
+    "end": 312.65,
+    "text": "Lo que pasa es que estáis en el asiento de delante. Coger una persona desde el asiento de delante que está así abajo… En"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 312.69,
+    "end": 319.62,
+    "text": "principio yo he comentado que yo movía el coche. Luego me daba por dicho que estaba delante. Pues yo soy el conductor. O sea, yo por eso…"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 319.84,
+    "end": 324.6,
+    "text": "Pues al revés. Pues vosotros estabais atrás y ellos están delante. Vale,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 325.02,
+    "end": 330.9,
+    "text": "pero... Una cosa... ¿Puedo usar suerte?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 331.34,
+    "end": 332.02,
+    "text": "Tiro yo de ella."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 332.82,
+    "end": 333.76,
+    "text": "Intento tirar yo de ella."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 334.66,
+    "end": 342.58,
+    "text": "Puedes usar... Perdón. Pues suerte... Las tiras de característica... No sé si podías usar suerte, la verdad."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 342.6,
+    "end": 346.44,
+    "text": "Pero tendrías que llegar hasta el éxito difícil. Ah, es verdad. Vale, vale."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 346.46,
+    "end": 355.61,
+    "text": "Entonces tendrías que gastar mucho. Bueno, entonces, Chemi, tú sí podrías tirar a los demás, ¿no? Porque desde atrás... Sí, hombre, desde atrás intentando"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 356.21,
+    "end": 360.24,
+    "text": "agarrarme como sea también al asiento y lo que sea, pero tiro de ella."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 361.12,
+    "end": 401.83,
+    "text": "Vale, pues tira a Isaac, sí. Vale, muy bien. Vale. Pues lo consigues, la agarras y ves que algo tira de ella. Tú, de repente, Alex... Sí, pero es suficiente. El difícil te lo he pedido a ti. Así que te tiene agarrado, tú estás y tú no ves nada, Alex Coxen, se te ha caído el espejo y no ves nada. Debajo sientes, pero sí que esa bruma, esa niebla y ese frío y sientes que tira de ti y Isaac tira de ti. ¿Qué haces? Hago"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 401.85,
+    "end": 406.37,
+    "text": "fuerza para volver a subirme al coche. Pues"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 406.39,
+    "end": 408.13,
+    "text": "tira fuerza, venga, tira fuerza, tira"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 408.15,
+    "end": 415.05,
+    "text": "fuerza. Pero que desde el asiento de atrás yo también puedo interactuar con ellas y justo la tengo delante."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 417.62,
+    "end": 458.98,
+    "text": "Yo no veo que puedas ejercer fuerza tan fácil. Pero bueno, no hace falta porque ves que entre Isaac y Alex sube para arriba, la tiene así agarrada. Cierra la puerta. Cierra la puerta. ¿Qué está pasando? ¿Qué está pasando? tu mano como llena de escarcha, como fría. Y os voy a pedir que todos tiréis cordura. Y notáis como el coche como que se mueve, como si hubiera pisado un bache y eso que está vacío. Muy bien. Pues los que habéis fallado vais a quitaros un punto de cordura."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 460.56,
+    "end": 461.26,
+    "text": "Bien."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 462.35,
+    "end": 469.52,
+    "text": "Los que lo habéis pasado, pues nada. El coche da como un bote, como un bache. Todos os movéis."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 469.54,
+    "end": 472.77,
+    "text": "¡Arranca, señora!"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 472.83,
+    "end": 473.21,
+    "text": "Arranco."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 474.57,
+    "end": 478.09,
+    "text": "Muy bien. Arranca, se tienen las luces, tal. ¿Y qué haces?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 479.85,
+    "end": 482.42,
+    "text": "¿Y yo? Claro, es el que conduce. Es"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 482.46,
+    "end": 483.14,
+    "text": "el que conducías."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 483.64,
+    "end": 498.17,
+    "text": "Ah, sí, sí, sí. Intento arrancar y voy a intentar pasar por... Suponiendo que haya algo debajo, que no sé lo que pueda haber. Igual por algún bordillo, sin que sea muy elevado, para ver si le puedo golpear con..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 498.19,
+    "end": 510.51,
+    "text": "Mientras a la carretera vas al arcén, pues tira a conducir, porque eso es un poco difícil. Te quieres dejar los bajos sin dejarte los bajos, así que... Me veis ahí haciendo maniobras. He leído driving,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 510.54,
+    "end": 514.7,
+    "text": "driving y ostras, tengo un uno. Está mal,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 515.1,
+    "end": 519.56,
+    "text": "¿eh? No buces, por favor. Vale, aquí sí que puedes gastar suerte si quieres. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 519.72,
+    "end": 521.94,
+    "text": "me la gasto porque si no va a haber... Me"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 522.36,
+    "end": 545.89,
+    "text": "la gasto. Puntos de suerte, ¿vale? Siempre hacéis vuestra tiradita de tirar suerte cuando no es. Te gastas esos seis puntos, ¿vale? Y vosotros sois como algo raspa y tú, Lili, ves como una niebla que se disipa. Y tú, cuando notas eso, Isaac, tú frenas, te quedas ahí en medio de la carretera… Se ha ido la niebla, se ha ido"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 545.97,
+    "end": 557.66,
+    "text": "la niebla. Allí, allí se ha disipado. Señalo donde yo creo que… Allí, ha desaparecido allí. Era un fantasma, era un espíritu que era eso. Señorita Coxen…"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 559.05,
+    "end": 561.21,
+    "text": "No lo hemos visto. He leído en un"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 561.25,
+    "end": 570.8,
+    "text": "libro que cuando hay espíritus una habitación baja rápidamente la temperatura. ¿Es eso lo que le ha pasado? Y me estoy sacando la chaqueta mientras intento envolverle la escarcha al brazo para que entre en calor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 572.46,
+    "end": 608.76,
+    "text": "Nada, yo estoy mirándome la mano flipando sobre todo por haber sido capaz de hacer eso. Es como, vale, definitivamente me estoy volviendo muy loca. Tengo que... Tengo un momento, no de volverme loca, pero sí de decir, uy, tengo que tener mucho cuidado porque estas cosas que hago no son propias de mí. Yo ahora mismo estoy un poco en shock. O sea, estoy en shock no por lo que ha pasado, sino por lo que yo he hecho. ¿Me explico?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 609.53,
+    "end": 617.69,
+    "text": "Sí, sí, tú la ves un poquito, Lili, un poco disociada, que la otra está diciendo, no, es que, claro, no tengo que hacer estas cosas porque tal. Así que, ¿qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 618.08,
+    "end": 620.48,
+    "text": "Yo latiendo al... Yo os digo que..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 620.54,
+    "end": 621.08,
+    "text": "Os dije que"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 622.8,
+    "end": 624.92,
+    "text": "había que vigilar esta casa. Imaginaos que..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 624.94,
+    "end": 628.32,
+    "text": "Pero si han venido a por nosotros. No han venido a la casa también."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 629.2,
+    "end": 632.68,
+    "text": "Porque estamos aquí. Imagínense que van directamente hacia esa pobre niña."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 632.96,
+    "end": 636.57,
+    "text": "Si la casa está cerrada. Al coche no han entrado. Es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 636.59,
+    "end": 641.45,
+    "text": "niebla. Es niebla. Pero ya sabéis lo de la ventana. Yo ya os lo he"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 642.23,
+    "end": 643.99,
+    "text": "contado. Imagino que lo habrán cerrado."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 644.96,
+    "end": 651.23,
+    "text": "Sí, claro. Señor Aysa, que a veces cree lo que a usted le conviene, ¿sabe? Sí, yo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 651.26,
+    "end": 663.66,
+    "text": "soy muy positivo. Siempre he sido así. Creo que aquí estamos en peligro. Creo que deberíamos descansar y creo que mañana deberíamos hablar con la familia y ya está. Intentamos..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 663.7,
+    "end": 672.32,
+    "text": "Isaac pone el coche de camino a Poiseuil. A vuestro hotel. ¿Aceptáis su..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 672.34,
+    "end": 678.49,
+    "text": "Yo voy quejándome todo el camino, ¿eh? Pero deberíamos irnos y si vuelve a aparecer y si entran por esa ventana y si matan a la pobre familia."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 679.15,
+    "end": 683.09,
+    "text": "Y si vuelven a por nosotros, Lili, ¿qué haríamos? ¿Quién podemos hacer con una"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 683.11,
+    "end": 683.33,
+    "text": "niña?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 684.25,
+    "end": 684.47,
+    "text": "¿El qué?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 685.71,
+    "end": 687.57,
+    "text": "Pero ustedes son profesionales en esto, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 689.49,
+    "end": 692.51,
+    "text": "Sí, y hay cosas que se pueden luchar y cosas con las que no."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 693.69,
+    "end": 701.73,
+    "text": "O sea, ¿la profesionalidad de la que ustedes dicen es largarse cuando hay problemas y dejar a la pobre gente indefensa muriendo detrás?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 702.31,
+    "end": 710.65,
+    "text": "Parece, parece que aquí... Están otorgándonos cosas que no hemos dicho en ningún momento. Primero, no"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 710.67,
+    "end": 725.9,
+    "text": "estamos seguros que esas personas estén en peligro. Ya llevan mucho tiempo. Seguramente, si descubrimos lo que tienen ahí escondido, seguramente igual eso sí les puede ayudar. Necesitamos... Estás"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 725.92,
+    "end": 732.96,
+    "text": "insinuando que ese espíritu nos ha atacado a nosotros por ser nosotros, porque si ese es el caso, en el hotel también vamos a estar en peligro."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 733.4,
+    "end": 740.16,
+    "text": "No, yo creo que, sigo diciendo que creo que esta zona, aquí hay mucha maldad y atrae los espíritus y cosas por el"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 740.18,
+    "end": 744.48,
+    "text": "estilo. Aquí hay mucha maldad, dice mientras os mira los tres."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 745.42,
+    "end": 752.29,
+    "text": "A ver, recapacitemos un poco. Nos hemos enfrentado a un espíritu de fuego y llamadme loca."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 753.05,
+    "end": 753.33,
+    "text": "Loca."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 755.77,
+    "end": 762.63,
+    "text": "Esto tiene pinta de ser un espíritu de hielo. Quizás, quizás la lógica me"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 763.09,
+    "end": 765.43,
+    "text": "quieres quemar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 765.53,
+    "end": 773.89,
+    "text": "No, pero contra el otro, contra el espíritu de fuego funcionó extinguir el fuego. A lo mejor si nos armamos con fuego contra el espíritu de hielo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 774.61,
+    "end": 774.91,
+    "text": "podemos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 774.99,
+    "end": 775.51,
+    "text": "combatirlo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 776.27,
+    "end": 780.92,
+    "text": "Como es una niebla si soplamos muy fuerte."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 781.28,
+    "end": 785.68,
+    "text": "No, pero quizás simplemente calor, una antorcha, un algo nos pueda proteger."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 787.28,
+    "end": 792.1,
+    "text": "Creo que deberíamos prepararnos contra el espíritu de agua, contra el de tierra y contra el de vacío. Capitán"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 792.12,
+    "end": 799.62,
+    "text": "Planeta. Por favor, en los comentarios poned lo que os parece el plan de Alex Coxen, por favor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 799.64,
+    "end": 802.76,
+    "text": "Bueno, que si no, ¿qué hacemos? ¿Nos vamos? ¿Nos dejamos ahí? ¿Que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 803.82,
+    "end": 803.9,
+    "text": "se"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 803.92,
+    "end": 807.2,
+    "text": "mueran? Mañana volvemos. Pero eso es lo que yo digo, evidentemente."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 807.22,
+    "end": 812.32,
+    "text": "Isaac está diciendo, mira, niñas hay muchos y algo sobre en el mundo son niñas. Vamos a ver. Tampoco..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 812.34,
+    "end": 813.64,
+    "text": "Si volvemos y se nos han"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 813.66,
+    "end": 814.58,
+    "text": "quedado..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 815.57,
+    "end": 826.85,
+    "text": "Va a ser más fácil entrar al sótano. Solo dejo. ¿El que ha dicho sí? Que si volvemos y se los han cargado, va a ser más fácil entrar al sótano."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 826.89,
+    "end": 828.77,
+    "text": "Me ha locado yo, ¿sabes? Lo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 828.79,
+    "end": 830.48,
+    "text": "que sepas es que lo he pensado también."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 832.3,
+    "end": 833.34,
+    "text": "Esto dice Adil. No me"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 833.36,
+    "end": 835.76,
+    "text": "esperaba esto de ustedes, señores."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 836.36,
+    "end": 840.12,
+    "text": "No, pero lo he dicho como metafuego. Yo también lo he pensado."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 841.76,
+    "end": 844.46,
+    "text": "Yo lo digo, yo lo digo. Yo también lo digo. ¿Por"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 846.2,
+    "end": 846.97,
+    "text": "qué no?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 847.26,
+    "end": 848.61,
+    "text": "Pero"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 848.62,
+    "end": 858.37,
+    "text": "sigo pensando, pero sigo pensando que ¿por qué hoy? ¿Por qué hemos venido nosotros y le van a atacar? Si seguramente estén así todos los días. Ataque contra ataque, ahí guau, guau."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 859.18,
+    "end": 864.32,
+    "text": "Pero tú ves normal lo que está pasando en esa casa, Isaac, por Dios, después de todo lo que hemos visto."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 864.78,
+    "end": 875.52,
+    "text": "Por eso tenemos que ir al... Yo creo que a la familia la podemos salvar cuando vayamos a la zona que está oculta. Ahí es donde se van a salvar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 875.78,
+    "end": 881.35,
+    "text": "Pues a lo mejor tenemos que tumbar la puerta y entrar por la fuerza, pero ¿cómo vamos a dejar que pase la noche?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 882.49,
+    "end": 884.19,
+    "text": "Pero que ya llevan ya muchas noches así."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 884.97,
+    "end": 885.87,
+    "text": "Ya, y hoy"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 885.99,
+    "end": 891.57,
+    "text": "hemos visto esto. Pero hoy es la primera vez que ese ser trepó a una ventana."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 892.77,
+    "end": 898.64,
+    "text": "Que tú sepas. O sea, no has estado todas las noches para saber si tienen un monstruo que le"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 898.66,
+    "end": 903.0,
+    "text": "viene... Vale, Lili, ¿qué podemos hacer para salvar a estas personas mientras Isaac y Adil duermen?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 906.9,
+    "end": 909.26,
+    "text": "Me quedo pensativa porque la verdad es que no lo sé, claro."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 910.18,
+    "end": 916.36,
+    "text": "Claro, es que vamos a ver. O sea, es que ¿cómo vamos a ir al hotel? Algo tendremos que hacer."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 917.03,
+    "end": 925.4,
+    "text": "Que yo no tengo ningún problema, que yo voy y le pego una patada a la puerta y ya está. O sea, soy especialista en ello,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 925.42,
+    "end": 929.94,
+    "text": "pero... Bueno, en aras de la gente que lleva 15 minutos esperando qué hacéis..."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 929.96,
+    "end": 932.26,
+    "text": "¿Qué hora es de la noche? Estamos a mitad de la noche ya."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 932.68,
+    "end": 936.68,
+    "text": "Sí. Ya casi teníais que dar el relevo a la otra guardia."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 936.95,
+    "end": 952.02,
+    "text": "No podemos entrar ahora. Yo voto por seguir haciendo guardia, dar un paseo con el coche, por movernos y continuar así. Y si viene, no salgamos del coche, movamos el coche y ya está. Pero si viene detrás de nosotros, ¿no irán a la casa? O igual en la casa están... Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 952.07,
+    "end": 958.33,
+    "text": "no quiero decir nada. Venga, va. Pues ya no hay nadie en la casa. Vale, movéis un poquito"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 958.41,
+    "end": 964.39,
+    "text": "el coche. Espera, porque la alternativa es terminar la noche e ir por la mañana. A ver qué nos encontramos."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 966.77,
+    "end": 982.84,
+    "text": "y ser sincero con el señor, retomar el plan de ayer y hablaré disculparme también que me he enterado de lo que pasó, que ha sido un malentendido que los modales de Adil evidentemente musulmán son muy diferentes de tal y voy a decir las cosas"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 983.7,
+    "end": 986.34,
+    "text": "un poco como, o sea, un poco lo que vamos a hacer él estaba a"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 986.38,
+    "end": 987.88,
+    "text": "favor, si lo teníamos convencido"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 987.94,
+    "end": 996.02,
+    "text": "ya un poco como lo que vamos a hacer ahora pero sin que sean altas horas de la madrugada Bueno, entonces, habéis decidido... No voy a"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 996.04,
+    "end": 997.32,
+    "text": "hablar de fantasmas ni nada, eh."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 997.84,
+    "end": 1004.06,
+    "text": "A ver, yo es que también sé que ir ahora mismo no es la mejor opción. Yo lo sé."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1004.3,
+    "end": 1011.47,
+    "text": "O sea... Pero si nadie ha dicho ir ahora mismo... Perdón, perdón, pero es que ya habéis decidido, ¿no? Que vais a dar vueltas un poquito, que vais a mover el coche, pero que vais a... Yo punto por quedarnos"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1011.57,
+    "end": 1013.83,
+    "text": "vigilando y ir a la mañana siguiente a la casa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1014.73,
+    "end": 1022.63,
+    "text": "¿Está de acuerdo? ¿Aprobar? Pues ya está, venga. Muy bien, muy bien, perfecto. Vale, para que avance un poquito la aventura. Gracias."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1022.95,
+    "end": 1026.35,
+    "text": "Cuando veo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1026.37,
+    "end": 1042.92,
+    "text": "dicen vale, es como... Vale, pues Adil y Lili se duermen y Alex Coxen y Isaac, silencio tenso, Isaac está ahí de, bueno, tenía que ir al hotel, aquí no he dormido, ahora me toca, pero se lo piensa, no lo dice y Alex Coxen pues ahí, tocándose el brazo."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1044.32,
+    "end": 1055.28,
+    "text": "Bueno, aún así, a Alex sí que la pregunto, Alex, ¿cómo estás? Porque también me preocupo, aunque se pueda estar un poco frustrado. Pero evidentemente..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1055.3,
+    "end": 1066.19,
+    "text": "Pues no estoy bien, Isaac, no estoy bien. Estoy mal. Estoy mal. El brazo, bueno, el brazo frío. ¿Cómo está mi brazo? Bien frío, pero lo puedo mover, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1066.21,
+    "end": 1067.45,
+    "text": "Sí, sí, no, ya no está ni frío."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1068.88,
+    "end": 1082.06,
+    "text": "Bien, ha sido una sensación muy extraña y la verdad que no sé qué es lo que me ha impulsado a hacer tamaña estupidez. Quizás estoy empezando a... A estar fuera de mis cabales"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1082.46,
+    "end": 1087.88,
+    "text": "No, yo creo que estás preocupada por Howard y quieres avanzar, esto como sea No lo sé, pero me asusta un poco"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1087.9,
+    "end": 1095.85,
+    "text": "ver de lo que puedo llegar a ser capaz"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1095.89,
+    "end": 1101.68,
+    "text": "Tú confía, Alex Y ya sabes que si haces otra locura, nos tienes"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1103.86,
+    "end": 1105.86,
+    "text": "Queremos dormir."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1105.9,
+    "end": 1118.56,
+    "text": "Calla, Lili, duérmete. Iros a un hotel. Pero si me has despertado en mi noche. Ahora te aguantas tú. Y lo digo así, con cariño, pero se lo digo. Mientras"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1119.02,
+    "end": 1124.52,
+    "text": "ellos discuten, yo miro por la ventana a ver si veo algo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1124.56,
+    "end": 1152.26,
+    "text": "Pues no ves nada. Al final todo el mundo se calla y Alex Coxen acaba viendo el amanecer de un nuevo día. No pasa nada. Y pues nada, amanecéis doloridos con el cuello ahí, con la espalda, necesitando pues una ducha, pero la mañana llega y pues sale el sol y bueno, habéis estado vigilando la casa y no parece que nada haya ocurrido."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1152.99,
+    "end": 1161.78,
+    "text": "Yo cojo una botella de agua que he visto por ahí, le pego un trago y me doy cuenta que es la botella de agua de hoy. Se te está"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1162.14,
+    "end": 1166.24,
+    "text": "bebiendo el agua. ¿Cómo es posible, señor Adil, que la gaste antes de tiempo?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1171.61,
+    "end": 1175.45,
+    "text": "Estamos cerca del... ¿Hay por ahí alguna pastelería, panadería o algo?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1177.69,
+    "end": 1183.56,
+    "text": "Pues por ahí no mucho, porque como dije, está alejado. Está la iglesia, unas cuantas casas y poco más."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1184.5,
+    "end": 1196.3,
+    "text": "Vale, le digo, me gustaría... presentarme en la casa de esta familia con un detallito, algo para que puedan desayunar y demás. Me parece muy buena idea, señora Isaac. Yo tengo un"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1196.32,
+    "end": 1202.43,
+    "text": "extintor, se lo podemos regalar."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1202.47,
+    "end": 1208.97,
+    "text": "Extintor básico. Podemos ir a la iglesia a que nos den una hostia así noche. Y se la podemos llevar."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1209.51,
+    "end": 1217.39,
+    "text": "Bueno, pues eso. Las semillas aparte. ¿Vais a la casa directamente? No, no, no. Antes de ir"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1217.55,
+    "end": 1218.97,
+    "text": "a la casa quiero llevarles un..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1220.28,
+    "end": 1220.68,
+    "text": "Podemos"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1220.7,
+    "end": 1220.82,
+    "text": "ir al"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1220.86,
+    "end": 1221.28,
+    "text": "pueblo a"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1221.34,
+    "end": 1224.96,
+    "text": "refrescarnos un poco y que no nos vuelvan con caras de locos. Vale. Podemos darnos"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1225.0,
+    "end": 1251.91,
+    "text": "una ducha. Vais al pueblo, pues os ducháis, os cambiáis la ropa, vale, y vais a comprar croissants de tallito para el escóxel y para la familia, pues también algo más. Y va con una cestita, ¿no? Va con una cestita, con un desayuno completo y sin esperar llamada, por supuesto, cogéis el coche y os vais muy bonicos, muy peripuestos con vuestra cestita de desayuno para allá."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1254.0,
+    "end": 1267.79,
+    "text": "Exacto. Y yo en principio les digo que voy yo. Quedaos en el coche. Quedaos en el coche. Si quiere venir Alex, porque también Alex no... Creo que no tiene nada contra. Bueno, el baño no sé yo,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1267.91,
+    "end": 1272.57,
+    "text": "¿eh? No, pero yo en el baño no"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1272.59,
+    "end": 1274.75,
+    "text": "hice nada, ¿no? O sea, fue un pis inocente. Levantó el vestido de la ventana."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1274.77,
+    "end": 1281.44,
+    "text": "Sí, pero ellos no se han dado cuenta. Si viene Alex, si nos importa, Lili y Adil. Como yo soy yo y Bubu."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1281.76,
+    "end": 1282.2,
+    "text": "Vale,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1282.24,
+    "end": 1298.57,
+    "text": "pues con Alex al lado, o sea, tú seas su pajarita con su cestita, llama. Y bueno, pues abre la puerta y está el doctor que mira como diciendo, pero esta gente no iba a esperar mi llamada. Vaya, señor Isaac."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1298.69,
+    "end": 1334.05,
+    "text": "Sí, discúlpenos, nos hemos enterado de lo que pasó ayer, queríamos, no queríamos ni entrar, queríamos disculparnos, quiero, nada, nuestras disculpas, todos nosotros hemos sido muy rudos, pues... Queríamos retomar la conversación realmente por lo que hemos venido, que creo que también le podemos ayudar, que estaba interesado y vengo a ayudarle directamente. Ni tenemos por qué entrar en la casa, sino le ayudo para comentarle lo que le ha parecido interesante y no le molestamos más."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1335.36,
+    "end": 1353.51,
+    "text": "Bueno, pues tira crédito, convencer, encanto, algo de eso, el que tenga más alto, ¿vale? Para ver si consigues congraciarte con este hombre. El hombre mira, sopesa. Crédito, convencer o encanto."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1354.55,
+    "end": 1359.56,
+    "text": "Sí, estoy mirando crédito. ¿Dónde está el crédito?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1359.58,
+    "end": 1360.72,
+    "text": "Crédito rating está en la C."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1362.95,
+    "end": 1364.75,
+    "text": "no tengo así si tengo si tengo vale"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1364.91,
+    "end": 1365.09,
+    "text": "ok"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1366.41,
+    "end": 1369.04,
+    "text": "voy a poner esto venga vez y suerte"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1372.51,
+    "end": 1404.18,
+    "text": "Bueno, me dice, bueno, dejemos el pasado en el pasado, como usted dice. No hace falta que entren. Se suponía que íbamos a buscar esa entrada, ¿no? A ese sótano que se supone que hay debajo de la casa. Pues, bueno, yo tengo a mi mujer y se encuentra un poco mejor. Está cuidando de mi hija, así que... Creo que ustedes y yo podemos buscar eso y dedicarnos a encontrar ese sotaro. ¿Les parece? Sí,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1404.2,
+    "end": 1409.02,
+    "text": "yo creo que lo que usted diga. Es su casa y nosotros venimos a ayudarlo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1409.04,
+    "end": 1449.26,
+    "text": "¿Oís, cariño? La mujer está detrás y dice, cariño, mira ahí, vamos a buscar lo que te he dicho. ¿Estás seguro? Sí, sí, no te preocupes, tú sigue con la niña. ¿Oís que han puesto un gramófono con música de ópera? ¿Oís un aria cantada en italiano? Bueno, está bien. Tú verás, cariño. Yo sigo aquí con Kiteri. Y le da un beso y el hombre, pues, veis que coge unas palas, que tenía preparadas unas palas, unos picos, unas cosas así, envueltas como en una lona. Dice, venga, vayamos para allá. Y le da la cestita a su mujer. Toma, ha traído desayuno."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1449.95,
+    "end": 1451.11,
+    "text": "Yo le sonreí a la niña."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1451.53,
+    "end": 1456.37,
+    "text": "Y otra vez a la mujer, disculpe por lo de ayer. La niña te sonríe."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1458.51,
+    "end": 1469.9,
+    "text": "Y nada, que bueno, mientras vamos para atrás, le digo, entiendo que igual no le congratula de encontrarse con nuestro amigo, pero es muy fuerte y para eso nos podría ayudar."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1471.59,
+    "end": 1497.97,
+    "text": "Sí, sí, como le he dicho, señor Taylor, pelillos a la mar, yo no soy un hombre rencoroso, supongo que todos estábamos nerviosos. Bueno, renuncio a entender muy bien las motivaciones de su grupo, por así decirlo, pero si vamos a... Como usted dice, la verdad es que yo solo no puedo encontrar ese sótano, así que brazos fuertes para acabar o picar, que supongo que es lo que habrá que hacer, siempre vienen bien."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1497.99,
+    "end": 1498.83,
+    "text": "De acuerdo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1500.62,
+    "end": 1505.02,
+    "text": "¿Eso quiere decir que podemos entrar todos o...?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1505.14,
+    "end": 1507.46,
+    "text": "Es fuera, es detrás. O"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1507.48,
+    "end": 1512.65,
+    "text": "sea, pero que podemos venir, que pueden venir Adil y Lili también. Yo he dicho que sí. Yo he dicho que sí. Pues voy a"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1512.69,
+    "end": 1513.01,
+    "text": "buscarlos."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1518.62,
+    "end": 1522.62,
+    "text": "El empujón y la quemaniña se pueden medir. Pues"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1523.65,
+    "end": 1537.77,
+    "text": "yo me acerco así con paso animado, pero así mirando un poco por... Buenos días, señor Logan. Le ayudo con eso, permítame. E intento... Le hago así una señal como a Bill, de vamos a cargar nosotros las palas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1539.09,
+    "end": 1540.13,
+    "text": "No entiendo tu idioma."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1541.17,
+    "end": 1543.28,
+    "text": "Que cargues"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1543.3,
+    "end": 1543.84,
+    "text": "las palas,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1543.86,
+    "end": 1544.2,
+    "text": "maldita"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1544.22,
+    "end": 1548.88,
+    "text": "sea. Y no me hagas maldecir. Pala que las voy a cargar. No la fastidies, anda. Vamos para allá."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1549.8,
+    "end": 1558.05,
+    "text": "Muy bien, pues vale. El hombre no se fía de ti y sigue con sus palas, pero bueno. Vale, pues tenéis que saber primero dónde está esa entrada."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1560.73,
+    "end": 1562.77,
+    "text": "Teníamos el plano, más o menos, por"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1562.81,
+    "end": 1565.71,
+    "text": "orientación. Pues tira a orientarse. Me gusta que me digas eso."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1567.56,
+    "end": 1570.36,
+    "text": "no dijimos ya que ponemos el plano en el suelo y"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1570.46,
+    "end": 1572.32,
+    "text": "empezamos a ver"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1572.54,
+    "end": 1576.73,
+    "text": "la medida hay que verlo, hay que verlo orientación, navigate, orientación"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1576.75,
+    "end": 1577.67,
+    "text": "ah, navigate"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1580.81,
+    "end": 1586.75,
+    "text": "voy a tirar el que quiera porque todos tenéis el plano con un dado de bonificación a mí no se me da muy bien"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1586.77,
+    "end": 1590.11,
+    "text": "orientarme pero si alguien se orienta mejor que yo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1590.78,
+    "end": 1592.74,
+    "text": "pero podemos tirar todos que yo fallo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1592.78,
+    "end": 1593.8,
+    "text": "todos, a ver si lo pillamos"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1594.42,
+    "end": 1596.4,
+    "text": "sí, y tenéis un dado de bonificación si queréis"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1596.95,
+    "end": 1597.07,
+    "text": "Ah,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1597.09,
+    "end": 1597.95,
+    "text": "bueno. Pues sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1600.33,
+    "end": 1604.08,
+    "text": "Bueno, Lili. ¿Cómo se llama el castellano, dices?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1604.15,
+    "end": 1604.84,
+    "text": "Orientación."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1605.26,
+    "end": 1607.04,
+    "text": "Orientación. Está en la segunda"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1607.06,
+    "end": 1612.96,
+    "text": "columna."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1613.0,
+    "end": 1617.66,
+    "text": "Nada, o sea, yo es que tengo 15. Vamos todos. Igual la suerte."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1617.84,
+    "end": 1622.46,
+    "text": "Yo voy a tener la bonificación, pero igual la suerte. Es uno de 10, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1625.3,
+    "end": 1642.63,
+    "text": "Nada. Vale, yo le tiendo el mapa al señor y le digo, quizás es, no sé, claro, el mapa está en francés, pero quizás es por que no terminamos de entender los términos, quizás usted entienda mejor este plano. No,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1642.67,
+    "end": 1678.61,
+    "text": "no, no, vosotros sí que más o menos pensáis que es un lugar y pensáis que es ahí. Así que pues le decís al hombre que por aquí, por estos planos, tiene que ser por aquí. Le enseñas el mapa y él está de acuerdo también. Vale, pues claro, ahí pues no hay nada, pero suponéis que cavando, picando, ahí deberían aparecer unas escaleras al sótano que han debido de ser pues eso, cegadas, echando tierra encima o lo que sea. Así que os ponéis a picar y a cavar."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1679.17,
+    "end": 1689.71,
+    "text": "Sí, ahí nos sentimos... ¿Hay algo que nos afecte o que nos sintamos raros? No, ¿por qué? No, no sé."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1691.05,
+    "end": 1693.13,
+    "text": "Y sentimos frío de repente."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1693.17,
+    "end": 1697.43,
+    "text": "No, me refiero más en plan de... ¿Qué tal nuestros"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1697.45,
+    "end": 1698.52,
+    "text": "brazos izquierdos?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1699.82,
+    "end": 1711.18,
+    "text": "Estos están perfectos. Veis que el hombre, cuando intenta picar y tal, al final se duele del brazo, ¿vale? Y el hombre dice… Lo siento, señor Tílore, no voy a poder. Señor, no se"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1711.26,
+    "end": 1719.89,
+    "text": "preocupe. Usted… Está bien que alguien haga de capataz, ¿verdad? Y me pongo con la pala, que estoy acostumbrada a acabar de la granja y me pongo ahí…"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1720.93,
+    "end": 1830.13,
+    "text": "Hacía de todo en la granja de Lili. Pues Lili, venga, tira un dado de 4. Muy bien. Pues la verdad es que el plano que tenéis, el plano de la casa, parece que no coincidían exactamente, que está un poco equívoco. Y cuatro horas tardáis en picar en un sitio, picar en otro. Veis que no, tenéis que moveros un poquito. El hombre ya está pensando, esta gente me ha contado tremenda milonga, tal. Pero finalmente, finalmente, en una de estas, pues Lili hace… Y toca algo, empezáis ahí a cavar y veis, en efecto, unas escaleras. Así que, pues la siguiente hora, pues eso, de esas cuatro, a las tres horas encontráis el este, a la cuarta quitáis y veis, pues eso, como unos peldaños bajan a, de nuevo, lo que tiene que ser, pues, un sótano. El primer peldaño, pues está enterrado, algo más de medio metro de tierra y ladrillo quemado cerca de un enorme roble. tenéis que cabáis y cabáis y cabáis hasta que llegáis al décimo octavo y último escalón. Y eso, o sea, ese proceso de encontrar las escaleras, pues fueron esas cuatro horas, Y limpiar todo eso para llegar a aliviar todo lo que hay encima de las escaleras, los 18 peldaños y llegar justo a esa entrada que hay ahí, pues en principio os llevaría todo el día. ¿Lo vais a hacer? ¿Os vais a dedicar todo el día a estar acabando eso? ¿Sí?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1831.35,
+    "end": 1833.13,
+    "text": "Sí, porque... ¿Veis que el hombre una vez que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1833.15,
+    "end": 1841.18,
+    "text": "encuentra las escaleras y tal, sí que está... Vale, pues..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1845.58,
+    "end": 1852.5,
+    "text": "Yo no me he enterado, perdona, si me he quedado pillado, que cuando hemos encontrado que ha dicho que el hombre, ¿qué?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1852.54,
+    "end": 1876.84,
+    "text": "Es que si el hombre está muy emocionado una vez que... Se le pasó el cabreo. Pues está diciendo... Exactamente. ¿Ya es de noche o todavía no? ¿Estáis dispuestos? ¿Os dais cuenta de que... os dais cuenta de que va a durar todo el día. Entonces, solo os pregunto que si estáis dispuestos a estar todo el día acabando, terminaré más o menos de noche, sí. O sea, cuando empiece la noche."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1877.3,
+    "end": 1882.82,
+    "text": "Yo cuando hagamos una pausa para pipí que la habrá, aprovecho para"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1883.38,
+    "end": 1978.88,
+    "text": "cerrar la puerta, la ventana. Vale, muy bien. Pues nada, tú entras para ahí y cierras la ventana cuando haces pis, perfecto. Vale, pues un día de trabajo unos otros. Al final veis que la cosa ya se queda más entendida. A media mañana, pues el desayuno que ha dormido Isaac, pues os bajáis para adentro y sí que desayunáis con la familia. Y veis que el hombre está muy emocionado y le contagia un poquito esa emoción también a su mujer. Y la niña no sabe muy bien lo que pasa, pero también está emocionada, a veces contenta. Así que, bueno, pues la verdad es que la situación es bastante mejor que el otro día. Y el hombre diciendo, ah, es que... increíble, un sótano del siglo XVIII puede ser y el hombre pues muy aficionado a la historia y tal la mujer pues está ahí ¿Escucháis eso? Como la de fondo pues está ese gramófono con esa música de ópera, veis que la mujer pues es una gran aficionada a a la ópera y veis que es un disco de la misma cantante, la misma voz femenina que está cantando siempre. Y bueno, pues sí que paráis a media mañana también a comer, que coméis con la familia. Y como digo, a pesar del trabajo duro, que estáis ahí sucios, vosotros que os habéis puesto tan monos para venir aquí con el barro un poquito, os vais refrescando a lo largo del día... Pero bueno, pues sabéis que además es tiempo frío y tal y cual, pero bueno, finalmente sí que conseguiréis hacerlo todo. No sé si a lo largo del día hay algo que queráis hacer o que queráis hablar con la familia o algo así. No, en principio es"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1978.94,
+    "end": 1980.26,
+    "text": "la idea, sí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 1981.17,
+    "end": 1996.82,
+    "text": "Yo puede que juegue un poco con la niña, mientras ellos descansan, yo todavía tengo 20 años, entonces todavía estoy fresca, estoy acostumbrada a trabajar en la tierra, entonces a lo mejor mientras ellos descansan pues juego un poco al cucú o algo así, algo que no nos aleje del resto de la gente. Que no"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1996.86,
+    "end": 1997.94,
+    "text": "ponga peligro a la niña."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1998.18,
+    "end": 2006.02,
+    "text": "Yo le pongo también a Alex que me preocupa que sea de noche y que vuelva a aparecer la niebla o lo que tenga que ser."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2006.92,
+    "end": 2029.55,
+    "text": "El frío que está haciendo es normal, o sea, quiere decir, es lo esperable para la hora. Sí, a mí la verdad que también me preocupaba bastante que se haga de noche. Quizás podemos plantearle al doctor dejarlo. Una pregunta, ¿hasta dónde hemos llegado? O sea, ¿lo hemos destapado ya del todo o todavía queda...?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2031.29,
+    "end": 2038.38,
+    "text": "A ver, hemos parado porque yo os he dicho que necesitaríais toda la noche. Si no ha pasado todo el día, no lo habéis hecho."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2040.41,
+    "end": 2052.95,
+    "text": "Porque yo tampoco lo destaparía para dejarlo por la noche y que nos vayamos. ¿Sabes? Pero claro, tampoco sabemos cuánto más hay que... No sé, a"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2052.97,
+    "end": 2074.71,
+    "text": "nosotros no sabemos. Sí, más o menos lo calculáis porque lo veis y veis los 18 jalones y sabéis más o menos lo que tenéis que picar. Entonces, si mi pregunta es, como siempre sería genial una respuesta, pues si vais a picar todo y vais a hacerlo todo ese día tal y cual o si en algún momento vais a intentar decirle a este hombre que paré que no le veis muy por la labor. Así que, ¿qué vais a hacer?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2074.73,
+    "end": 2087.13,
+    "text": "Yo plantearía trabajar de día. Si las obras van a terminar por la noche, intentaría razonar con él para decirle que es mejor trabajar de día."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2088.25,
+    "end": 2095.75,
+    "text": "Justo, que no lo vemos muy por la labor de que piquemos hasta por la noche o que no lo vemos muy por la labor de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2095.91,
+    "end": 2152.2,
+    "text": "parar. Pero me ha dicho Alex Cousin que no paráis, que simplemente llegáis y que lo que no quieres es trabajar por la noche. Vale, pues no es de noche. Realmente trabajáis con el renovado entusiasmo y antes de que caiga de verdad la noche al atardecer es cuando conseguís liberar el decimoctavo escalón y veis esa... Esa entrada, ¿vale? Esa entrada. El sol se va a poner y empieza a levantarse un frío viento, pero veis una puerta de hierro abajo. Después del último escalón sí que veis la entrada y una puerta de hierro. harían falta cadenas, palanquetas, forzar la entrada, que además la veis que se ha un poco fusionado por el frío y tal. Quedan, como digo, quedan a lo mejor una hora, un poco más, para que anochezca y el hombre dice, aquí está, la hemos encontrado. Creo que tengo unas palancas, unas cadenas, voy a por ellas. Doctor,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2152.24,
+    "end": 2162.56,
+    "text": "creo que hemos trabajado durante todo el día y Y quizás esto se merezca poder disfrutarlo a la luz de la mañana."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2163.5,
+    "end": 2168.59,
+    "text": "Por favor, ahora que hemos llegado hasta aquí, solo tenemos que abrir esta puerta. El hombre va por las cadenas y las palanquetas."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2171.47,
+    "end": 2180.94,
+    "text": "Insisto, no creo que debiéramos abrir, o sea, yo se lo cuento a los compañeros, no podemos abrir esto de noche, yo voto por abrirlo de día. Claro,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2180.96,
+    "end": 2188.58,
+    "text": "pero fíjate que si nos vamos, seguramente ese señor lo quiera abrir por la noche y entonces ahí sí que puede estar en peligro absoluto."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2188.94,
+    "end": 2192.57,
+    "text": "¿Qué opciones tenemos para que no abra la puerta ahora?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2193.42,
+    "end": 2194.02,
+    "text": "Podéis empujar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2195.12,
+    "end": 2195.52,
+    "text": "Pero"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2196.5,
+    "end": 2204.08,
+    "text": "el monstruo ya está fuera, ¿no? Quizás aquí dentro haya alguna manera de... No, ya te"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2204.1,
+    "end": 2212.03,
+    "text": "digo yo que eso no ha sido un monstruo, ha sido un aviso. Seguramente lo que haya detrás de estas puertas, si es que hay algo, sea algo bastante malo. Y"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2212.05,
+    "end": 2217.67,
+    "text": "seguramente el monstruo está buscando lo que hay ahí dentro, si es que hay algo. El hombre vuelve con las"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2217.73,
+    "end": 2225.48,
+    "text": "cadenas, las palanquetas. Ayúdeme, señor Isaac, tire esa cadena por ahí. Adil, tome esta palanqueta. Entre los tres podremos levantarlo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2226.73,
+    "end": 2230.19,
+    "text": "Igual a Dile y a Isaac están demasiado cansados, ¿no? A lo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2230.27,
+    "end": 2236.08,
+    "text": "mejor no... No digas tonterías, señorita Coxen. ¿Quién está cansado ahora? ¡Vamos! ¡Venga! ¡Chicos!"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2236.1,
+    "end": 2237.84,
+    "text": "Ha sido un día muy duro y me doy el brazo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2237.9,
+    "end": 2242.98,
+    "text": "izquierdo. ¿Pasáis? ¿De él? Venga, va."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2243.38,
+    "end": 2243.98,
+    "text": "Lo abro,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2245.02,
+    "end": 2247.3,
+    "text": "venga. Pues tira fuerza con un dado de bonificación."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2250.59,
+    "end": 2252.03,
+    "text": "Yo me quedo con la palanqueta en la mano, pues eso."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2255.51,
+    "end": 2256.46,
+    "text": "Pues tira el dado de bonificación."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2257.4,
+    "end": 2259.62,
+    "text": "Y reza. Para que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2262.86,
+    "end": 2270.8,
+    "text": "no salga. Bueno, sale. Gasta suerte. No, no puede gastar suerte. El hombre está ahí. Adil, por favor, ayúdenos."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2270.88,
+    "end": 2281.31,
+    "text": "Yo hago lo que hago, pero no hago fuerza. Estamos ya muy cansados de todo el día. Pues vaya,"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2281.35,
+    "end": 2296.96,
+    "text": "hombres, a ver, déjeme a mí, señor Adil. bueno"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2297.34,
+    "end": 2303.23,
+    "text": "no se puede abrir ahora porque estamos muy cansados y no tenemos la fuerza suficiente para abrirlo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2303.27,
+    "end": 2304.69,
+    "text": "mañana después del desayuno"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2304.77,
+    "end": 2310.93,
+    "text": "y le parece no incluso mañana en cuanto a que era amanece a las seis de la mañana a las cinco yo estoy aquí estamos aquí que"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2311.8,
+    "end": 2316.22,
+    "text": "Después de haber descansado, podemos abrirlo tranquilamente. Guiño, guiño, codo, codo, mini"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2316.26,
+    "end": 2317.82,
+    "text": "John."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2317.88,
+    "end": 2320.0,
+    "text": "Es cierto que dicen que Howard Carter también... Con"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2320.04,
+    "end": 2321.66,
+    "text": "unas cuñas y se mete para adentro."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2323.25,
+    "end": 2326.37,
+    "text": "Cacuña Matata. Yo creo que te sigo diciendo que... ¿Por"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2326.39,
+    "end": 2339.7,
+    "text": "qué no nos metemos con él? O sea, hay que decir que nos metemos con él dentro de la casa, quiero decir. Y a lo mejor si entre todos celebramos lo que hemos encontrado y... Pero es que si nos llevamos bien con la señora,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2340.36,
+    "end": 2347.32,
+    "text": "la convencíamos para que descansara. Que el brazo lo tiene mal, que no sé cuánto y que puede recaer."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2347.86,
+    "end": 2349.3,
+    "text": "Venga, entramos en la"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2349.32,
+    "end": 2350.32,
+    "text": "casa. Vamos a la"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2350.36,
+    "end": 2350.9,
+    "text": "casa. ¿Cómo vas a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2350.92,
+    "end": 2354.98,
+    "text": "entrar si no nos invitan? Que no somos vampiros. Os dais"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2355.0,
+    "end": 2359.62,
+    "text": "cuenta que vamos a tener que pasar otra noche de guardia, ¿verdad? ¿Otra?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2360.66,
+    "end": 2364.94,
+    "text": "Os dais cuenta que podríamos habernos ido sin que pasara nada, ¿no? Eso no lo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2366.06,
+    "end": 2367.38,
+    "text": "sabemos. Que a eso hemos venido."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2369.44,
+    "end": 2374.55,
+    "text": "Bueno, entramos con el a la casa, ¿sí o no? Sí. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2374.61,
+    "end": 2383.33,
+    "text": "entráis ahí, el hombre está buscando cuñas, la mujer, vamos, es que cariño, ya vamos a abrir, solo quedan las puertas para ver qué hay ahí abajo. Yo le digo,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2383.63,
+    "end": 2402.15,
+    "text": "porque es verdad, porque también me preocupo un poco también por su brazo y demás, y yo creo que igual, forzamos y estaba mal del brazo y demás, quizás deberíamos hacerlo mañana, mañana lo podemos hacer, y estamos más descansados y disfrutamos de... Pues disfruta de lo que hay allá abajo. Con toda la luz, con toda la calma"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2402.21,
+    "end": 2405.41,
+    "text": "y la tranquilidad. Pues tira crédito, convencer."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2407.61,
+    "end": 2409.39,
+    "text": "No me siento en una escalera y me sacudo el polvo ahí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2416.76,
+    "end": 2429.2,
+    "text": "Pues la mujer le dice, sí, cariño, a ver, ahora vais a entrar ahí por la noche, con el frío que hace. Habéis hecho un trabajo grandísimo todos. Mañana, con la luz del alba, pues todo se verá mejor."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2429.94,
+    "end": 2434.28,
+    "text": "De hecho, mañana, en cuanto sea primera hora, en cuanto... ¿A qué hora amanece? Que estamos"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2434.32,
+    "end": 2448.83,
+    "text": "aquí. Bueno, bueno, si no hay prisa. Creo que será bueno. ¿Por qué no se quedan a cenar con nosotros, que ya es tarde, y vuelven a su hotel e intentan dormir... lo máximo y mañana vuelven. ¿Qué les parece?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2449.75,
+    "end": 2451.83,
+    "text": "Permíteme que les ayude con la cena, entonces."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2452.75,
+    "end": 2452.91,
+    "text": "Pero"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2452.97,
+    "end": 2453.69,
+    "text": "ya"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2453.77,
+    "end": 2454.77,
+    "text": "hemos"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2454.81,
+    "end": 2456.01,
+    "text": "causado muchas molestias."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2456.55,
+    "end": 2463.21,
+    "text": "No, no es molestia. Por favor, ceden con nosotros. Solo agradezco, señorita Lili, pero ya está todo preparado. No se preocupen. Muy"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2463.27,
+    "end": 2468.79,
+    "text": "amable. Me giro hacia Kiteri."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2469.67,
+    "end": 2474.45,
+    "text": "La niña está dormida. Su madre ya le dio la cena y la acostó. Es que es un poco tarde."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2475.65,
+    "end": 2483.66,
+    "text": "pues voy a intentar montar un poco de fiesta. Unos bailecitos con la música del gramófono. A ver si se despierta la niña."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2484.02,
+    "end": 2500.57,
+    "text": "Tú estás bailando. La música del gramófono, sí que es verdad que tú dices, esto no despierta a la niña, pero bueno. No sé si el gramófono se puede poner bajito, o sea, te reconozco eso. Pero bueno, tú te pones así como media bailar y dice la mujer, ¿le gusta la ópera?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2502.69,
+    "end": 2505.58,
+    "text": "Me gusta más la música moderna, si le soy sincera."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2506.7,
+    "end": 2507.57,
+    "text": "Pero también disfruto de"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2507.61,
+    "end": 2508.91,
+    "text": "una buena ópera."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2508.99,
+    "end": 2511.36,
+    "text": "Esta es Caterina Cabollaro."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2513.24,
+    "end": 2513.84,
+    "text": "¿Me suena de algo?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2514.4,
+    "end": 2536.03,
+    "text": "Es una soprano muy famosa. Aunque la ópera no te interese, en aquella época la ópera era una cosa que estaba en los medios de comunicación. Y Caterina Carbollaro, sabes que es una soprano italiana muy conocida. Ella dice, la escuché en el teatro de la ópera de París. Fue una actuación magnífica, una mujer increíble."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2536.05,
+    "end": 2538.49,
+    "text": "La vio en persona, debió de ser realmente fabuloso."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2539.31,
+    "end": 2539.63,
+    "text": "Ya he"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2539.65,
+    "end": 2547.2,
+    "text": "escuchado, el doctor con el que trabajaba siempre ponía ópera, a él sí que le gustaba mucho y la ponía para trabajar cuando tenía que concentrarse."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2548.26,
+    "end": 2549.16,
+    "text": "Cuando tenía que operar."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2551.04,
+    "end": 2663.75,
+    "text": "Pues sí, sí, sí. Yo la... Conocido, pues que pudiera hablar con ella, pero la verdad es que una mujer, además de bellísima, inteligente... Y bueno, pues nada, la mujer os ayuda, o sea, os sirve la cena con la ayuda de Lili, que siempre está muy dispuesta. Y tomáis una cena casera, calentita, después de un día duro de trabajo honrado, como hacía mucho que no teníais, si es que alguna vez lo habéis hecho. Y... Y nada, al final pasáis la noche tranquilos, cogéis el coche y supongo que os vais al hotel o no. O tenemos otros 15 minutos de me queda o me voy. Nos vamos al hotel, sí. Nos vais al hotel sabiendo que la ventana del baño está cerrada. Muy bien, pues os vais al hotel y a la mañana siguiente, supongo que al despultar el alba, como quería Isaac, ¿vale? Despiertan a todo el mundo, a Alex Coxen y que se despierte señorita Coxen, que siempre se le pegan las sábanas. Pero bueno, ya se come su croissant y ya es otra persona. volvéis por la mañana y ahí está, el hombre con las cadenas, con las uñas, con las palanquetas, con una sonrisa al hombre, le veis... A ver, la mano le duele, el hombre tal, la mujer detrás de él que tiene esa mano un poquito agarrotada, la niña frotándose un poco su brazo, pero veis que algo parece que hubiera cambiado en ello, después de que... de que habéis metido esta aventura en sus vidas así que el hombre pues se acerca y dice vamos a ver ahora que estamos todos descansados las cadenas el flojo este y bueno pues Adil venga tú que eres más fuerte creo tira fuerza tienes un dado de bonificación también por la ayuda de tus compañeros"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2665.37,
+    "end": 2666.28,
+    "text": "y por mí el primero"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2667.11,
+    "end": 2679.44,
+    "text": "venga pues tira De bonificación. El dado de bonificación no funciona nunca, ¿no? Vamos a ver si... ¿Veis? No funciona nunca. ¿Te gastas dos puntos de suerte?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2679.6,
+    "end": 2682.49,
+    "text": "Tiro, tiro. Me gasto dos puntos de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2682.53,
+    "end": 2684.29,
+    "text": "suerte. Tú estás ayudando."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2685.01,
+    "end": 2685.99,
+    "text": "No te preocupes, me gasto"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2686.25,
+    "end": 2697.98,
+    "text": "dos puntos de suerte. Perfecto. Tiráis ahí la puerta de hierro que cae con las cadenas. Un golpe ominoso dentro. Se escucha un eco ahí."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2698.0,
+    "end": 2699.12,
+    "text": "Puff, puff, puff."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2700.94,
+    "end": 2741.23,
+    "text": "Veis que sale un honor pútrido, nauseabundo, y una especie de humedad, un vaho, y aún así es frío. No debería, debería ser seguramente caliente, pero es frío. Huele como un honor dulzón, almizcleño. Como algo quizá podrido, mohoso. Y ya digo, una especie de viento, de movimiento de aire, pero frío. Lo cual es un poco extraño. El hombre se queda así con el eco que se escucha. Se escucha un eco grande con el olor que tiene. Madre mía."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2743.75,
+    "end": 2743.91,
+    "text": "Y ves"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2743.93,
+    "end": 2746.57,
+    "text": "que recula un poco el hombre. Me pongo"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2746.82,
+    "end": 2747.57,
+    "text": "un pañuelo en la boca."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2749.0,
+    "end": 2755.39,
+    "text": "Bueno, tenemos linternas que habíamos cogido. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2755.43,
+    "end": 2755.95,
+    "text": "tenéis faroles."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2756.59,
+    "end": 2768.9,
+    "text": "Vamos a entrar. Como es suyo, sí que hacen los honores, pero no hace falta que puedan venir detrás nuestro. Estamos acostumbrados a mirar objetos antiguos y demás."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2771.0,
+    "end": 2777.9,
+    "text": "Bueno, señor Taylor, usted es el que ha traído hasta mi casa. Vaya usted primero. Y él se pone como para entrar después de Taylor."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2778.55,
+    "end": 2783.43,
+    "text": "Vale, le digo, Lili, si ves alguna niebla o algo, me lo dices."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2783.49,
+    "end": 2790.0,
+    "text": "Sí, señor Isaac. Me pago la botella de agua bendita que tengo en el bolsillo interior del abrigo."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2791.52,
+    "end": 2799.78,
+    "text": "Bueno, estoy bien ahí. Vale, yo linterna y pistola. Muy bien. Y dejo a"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2799.8,
+    "end": 2801.02,
+    "text": "ellos que vayan primero."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2801.04,
+    "end": 2805.64,
+    "text": "Bueno, meto la mano así en el... ¿Cómo la otra vez? En Napoleón,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2805.68,
+    "end": 2807.16,
+    "text": "tú siempre estás..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2808.9,
+    "end": 2810.72,
+    "text": "bueno con internas llevado la mano en"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2811.09,
+    "end": 2811.66,
+    "text": "el bolsillo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2811.72,
+    "end": 2815.55,
+    "text": "también se oye algo ahora que por dentro"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2816.15,
+    "end": 2823.63,
+    "text": "pues no no la verdad es que la verdad es que no vale aquí tenéis vuestros muestras tokens creo"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2825.87,
+    "end": 2826.05,
+    "text": "sí"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2827.67,
+    "end": 2868.19,
+    "text": "vale así que pues nada veis esa puerta y No se oye nada, pues eso, está ese olor dulzón, un poco pútrido, está ese frío extraño. Eso sí, se ve un brillo y de hecho voy a mostraros un poquito lo que veis, porque hay como una especie de luz, como una especie de brillo, ¿vale? Y veis este pasillo, más o menos... Así, ¿no? Lo estáis viendo, supongo. Vale."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2871.23,
+    "end": 2959.58,
+    "text": "Vale. Pues eso, veis ese pasillo que está por ahí. Y como digo, a partir de ahora, donde esté vuestra miniatura, estáis vosotros, ¿vale? Nadie puede decir, no, es que yo la puse ahí, pero en realidad estaba en otro lado. Ya sabéis... Vais avanzando y veis un lugar oscuro, una especie de... Pues eso es lo que parecen unas catacumbas aquí que se abren ante vosotros. Es un pasillo que... Pues eso, y van... De vuelta hacia el muro, la puerta exterior, estos cimientos de esta mansión Fenalik fueron construidas de gran talento y son bastante sólidos, aunque las raíces de los árboles circundantes se han abierto camino. De hecho, donde está ahí Alex Coxen, bueno, que está un poco en la piedra y metida, está metida en la paraisa de ahí. Pues hay raíces de árboles que se han abierto paso a través de los huecos de la piedra, lo que dificulta un poco el paso, ¿no? Los que vais ahí primero tenéis que ir esquivándolas esas ramas como con garras que parecen casi rozarte. Tienes que ir pasando. Aún así pasáis,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2959.6,
+    "end": 2960.12,
+    "text": "¿no? Sí, sí. Vale,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2961.88,
+    "end": 2975.49,
+    "text": "vais ahí abriéndoos camino. El doctor también va con vosotros, ¿vale? Ahí detrás de Taylor. Ves que mira un poco como... No sé, la cosa le está pareciendo ya menos graciosa quizá. Me voy a poner más"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2975.63,
+    "end": 2975.83,
+    "text": "atrás."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2978.61,
+    "end": 2979.07,
+    "text": "Tú cuente, donde"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2980.02,
+    "end": 2991.01,
+    "text": "quieras. Voy a poner más atrás porque tengo lag, ¿vale? Y no quiero que se desate la batalla y está en la primera y es que voy con mucho retraso, ¿vale? O sea, es cobardía, pero por el lag."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2991.05,
+    "end": 2992.85,
+    "text": "Le digo, Lili, ¿ves algo? Es cobardía."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 2994.75,
+    "end": 3000.85,
+    "text": "Miro para adelante, que yo soy bastante bajita, ¿vale? Es un resplandor. Ah, pensé que me llamaba a mí."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3002.36,
+    "end": 3003.9,
+    "text": "Sí, no, era a ti, era a ti, sí."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3004.81,
+    "end": 3015.38,
+    "text": "Ah, pues yo solo veo la espalda de Adil y de Alex, como se han dicho, porque intento mirar en plan de qué hay, qué hay, pero claro, no me deja ver nada toda esta gente."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3015.76,
+    "end": 3017.4,
+    "text": "Con la linterna se ve algo más, justo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3019.33,
+    "end": 3043.6,
+    "text": "Sí, hombre, que sin linterna, ¿cómo ibas a ver debajo de la Tierra? Claro, estoy viviendo con la linterna. Pero es que hay un resplandor al fondo, como digo, al fondo se ve una especie de resplandor de colores. Es muy tenue, muy leve. ¿Aquí? ¿Por aquí? Sí, sí, eso que tienes ahí de color, pues es un resplandor violáceo, rosáceo, como una luz fluorescente que hubiera al final. No lo suficiente como para iluminarlo todo, pero sí que se ve una luz. Tú avanzas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3043.9,
+    "end": 3046.22,
+    "text": "a Isaac el tour, porque si no, estamos en un pasillo Sí,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3046.26,
+    "end": 3058.83,
+    "text": "sí, sí, yo avanzo un poquillo pero voy poco a poco, por eso iba preguntando a Lili si se ve a una, como ella ha visto las la niebla y nosotros no, pues acaso ya ve algo más que nosotros"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3058.85,
+    "end": 3079.55,
+    "text": "Vale, tú vas avanzando y ves que Hay puertas a los lados y son puertas metálicas con reja como de unas catacumbas. Tienes dos que se abren uno a un lado y al otro. Y tienen como mirillas que parece que se pueden girar para mirar dentro. No sé si lo vas a hacer, Isaac. ¿Hay algún"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3079.57,
+    "end": 3085.08,
+    "text": "grabado o algún signo o algo en la puerta?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3085.12,
+    "end": 3114.21,
+    "text": "No, son puertas... Las de hierro con rosas están, pues eso, con moho, con líquen, con el efecto de la humedad. Están un poco encajadas y tienen cerradura. Parece ser que en su tiempo estarían cerradas con llaves. No las he probado, evidentemente, si están cerradas o no o qué. Pero ya digo, lo que tiene es una especie de esa mirilla de esa que se quita y se vuelve a poner. Con lo que podrías mirar lo que hay dentro si quisieras o seguir para adelante, que parece que el pasillo sigue más o menos igual."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3115.33,
+    "end": 3120.13,
+    "text": "Sí, yo seguiría. Claro, yo sigo, vamos. No se oye nada, ¿no? Vale, pues todo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3120.19,
+    "end": 3137.41,
+    "text": "loca. No se oye nada, absolutamente nada. Solo tenéis eso, pues ese frío, ese hedor, ¿vale? Vas avanzando ahí y ves otro, pues eso, otras catacumbas parecidas, iguales, otras puertas que hay ahí con sus mirillas. Y"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3140.18,
+    "end": 3141.04,
+    "text": "hay algún... Que se queda"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3141.1,
+    "end": 3142.56,
+    "text": "atrás."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3144.17,
+    "end": 3147.84,
+    "text": "¿Hay algún signo en el suelo? ¿Hay arañazos? ¿Algo? No,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3147.93,
+    "end": 3165.66,
+    "text": "es de piedra. Vas a ver si hay arañazos o que hay moho, hay lichen. No ves mucho. No ves mucho más. Adil, ¿tú qué estás ahí? ¿Tú mueves las mirillas? ¿Miras o simplemente sigues un poquito lo que ha dicho?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3166.57,
+    "end": 3170.35,
+    "text": "Voy a seguir la espalda de Isaac."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3170.39,
+    "end": 3244.94,
+    "text": "Vale, perfecto. Muy bien, pues Isaac se queda ahí parado en esas dos y cuando él avance, tú ves como otro par de catacumbas y llegas hasta una puerta, una puerta metálica que ahí ya sí que impediría el paso. Esa puerta, pues ves... Ese resplandor que hay al fondo y más o menos ahí ves que hay como unas rosas, un rosal, un tremendo rosal. En ese modo hay como una humedad, una huilla que gotea. Oye, es muy leve. Antes no se oía, pero ahora sí que se oye como... gotas que caen. La mayoría parece que caen en los pétalos y por lo tanto no hacen ese sonido, pero algunas sí que caen en la fría roca. Y ves que eso, que parece ser que esas flores son fosforescentes. Ante ti hay una reja que está ahí cerrada, parece que está cerrada con llave o que la herrumbre hace que no se pueda mover. ¿Qué es lo que haces? El doctor está ahí diciendo, madre mía, ahora esto nos va a impedir pasar. ¿Ves que Bell va a intentar forzar la puerta? ¿Tú le dejas que fuerce?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3247.96,
+    "end": 3249.42,
+    "text": "La puerta no pone nada, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3251.04,
+    "end": 3283.4,
+    "text": "No, no pone nada. El hombre intenta así... Y ves que parece ser que está atascada. Tiene un cerrojo. No, no es igual. Esta es de reja. Las otras eran totalmente opacas, por así decirlo. Esta es una reja, tiene un cerrojo. Parece cerrada con llave o encajada o herrumbrosa. Vaya, me he dejado las palancas y eso arriba. Y el hombre se gira. Ves que a Dill, a Alex, tú le ves yendo para atrás. En principio, no sé si vosotros volvéis o no, pero dice, voy a por las palancas y las cadenas. Y se ve que el hombre va para atrás. ¿Qué hacéis?"
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3284.53,
+    "end": 3285.62,
+    "text": "Yo voy a mirar por las mirillas."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3287.86,
+    "end": 3295.24,
+    "text": "Vale, pues tú abres y miras por una de las mirillas. Dime por cuál."
+  },
+  {
+    "speaker": "SPEAKER_06",
+    "start": 3297.04,
+    "end": 3299.84,
+    "text": "Pues por esta mismamente, por la de mi derecha."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3300.35,
+    "end": 3351.68,
+    "text": "Muy bien, pues abres así, miras por esa mirilla y Alex, tú que estás al lado, ves como ella hace con esa mirilla rumbrosa, con ese chirrido y ves como se abre la boca de Lily, sus ojos se abren como platos y se queda libida. ¿Qué ha visto Lili al otro lado de la mirilla? ¿Qué son esas catacumbas? ¿Por qué hay flores que brillan en la oscuridad? ¿Qué es ese extraño goteo? Todo eso me temo que sí, que lo sabremos en el siguiente vídeo de la mazmorra de Pacheco, de este horror en el Orient Express. Todavía no estamos en el tren, pero ya queda menos, por lo menos para que alguno suba. Hasta entonces, pues nada, a recoger flores. Adiós."
+  }
+]

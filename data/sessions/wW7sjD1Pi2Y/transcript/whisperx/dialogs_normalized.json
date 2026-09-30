@@ -1,0 +1,2420 @@
+[
+  {
+    "speaker": "SPEAKER_01",
+    "start": 0.81,
+    "end": 32.83,
+    "text": "Muy buenas, os doy la bienvenida a la mazmorra de Pacheco y os doy la bienvenida a Orient Express. Me estoy riendo porque llevo media hora esperando a que le den a grabar, pero por fin, por fin estamos, por fin hemos podido volver aquí a grabar el Orient Express. Mirad qué volumen, qué volumen. Tengo el otro aquí. Tengo el otro aquí, pero ese no habíamos llegado todavía. ¿Llegaremos algún día? Esperemos que sí. Por ahora estamos aquí en el primero. Y nada, aquí que venga mi elenco, que se está riendo también de mí, porque no he podido mantener el Rictus serio durante tanto tiempo, lo siento."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 33.9,
+    "end": 37.34,
+    "text": "Yo estaba con toda la emoción también, diciendo, ¿cuándo empieza? ¿Cuándo empieza? Yo estaba"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 37.36,
+    "end": 47.21,
+    "text": "pensando, ¿qué pasa? A grabar y ha salido como varios mensajitos en plan de, no sé qué, ¿y ahora lo quieres de esta manera? ¿En color? ¿Con café? ¿Con café? ¿Quieres conocer a personas por tu zona? Claro,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 47.23,
+    "end": 50.15,
+    "text": "¿lo quieres con croissant? ¿Los tiene todo el estoxen? Y yo así ya"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 50.19,
+    "end": 51.56,
+    "text": "sudando, como, venga, que empiece ya."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 53.67,
+    "end": 127.62,
+    "text": "La tensión se masca en el ambiente, como veis, y a mí me da la risa tonta, la risa histérica, porque, bueno, porque ayer este grupo de investigadores se pasó toda la noche intentando encontrar al profesor Julius Smith, un profesor que lo vieron por última vez saliendo en su coche con su fiel Beddows del Imperial Club. No fue a su casa, no pasó por el Orient Club, no parece que pasará por la universidad... Y no han conseguido dar con su paradero. Y cuando se despiertan hoy, se desayunan con, bueno, en el caso de Alex Cox, con unos buenos croissants y con la noticia de que un hombre ha sido asesinado tres veces en una noche, como puedes ver en el Roll20. Y ese hombre no es Chemi, no es Isaac ni uno de sus personajes. Cuando miráis la foto que aparece así medio velada en un cadáver que han robado los periodistas de este periódico sensacionalista, veis que os parece ese tipo extraño que estaba murmurando esa especie de maldición al profesor."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 131.2,
+    "end": 132.94,
+    "text": "Perdón, ¿me"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 133.54,
+    "end": 172.41,
+    "text": "puedo dejar ese periódico? Claro, claro. Hay varios. En el hotel, evidentemente, tienen varios ejemplares de prensa para que la gente los lea. Y sí, te pasas a un periódico. Ves que varios periódicos tienen la noticia. Tú coges el que te parece a lo mejor más... más de fiar y bueno, pues lo puedes leer. Es una noticia que en los periódicos sensacionalistas pues sí que a lo mejor hace la portada, en otros pues lo ponen más dentro, pero sí. Ahí lo tienes, deberéis estarlo viendo en Roll20 y no sé si lo puedes leer, Luz, pues estaría guay."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 172.87,
+    "end": 254.92,
+    "text": "Sí, lo abro en la mesa para que lo vean todos mis compañeros delante de los croasanes de la señorita Coxen y leo en voz alta. Escuchad, un hombre muere tres veces en una noche, tres cadáveres en un hotel, cada hombre portaba la misma identificación. La pasada noche se descubrieron tres hombres asesinados en un hotel de Londres, todos ellos identificados como un tal señor Mehmet Macriat de Islington. Los tres habían sido apuñalados en el corazón. Las doncellas del Hotel Chelsea Arms descubrieron los cuerpos en una habitación registrada a nombre del señor Macriat. Documentos de procedencia oficial permitieron identificar al trío como el mismo hombre, el señor Macriat, un comerciante de arte y antigüedades de nacionalidad turca que se encontraba en la ciudad por negocios. Las víctimas compartían un parecido superficial y se presentaban como el señor Macriad desde su llegada por separado a Londres hace tres días. Para mayor confusión, el auténtico señor Macriad, o al menos el hombre que los tenderos vecinos describían como el señor Macriad, ha desaparecido. La policía solicita que se presente en comisaría. Los pasaportes de estos tres ciudadanos turcos muestran que cada hombre viajó de forma independiente por el mundo durante los últimos tres años. El inspector Fleming de Scotland Yard se muestra desconcertado por el significado de este extraño misterio. Pero estaría encantado de hablar con todos los Mehmet Macriat que queden vivos. ¿Qué pensáis? ¿Serán hermanos?"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 256.3,
+    "end": 266.6,
+    "text": "Bueno, creo que... Uy, ahora no recuerdo si fue el señor Isaac o fue su predecesor, pero tuvo ya un encuentro con un señor múltiple. Su"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 266.62,
+    "end": 267.16,
+    "text": "predecesor,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 267.2,
+    "end": 267.5,
+    "text": "yo creo. No"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 267.52,
+    "end": 267.9,
+    "text": "sé de lo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 267.92,
+    "end": 268.26,
+    "text": "me estás"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 268.3,
+    "end": 268.58,
+    "text": "hablando."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 270.24,
+    "end": 280.25,
+    "text": "Sí que es verdad que cuando veis la foto más de cerca, veis la foto más de cerca, veis que no es exactamente el mismo hombre que visteis, pero muy parecido. Al principio se ha dado el pego totalmente."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 280.27,
+    "end": 290.27,
+    "text": "¿Pero la diferencia es por edad o...? No, son personas que se parecen"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 290.33,
+    "end": 293.64,
+    "text": "bastante."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 293.74,
+    "end": 293.82,
+    "text": "Es"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 294.04,
+    "end": 294.56,
+    "text": "una secta."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 297.2,
+    "end": 300.42,
+    "text": "Bueno, yo apostaría más que son. Pueden ser hermanos, ¿no creéis?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 302.57,
+    "end": 308.13,
+    "text": "Pues podría ser. Podría ser. ¿Todos llevan la identificación de uno?"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 310.61,
+    "end": 313.52,
+    "text": "¿No hay ninguna otra noticia que nos llame la atención?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 316.37,
+    "end": 319.92,
+    "text": "Misterioso robo de croissants, ¿eh? No,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 320.89,
+    "end": 326.08,
+    "text": "alguna desaparición, alguna luz que haya visto mucha gente. No te vale con esta,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 326.28,
+    "end": 328.74,
+    "text": "no te vale con este gancho de aventura, necesitas otro más."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 329.08,
+    "end": 334.69,
+    "text": "Me vale, me vale, pero a veces hay otras noticias que pasan desapercibidas y también son interesantes."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 335.65,
+    "end": 360.51,
+    "text": "A ver, pues hay manifestaciones en Inglaterra, sus maniobras militares, y va a haber manifestaciones este fin de semana de gente simpatizante de partidos socialistas y anarquistas, y la situación está polémica por las sanciones a Alemania después de la guerra. Noticias que hagan referencia a lo que estamos"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 361.91,
+    "end": 365.3,
+    "text": "nosotros investigando, por favor. Pues"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 365.61,
+    "end": 370.69,
+    "text": "no. Noticias de lo que está investigando Alex Coxen no hay ninguna, lo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 370.71,
+    "end": 377.86,
+    "text": "siento. ¿En algún periódico viene a qué hora fueron las muertes?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 379.51,
+    "end": 396.37,
+    "text": "La verdad es que Lili ha elegido el periódico de más confianza, el que era menos escabroso, menos sensacionalista y dan esos datos. Sabes que Scotland Yard es reticente de dar muchos datos y suele racionar mucho lo que trasciende a la prensa, más allá de lo que los propios periodistas puedan conseguir. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 396.39,
+    "end": 404.37,
+    "text": "no todos se parecen, pero no son claramente el mismo. Hay una"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 404.39,
+    "end": 430.54,
+    "text": "foto que solo se ve uno, realmente, y a vosotros os ha parecido mucho al que visteis, aunque no es igual. No, es una foto, como dije, robada de uno de los cadáveres. Es un poco chunga, es la foto de un cadáver. Está mal tirada, o sea, no han dejado hacer una foto oficial, digamos. Es una foto ahí, pues como digo, así de refilón y por eso os ha parecido al verlo y luego ya viéndolo un poquito más. Además, es una foto de la época, con la definición de la época, ¿vale? No es que esté en 4K. Con lo cual, pues eso es lo que podéis ver."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 431.44,
+    "end": 442.98,
+    "text": "Pues hago rewind y digo, me recuerda a quien vimos, pero no se parece mucho. Tampoco las fotos. La foto es lo mejor que han podido hacer. Vale, aún"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 443.06,
+    "end": 456.7,
+    "text": "así, bueno, eso está... Choca, ¿vale? Pero creo que deberíamos ir a la universidad y buscar a ver si está el doctor o el profesor por algún lado. Porque eso sigue en paradero desconocido."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 457.63,
+    "end": 471.2,
+    "text": "Sí, de todas maneras podríamos ir después de ir a la universidad, por supuesto, al final encontrar al profesor es lo más importante, pero podríamos ir a hablar con ese tal inspector Fleming porque tenemos información sobre otro señor Macriat. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 473.23,
+    "end": 477.35,
+    "text": "podemos decirle que lo vimos ayer en la charla, vamos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 477.39,
+    "end": 482.45,
+    "text": "Y de hecho le podemos decir que sospechamos de que tiene algo en contra del profesor para que quede constancia de eso."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 482.47,
+    "end": 486.45,
+    "text": "Vale, me parece bien."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 486.59,
+    "end": 486.99,
+    "text": "Muy bien, Lili."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 487.5,
+    "end": 494.31,
+    "text": "Pues vamos a ver a tu amigo Tom, llévale un croissant si quieres, aprovecha para hacer las paces con él."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 494.33,
+    "end": 500.47,
+    "text": "¿Qué hora es? Ya se habrá ido del turno de la noche, ¿no? Ya no estará."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 500.67,
+    "end": 508.54,
+    "text": "Claro, difícilmente la persona que está en el turno de la noche va a estar en el turno de mañana, así que no crees que ahora este Tom, ¿vale? Ahora es por la mañana, pues yo qué sé, las 9 de la mañana."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 509.82,
+    "end": 515.46,
+    "text": "De todas maneras voy a envolver un croissant y lo voy a dejar allí para cuando lo vea por la noche."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 517.59,
+    "end": 519.85,
+    "text": "Croissant rancio, lo que yo quiero. Bueno,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 519.89,
+    "end": 520.39,
+    "text": "a ver, pero"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 520.43,
+    "end": 522.63,
+    "text": "espera."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 522.65,
+    "end": 524.93,
+    "text": "Mira, a las 2 de la mañana entra lo que sea, ¿vale?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 526.91,
+    "end": 535.62,
+    "text": "Bueno, pues vais a ir a la... No he entendido bien porque creo que habéis dicho que vais a ir a la universidad y a Scotland Yard y no sé si es que os separáis y hacéis una cosa consecutiva o qué hacéis."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 535.64,
+    "end": 538.14,
+    "text": "Claro, eso es lo que"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 538.16,
+    "end": 538.72,
+    "text": "iba a preguntar yo,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 538.74,
+    "end": 538.94,
+    "text": "que"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 538.96,
+    "end": 543.14,
+    "text": "qué hacemos. A la universidad. Yo voy a la universidad. A sacarte la carrera, muy"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 543.16,
+    "end": 543.28,
+    "text": "bien."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 545.04,
+    "end": 552.58,
+    "text": "Yo os puedo indicar dónde está el despacho y vista la habilidosa que es la señorita Coxen buscando cosas. Quizás está bien que esté ella allí. Sí, pero"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 553.02,
+    "end": 558.34,
+    "text": "Lili, es importante que nos guíes tú porque nosotros aquí somos desconocidos. Sí, sí,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 558.38,
+    "end": 560.6,
+    "text": "por supuesto, por supuesto. Yo os enseño dónde está, claro."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 561.12,
+    "end": 563.83,
+    "text": "Pues vamos para allá y vamos a ver."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 563.85,
+    "end": 571.75,
+    "text": "¿Vamos todos juntos entonces? ¿Vamos todos juntos a la universidad o van unos a la universidad y otros a...? A la comisaria."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 571.81,
+    "end": 572.63,
+    "text": "Estamos juntos,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 572.65,
+    "end": 573.47,
+    "text": "¿no? No tenemos"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 573.71,
+    "end": 575.91,
+    "text": "prisa. Yo iría juntos porque tampoco"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 576.6,
+    "end": 576.68,
+    "text": "con"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 576.72,
+    "end": 586.18,
+    "text": "la YAR tampoco, bueno, podemos hablar antes o después y podemos hablar algo más del profesor en caso de que tengan que buscarlo o si ha desaparecido,"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 587.34,
+    "end": 591.7,
+    "text": "¿no? Si se nos ha botellado tres veces porque se muere una cuarta más tampoco nos va a pasar nada. A"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 593.4,
+    "end": 594.09,
+    "text": "la universidad."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 594.77,
+    "end": 644.85,
+    "text": "Salís para allá, cogéis el taxi, llegáis a la universidad que, bueno, es sábado, con lo cual no hay una actividad tan grande, ¿vale? Pero bueno, sí que la universidad está abierta para los investigadores y tal el sábado, muchísimos menos alumnos, muchísimas menos cosas, pero bueno, el... En principio podéis pasar sin mucho problema hasta lo que es el edificio principal de la universidad. Una vez allí, pues Lili os puede llevar hacia donde están los despachos. Lo único que para llegar a la zona de los despachos, en principio tampoco hay problema. Es una zona que pueden ir los estudiantes cuando sí que sabes que los despachos están cerrados. cerrados con llaves o lo que sea, estáis en el pasillo todos, nadie ha reparado mucho en vosotros, ha visto algún guardia, algunos estudiantes, algún profesor y llegáis al despacho del profesor Julius."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 647.39,
+    "end": 648.51,
+    "text": "¿Profesor?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 649.38,
+    "end": 650.5,
+    "text": "No hay nadie, nadie responde."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 652.98,
+    "end": 654.28,
+    "text": "Pego la oreja."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 654.4,
+    "end": 658.4,
+    "text": "Abres Adil y ves que está abierto, no está echada la llave. Pues"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 659.16,
+    "end": 659.4,
+    "text": "Paso."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 660.32,
+    "end": 698.92,
+    "text": "Vale. Abres. Y bueno, ves... Y cerramos la puerta. Entráis los cuatro, cerréis la puerta detrás de vosotros. Menuda tutoría que vais a hacer. Y... Veis que la llave estaba metida por dentro, pero no estaba echada. Y veis que en el despacho y tal hay unos libros abiertos, hay unos, como que alguien estaba trabajando, veis un termo de café, ¿vale? Es temetario. Exactamente. Y bueno, pero no hay nadie. ¿El"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 699.5,
+    "end": 702.72,
+    "text": "termo de café está vacío o lleno?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 703.22,
+    "end": 712.62,
+    "text": "El termo de café está casi lleno, lo toca si está frío. Es que está la taza de café al lado que sí está un poco manchada de café. Habían bebido algo, pero poquito."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 713.94,
+    "end": 721.38,
+    "text": "Vale, ¿qué es lo que estaba encima de la mesa? ¿Hay algún...? Veis"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 721.67,
+    "end": 748.99,
+    "text": "que es lo que estaba haciendo este becario, revisando pues un poquito datos de desapariciones y apariciones parecidos a los que hablaban en la ponencia, pero otros con otras fotos, otras cosas, como si estuviera preparando como más un dosier más grande o investigando. Y de hecho hay algunas notas que dicen, no, fraude, tal, montaje fotográfico, como que está investigando este becario, pues otros posibles casos para presentar a lo mejor al profesor o algo así. Es lo que os da la impresión así por encima."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 749.72,
+    "end": 755.94,
+    "text": "Me parece raro que lo haya dejado todo tan desordenado, ¿no? Como que no es propio que te dejen entrar."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 757.24,
+    "end": 762.97,
+    "text": "Sí, tenía una autorización expresa. Acuérdate que Tom nos dijo que no había salido. Puede que haya desaparecido también."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 765.21,
+    "end": 768.25,
+    "text": "Puedo tirar un descubrir por si acaso hay alguna cosa más."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 768.27,
+    "end": 769.99,
+    "text": "Tira descubrir."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 770.01,
+    "end": 773.88,
+    "text": "Llevo mucho tiempo sin fastidiarla. A ver, ponme la tirada, Che Miguel."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 776.95,
+    "end": 780.55,
+    "text": "que quiere ver su tirada, quiere verlo con sus propios ojos en el estilo, no vale verlo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 780.61,
+    "end": 791.25,
+    "text": "para verlo, es para verlo espera, espera, a ver dale, dale, dale, otra vez"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 791.27,
+    "end": 791.39,
+    "text": "pues"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 791.57,
+    "end": 795.57,
+    "text": "nada, tú"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 795.61,
+    "end": 832.52,
+    "text": "ves tú lo que ves es un rayón en el suelo de madera Y lo que parece una pequeña gotita de sangre. Y además, ves que donde está la gota, en la madera, al lado, hay como una quemadura. Una pequeña quemadura circular. Podría ser cualquier tipo de quemadura, pero a ti, por lo que has visto, con la gotita de sangre, con el rayón, a ti no te salen las cuentas."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 833.98,
+    "end": 842.78,
+    "text": "Y una escopeta de la familia. Oh, una escopeta de la familia. Se lo digo. Mirad. Tened cuidado. Tened. Que es imperativo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 843.22,
+    "end": 845.94,
+    "text": "Me agacho rápido y compruebo que sea sangre."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 846.94,
+    "end": 847.02,
+    "text": "¿La"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 847.18,
+    "end": 848.34,
+    "text": "semadura qué tamaño"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 848.4,
+    "end": 848.68,
+    "text": "tiene?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 850.21,
+    "end": 850.9,
+    "text": "Como de una moneda."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 852.21,
+    "end": 852.47,
+    "text": "Bueno."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 853.11,
+    "end": 855.45,
+    "text": "¿Coincide con lo que vimos volar de tamaño?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 856.85,
+    "end": 863.57,
+    "text": "Podría ser. Quizá un poco más pequeño que lo que visteis, pero así es. Circular. Bueno."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 866.35,
+    "end": 873.88,
+    "text": "Reviso por habitación a ver si hay alguna maquinaria o hay algo... Yo pienso que todo esto es ciencia, por supuesto."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 873.92,
+    "end": 876.71,
+    "text": "Y yo reviso documentos, que cada uno ha venido a hablar de su"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 876.75,
+    "end": 877.07,
+    "text": "libro."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 878.05,
+    "end": 878.23,
+    "text": "Hay una"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 878.27,
+    "end": 879.35,
+    "text": "mochila del becario..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 880.61,
+    "end": 926.71,
+    "text": "Si quieres tirar libreríos, Alex Coxen y tú, Isaac, pues ves que hay una... O sea, no hay maquinaria. Maquinaria no hay. Es un despacho de un historiador, antropólogo y Alex. Tú ves que aquí sí que están los libros de su investigación, ¿vale? Pero es básicamente lo que te he dicho. Es la investigación que ya visteis, libros de ciencias ocultas, libros de... Y son muy interesantes, son libros que están hablando sobre esto y te puedes incluso, si quieres, llevarte alguno o coger sus notas, porque al fin y al cabo este hombre estaba estudiando las apariciones y desapariciones, que es el tema importante para Carter, pero no ves ninguna pista o nada que te lleve a otro lugar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 927.19,
+    "end": 927.31,
+    "text": "Vale."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 927.33,
+    "end": 934.72,
+    "text": "¿Puedo tirar mitos para la quemadura?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 935.91,
+    "end": 945.73,
+    "text": "Sí, claro. Tú la miras, dices esto... ¡Oh! ¡Qué"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 945.81,
+    "end": 946.29,
+    "text": "suertaza!"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 948.95,
+    "end": 998.86,
+    "text": "Vale. Pues tú has visto muchas cosas. Has leído ya muchas cosas. Y tú has leído mucho ocultismo, ciencias ocultas y tal. Eso no tiene nada que ver con los mitos. Pero tú has sabido ver cómo en el folclore, en ciertos mitos, en ciertas cosas, pues hay una parte de verdad. La gente habla a veces de fuegos fatuos, de luces, de luminarias. Tú has podido rastrear que hay unos seres... entidades, cosas que son como bolas, pequeñas bolas de fuego que dicen que pueden atraer a la gente a la perdición y algunos dicen que les sorben la vida. Hay quien incluso, las cosas más folclóricas, más incluso sensacionalistas que hayas podido leer, los han llamado vampiros de fuego."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1004.16,
+    "end": 1026.83,
+    "text": "Vale, bueno, se lo transmito. Isaac, Adil, creo que, aunque probablemente ya habíais llegado a esa conclusión, pero tiene toda la pinta de que las luces que visteis se corresponden con esta quemadura y no sé mucho acerca de ellas, pero bueno, en resumen, si veis una, alejaos."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1029.75,
+    "end": 1037.5,
+    "text": "Y esto, ¿cómo lo has llamado? O sea, ¿ella sabe el nombre de vampiros de fuego o algo así o no?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1037.54,
+    "end": 1041.0,
+    "text": "Tiene muchos nombres, fuegos fatuos y también ha oído vampiros de fuego."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1041.14,
+    "end": 1050.07,
+    "text": "Y esto, ¿cómo aparecen o vienen volando de algún sitio? Mira la ventana si está abierta o algo así."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1051.16,
+    "end": 1055.9,
+    "text": "La ventana está cerrada. Es invierno y no estamos para abrir ventanas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1056.5,
+    "end": 1059.8,
+    "text": "No, no, pero bueno, que por si acaso habían entrado por ahí, claro. Porque no ha salido nadie."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1061.22,
+    "end": 1065.97,
+    "text": "Bueno, estamos investigando cosas que aparecen y desaparecen de la nada."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1068.19,
+    "end": 1078.24,
+    "text": "Perdón, a ver si he entendido bien. ¿Pueden aparecer unas pequeñas bolas de fuego de la nada que hace que desaparezcas o te pulverices y pop? Y demás..."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1081.14,
+    "end": 1091.17,
+    "text": "Claro, la manera en la que actúan... O sea, ¿les llaman vampiros porque literalmente te sorben la vida? O sea, ¿te chupan la sangre? No sabemos,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1091.19,
+    "end": 1134.92,
+    "text": "no sé. Te sorben la vida, es lo que dicen los vampiros tradicionales, los vampiros que no son los estricos y que luego popularizaré o... popularizó Bram Stoker, que es un tío majísimo que vive aquí cerquita. Pues lo que la tradición más normal es que lo que los vampiros te chupan es el alma, te suerven la vida. Entonces, pues estos se llaman vampiros por eso, porque esos vampiros, digamos, tradicionales, lo que te suervían es el alma. No sabes qué parte es verdad, qué parte es mentira. De hecho, tú que has visto las notas, has visto que se hablaba también de la combustión espontánea en algunas de ellas. Lo que pasa es que sí que es verdad que parece ser que el profesor como lo dejó ahí aparcado como diciendo para más adelante. Pero algunas cosas de la desaparición es este fenómeno de la combustión espontánea."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1135.22,
+    "end": 1138.64,
+    "text": "Claro, pero la combustión espontánea hubiera habido mucho más quemado. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1138.66,
+    "end": 1141.83,
+    "text": "normalmente la combustión espontánea quedan en las piernas de las personas."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1143.38,
+    "end": 1156.99,
+    "text": "Vale, sabiendo eso, mientras revisan también Alex, Lili, Yadil y demás, voy a ver con lo que ha comentado Alex, en los libros si hay algo por ahí que está visible para leer más sobre esa"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1157.03,
+    "end": 1163.45,
+    "text": "posibilidad. No, Alex Coxen ya ha visto todo lo que había que ver en los libros y lo que le da es eso, pero es verdad que..."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1163.61,
+    "end": 1166.93,
+    "text": "Pero ahora, sabiendo lo que buscamos en concreto, pues usted te lo decía."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1167.03,
+    "end": 1168.11,
+    "text": "Por eso lo he dicho, por"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1168.13,
+    "end": 1168.77,
+    "text": "eso lo he dicho,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1168.93,
+    "end": 1169.97,
+    "text": "pero no hay más."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1172.74,
+    "end": 1183.79,
+    "text": "Ahora que hemos visto la gotita de sangre, quiero fijarme en el pasillo o en algún sitio por si hubiera más, por si hubiera dejado un rastro, si hubiera otra gotita en algún sitio."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1183.83,
+    "end": 1193.67,
+    "text": "Pues tú sales al pasillo y ves que sí, que ahora que te fijas levemente, tal, hay un par, dos, tres, pero de repente el rastro desaparece y no lleva a ninguna parte."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1194.66,
+    "end": 1196.49,
+    "text": "¿Hacia dónde? Hacia la"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1196.51,
+    "end": 1203.41,
+    "text": "salida. Hacia las escaleras, la salida, pero ya no ves más. También ves a una señora fregando ahí al"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1203.43,
+    "end": 1205.13,
+    "text": "lado."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1205.83,
+    "end": 1208.4,
+    "text": "Vale, pues le pregunto a la señora."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1210.26,
+    "end": 1212.68,
+    "text": "Sí, buenas, señorita. Buenos"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1212.72,
+    "end": 1215.76,
+    "text": "días, mi nombre es Alex Coxen."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1216.36,
+    "end": 1217.08,
+    "text": "El mío es Matilda."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1217.82,
+    "end": 1229.95,
+    "text": "¿Qué tal, Matilda? Encantada. Le voy a hacer una pregunta que quizás le parezca un poco rara, pero entiendo que ya ha fregado todo el ala hasta este punto. Bueno, no me ha"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1229.97,
+    "end": 1231.21,
+    "text": "dado tiempo, estamos empezando."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1233.19,
+    "end": 1237.36,
+    "text": "Verá, he podido notar que hay unas gotitas de sangre aquí en el suelo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1237.38,
+    "end": 1244.64,
+    "text": "¿Ah, sí? No me he dado cuenta. Yo es que friego ahí pim pam pim pam a saber, yo no quiero saber lo que hay en el suelo."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1248.67,
+    "end": 1249.91,
+    "text": "Pues hasta aquí mi pregunta, Matilda. Muchísimas"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1249.93,
+    "end": 1253.63,
+    "text": "gracias que tengamos venido. Vale, pues nada, muy maja."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1254.27,
+    "end": 1264.15,
+    "text": "Vale, el raspón del suelo de la madera está hecho por un golpe, rayado con alguna cosa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1265.37,
+    "end": 1268.87,
+    "text": "Parece ser que la silla raspó la madera al moverse violentamente."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1269.41,
+    "end": 1273.15,
+    "text": "Claro, por eso cambia la profundidad de la henditura."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1273.69,
+    "end": 1280.09,
+    "text": "¿No hay ninguna pertenencia del becario? ¿El bolso o así de...? Su cabeza."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1280.71,
+    "end": 1280.85,
+    "text": "No"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1281.07,
+    "end": 1297.62,
+    "text": "hay nada. Y analizo también la librería para ver si también el profesor tiene algún... Encontramos un arma en otro sitio y igual tiene otros papeles escondidos. Adid ya ha tirado una"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1297.66,
+    "end": 1315.83,
+    "text": "buena tirada de descubrir. Yo no os voy a pedir... Para la vida, para que avancemos en esto, yo no te voy a pedir tres ni cuatro. O sea, uno ha tirado un libro, otro ha tirado descubrir. Yo digo así, así podemos ahorrar tiempo a la gente que nos está viendo. ¿Qué os parece si le preguntamos"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1315.87,
+    "end": 1326.86,
+    "text": "al guardia de seguridad si Eso estaba pensando. Claro, le comento si escuchó algo o si finalmente salió"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1327.44,
+    "end": 1329.92,
+    "text": "esa persona. En el turno de noche en principio."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1330.18,
+    "end": 1333.01,
+    "text": "Sí, pero si pasó algo seguro que hablarían, se lo podrían contar. Si es que ahora"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1333.05,
+    "end": 1336.29,
+    "text": "de mañana, si Tom vio algo por la noche se lo habrá dicho."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1337.75,
+    "end": 1340.99,
+    "text": "Vale, pues vas para allá Lili, bueno vais todos supongo."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1341.21,
+    "end": 1347.26,
+    "text": "Le pido a la limpiadora que no limpie la sangre y que no entre en el despacho."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1348.01,
+    "end": 1355.52,
+    "text": "Más fácil todavía. Cojo las llavecitas de detrás y salimos, cierro la puerta con llave y me guardo la llave. Vale, pues le"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1355.58,
+    "end": 1358.26,
+    "text": "pido que no limpie la sangre en concreto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1360.0,
+    "end": 1364.64,
+    "text": "No sé, señorita, pues usted quién es. O sea, yo tengo que limpiar."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1365.74,
+    "end": 1380.48,
+    "text": "Sí, sé que tiene que limpiar, pero es posible que esta sangre sea por... algún suceso, no sé si un robo o algo. Entonces, antes de limpiarla, creo que deberíamos avisar a las autoridades para que lo puedan investigar."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1380.7,
+    "end": 1388.68,
+    "text": "Tira a persuadir, a ver si una señora random convence a Matilda de que no friegue. Matilda ha fregado todos los días aquí. De todas maneras,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1389.03,
+    "end": 1391.21,
+    "text": "solo había una gotita afuera, ¿no? Habías dicho..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1391.65,
+    "end": 1392.73,
+    "text": "Varias. No, gotitas,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1392.8,
+    "end": 1393.08,
+    "text": "tres"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1393.12,
+    "end": 1401.11,
+    "text": "gotitas. Y si le digo que soy profesora de la Universidad de Oxford, porque era Oxford, ¿no? Y tiro el decade rating."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1401.21,
+    "end": 1408.8,
+    "text": "Tú eres estadounidense, ¿vale? Ya, pero bueno. Tú trabajas en la Universidad de Boston. Bueno, ¿qué te vas a mentir? Pues entonces tira a echar la"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1408.82,
+    "end": 1417.79,
+    "text": "tarea. No, no le voy a mentir. Le iba a decir la verdad en plan de yo soy profesora de la universidad y yo qué sé por si podía tirarme"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1418.95,
+    "end": 1420.75,
+    "text": "el... A ver, merece"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1420.79,
+    "end": 1425.41,
+    "text": "persuadir, ¿no? Persuadir, vamos a intentar."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1425.45,
+    "end": 1427.41,
+    "text": "Aquí hay una persona perdida de sangre y tenemos que recuperarla."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1427.47,
+    "end": 1432.23,
+    "text": "Venga, claro que sí. Un 91, un 89... Mientras friega"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1432.31,
+    "end": 1442.85,
+    "text": "las gotitas. Mientras friega. Tú le ves como friega las gotitas. Yo lo siento, señor. Ya hable con los de abajo. Gracias, Martina. No me da tiempo, nada. Hasta luego."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1443.67,
+    "end": 1445.51,
+    "text": "Adiós."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1445.57,
+    "end": 1448.79,
+    "text": "Y Lili, tú bajas a la garita, ¿no? Para hablar con el guarda."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1449.09,
+    "end": 1452.6,
+    "text": "Buenos días, Fred. Te he traído un croissant."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1453.0,
+    "end": 1456.52,
+    "text": "Y sí, me vas a pedir algo porque ya me ha dicho Tom que bueno..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1459.26,
+    "end": 1466.85,
+    "text": "No te voy a pedir nada. Tú te has dicho que vine por la noche. No, por eso te traje el croissant. Se lo pongo ahí encima. Ah, el"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1466.89,
+    "end": 1473.36,
+    "text": "croissant para mí. Vale, pues nada. Es bueno, ¿eh? Esto ya por la noche no vale nada, pero ahora mismo..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1476.94,
+    "end": 1500.44,
+    "text": "Fuimos al despacho a buscar al profesor, pero todavía no ha venido, no creo que venga hoy, siendo sábado. Pero su aprendiz, Steven, ¿sabes? El gordito este que siempre viene con la pajarita aquí muy apretada. ¿Se ha dejado el café encima de la mesa y demás? No. Me pareció un poco que dejara el despacho abierto y eso muy mal por su parte."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1500.85,
+    "end": 1539.21,
+    "text": "La verdad es que sí. Estaba Tom también que entrenaba y dice «Ven una noche, primero la loca…» Vamos, primero una que vino, ¿sabes? Una señora random que vino. Y luego el hombre este… ¿Qué? Es lo que dijo él. A ver, estaba un poco enfadado, pero luego dijo que si hiciste la paz, estaba que… Esperaba tu café. Digamos que primero tuvo ese desacuerdo contigo, Lili. Y después el becario dice que no sabe por dónde ha salido, porque no le ha visto salir, tuvo que ir para allá y al final dejó las cosas manga por hombre. Que él dice, yo lo dejo igual, para que cuando venga el profesor lo vea. Así que menuda noche, Lili, menuda noche."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1539.27,
+    "end": 1540.33,
+    "text": "O sea, que no lo vio salir."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1541.01,
+    "end": 1541.09,
+    "text": "No."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1542.05,
+    "end": 1544.89,
+    "text": "Se habrá quedado dormido en algún hueco"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1544.93,
+    "end": 1547.85,
+    "text": "de... Estos estudiantes están borrachos."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1548.19,
+    "end": 1557.74,
+    "text": "Imagínate que el café se le cae encima de los libros del profesor. Es que, de verdad. Sabía que tenía que hablar con él ayer. Bueno, en fin. Disfruta del croissant, Fred."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1558.82,
+    "end": 1562.98,
+    "text": "Gracias. Está fresquito, ¿eh? No, está delicioso. Muy bueno."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1564.51,
+    "end": 1573.32,
+    "text": "Me giro y voy junto a ellos. No ha salido, no sabe nada. Pero es que se nos acaban los sitios donde"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1573.6,
+    "end": 1577.37,
+    "text": "buscar. Bueno, siempre tenemos, siempre nos quedará Casablanca."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1578.12,
+    "end": 1586.37,
+    "text": "Vachamos a la comisaría, aunque no les digamos que pensamos que la gente desaparece, ¿sabéis? Nos van a tomar por... gente de"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1586.39,
+    "end": 1587.95,
+    "text": "psiquiatría. Los"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1587.97,
+    "end": 1588.05,
+    "text": "que"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1588.09,
+    "end": 1596.05,
+    "text": "somos. Sí, pero no hace falta que lo sepan. Pero antes de eso, yo os he ido diciendo, tenemos el gorrito que igual pueden llegar a pensar que nosotros somos..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1597.49,
+    "end": 1601.07,
+    "text": "El gorrito, yo dije que estaba en la habitación de Alex Coxen, ¿es cierto?"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1604.24,
+    "end": 1612.12,
+    "text": "No lo he cogido en principio. Supongo que lo habré mirado esta mañana a ver si había habido algún cambio. Son ambas cartas debajo. Entiendo que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1612.3,
+    "end": 1618.39,
+    "text": "no. Igual, solo por saber. Estando en la habitación podemos dejar eso por si acaso, luego es necesario. Lo he"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1618.41,
+    "end": 1620.75,
+    "text": "dejado encima de la mesa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1620.77,
+    "end": 1626.63,
+    "text": "Perfecto, ahí está con tu fezo. No pierdo la fe."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1631.24,
+    "end": 1633.32,
+    "text": "Vamos a hablar con el comisario. Yo"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1634.9,
+    "end": 1645.97,
+    "text": "no sé qué más hacer aquí. A lo que me refiero es, Alex, que no creo que pase nada, pero igual que luego nos investiguen y que piensen que... ¿Qué"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1646.03,
+    "end": 1652.34,
+    "text": "van a pensar? Si el gorro es un fez. Yo vengo del Cairo. Mi novio es..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1653.86,
+    "end": 1656.84,
+    "text": "Es un zombi. Es un zombi."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1657.2,
+    "end": 1663.3,
+    "text": "Mi novio ha pasado mucho tiempo en el Cairo. Yo no creo que sea sospechoso. Vamos."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1663.36,
+    "end": 1666.48,
+    "text": "Mi novio vive en el Cairo y me trae feces. Pues ya está."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1666.62,
+    "end": 1668.1,
+    "text": "Nosotros"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1668.12,
+    "end": 1669.14,
+    "text": "estamos..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1669.18,
+    "end": 1669.34,
+    "text": "Vamos"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1669.4,
+    "end": 1669.7,
+    "text": "a ver a"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1669.98,
+    "end": 1676.28,
+    "text": "Ian Fleming. No me lo traes siempre, me lo trae a feces. Bueno, ya,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1676.3,
+    "end": 1714.17,
+    "text": "ya. Vamos a dejarlo. ¿No? Vais a Scotland Yard. Perfecto. Pues vais ahí en vuestra investigación a través de Londres y pasáis pues este magnífico árbol que da a ese edificio pues realmente histórico, ¿no? De Yard. Y bueno, pues llegáis allí y, bueno, he mostrado el post, os preguntan, claro, que... Sí, bueno, buenos días. ¿Qué puedo ayudarles? Un Bobby, un inspector, perdón, un policía de uniforme."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1716.42,
+    "end": 1728.38,
+    "text": "Queríamos hablar con el señor Fleming porque tenemos información sobre un caso que él está investigando. Lo hemos leído en las noticias del señor Mehmet Maykran, creo que se llama."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1730.43,
+    "end": 1745.51,
+    "text": "Ah, sí, sí. Siéntese ahí, por favor. Y ves que hay unos bancos, tal, que hay un tipo vestido de payaso, otro una señora con gatos y un montón de gente que parece que viene a hablar de lo mismo, que tiene información del caso."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1748.04,
+    "end": 1750.28,
+    "text": "Yo me siento muy recatadamente y dejo a los hombres"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1750.7,
+    "end": 1762.63,
+    "text": "hablar. Vale, bueno, sentáis ahí. He visto, son 15, son 15, son 15 y todos tienen ese bigote."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1765.12,
+    "end": 1769.12,
+    "text": "Les digo, si quieren hacer otra cosa mientras tanto, creo que esto va a llevar un tiempo."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1769.66,
+    "end": 1776.78,
+    "text": "A lo mejor lo que tenemos que hacer es"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1776.88,
+    "end": 1779.11,
+    "text": "ser un poquitito más"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1779.14,
+    "end": 1790.67,
+    "text": "persuasivos. Atención los prejuicios que voy a soltar. Pero aquí tenemos a un señor vestido de payaso, tenemos a una señora con gatos que no parece estar muy bien de la cabeza. Un"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1790.69,
+    "end": 1792.13,
+    "text": "hombre con bombín, no olvidemos."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1793.07,
+    "end": 1796.03,
+    "text": "Ah, bueno, el hombre con bombines se me había olvidado. Es que ha pasado dos"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1796.05,
+    "end": 1797.15,
+    "text": "veces. Tío,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1797.21,
+    "end": 1802.32,
+    "text": "porque yo soy profesora de universidad, tú eres ingeniero."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1802.9,
+    "end": 1809.04,
+    "text": "Sí, y además también tengo mi carrera de la Universidad de Chicago. Prejuicios, clasismo..."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1809.1,
+    "end": 1816.15,
+    "text": "Totalmente. ¿Me he dejado algo? Entonces a lo mejor Podéis tirar"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1816.23,
+    "end": 1825.92,
+    "text": "crédito Podéis intentar Lo que está diciendo Alex Coxen según las reglas de este juego Sería tirar de crédito Yo soy tal y cual ¿Quién va a hacer eso? Pues yo tengo dos Yo tengo 60"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1825.94,
+    "end": 1829.68,
+    "text": "me parece"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1831.02,
+    "end": 1835.86,
+    "text": "Yo en cuanto lo encuentre Fantástico Credit rating"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1836.96,
+    "end": 1843.06,
+    "text": "Lo intento yo también Yo tengo menos Bueno. Toma."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1843.08,
+    "end": 1844.0,
+    "text": "Vais todos ahí a hablar."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1844.36,
+    "end": 1851.99,
+    "text": "Usted no sabe que soy yo. Yo, yo. ¿Pero te has tirado? Es que han sonado dos pim-pim, ¿no?"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1852.01,
+    "end": 1853.29,
+    "text": "No, no he tirado, todavía no."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1853.61,
+    "end": 1854.89,
+    "text": "Ah, vale, vale."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1854.93,
+    "end": 1856.57,
+    "text": "Si es que no va a haber más. Vale, pues tú"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1856.75,
+    "end": 1863.58,
+    "text": "vas para allá y les dices, perdón, yo soy la profesora de Universidad de Boston, tal y cual. Claro, a saber, se"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1863.6,
+    "end": 1866.66,
+    "text": "lo digo, sí, así, grande, soy... Soy"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1866.7,
+    "end": 1867.44,
+    "text": "profesora de..."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1868.75,
+    "end": 1876.14,
+    "text": "Mi nombre es Alex Coxen, soy profesora en la Universidad de Boston y bueno, querría hablar con el, ¿es oficial?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 1876.46,
+    "end": 1878.62,
+    "text": "Con el señor"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1878.66,
+    "end": 1890.63,
+    "text": "Fleming, con el inspector Fleming. No me importa esperar, por supuesto, si tuviera que esperar, pero de verdad creo que la información que tengo es relevante."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1893.93,
+    "end": 1914.98,
+    "text": "Y el hombre te mira de rebajo y dice, bueno, espere aquí, señora. Y pues nada, se va para adentro y ves que vuelve con un hombre bigotudo, su peinado a raya, y pues se acerca y hace, el policía se acerca y dice, por favor, ese es el inspector Fleming, vayan a su oficina."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1915.02,
+    "end": 1915.64,
+    "text": "Muchísimas gracias."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1915.66,
+    "end": 1916.76,
+    "text": "Gracias, señor. Y voy detrás"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1921.96,
+    "end": 1922.35,
+    "text": "de ellos."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 1923.37,
+    "end": 1923.97,
+    "text": "Vale,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1925.05,
+    "end": 1939.19,
+    "text": "pues vais los cuatro, os sentáis en la oficina un poquito atestada de Fleming y dices, buenas, mi nombre es Weyland Fleming. ¿Con quién tengo el placer de estar hablando?"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1941.59,
+    "end": 1955.8,
+    "text": "Buenas tardes, señor Fleming. Mi nombre es Alex Coxen. Conmigo están Isaac Taylor y la señorita Lili"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1956.32,
+    "end": 1961.08,
+    "text": "Benner. Soy"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1961.1,
+    "end": 1963.5,
+    "text": "de aquí de Londres, señor."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 1963.52,
+    "end": 1966.44,
+    "text": "Es verdad, no había notado su acento de Yorkshire."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1968.68,
+    "end": 1976.29,
+    "text": "Hay muchas granjas bonitas allí. Debería de pasarse y tomar un poco de leche recién ordeñada. Señorita Coxen, por favor."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 1977.55,
+    "end": 1996.81,
+    "text": "No, aquí podemos hablar todos. En realidad hemos venido a hablar con usted porque creemos que podemos tener información relevante del caso que ha salido esta mañana en las noticias. Bueno, ayer estuvimos en la cena. de gala del profesor..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 1997.21,
+    "end": 2001.81,
+    "text": "¿Harris? Julius Smith. Fue una conferencia muy importante, señor."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2003.25,
+    "end": 2007.44,
+    "text": "Y entre los... El ámbito académico. ¿Dónde dio esa conferencia?"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2008.94,
+    "end": 2013.38,
+    "text": "En Imperial Class. Eso es, en Imperial Class. Y allí vimos..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2013.44,
+    "end": 2015.86,
+    "text": "Dentro de las conferencias del Círculo Challenger."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2016.94,
+    "end": 2030.12,
+    "text": "Efectivamente. Y entre el público, uno de los asistentes vimos a uno de los sospechos. Vamos, no sabemos si creemos que no es ninguno de los fallecidos que han salido."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2030.14,
+    "end": 2034.92,
+    "text": "¿Vieron a uno de los sospechosos o a uno de los fallecidos? Uno de los"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2034.94,
+    "end": 2035.61,
+    "text": "fallecidos. Bueno, es"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2035.68,
+    "end": 2038.95,
+    "text": "difícil decirlo, todos se parecen mucho. No"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2038.97,
+    "end": 2043.31,
+    "text": "sabemos a qué hora fue, no podemos decir a qué hora vimos, pues si puede ayudar en la investigación."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2044.42,
+    "end": 2055.67,
+    "text": "Sí, a esa hora, si hubiera sido, que no me ha quedado claro, ahora me lo aclaran, una de las víctimas, pues podría haberle dado tiempo a volver al Hotel Chelsea y ser asesinado allí."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2056.27,
+    "end": 2073.28,
+    "text": "Realmente no sabemos si fue una de las víctimas porque, como usted comprenderá, no hemos podido ver los cuerpos. Lo que sí que nos hemos percatado es de que todos tienen un gran parecido físico y estamos seguros de que si no fue uno de los fallecidos, desde luego es alguien que tiene relación con el casco."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2073.74,
+    "end": 2076.5,
+    "text": "Perdón, en el periódico solo salía una foto de un cadáver."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2077.1,
+    "end": 2081.44,
+    "text": "Sí, apareció mucho y luego visteis, ah, no, no es el mismo, pero tenía el bigotazo. Solo hemos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2081.5,
+    "end": 2084.86,
+    "text": "visto la foto que salió en el periódico, señor. Dicen"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2084.9,
+    "end": 2098.47,
+    "text": "que vieron a una persona allí en el Imperial Club que se parecía bastante a la foto que apareció en el periódico. ¿Podrían decirme cómo iba vestido ese hombre? De hecho, todo lo que supiera de él, nacionalidad, nombre..."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2099.25,
+    "end": 2101.95,
+    "text": "Se lo describo de arriba abajo porque lo he tenido de frente."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2103.25,
+    "end": 2108.53,
+    "text": "Vale. Y tú, además, tú le podrías decir, tú le oíste hablar. Y tú, a ti, te dirías que es turco."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2110.39,
+    "end": 2117.52,
+    "text": "Por el acento que tenía y la forma de hablar, era una persona de nacionalidad turca, lo más probable."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2117.54,
+    "end": 2121.0,
+    "text": "Bueno, creo que también lo ponía en el artículo, así que tampoco es que le estoy dando información nueva."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2124.55,
+    "end": 2125.21,
+    "text": "Tenía un fez de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2125.23,
+    "end": 2127.31,
+    "text": "color rojo. El tipo mira y como..."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2128.24,
+    "end": 2129.72,
+    "text": "¿Olía tabaco o algo así?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2131.24,
+    "end": 2149.49,
+    "text": "Yo estuve muy cerca. No, no, no olía tabaco. Olía a limpio, pero ya está. Bien, pues eso es lo único que saben de él. Bueno, aprecio su talante colaborador. Y el profesor"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2149.53,
+    "end": 2151.03,
+    "text": "parecía estar muy asustado."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2152.67,
+    "end": 2164.32,
+    "text": "El profesor Julius Smith, de la Universidad de Londres, me dicen, ¿creen ustedes que conocía a este hombre del FED, este otro imposible mechmacriat?"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2165.43,
+    "end": 2177.24,
+    "text": "De hecho, estamos preocupados porque no sabemos nada del profesor y no sabemos si tiene algo que ver o no tiene que ver esto, pero estamos muy preocupados porque él se asustó cuando hablamos de esta persona."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2177.28,
+    "end": 2199.95,
+    "text": "Inspector Fleming, soy la enfermera del profesor Smith y estoy segura de que él reconoció la descripción del señor Macriach y de hecho palideció y se puso nervioso e inmediatamente se fue del lugar. Y no hemos vuelto a saber nada de él. De hecho, el señor Macri también se fue de una manera bastante sospechosa. Quiero decir, se fue también corriendo y apurado. No sé, fue todo muy extraño."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2202.87,
+    "end": 2225.14,
+    "text": "Bueno, lo que dicen puede ser relevante para la investigación. Voy a... No sé, señoritas, si tienen ustedes... copiar esto o no, pero tengo pensado enseñarles las tres fotos de los hombres muertos por si son iguales."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2226.68,
+    "end": 2230.74,
+    "text": "Le agradezco la diferencia, pero sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2230.78,
+    "end": 2245.43,
+    "text": "El hombre abre un cajón y ves que ahí está el dosier del caso y saca tres fotografías, las fotos de los tres cadáveres, todos muy parecidos, todos distintos, todos muy parecidos al hombre que visteis, pero ninguno es exactamente el hombre que visteis."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2246.61,
+    "end": 2251.39,
+    "text": "Es muy parecido al hombre que vimos, pero no es ninguno de estos. ¿De"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2251.43,
+    "end": 2254.59,
+    "text": "qué fallecieron? ¿De qué se ve en las fotos?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2256.77,
+    "end": 2262.38,
+    "text": "Puñaladas en el corazón. Creo que mortal de necesidad. El tipo guarda las fotos, cierra el cajón."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2264.08,
+    "end": 2280.07,
+    "text": "Quiero evaluarle... Para saber hasta qué punto es un tipo que si le hablo de que le vi desaparecer, si me va a tomar por loca o si... ¿Sabes? O sea, quiero... A ver, me explico. Creo que hay que"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2280.09,
+    "end": 2285.26,
+    "text": "evaluar a la gente para eso. A ver, este hombre si le digo que la gente desaparece de la nada me tomará por loca..."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2285.91,
+    "end": 2286.95,
+    "text": "No, porque a lo"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2287.03,
+    "end": 2290.94,
+    "text": "mejor... ¿Usted qué opina de los Sagitario? A ver,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2290.96,
+    "end": 2317.74,
+    "text": "me voy a explicar, ¿vale? Tengo mi razonamiento. Porque si es una persona que lleva todo el día escuchando testimonios y muchos de los testimonios se parecen diciendo, lo hemos visto desaparecer o ha habido algo raro o, ¿sabes? Si de repente yo veo que esta persona nos está creyendo o no y le planteo esto, pues tengo más posibilidad de que... de que me tome..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2317.76,
+    "end": 2321.52,
+    "text": "Puedes tirar psicología y yo te digo lo que puedes leer de este hombre. O"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2321.58,
+    "end": 2324.74,
+    "text": "de quedar igual de loca que los demás."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2324.76,
+    "end": 2329.91,
+    "text": "Las sospechas que son hermanos, inspector Flemming."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2329.93,
+    "end": 2380.63,
+    "text": "Estamos barajando varias hipótesis. Vale, pues... A ver, es un policía y es experto en poner cara de poker. Tú ves que el hombre... Le han hablado vosotros, el otro quedó impresionado por tus creencias y ha dicho, no, estos no son unos tarados, son gente tal. Ves que, como está hablando con vosotros, ve que sois personas educadas, inteligentes, que le estáis dando una cosa más o menos coherente, pero tú ves que él es un policía. Su trabajo es recibir información y nunca darla. Tú ves que cada vez que le preguntáis algo, pues responde con evasivas o con cosas tal y cual. Entonces... Ni se fía ni se deja de fiar. Está apuntando lo que decís, tú le ves profesional, tú crees que comprobará, tú crees que este hombre es el típico que comprobará a Julius Smith, comprobará todo, pero por ahora podéis ser simplemente unos que han visto una noticia en el periódico y que creen que vieron un turco que se parecía a tal. Entonces, le ves así, le ves un poco neutro."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2381.26,
+    "end": 2389.39,
+    "text": "Cuando ha sacado las fotos hemos podido ver algo, aunque sea de refilón, en"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2389.43,
+    "end": 2403.25,
+    "text": "el informe. Ah, en el informe. Ha visto un sobre de color manila y yo creo que... ¿Quieres tirar un descubrir éxito extremo? Venga, tira un descubrir éxito extremo. Lo intento. ¿Quieres éxito extremo? Así que te"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2403.31,
+    "end": 2404.51,
+    "text": "ligaste a Howard."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2404.55,
+    "end": 2409.99,
+    "text": "Te ligas al sobre. Aquí nació el amor."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2411.84,
+    "end": 2416.46,
+    "text": "Más vale que sobre que no me falte."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2416.88,
+    "end": 2421.49,
+    "text": "Como este. Oye, sacar tantos noventas no desbloquea el logro o algo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2421.57,
+    "end": 2458.75,
+    "text": "Claro. Si tú le dices al Taylor, entonces lo has sacado de ese sobre azul dentro del armario. Si no, un sobre manila en el este. Bueno. Vale, y el hombre dice, muy bien, si es toda la información que pueden darme, siento ser tan expeditivo, pero tenemos un montón de testigos y un montón de... de declaraciones que tomar. Segunda pregunta. Me da su tarjeta a la señora Coxen. Se pueden llamarme este número si tienen alguna duda más. Dígame, dígame. Una última"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2458.85,
+    "end": 2473.84,
+    "text": "pregunta que me surge la duda que todos vayan igual y se parezcan mucho. ¿Cree usted, se ha barajado la posibilidad de que sea una banda organizada en la ciudad o no se ha dado ningún caso de Estamos en"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2473.86,
+    "end": 2477.58,
+    "text": "un estadio muy preliminar de la investigación como para llegar a esas conclusiones. Sí, bueno,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2477.6,
+    "end": 2487.61,
+    "text": "le llamaremos más adelante porque estamos preocupados por el señor, el profesor, por si nos puede"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2488.31,
+    "end": 2509.9,
+    "text": "ayudar. Creo que han inferido que el profesor está desaparecido, pero bueno, saben que hasta que no haya pasado un tiempo prudencial o tengamos unas pruebas de que ese profesor haya podido desaparecer de verdad, pues yo no puedo hacer nada en esa investigación. Mi investigación... Se refiere a la del asesinato, tres asesinatos, creo que entenderán que es más importante por ahora que la posible desaparición de un profesor."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2513.16,
+    "end": 2518.9,
+    "text": "Miro a Isaac, a Dil y a Lili en plan de ¿se lo digo? Quizás."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2521.12,
+    "end": 2529.77,
+    "text": "Perdón, en el hotel donde se encontraron muertos, ¿les pudieron decir cuántos de esos han visto? Perdone,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2530.15,
+    "end": 2539.76,
+    "text": "pero no quiero ser desagradable, pero no entiendo por qué tendría que compartir detalles de una investigación en curso con testigos. ¿No es un poco así como funciona, señorita?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2541.12,
+    "end": 2544.49,
+    "text": "Tiene usted razón, inspector Fleming. No quería pecar de curiosa."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2545.67,
+    "end": 2554.49,
+    "text": "Entiendo, es una noticia, es curioso, es un evento relevante, pero me temo que yo no puedo dar esa información. Sí, yo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2554.61,
+    "end": 2561.06,
+    "text": "simplemente es porque estaba preocupada por el profesor y preguntaba cuánta gente podía ir detrás de él, pero no le quitamos más tiempo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2561.46,
+    "end": 2564.5,
+    "text": "Vuelva usted a casa, espere al profesor y seguro que acabará llegando."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2565.6,
+    "end": 2575.21,
+    "text": "Sí, le podemos pedir el favor, si acaso, esperemos que no, pero si acaso... ¿Le llegará alguna noticia relacionada con el profesor? ¿Nos la podría...?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2575.23,
+    "end": 2601.47,
+    "text": "Por favor, señora, la duda ofende. Por supuesto que sí. Dentro de mi investigación veo que esto tiene cualquier cosa remotamente que ver con el profesor Julio Smith. Seré yo el que contacte con ustedes. Si no les importa darles un dato a la gente... Ah, bueno, pues le da la tarjeta. Muy bien, señor Taylor. Pues contactaré con usted si eso pasa. Seré el más interesado del mundo en contactar con ustedes y veo que de verdad estas dos investigaciones tienen algo que ver."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2602.39,
+    "end": 2606.37,
+    "text": "De acuerdo. Pues muchas gracias por su tiempo y sigamos en contacto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2608.14,
+    "end": 2614.66,
+    "text": "Y nada, pues el tipo despacha, el otro lleva y salir de aquí. El payaso mira más porque sabe que se había colado, pero bueno."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2614.68,
+    "end": 2616.08,
+    "text": "¡Payaso!"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2617.77,
+    "end": 2621.23,
+    "text": "Me quedo mirando a los locos del banco en plan de... Pareciéramos como ellos."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2621.73,
+    "end": 2640.14,
+    "text": "Creo que deberíamos haberse lo dicho. Total, no... No hemos sacado nada ni necesitamos a este hombre para nada más a no ser que nos pueda dar información del caso. Para que nos dé información del caso necesitamos que confíe en nosotros. Ya sé que esto es algo arriesgado, pero ahora mismo no está compartiendo. Es algo arriesgado"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2640.16,
+    "end": 2644.04,
+    "text": "que puede coger y podemos cerrarlo directamente en la oportunidad. Claro,"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2644.06,
+    "end": 2649.79,
+    "text": "pero ¿qué más podemos conseguir de él? Ya nos ha dicho que no nos va a contar nada. Que nos eche y que"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2650.37,
+    "end": 2656.01,
+    "text": "no nos avise para nada más. O sea, no le puedes decir a un inspector de policía que estamos viendo gente desaparecer de la nada."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2656.29,
+    "end": 2657.61,
+    "text": "Pero ¿y si él también lo ha visto?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2659.71,
+    "end": 2662.23,
+    "text": "No me pareció que tuviera cara de haber visto nada paranormal."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2662.77,
+    "end": 2670.86,
+    "text": "No me pareció que tuviera cara de nada. Y seguramente cuando me conociste ayer, Lili, tampoco hubieras dicho que yo tenía cara de haber visto nada paranormal. Bueno, algo que"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2670.92,
+    "end": 2672.72,
+    "text": "olí, te he de decir."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2672.74,
+    "end": 2674.8,
+    "text": "¿Vais a seguir debatiendo en la entrada a"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2674.82,
+    "end": 2696.01,
+    "text": "estudiar? Yo diría, Alex, si quieres, para intentar conseguir más confianza con él, puedes decir, oye, quiero comentar una cosa a la imagen de mis compañeros y Y lo puedes intentar. Creo que igual es como más que si vamos todos en bloque. A mí me gustaría visitar la biblioteca. ¿Vas a"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2696.03,
+    "end": 2699.8,
+    "text": "hacer eso? ¿Vas a decir, perdone? ¿Ibas a ir tú sola o no? Yo creo"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2699.82,
+    "end": 2701.96,
+    "text": "que sí, lo voy a intentar. Total, no perdemos nada."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2701.98,
+    "end": 2709.02,
+    "text": "Pues el tipo estaba cerrando, tal, te dice eso, eso, perdone. Y dice, sí, perdone. Está el guardia a la puerta. Sí, señorita."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2709.61,
+    "end": 2714.59,
+    "text": "¿Le importa que pase un momentito al despacho? Necesitaría contarle un detalle"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2714.69,
+    "end": 2726.44,
+    "text": "más. Bueno, sí, sí, venga, pase. Llegas para allá, el tipo ya estaba metiéndose en cosas y te ve otra vez y dice, sí, señora Coxen, algo"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2726.52,
+    "end": 2726.7,
+    "text": "que se"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2726.78,
+    "end": 2727.28,
+    "text": "le ha olvidado."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2727.84,
+    "end": 2763.32,
+    "text": "Discúlpeme, no quiero interrumpirle. Estaba pensando si... Debería contarle esto o no, porque sé que puede ser algo controvertido y de hecho he decidido hacerlo cuando mis compañeros no estaban presentes porque tampoco sé cómo se lo pueden tomar ellos, pero considero importante que sepa, aunque me tome por loca, sé que lo que le voy a contar es muy extraño, pero juraría que ayer este señor desapareció, se esfumó de la nada."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2764.87,
+    "end": 2776.78,
+    "text": "El señor, estamos hablando de este posible Maikrat, sí, Maikrat Mehmet, desapareció. Usted le iba siguiendo, ha dicho, y desapareció delante de sus ojos. No"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2776.8,
+    "end": 2781.03,
+    "text": "le vi físicamente desaparecer, pero"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2781.05,
+    "end": 2785.13,
+    "text": "desapareció. Usted lo sintió, sintió que había desaparecido."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2785.92,
+    "end": 2793.33,
+    "text": "Le iba siguiendo por un pasillo largo y giró la esquina y al girar la esquina yo dos segundos después ya no estaba. Ya no"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2793.35,
+    "end": 2796.95,
+    "text": "estaba, le vio desaparecer, pero era imposible que hubiera llegado a ningún sitio."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2797.33,
+    "end": 2807.68,
+    "text": "Efectivamente, de hecho las huellas en la moqueta se interrumpían abruptamente. Créame, soy profesora de universidad de verdad que quizás..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2807.74,
+    "end": 2809.04,
+    "text": "Eso me ha dicho Thompson."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2809.66,
+    "end": 2820.78,
+    "text": "Soy la última persona que le gusta creer en estas cosas y por eso de verdad que me he planteado tanto si decírselo o no. Y seguramente estará pensando que soy una loca, pero..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2820.82,
+    "end": 2823.62,
+    "text": "No, yo no juzgo, yo solo escucho. Soy un agente de la ley."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2825.22,
+    "end": 2829.67,
+    "text": "No sé si ha escuchado algún caso parecido o algo..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2830.83,
+    "end": 2852.56,
+    "text": "Soy agente de policía de Londres, he escuchado muchas cosas. Este, como comprenderá, este caso tan mediático y que ya parece rozarlo extraño, ha traído un montón de testigos que me están contando cosas parecidas en un sentido u otro, pero originales todas. La suya también es muy original."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2854.72,
+    "end": 2875.96,
+    "text": "Bueno, espero no haberle molestado, incomodado o de verdad no quiero que piense que le estoy queriendo hacer perder el tiempo, pero... No, no, no. Bueno, simplemente quería que tuviera toda la información por si pudiera ayudarle en este caso, de verdad, que es algo muy importante."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2876.0,
+    "end": 2880.88,
+    "text": "Ya la tengo. Gracias, señora Coxen. Ahora sí me disculpa, el tío te abre la puerta."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2882.62,
+    "end": 2882.7,
+    "text": "Pues"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2882.76,
+    "end": 2888.1,
+    "text": "me voy. Llama a Thompson. Vale, y tú te vas. ¿Puedo tirar"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2888.12,
+    "end": 2890.26,
+    "text": "psicología antes de irme para ver si...?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2890.56,
+    "end": 2895.8,
+    "text": "Tira psicología, ¿vale? Tira psicología. ¡Jolines!"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2896.01,
+    "end": 2896.84,
+    "text": "¡Que ni una,"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2897.49,
+    "end": 2899.16,
+    "text": "eh! Tira a escuchar, tira a escuchar."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2899.3,
+    "end": 2905.57,
+    "text": "Está loca, está loca. A ver, escuchar..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2905.59,
+    "end": 2906.61,
+    "text": "A ver si te sale el escuchar."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2909.01,
+    "end": 2915.19,
+    "text": "No. Bueno, lo oigo, ¿verdad? Aunque no lo oiga, lo oigo."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2915.29,
+    "end": 2916.83,
+    "text": "Lo dices lo suficientemente alto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2916.99,
+    "end": 2932.84,
+    "text": "Yo, Alex Coxen, no lo oye, pero los demás que tenemos ahí un micrófono, oímos. Un trabajo tienes, Thompson. Un puñetero trabajo. Separar a los locos de los que no están locos. Cribarme a los testigos, Thompson."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2933.16,
+    "end": 2952.49,
+    "text": "Un puñetero trabajo. No te confíes, Thompson. Y me traes aquí a la troupe de los desaparecidos, del profesor no sé qué. Thompson, vas a estar patrullando las calles. Tus nietos van a estar patrullando las calles porque toda la guardia que vas a tener no la van a cubrir ni en tres generaciones."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 2953.39,
+    "end": 2953.63,
+    "text": "Ay,"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2953.65,
+    "end": 2960.25,
+    "text": "Dios mío. Había que intentarlo. Nos han tomado por locos, os lo dije."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 2961.37,
+    "end": 2967.11,
+    "text": "Nadie lo ha oído. Nadie lo ha oído. Alex Conce viene tan digna ella diciendo yo creo que sí."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2967.13,
+    "end": 2969.78,
+    "text": "Yo creo que ha funcionado. Yo creo que nos hemos ganado su confianza."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 2970.84,
+    "end": 2971.36,
+    "text": "Sí, has"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2971.38,
+    "end": 2972.92,
+    "text": "conseguido nueva información."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2974.78,
+    "end": 2979.99,
+    "text": "No, no, en Nueva Información sabía que no iba a conseguir, pero necesitaba intentar."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2980.87,
+    "end": 2981.49,
+    "text": "Mira, ¿sabéis"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 2981.53,
+    "end": 2983.25,
+    "text": "qué?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 2983.33,
+    "end": 3002.71,
+    "text": "Todo nos lleva a un callejón sin salida. En 12 horas hemos allanado la casa de mi profesor Smith. Habéis roto la puerta de su pobre mayor. Habéis robado su escopeta, habéis robado su pistola. Hemos intentado, hemos allanado su despacho."
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3005.19,
+    "end": 3007.09,
+    "text": "y ahora dice que estamos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3007.27,
+    "end": 3018.24,
+    "text": "locos en la comisaría de la ciudad y total vamos a llegar mañana y ya veréis como va a estar ahí al lado del señor Pelous con esa cara de pared que tiene siempre"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3018.74,
+    "end": 3026.89,
+    "text": "Lili, perdona que te moleste pero a que te hace sentir viva, esto es lo que tú querías conocer el mundo"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3027.15,
+    "end": 3033.53,
+    "text": "bienvenida no pensaba exactamente en esto pero desde luego será una historia que contar"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3035.32,
+    "end": 3042.47,
+    "text": "Ahora, si os parece, solo nos queda un sitio para fastidiarla, que es en la biblioteca del British Museum."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3043.13,
+    "end": 3045.87,
+    "text": "No robarás ningún libro del Museo Británico. Yo no he robado,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3046.19,
+    "end": 3049.03,
+    "text": "quitando la pistola, no he robado nada."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 3049.51,
+    "end": 3057.67,
+    "text": "No te sé que no me he llevado ningún libro de los que hablan de cositas que pueden ayudar a jugar. Cuidado, que estoy siendo respetuosa."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3058.12,
+    "end": 3065.64,
+    "text": "Vale, muy bien. ¿Qué pasa? Que estamos ya pensando en el siguiente. Como bien has comentado, que suele ir a la biblioteca bastantes veces."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3065.9,
+    "end": 3071.87,
+    "text": "Vais a ir al Museo Británico, que sabes que ahí sí que tenéis credenciales que os preparó el profesor, cuya casa ya no hay y tal."
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 3073.71,
+    "end": 3076.87,
+    "text": "Bueno, perdóname, que mi novio les ha llenado las arcas."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3078.55,
+    "end": 3083.48,
+    "text": "Todavía no. Todavía no. Eso es lo que dice Lory. ¿Qué pasará? Pero todavía no."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3084.82,
+    "end": 3086.01,
+    "text": "Vayamos a la"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3086.84,
+    "end": 3087.99,
+    "text": "biblioteca. Quizás allí encontremos"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3088.05,
+    "end": 3088.29,
+    "text": "algo."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3089.05,
+    "end": 3121.68,
+    "text": "Museo Británico. Llegáis para allá. Lili, tú tienes esas credenciales y a todos os las dio. Con lo cual, ahí sí que las podéis presentar. Eso sí, son credenciales para la sala de lectura. Ahí podéis pedir libros y tal. No podéis ir a eso. Si alguno de vosotros pregunta, evidentemente, si está el doctor Julius, el profesor Julius, tal y cual, os dicen que hace unos días que no... que hace dos días que no viene y que hoy no ha venido. Aún así, bueno, podéis"
+  },
+  {
+    "speaker": "SPEAKER_04",
+    "start": 3121.72,
+    "end": 3131.65,
+    "text": "pasar. Prometedme una cosa antes de entrar. No le diremos a más gente que vemos gente desaparecer o vemos luminarias."
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3131.67,
+    "end": 3151.76,
+    "text": "Me gustaría preguntar a los... A los bibliotecarios, que me ha sorprendido muchísimo. Además, siempre el profesor nos ha dado esta autorización sobre sus últimos descubrimientos, que si me podría orientar, ¿qué últimos libros ha estado mirando, consultando?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3155.31,
+    "end": 3164.25,
+    "text": "Bueno, no podemos compartir la información de los libros que consulta cada persona. Si usted es amigo del profesor, puede preguntárselo usted mismo. Sí,"
+  },
+  {
+    "speaker": "SPEAKER_03",
+    "start": 3164.27,
+    "end": 3171.85,
+    "text": "pero como no está el profesor, era por si acaso me podían ayudar, nada más. No es tampoco una información... La credencial da"
+  },
+  {
+    "speaker": "SPEAKER_07",
+    "start": 3171.93,
+    "end": 3181.06,
+    "text": "acceso a algo... ¿Esa en plan a la sección prohibida?"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3181.08,
+    "end": 3196.2,
+    "text": "No, la sala de lectura. Como tú eres una investigadora de la universidad, tú tienes tu carnet y tal, pues puedes pedir libros. Tú no puedes ir, pero puedes pedir libros que te traigan, digamos, a lo mejor alguno un poco más concreto de las áreas de investigación, etc."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3196.22,
+    "end": 3201.3,
+    "text": "¿Hay una sala de lectura? ¿Alguien conocido que hable con el profesor de vez en cuando? Sí."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3202.06,
+    "end": 3243.15,
+    "text": "Tú andas por allí y pues hay un tipo, a ver, que te llama la atención, porque está en la sala de lectura y hay un tipo así como recostado en una de las sillas con su sombrero encima. Llevar el sombrero bajo techo es una falta de respeto grandísima. Está el hombre ennucao con el sombrero encima. Como dormido, ¿vale? Como si se hubiera puesto el sombrero para dormir, como en las películas del oeste. Y tú jurarías que es el sombrero verde de tafetana hortera que llevaba el becario de Smith. ¿Steven?"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3246.41,
+    "end": 3251.63,
+    "text": "Me acerco. ¿Solo está él en la sala de lectura o hay más gente leyendo? No, en la sala de"
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3251.65,
+    "end": 3274.5,
+    "text": "lectura está un montón de gente. Es sábado y no hay tanta gente, pero está esto abierto. Vamos a ver. Y pues nada, está el hombre. Se llama Richard, de todas maneras. Tú le llamas Stephen porque, bueno, tenéis... Richard. Richard. Richard. Richard. Ni caso te hace. De hecho, cuando te acercas, notas un olor potente a sangre."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3277.53,
+    "end": 3280.73,
+    "text": "Vale, antes de tocarle miro su pecho a ver si respira."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3281.63,
+    "end": 3287.5,
+    "text": "No respira. Ese hombre no está dormido. Ese hombre tiene el rictus de la muerte."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3289.29,
+    "end": 3291.13,
+    "text": "Levanta el sombrero."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3291.27,
+    "end": 3331.28,
+    "text": "Levantas el sombrero y tú no sabes si lo que debería estar ahí es la cara de Richard. Porque lo que es una cara desollada. Alguien le ha arrancado la piel y se ven esos dientes, esos ojos, esos músculos, esa sangre quemada. Cuando le quitas el precario equilibrio en el que se mantenía, se deshace, cae la silla al suelo, cae el cadáver al suelo. Todo el mundo mira esa cara, esos ojos con ese sombrero que tienes todavía en la mano de un muerto desollado en la biblioteca del Museo Británico. Tira cordura antes de nada."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3333.72,
+    "end": 3335.48,
+    "text": "Correcto."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3335.84,
+    "end": 3342.18,
+    "text": "Me parece correcto."
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3342.2,
+    "end": 3342.52,
+    "text": "Éxito."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3344.73,
+    "end": 3348.9,
+    "text": "Mira, vaya, pues al final... Esas cosas no me sorprenden los"
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 3348.94,
+    "end": 3349.98,
+    "text": "sombreros, pero..."
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 3352.59,
+    "end": 3408.75,
+    "text": "vale, pierdes un punto de cura vale, eres enfermera, has visto cosas peores y vamos a decir que como consigues no pegas el grito, deberías haber pegado a la biblioteca porque te mantienes vale, sí que miras para atrás, ves a tus compañeros que claro han oído ese golpetazo, la silla ha caído tal y veis el cadáver tirado en el suelo, la gente se levanta, viene para allá ¿qué es lo que le ha pasado a Richard Stephen? ¿Qué es lo que le ha pasado al profesor? ¿Por qué es imposible encontrarle? ¿Y por qué Thompson no sabe distinguir a los locos de los cuerdos? ¿Seguirá patrullando las calles? ¿Lo harán sus nietos? No sé si lo sabremos dentro de siete días, pero dentro de siete días volveremos aquí a la mazmorra de Pacheco con horror en el Orient Express. Todavía no se han subido al tren y ya la han liado pardísima. Así que, pues nada, en siete días veremos un tren. No lo sé, yo creo que no. Adiós. Adiós."
+  }
+]
