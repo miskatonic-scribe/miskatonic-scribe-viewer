@@ -29,6 +29,8 @@ import streamlit as st
 try:
     import dashboard.visualizations.investigator_stats as _inv_stats_mod
     importlib.reload(_inv_stats_mod)
+    import dashboard.visualizations.offtopic as _offtopic_mod
+    importlib.reload(_offtopic_mod)
     from dashboard.visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
@@ -54,6 +56,8 @@ try:
 except ImportError:
     import visualizations.investigator_stats as _inv_stats_mod
     importlib.reload(_inv_stats_mod)
+    import visualizations.offtopic as _offtopic_mod
+    importlib.reload(_offtopic_mod)
     from visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
