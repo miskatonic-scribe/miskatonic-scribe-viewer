@@ -22,10 +22,13 @@ if str(_PROJECT_ROOT) not in sys.path:
 
 import pandas as pd
 import plotly.express as px
+import importlib
 import plotly.graph_objects as go
 import streamlit as st
 
 try:
+    import dashboard.visualizations.investigator_stats as _inv_stats_mod
+    importlib.reload(_inv_stats_mod)
     from dashboard.visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
@@ -49,6 +52,8 @@ try:
     from dashboard.visualizations.campaign_evolution import render_campaign_evolution_section
     from dashboard import navigation
 except ImportError:
+    import visualizations.investigator_stats as _inv_stats_mod
+    importlib.reload(_inv_stats_mod)
     from visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
@@ -563,14 +568,24 @@ def load_campaign_investigator_stats(campaign_id: str) -> dict[str, Any]:
         cr = load_critical_rolls(sid)
         ce = load_combat_events(sid)
         dial = load_session_dialogs(sid)
-        s_stats = build_session_investigator_stats(
-            characters=chars,
-            sanity_events=se,
-            critical_rolls=cr,
-            combat_events=ce,
-            clues=cl,
-            dialogs=dial,
-        )
+        try:
+            s_stats = build_session_investigator_stats(
+                characters=chars,
+                sanity_events=se,
+                critical_rolls=cr,
+                combat_events=ce,
+                clues=cl,
+                dialogs=dial,
+            )
+        except TypeError:
+            # Fallback defensivo si el contenedor mantiene una versión previa en memoria (hot-reload)
+            s_stats = build_session_investigator_stats(
+                characters=chars,
+                sanity_events=se,
+                critical_rolls=cr,
+                combat_events=ce,
+                clues=cl,
+            )
         session_stats_list.append(s_stats)
         session_stats_map[sid] = s_stats
 
