@@ -55,6 +55,9 @@ try:
     import dashboard.visualizations.welcome as _welcome_mod
     importlib.reload(_welcome_mod)
     from dashboard.visualizations.welcome import render_welcome_banner
+    import dashboard.visualizations.footer as _footer_mod
+    importlib.reload(_footer_mod)
+    from dashboard.visualizations.footer import render_footer
     from dashboard import navigation
 except ImportError:
     import visualizations.investigator_stats as _inv_stats_mod
@@ -64,6 +67,9 @@ except ImportError:
     import visualizations.welcome as _welcome_mod
     importlib.reload(_welcome_mod)
     from visualizations.welcome import render_welcome_banner
+    import visualizations.footer as _footer_mod
+    importlib.reload(_footer_mod)
+    from visualizations.footer import render_footer
     from visualizations.swimlane import (
         build_speaker_metadata,
         get_participant_label,
@@ -1279,6 +1285,9 @@ def main() -> None:
             render_session_view(cur_sess, camp_info, camp_episodes)
         else:
             st.info("Selecciona un episodio en el árbol lateral para ver sus analíticas.")
+
+    # 4. Pie de página legal y licencia Creative Commons (Spec 23)
+    render_footer(st)
 
 
 if __name__ == "__main__":
