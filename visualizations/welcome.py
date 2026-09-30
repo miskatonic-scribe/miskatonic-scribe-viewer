@@ -56,13 +56,3 @@ def render_welcome_banner(st: Any, campaign_title: str | None = None) -> None:
                 - 🎭 **Clima de Mesa e Inmersión:** Explora el balance entre los momentos de ficción y los descansos informales de humor que hacen tan única vuestra mesa.
                 """
             )
-
-        with st.expander("ℹ️ Metodología y Transparencia Tecnológica"):
-            st.markdown(
-                """
-                - **Origen de los datos:** Todo el análisis se genera procesando **única y exclusivamente los vídeos públicos** de YouTube del canal oficial de [La Mazmorra de Pacheco](https://www.youtube.com/@LaMazmorradePacheco).
-                - **Procesamiento de audio:** Empleamos transcripción fonética y diarización de participantes con modelos de código abierto (*WhisperX*).
-                - **Comprensión narrativa:** Un modelo de lenguaje local (*Ollama / Qwen 2.5*) extrae los eventos de cordura, pistas clave, combates y clasifica el clima de mesa sin intervención manual ni sesgos.
-                - **Filosofía:** Este es un proyecto libre, abierto y sin ningún tipo de monetización ni ánimo de lucro. ¡Gracias a Pacheco, a los jugadores y a toda la comunidad por mantener vivo el horror cósmico en nuestras pantallas!
-                """
-            )
